@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://wrecksite001"]
+
+[ext_resource type="Script" path="res://scenes/world/WreckSite.gd" id="1_ws"]
+
+[sub_resource type="CircleShape2D" id="Shape_interact"]
+radius = 80.0
+
+[node name="WreckSite" type="Area2D"]
+script = ExtResource("1_ws")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Shape_interact")
+
+[node name="Prompt" type="Label" parent="."]
+position = Vector2(-48, -96)
+text = "[E] Inspect"
+visible = false
+theme_override_font_sizes/font_size = 12

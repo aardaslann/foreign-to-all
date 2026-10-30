@@ -1,0 +1,13 @@
+* text=auto
+*.gd linguist-language=GDScript
+*.tscn linguist-generated=true
+*.tres linguist-generated=true
+*.import linguist-generated=true
+*.uid linguist-generated=true
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.ttf binary
+*.pdf binary

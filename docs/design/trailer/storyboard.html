@@ -1,0 +1,425 @@
+<title>Two Minutes Foreign</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300;0,7..72,400;0,7..72,500;1,7..72,300;1,7..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ─────────────────────────────────────────────────────────────────────────
+   Two Minutes Foreign — the rationale for the film.
+   Same design system the film is built from: paper ground, Literata for the
+   argument, IBM Plex Mono for annotation, cobalt as the only signal.
+   Deliberately single-theme — this is the film's identity, not a preference.
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  --paper:      #e9e7e0;
+  --edge:       #cbc7bc;
+  --ink:        #15171b;
+  --ink-soft:   #585b62;
+  --ink-faint:  #8b8d92;
+  --cobalt:     #1c39a8;
+  --vermilion:  #b5432f;
+  --night:      #15171b;
+  --night-type: #eae8e1;
+
+  --serif: "Literata", Georgia, "Times New Roman", serif;
+  --mono:  "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --measure: 62ch;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.66;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 1rem + 5vw, 6rem) clamp(1.25rem, 0.5rem + 3vw, 3rem) 7rem;
+}
+
+.label {
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+/* ── masthead ──────────────────────────────────────────────────────────── */
+header { display: flex; flex-direction: column; gap: 1.75rem; }
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.75rem, 1.4rem + 5.4vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.0;
+  letter-spacing: -0.035em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.standfirst {
+  font-size: clamp(1.1rem, 1rem + 0.5vw, 1.4rem);
+  font-weight: 300;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+  margin: 0;
+}
+
+.rule-cobalt { height: 2px; background: var(--cobalt); width: min(62%, 420px); }
+
+.specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 1px;
+  background: var(--edge);
+  border: 1px solid var(--edge);
+}
+.spec { background: var(--paper); padding: 0.85rem 1rem; }
+.spec dt { margin: 0 0 0.35rem; }
+.spec dd {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── sections ──────────────────────────────────────────────────────────── */
+section { margin-top: 4.5rem; }
+
+h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.25rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+  text-wrap: balance;
+}
+
+p { max-width: var(--measure); }
+p.lead { font-size: 1.1875rem; color: var(--ink-soft); font-weight: 300; }
+
+/* ── the argument, as a numbered spine ─────────────────────────────────── */
+.spine { display: flex; flex-direction: column; margin-top: 2rem; }
+
+.beat {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0 1.5rem;
+  padding: 1.6rem 0;
+  border-top: 1px solid var(--edge);
+}
+.beat:last-child { border-bottom: 1px solid var(--edge); }
+
+.beat-n {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  color: var(--cobalt);
+  padding-top: 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+.beat-body { min-width: 0; }
+.beat h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.beat p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
+.beat .said {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+
+/* ── pull quote ────────────────────────────────────────────────────────── */
+.pull {
+  margin: 3rem 0;
+  padding-left: 1.75rem;
+  border-left: 2px solid var(--vermilion);
+}
+.pull p {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem);
+  font-weight: 300;
+  line-height: 1.24;
+  letter-spacing: -0.02em;
+  margin: 0;
+  max-width: 24ch;
+  text-wrap: balance;
+}
+
+/* ── design system ─────────────────────────────────────────────────────── */
+.sys {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1px;
+  background: var(--edge);
+  border: 1px solid var(--edge);
+  margin-top: 1.75rem;
+}
+.cell { background: var(--paper); padding: 1.25rem 1.35rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.cell h4 { margin: 0; font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); font-weight: 600; }
+.cell p { margin: 0; font-size: 0.9375rem; color: var(--ink-soft); line-height: 1.55; max-width: none; }
+
+.swatches { display: flex; gap: 0; margin-top: 0.4rem; border: 1px solid var(--edge); }
+.sw { flex: 1; height: 44px; }
+
+.specimen-serif { font-family: var(--serif); font-size: 2.25rem; letter-spacing: -0.025em; line-height: 1; }
+.specimen-mono { font-family: var(--mono); font-size: 0.875rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
+
+/* ── inversion demo ────────────────────────────────────────────────────── */
+.inversion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--edge);
+  border: 1px solid var(--edge);
+  margin-top: 1.75rem;
+}
+.inv-half { padding: 2rem 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; min-height: 190px; justify-content: center; }
+.inv-light { background: var(--paper); color: var(--ink); }
+.inv-dark { background: var(--night); color: var(--night-type); }
+.inv-half .k { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.6; }
+.inv-half .v { font-family: var(--serif); font-size: 1.5rem; font-weight: 300; letter-spacing: -0.015em; }
+
+/* ── figures list ──────────────────────────────────────────────────────── */
+.figs { display: flex; flex-direction: column; margin-top: 1.75rem; }
+.fig { display: grid; grid-template-columns: 2.5rem 1fr; gap: 0 1.25rem; padding: 1.15rem 0; border-top: 1px solid var(--edge); }
+.fig:last-child { border-bottom: 1px solid var(--edge); }
+.fig-n { font-family: var(--mono); font-size: 0.75rem; color: var(--cobalt); padding-top: 0.3rem; }
+.fig strong { font-weight: 500; }
+.fig p { margin: 0.3rem 0 0; font-size: 0.9375rem; color: var(--ink-soft); }
+
+footer { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--edge); }
+footer p { margin: 0; font-family: var(--mono); font-size: 0.6875rem; color: var(--ink-faint); letter-spacing: 0.06em; max-width: none; }
+
+@media (max-width: 620px) {
+  .beat, .fig { grid-template-columns: 1fr; gap: 0.5rem; }
+  .inversion { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="label">Foreign to All · promotional film · v2</span>
+  <h1>We solved translation.<br>We did not solve understanding.</h1>
+  <div class="rule-cobalt"></div>
+  <p class="standfirst">
+    A two-minute argument. The game is not the subject — it is the instrument
+    the argument needs, and it appears in one part out of six.
+  </p>
+  <dl class="specs">
+    <div class="spec"><dt class="label">Runtime</dt><dd>2:02</dd></div>
+    <div class="spec"><dt class="label">Format</dt><dd>1920×1080 · 30fps</dd></div>
+    <div class="spec"><dt class="label">Narration</dt><dd>None</dd></div>
+    <div class="spec"><dt class="label">Audio</dt><dd>Silent — scored later</dd></div>
+    <div class="spec"><dt class="label">Source</dt><dd>~1,000 lines TSX</dd></div>
+  </dl>
+</header>
+
+<section>
+  <h2>The argument</h2>
+  <p class="lead">
+    Six parts. It moves from a demonstration, to a problem, to a definition,
+    to a mechanism, to a turn — the shape of an essay rather than a trailer.
+  </p>
+
+  <div class="spine">
+    <div class="beat">
+      <div class="beat-n">I<br>0:00</div>
+      <div class="beat-body">
+        <h3>The untranslatable</h3>
+        <p class="said">buyurun</p>
+        <p>
+          One Turkish word. Five English glosses arrive and each is struck
+          through. It means all of them; which one depends on the hand that
+          comes with it. The viewer watches translation fail before a single
+          claim is made.
+        </p>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-n">II<br>0:15</div>
+      <div class="beat-body">
+        <h3>The problem</h3>
+        <p>
+          Roughly seven thousand living languages, instant and free, in every
+          pocket on earth — and no improvement at all in understanding one
+          another. The figure of <em>sorry</em> follows: one word, five
+          meanings, no dictionary that contains the difference.
+        </p>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-n">III<br>0:42</div>
+      <div class="beat-body">
+        <h3>What a stereotype is</h3>
+        <p>
+          Meaning is not kept in words. It is kept in who is speaking, to
+          whom, what is owed between them, and what everybody present already
+          knows. Discard all of that and something is still left — and the
+          film names it.
+        </p>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-n">IV<br>1:11</div>
+      <div class="beat-body">
+        <h3>The instrument</h3>
+        <p>
+          The film inverts to black here. Facts do not remove a stereotype, so
+          do not explain — build a place where a person can fail. Three
+          cities, three ways of being foreign, three language models. Nobody
+          is told the barrier is real; they are made to want bread and fail to
+          ask for it.
+        </p>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-n">V<br>1:41</div>
+      <div class="beat-body">
+        <h3>The turn</h3>
+        <p class="said">
+          The man I understand perfectly has told me nothing true.<br>
+          The woman I cannot understand at all has never once lied to me.
+        </p>
+        <p>Understanding is not translation. It is being let in.</p>
+      </div>
+    </div>
+
+    <div class="beat">
+      <div class="beat-n">VI<br>1:55</div>
+      <div class="beat-body">
+        <h3>Close</h3>
+        <p>
+          The ground returns to paper — understanding is the light half of the
+          film — and the thesis is stated plainly for the first and only time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="pull">
+  <p>A stereotype is a compression artifact.</p>
+</div>
+
+<section>
+  <h2>Why light and dark</h2>
+  <p>
+    The inversion is structural, not stylistic. It happens exactly twice, and
+    it carries the film's central move: an argument can be read, but a barrier
+    has to be entered.
+  </p>
+  <div class="inversion">
+    <div class="inv-half inv-light">
+      <span class="k">Paper · parts I–III, VI</span>
+      <span class="v">The argument.<br>Something you read.</span>
+    </div>
+    <div class="inv-half inv-dark">
+      <span class="k">Ink · parts IV–V</span>
+      <span class="v">The experience.<br>Something you are put inside.</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The design system</h2>
+  <div class="sys">
+    <div class="cell">
+      <h4>Display &amp; body</h4>
+      <div class="specimen-serif">Literata</div>
+      <p>Google's reading typeface, drawn for long-form screen text. Editorial rather than decorative, with the Turkish diacritics the subject requires — İstanbul is set correctly, not approximated.</p>
+    </div>
+    <div class="cell">
+      <h4>Annotation</h4>
+      <div class="specimen-mono">IBM Plex Mono</div>
+      <p>Every label, figure caption and section marker. It gives the film the register of a research document, which is what earns the argument its hearing.</p>
+    </div>
+    <div class="cell">
+      <h4>Palette</h4>
+      <div class="swatches">
+        <div class="sw" style="background:#e9e7e0"></div>
+        <div class="sw" style="background:#15171b"></div>
+        <div class="sw" style="background:#1c39a8"></div>
+        <div class="sw" style="background:#b5432f"></div>
+      </div>
+      <p>Paper, ink, and one signal — İznik cobalt, carried over from the game's own palette. Vermilion appears only where meaning fails, never as decoration.</p>
+    </div>
+    <div class="cell">
+      <h4>Motion</h4>
+      <p>Text is masked and wiped up from its baseline rather than faded in, on a single expo-out curve. Nothing is linear, nothing bounces, and every page drifts about 1.5% across its life so no frame is truly still.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The six figures</h2>
+  <p>
+    Each is drawn from scratch and animated — none is a screenshot, and none
+    is stock. They are what make the film an argument rather than a mood.
+  </p>
+  <div class="figs">
+    <div class="fig">
+      <div class="fig-n">01</div>
+      <div><strong>buyurun</strong><p>Five glosses struck out one at a time in vermilion.</p></div>
+    </div>
+    <div class="fig">
+      <div class="fig-n">02</div>
+      <div><strong>The five faces of <em>sorry</em></strong><p>A fan of drawn cobalt curves from one word to five incompatible meanings.</p></div>
+    </div>
+    <div class="fig">
+      <div class="fig-n">03</div>
+      <div><strong>Where meaning is kept</strong><p>The word on top; five strata of context beneath it, each larger than the word.</p></div>
+    </div>
+    <div class="fig">
+      <div class="fig-n">04</div>
+      <div><strong>The compression</strong><p>340 distinct marks describing a place, crushed into three crude blocks.</p></div>
+    </div>
+    <div class="fig">
+      <div class="fig-n">05</div>
+      <div><strong>Three ways of being foreign</strong><p>Berlin, London, İstanbul as a specification table: the language model and the emotional register of each.</p></div>
+    </div>
+    <div class="fig">
+      <div class="fig-n">06</div>
+      <div><strong>A page you cannot read</strong><p>Ten lines of word-shapes — what text looks like from outside a language — with one word, <em>brot</em>, surfacing in cobalt.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Still open</h2>
+  <p>
+    The film is silent by design so it can be scored to a locked picture.
+    Every cut currently lands on a whole or half second; once music exists,
+    those cuts should move onto its beats, and the two intended silences —
+    the inversion at 1:11 and the line at 1:41 — should be the only places
+    where the score is absent.
+  </p>
+</section>
+
+<footer>
+  <p>Foreign to All · promotional film v2 · Remotion · docs/design/trailer/</p>
+</footer>
+
+</div>

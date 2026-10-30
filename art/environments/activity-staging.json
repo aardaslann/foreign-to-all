@@ -1,0 +1,2698 @@
+{
+  "berlin:kiez": {
+    "crate": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.82,
+          0.96
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.55,
+            "act": "reach",
+            "z": 0.62,
+            "appearance": {
+              "cut": "bun",
+              "build": "adult",
+              "pal": {
+                "R": "#614337",
+                "S": "#d4a578",
+                "C": "#4c6965",
+                "D": "#3c3847"
+              },
+              "face": "",
+              "wear": "coat"
+            }
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.52,
+          0.96
+        ],
+        "cam": [
+          0.52,
+          310
+        ],
+        "cam_y": 430
+      },
+      "shots": [
+        {}
+      ],
+      "choices": {
+        "take": {
+          "staging": {
+            "prop": "apple",
+            "cast": [
+              {
+                "at": 0.48,
+                "act": "reach",
+                "z": 0.62
+              }
+            ],
+            "prop_holder": 0
+          }
+        }
+      }
+    },
+    "took": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.82,
+          0.96
+        ],
+        "cast": [
+          {
+            "at": 0.48,
+            "act": "eat",
+            "z": 0.62
+          }
+        ],
+        "prop": "apple",
+        "object_at": [
+          0.64,
+          0.96
+        ],
+        "prop_holder": 0,
+        "cam": [
+          0.52,
+          310
+        ],
+        "cam_y": 430
+      }
+    }
+  },
+  "berlin:mitte": {
+    "counter": {
+      "staging": {
+        "cast": [
+          {
+            "act": "take",
+            "at": 0.37,
+            "z": 0.62
+          },
+          {
+            "appearance": {
+              "cut": "crop",
+              "wear": "shopcoat",
+              "build": "adult",
+              "face": "",
+              "pal": {
+                "R": "#3b302b",
+                "D": "#51462f",
+                "C": "#736546"
+              }
+            },
+            "feet_y": 0.66,
+            "clip_row": 16,
+            "z": 0.55,
+            "at": 0.79,
+            "act": "offer"
+          }
+        ],
+        "cam_y": 324,
+        "set": "courtyard",
+        "prop": "bottle",
+        "ground": [
+          0.84,
+          0.97
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "object": "",
+        "bg_scene": "ActivityBerlinSpati"
+      },
+      "shots": [
+        {
+          "set": "market",
+          "object": "",
+          "ground": [
+            0.86,
+            0.99
+          ],
+          "cast": [
+            {
+              "at": 0.3,
+              "act": "watch",
+              "z": 0.62
+            }
+          ],
+          "prop": "",
+          "cam": [
+            0.14,
+            360
+          ],
+          "bg_scene": "Mitte",
+          "cam_y": 405
+        },
+        {
+          "cast": [
+            {
+              "act": "take",
+              "at": 0.37,
+              "z": 0.62
+            },
+            {
+              "appearance": {
+                "cut": "crop",
+                "wear": "shopcoat",
+                "build": "adult",
+                "face": "",
+                "pal": {
+                  "R": "#3b302b",
+                  "D": "#51462f",
+                  "C": "#736546"
+                }
+              },
+              "feet_y": 0.66,
+              "clip_row": 16,
+              "z": 0.55,
+              "at": 0.79,
+              "act": "offer"
+            }
+          ],
+          "cam_y": 324,
+          "set": "courtyard",
+          "prop": "bottle",
+          "ground": [
+            0.84,
+            0.97
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "object": "",
+          "bg_scene": "ActivityBerlinSpati"
+        }
+      ],
+      "choices": {
+        "step": {
+          "staging": {
+            "set": "market",
+            "object": "doorstep",
+            "ground": [
+              0.84,
+              0.96
+            ],
+            "cast": [
+              {
+                "at": 0.12,
+                "act": "sit",
+                "z": 0.42,
+                "seat": false
+              },
+              {
+                "at": 0.39,
+                "act": "sit",
+                "z": 0.4,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "coat",
+                  "cut": "bun",
+                  "face": "",
+                  "pal": {
+                    "C": "#577875",
+                    "D": "#344d50"
+                  }
+                },
+                "seat": false
+              },
+              {
+                "at": 0.66,
+                "act": "sit",
+                "z": 0.39,
+                "appearance": {
+                  "build": "youth",
+                  "wear": "hoodie",
+                  "cut": "crop",
+                  "face": "",
+                  "pal": {
+                    "C": "#957246",
+                    "D": "#62543d"
+                  }
+                },
+                "seat": false
+              },
+              {
+                "at": 0.9,
+                "act": "sit",
+                "z": 0.4,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "puffer",
+                  "cut": "crop",
+                  "face": "glasses",
+                  "pal": {
+                    "C": "#625c7a",
+                    "D": "#423c59"
+                  }
+                },
+                "seat": false
+              }
+            ],
+            "prop": "bottle",
+            "cam": [
+              0.14,
+              290
+            ],
+            "prop_holder": 0,
+            "cam_y": 380,
+            "bg_scene": "Mitte",
+            "object_at": [
+              0.505,
+              0.924
+            ],
+            "object_unit": 3.7
+          }
+        },
+        "watch": {
+          "staging": {
+            "set": "market",
+            "object": "doorstep",
+            "ground": [
+              0.84,
+              0.96
+            ],
+            "cast": [
+              {
+                "at": 0.12,
+                "act": "sit",
+                "z": 0.42,
+                "seat": false
+              },
+              {
+                "at": 0.39,
+                "act": "sit",
+                "z": 0.4,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "coat",
+                  "cut": "bun",
+                  "face": "",
+                  "pal": {
+                    "C": "#577875",
+                    "D": "#344d50"
+                  }
+                },
+                "seat": false
+              },
+              {
+                "at": 0.66,
+                "act": "sit",
+                "z": 0.39,
+                "appearance": {
+                  "build": "youth",
+                  "wear": "hoodie",
+                  "cut": "crop",
+                  "face": "",
+                  "pal": {
+                    "C": "#957246",
+                    "D": "#62543d"
+                  }
+                },
+                "seat": false
+              },
+              {
+                "at": 0.9,
+                "act": "sit",
+                "z": 0.4,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "puffer",
+                  "cut": "crop",
+                  "face": "glasses",
+                  "pal": {
+                    "C": "#625c7a",
+                    "D": "#423c59"
+                  }
+                },
+                "seat": false
+              }
+            ],
+            "prop": "bottle",
+            "cam": [
+              0.14,
+              290
+            ],
+            "prop_holder": 0,
+            "cam_y": 380,
+            "bg_scene": "Mitte",
+            "object_at": [
+              0.505,
+              0.924
+            ],
+            "object_unit": 3.7
+          }
+        }
+      }
+    },
+    "step": {
+      "staging": {
+        "set": "market",
+        "object": "doorstep",
+        "ground": [
+          0.84,
+          0.96
+        ],
+        "cast": [
+          {
+            "at": 0.12,
+            "act": "sit",
+            "z": 0.42,
+            "seat": false
+          },
+          {
+            "at": 0.39,
+            "act": "sit",
+            "z": 0.4,
+            "appearance": {
+              "build": "adult",
+              "wear": "coat",
+              "cut": "bun",
+              "face": "",
+              "pal": {
+                "C": "#577875",
+                "D": "#344d50"
+              }
+            },
+            "seat": false
+          },
+          {
+            "at": 0.66,
+            "act": "sit",
+            "z": 0.39,
+            "appearance": {
+              "build": "youth",
+              "wear": "hoodie",
+              "cut": "crop",
+              "face": "",
+              "pal": {
+                "C": "#957246",
+                "D": "#62543d"
+              }
+            },
+            "seat": false
+          },
+          {
+            "at": 0.9,
+            "act": "sit",
+            "z": 0.4,
+            "appearance": {
+              "build": "adult",
+              "wear": "puffer",
+              "cut": "crop",
+              "face": "glasses",
+              "pal": {
+                "C": "#625c7a",
+                "D": "#423c59"
+              }
+            },
+            "seat": false
+          }
+        ],
+        "prop": "bottle",
+        "cam": [
+          0.14,
+          290
+        ],
+        "prop_holder": 0,
+        "cam_y": 380,
+        "bg_scene": "Mitte",
+        "object_at": [
+          0.505,
+          0.924
+        ],
+        "object_unit": 3.7
+      },
+      "shots": [
+        {}
+      ]
+    },
+    "pfand": {
+      "staging": {
+        "set": "market",
+        "object": "bottle_ledge",
+        "ground": [
+          0.84,
+          0.96
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "bottle",
+        "object_at": [
+          0.55,
+          0.89
+        ],
+        "cam": [
+          0.14,
+          330
+        ],
+        "prop_holder": 0,
+        "cam_y": 390,
+        "object_unit": 3.4,
+        "bg_scene": "Mitte"
+      },
+      "shots": [
+        {}
+      ],
+      "choices": {
+        "back": {
+          "staging": {
+            "cast": [
+              {
+                "act": "hand_over",
+                "at": 0.37,
+                "z": 0.62
+              },
+              {
+                "appearance": {
+                  "cut": "crop",
+                  "wear": "shopcoat",
+                  "build": "adult",
+                  "face": "",
+                  "pal": {
+                    "R": "#3b302b",
+                    "D": "#51462f",
+                    "C": "#736546"
+                  }
+                },
+                "feet_y": 0.66,
+                "clip_row": 16,
+                "z": 0.55,
+                "at": 0.79,
+                "act": "take"
+              }
+            ],
+            "cam_y": 324,
+            "set": "courtyard",
+            "prop": "bottle",
+            "ground": [
+              0.84,
+              0.97
+            ],
+            "cam": [
+              0.5,
+              648
+            ],
+            "object": "",
+            "bg_scene": "ActivityBerlinSpati"
+          }
+        }
+      }
+    },
+    "refund": {
+      "staging": {
+        "cast": [
+          {
+            "act": "hand_over",
+            "at": 0.37,
+            "z": 0.62
+          },
+          {
+            "appearance": {
+              "cut": "crop",
+              "wear": "shopcoat",
+              "build": "adult",
+              "face": "",
+              "pal": {
+                "R": "#3b302b",
+                "D": "#51462f",
+                "C": "#736546"
+              }
+            },
+            "feet_y": 0.66,
+            "clip_row": 16,
+            "z": 0.55,
+            "at": 0.79,
+            "act": "take"
+          }
+        ],
+        "cam_y": 324,
+        "set": "courtyard",
+        "prop": "bottle",
+        "ground": [
+          0.84,
+          0.97
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "object": "",
+        "bg_scene": "ActivityBerlinSpati"
+      },
+      "shots": [
+        {}
+      ]
+    }
+  },
+  "berlin:prenzlberg": {
+    "stalls": {
+      "staging": {
+        "set": "market",
+        "object": "",
+        "ground": [
+          0.85,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.5,
+          0.83
+        ],
+        "cam": [
+          0.445,
+          340
+        ]
+      },
+      "shots": [
+        {
+          "object": "",
+          "cam": [
+            0.445,
+            340
+          ],
+          "ground": [
+            0.85,
+            0.98
+          ]
+        },
+        {
+          "set": "market",
+          "object": "",
+          "ground": [
+            0.85,
+            0.98
+          ],
+          "cast": [
+            {
+              "at": 0.27,
+              "act": "reach",
+              "z": 0.62
+            },
+            {
+              "at": 0.7,
+              "act": "point",
+              "z": 0.62
+            }
+          ],
+          "prop": "tomato",
+          "object_at": [
+            0.5,
+            0.83
+          ],
+          "prop_holder": 1,
+          "cam": [
+            0.445,
+            340
+          ]
+        }
+      ]
+    },
+    "pointed": {
+      "staging": {
+        "set": "market",
+        "object": "",
+        "ground": [
+          0.85,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.5,
+          0.83
+        ],
+        "cam": [
+          0.445,
+          340
+        ]
+      }
+    },
+    "bought": {
+      "staging": {
+        "set": "market",
+        "object": "",
+        "ground": [
+          0.85,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.5,
+          0.83
+        ],
+        "cam": [
+          0.445,
+          340
+        ]
+      },
+      "shots": [
+        {
+          "prop": "bag",
+          "prop_holder": 1,
+          "object": "",
+          "cam": [
+            0.445,
+            340
+          ],
+          "ground": [
+            0.85,
+            0.98
+          ]
+        }
+      ]
+    }
+  },
+  "berlin:kreuzberg": {
+    "canal": {
+      "staging": {
+        "set": "market",
+        "object": "market_stall",
+        "ground": [
+          0.68,
+          0.86
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.51,
+          0.83
+        ]
+      },
+      "shots": [
+        {},
+        {}
+      ]
+    },
+    "late": {
+      "staging": {
+        "set": "market",
+        "object": "market_stall",
+        "ground": [
+          0.68,
+          0.86
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.51,
+          0.83
+        ]
+      },
+      "shots": [
+        {}
+      ]
+    },
+    "cheap": {
+      "staging": {
+        "set": "market",
+        "object": "market_stall",
+        "ground": [
+          0.68,
+          0.86
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.68,
+            "act": "stand",
+            "z": 0.62
+          }
+        ],
+        "prop": "bread",
+        "object_at": [
+          0.51,
+          0.83
+        ],
+        "prop_holder": 0
+      }
+    },
+    "cloth": {
+      "staging": {
+        "set": "market",
+        "object": "fabric",
+        "ground": [
+          0.68,
+          0.86
+        ],
+        "cast": [
+          {
+            "at": 0.27,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.7,
+            "act": "cut",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.52,
+          0.82
+        ]
+      }
+    }
+  },
+  "istanbul:han": {
+    "courtyard": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.88,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.9,
+            "act": "carry",
+            "z": 0.62,
+            "kit": "tea_tray",
+            "appearance": {
+              "build": "youth",
+              "cut": "crop",
+              "face": "",
+              "wear": "openshirt",
+              "pal": {
+                "R": "#302824",
+                "C": "#717f82",
+                "D": "#465359",
+                "S": "#c99c77",
+                "a": "#a69c82"
+              }
+            }
+          }
+        ],
+        "prop": "",
+        "cam": [
+          0.35,
+          480
+        ],
+        "bg_scene": "IstanbulHan"
+      },
+      "shots": [
+        {
+          "cast": [
+            {
+              "at": 0.23,
+              "act": "watch",
+              "z": 0.62
+            }
+          ]
+        },
+        {}
+      ],
+      "choices": {
+        "sit": {
+          "staging": {
+            "set": "courtyard",
+            "object": "",
+            "ground": [
+              0.88,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.26,
+                "act": "sit",
+                "z": 0.62
+              }
+            ],
+            "prop": "",
+            "cam": [
+              0.35,
+              480
+            ],
+            "prop_holder": 1,
+            "bg_scene": "IstanbulHan"
+          }
+        }
+      }
+    },
+    "delivered": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.83,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.18,
+            "act": "watch",
+            "z": 0.44,
+            "feet_y": 0.94
+          },
+          {
+            "at": 0.69,
+            "act": "offer",
+            "z": 0.45,
+            "appearance": {
+              "build": "youth",
+              "cut": "crop",
+              "face": "",
+              "wear": "openshirt",
+              "pal": {
+                "R": "#302824",
+                "C": "#717f82",
+                "D": "#465359",
+                "S": "#c99c77",
+                "a": "#a69c82"
+              }
+            },
+            "feet_y": 0.94
+          },
+          {
+            "at": 0.74,
+            "act": "scrub",
+            "z": 0.3,
+            "feet_y": 0.7,
+            "appearance": {
+              "build": "elder",
+              "cut": "crop",
+              "face": "glasses",
+              "wear": "shopcoat",
+              "pal": {
+                "R": "#b7b5a8",
+                "C": "#526776",
+                "D": "#344858",
+                "S": "#c99c77"
+              }
+            }
+          }
+        ],
+        "prop": "glass",
+        "bg_scene": "IstanbulYusuf",
+        "object_at": [
+          0.57,
+          0.96
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "prop_holder": 1
+      },
+      "choices": {
+        "sit": {
+          "staging": {
+            "set": "courtyard",
+            "object": "",
+            "ground": [
+              0.88,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.26,
+                "act": "sit",
+                "z": 0.62
+              }
+            ],
+            "prop": "",
+            "cam": [
+              0.35,
+              480
+            ],
+            "prop_holder": 1,
+            "bg_scene": "IstanbulHan"
+          }
+        }
+      }
+    },
+    "arrives": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.88,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.26,
+            "act": "sit",
+            "z": 0.62
+          },
+          {
+            "at": 0.8,
+            "act": "offer",
+            "z": 0.62,
+            "appearance": {
+              "build": "youth",
+              "cut": "crop",
+              "face": "",
+              "wear": "openshirt",
+              "pal": {
+                "R": "#302824",
+                "C": "#717f82",
+                "D": "#465359",
+                "S": "#c99c77",
+                "a": "#a69c82"
+              }
+            }
+          }
+        ],
+        "prop": "glass",
+        "cam": [
+          0.35,
+          480
+        ],
+        "prop_holder": 1,
+        "bg_scene": "IstanbulHan"
+      },
+      "shots": [
+        {}
+      ],
+      "choices": {
+        "drink": {
+          "staging": {
+            "set": "courtyard",
+            "object": "",
+            "ground": [
+              0.88,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.26,
+                "act": "drink",
+                "z": 0.62,
+                "seated": true
+              }
+            ],
+            "prop": "glass",
+            "cam": [
+              0.35,
+              480
+            ],
+            "prop_holder": 0,
+            "bg_scene": "IstanbulHan"
+          }
+        },
+        "pay": {
+          "staging": {
+            "bg_scene": "IstanbulHan",
+            "set": "courtyard",
+            "object": "",
+            "prop": "coin",
+            "ground": [
+              0.88,
+              0.99
+            ],
+            "cam": [
+              0.35,
+              480
+            ],
+            "cast": [
+              {
+                "at": 0.26,
+                "act": "hand_over",
+                "z": 0.62
+              },
+              {
+                "at": 0.8,
+                "act": "take",
+                "z": 0.62,
+                "appearance": {
+                  "build": "youth",
+                  "cut": "crop",
+                  "face": "",
+                  "wear": "openshirt",
+                  "pal": {
+                    "R": "#302824",
+                    "C": "#717f82",
+                    "D": "#465359",
+                    "S": "#c99c77",
+                    "a": "#a69c82"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "paid": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.88,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.26,
+            "act": "drink",
+            "z": 0.62,
+            "seated": true
+          }
+        ],
+        "prop": "glass",
+        "cam": [
+          0.35,
+          480
+        ],
+        "prop_holder": 0,
+        "bg_scene": "IstanbulHan"
+      }
+    },
+    "stayed": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.88,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.26,
+            "act": "drink",
+            "z": 0.62,
+            "seated": true
+          }
+        ],
+        "prop": "glass",
+        "cam": [
+          0.35,
+          480
+        ],
+        "prop_holder": 0,
+        "bg_scene": "IstanbulHan"
+      }
+    }
+  },
+  "istanbul:kadikoy": {
+    "ferry": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.81,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.24,
+            "act": "sit",
+            "z": 0.62
+          },
+          {
+            "at": 0.66,
+            "act": "read",
+            "z": 0.62,
+            "seated": true,
+            "appearance": {
+              "face": "",
+              "wear": "coat",
+              "build": "adult",
+              "cut": "crop",
+              "pal": {
+                "R": "#453d33",
+                "C": "#72536d",
+                "D": "#51384e"
+              }
+            }
+          }
+        ],
+        "prop": "",
+        "bg_scene": "ActivityFerryDeck",
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324
+      },
+      "shots": [
+        {}
+      ],
+      "film_count": 1,
+      "choices": {
+        "tea": {
+          "staging": {
+            "set": "courtyard",
+            "object": "",
+            "ground": [
+              0.81,
+              0.98
+            ],
+            "cast": [
+              {
+                "at": 0.28,
+                "act": "drink",
+                "z": 0.62,
+                "seated": true
+              },
+              {
+                "at": 0.68,
+                "act": "sit",
+                "z": 0.62,
+                "appearance": {
+                  "face": "",
+                  "wear": "coat",
+                  "build": "adult",
+                  "cut": "crop",
+                  "pal": {
+                    "R": "#453d33",
+                    "C": "#72536d",
+                    "D": "#51384e"
+                  }
+                }
+              }
+            ],
+            "prop": "glass",
+            "bg_scene": "ActivityFerryDeck",
+            "cam": [
+              0.5,
+              648
+            ],
+            "prop_holder": 0,
+            "cam_y": 324
+          }
+        },
+        "window": {
+          "staging": {
+            "set": "courtyard",
+            "object": "",
+            "ground": [
+              0.81,
+              0.98
+            ],
+            "cast": [
+              {
+                "at": 0.32,
+                "act": "watch",
+                "z": 0.62
+              },
+              {
+                "at": 0.7,
+                "act": "sit",
+                "z": 0.62,
+                "appearance": {
+                  "face": "",
+                  "wear": "coat",
+                  "build": "adult",
+                  "cut": "crop",
+                  "pal": {
+                    "R": "#453d33",
+                    "C": "#72536d",
+                    "D": "#51384e"
+                  }
+                }
+              }
+            ],
+            "prop": "",
+            "bg_scene": "ActivityFerryDeck",
+            "cam": [
+              0.5,
+              648
+            ],
+            "cam_y": 324
+          }
+        }
+      }
+    },
+    "tea": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.81,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.28,
+            "act": "drink",
+            "z": 0.62,
+            "seated": true
+          },
+          {
+            "at": 0.68,
+            "act": "sit",
+            "z": 0.62,
+            "appearance": {
+              "face": "",
+              "wear": "coat",
+              "build": "adult",
+              "cut": "crop",
+              "pal": {
+                "R": "#453d33",
+                "C": "#72536d",
+                "D": "#51384e"
+              }
+            }
+          }
+        ],
+        "prop": "glass",
+        "bg_scene": "ActivityFerryDeck",
+        "cam": [
+          0.5,
+          648
+        ],
+        "prop_holder": 0,
+        "cam_y": 324
+      },
+      "choices": {
+        "market": {
+          "staging": {
+            "set": "market",
+            "object": "cats",
+            "ground": [
+              0.85,
+              0.98
+            ],
+            "cast": [
+              {
+                "at": 0.25,
+                "act": "watch",
+                "z": 0.62
+              },
+              {
+                "at": 0.85,
+                "act": "cut",
+                "z": 0.62,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "apron",
+                  "cut": "crop",
+                  "face": "",
+                  "pal": {
+                    "C": "#456779",
+                    "D": "#314756",
+                    "R": "#33302b",
+                    "a": "#d0ba8f"
+                  }
+                }
+              }
+            ],
+            "prop": "",
+            "object_at": [
+              0.54,
+              0.98
+            ],
+            "bg_scene": "IstanbulKadikoy",
+            "cam": [
+              0.25,
+              340
+            ],
+            "object_unit": 1.35,
+            "cam_y": 440
+          }
+        }
+      }
+    },
+    "window": {
+      "staging": {
+        "set": "courtyard",
+        "object": "",
+        "ground": [
+          0.81,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.32,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.7,
+            "act": "sit",
+            "z": 0.62,
+            "appearance": {
+              "face": "",
+              "wear": "coat",
+              "build": "adult",
+              "cut": "crop",
+              "pal": {
+                "R": "#453d33",
+                "C": "#72536d",
+                "D": "#51384e"
+              }
+            }
+          }
+        ],
+        "prop": "",
+        "bg_scene": "ActivityFerryDeck",
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324
+      },
+      "choices": {
+        "market": {
+          "staging": {
+            "set": "market",
+            "object": "cats",
+            "ground": [
+              0.85,
+              0.98
+            ],
+            "cast": [
+              {
+                "at": 0.25,
+                "act": "watch",
+                "z": 0.62
+              },
+              {
+                "at": 0.85,
+                "act": "cut",
+                "z": 0.62,
+                "appearance": {
+                  "build": "adult",
+                  "wear": "apron",
+                  "cut": "crop",
+                  "face": "",
+                  "pal": {
+                    "C": "#456779",
+                    "D": "#314756",
+                    "R": "#33302b",
+                    "a": "#d0ba8f"
+                  }
+                }
+              }
+            ],
+            "prop": "",
+            "object_at": [
+              0.54,
+              0.98
+            ],
+            "bg_scene": "IstanbulKadikoy",
+            "cam": [
+              0.25,
+              340
+            ],
+            "object_unit": 1.35,
+            "cam_y": 440
+          }
+        }
+      }
+    },
+    "market": {
+      "staging": {
+        "set": "market",
+        "object": "cats",
+        "ground": [
+          0.85,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.25,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.85,
+            "act": "cut",
+            "z": 0.62,
+            "appearance": {
+              "build": "adult",
+              "wear": "apron",
+              "cut": "crop",
+              "face": "",
+              "pal": {
+                "C": "#456779",
+                "D": "#314756",
+                "R": "#33302b",
+                "a": "#d0ba8f"
+              }
+            }
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.54,
+          0.98
+        ],
+        "bg_scene": "IstanbulKadikoy",
+        "cam": [
+          0.25,
+          340
+        ],
+        "object_unit": 1.35,
+        "cam_y": 440
+      }
+    },
+    "cats": {
+      "staging": {
+        "set": "market",
+        "object": "cats",
+        "ground": [
+          0.85,
+          0.98
+        ],
+        "cast": [
+          {
+            "at": 0.27,
+            "act": "sit",
+            "z": 0.62
+          },
+          {
+            "at": 0.85,
+            "act": "stand",
+            "z": 0.62,
+            "appearance": {
+              "build": "adult",
+              "wear": "apron",
+              "cut": "crop",
+              "face": "",
+              "pal": {
+                "C": "#456779",
+                "D": "#314756",
+                "R": "#33302b",
+                "a": "#d0ba8f"
+              }
+            }
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.54,
+          0.98
+        ],
+        "bg_scene": "IstanbulKadikoy",
+        "cam": [
+          0.25,
+          340
+        ],
+        "object_unit": 1.35,
+        "cam_y": 440
+      }
+    }
+  },
+  "istanbul:karakoy": {
+    "gate": {
+      "staging": {
+        "set": "station",
+        "object": "turnstile",
+        "ground": [
+          0.81,
+          0.95
+        ],
+        "cast": [
+          {
+            "at": 0.25,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.56,
+            "act": "reach",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.43,
+          0.9
+        ],
+        "cam": [
+          0.1,
+          305
+        ],
+        "cam_y": 370,
+        "object_unit": 4.0
+      },
+      "shots": [
+        {},
+        {}
+      ],
+      "choices": {
+        "machine": {
+          "staging": {
+            "set": "station",
+            "object": "card_machine",
+            "ground": [
+              0.81,
+              0.95
+            ],
+            "cast": [
+              {
+                "at": 0.25,
+                "act": "write",
+                "z": 0.62
+              },
+              {
+                "at": 0.56,
+                "act": "watch",
+                "z": 0.62
+              }
+            ],
+            "prop": "",
+            "object_at": [
+              0.43,
+              0.9
+            ],
+            "cam": [
+              0.1,
+              305
+            ],
+            "cam_y": 370,
+            "object_unit": 4.0
+          }
+        },
+        "push": {
+          "staging": {
+            "set": "station",
+            "object": "turnstile",
+            "ground": [
+              0.81,
+              0.95
+            ],
+            "cast": [
+              {
+                "at": 0.25,
+                "act": "watch",
+                "z": 0.62
+              },
+              {
+                "at": 0.56,
+                "act": "reach",
+                "z": 0.62
+              }
+            ],
+            "prop": "",
+            "object_at": [
+              0.43,
+              0.9
+            ],
+            "cam": [
+              0.1,
+              305
+            ],
+            "cam_y": 370,
+            "object_unit": 4.0
+          }
+        }
+      }
+    },
+    "refused": {
+      "staging": {
+        "set": "station",
+        "object": "turnstile",
+        "ground": [
+          0.81,
+          0.95
+        ],
+        "cast": [
+          {
+            "at": 0.25,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.56,
+            "act": "reach",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.43,
+          0.9
+        ],
+        "cam": [
+          0.1,
+          305
+        ],
+        "cam_y": 370,
+        "object_unit": 4.0
+      }
+    },
+    "card": {
+      "staging": {
+        "set": "station",
+        "object": "turnstile",
+        "ground": [
+          0.81,
+          0.95
+        ],
+        "cast": [
+          {
+            "at": 0.25,
+            "act": "watch",
+            "z": 0.62
+          },
+          {
+            "at": 0.56,
+            "act": "reach",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.43,
+          0.9
+        ],
+        "cam": [
+          0.1,
+          305
+        ],
+        "cam_y": 370,
+        "object_unit": 4.0
+      },
+      "shots": [
+        {
+          "prop": "card",
+          "prop_holder": 0
+        }
+      ]
+    },
+    "machine": {
+      "staging": {
+        "set": "station",
+        "object": "card_machine",
+        "ground": [
+          0.81,
+          0.95
+        ],
+        "cast": [
+          {
+            "at": 0.25,
+            "act": "write",
+            "z": 0.62
+          },
+          {
+            "at": 0.56,
+            "act": "watch",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.43,
+          0.9
+        ],
+        "cam": [
+          0.1,
+          305
+        ],
+        "cam_y": 370,
+        "object_unit": 4.0
+      },
+      "shots": [
+        {}
+      ]
+    }
+  },
+  "istanbul:beyoglu": {
+    "crowd": {
+      "staging": {
+        "set": "tram",
+        "object": "tram",
+        "ground": [
+          0.89,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.52,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.8,
+            "act": "walk",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.58,
+          0.83
+        ],
+        "cam": [
+          0.24,
+          345
+        ],
+        "object_unit": 5.5,
+        "object_motion": [
+          -0.05,
+          1.15,
+          4.2
+        ]
+      },
+      "shots": [
+        {},
+        {
+          "cast": [
+            {
+              "at": 0.25,
+              "act": "recoil",
+              "z": 0.62
+            }
+          ]
+        }
+      ],
+      "choices": {
+        "simit": {
+          "staging": {
+            "set": "market",
+            "object": "simit_cart",
+            "ground": [
+              0.89,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.27,
+                "act": "eat",
+                "z": 0.62
+              },
+              {
+                "at": 0.69,
+                "act": "offer",
+                "z": 0.62
+              }
+            ],
+            "prop": "simit",
+            "object_at": [
+              0.51,
+              0.91
+            ],
+            "prop_holder": 0,
+            "cam": [
+              0.24,
+              345
+            ]
+          }
+        }
+      }
+    },
+    "watched": {
+      "staging": {
+        "set": "tram",
+        "object": "tram",
+        "ground": [
+          0.89,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.52,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.8,
+            "act": "walk",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.58,
+          0.83
+        ],
+        "cam": [
+          0.24,
+          345
+        ],
+        "object_unit": 5.5,
+        "object_motion": [
+          -0.05,
+          1.15,
+          4.2
+        ]
+      }
+    },
+    "carried": {
+      "staging": {
+        "set": "tram",
+        "object": "tram",
+        "ground": [
+          0.89,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.52,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.8,
+            "act": "walk",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.58,
+          0.83
+        ],
+        "cam": [
+          0.24,
+          345
+        ],
+        "object_unit": 5.5,
+        "object_motion": [
+          -0.05,
+          1.15,
+          4.2
+        ]
+      },
+      "choices": {
+        "simit": {
+          "staging": {
+            "set": "market",
+            "object": "simit_cart",
+            "ground": [
+              0.89,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.27,
+                "act": "eat",
+                "z": 0.62
+              },
+              {
+                "at": 0.69,
+                "act": "offer",
+                "z": 0.62
+              }
+            ],
+            "prop": "simit",
+            "object_at": [
+              0.51,
+              0.91
+            ],
+            "prop_holder": 0,
+            "cam": [
+              0.24,
+              345
+            ]
+          }
+        }
+      }
+    },
+    "dodged": {
+      "staging": {
+        "set": "tram",
+        "object": "tram",
+        "ground": [
+          0.89,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.23,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.52,
+            "act": "walk",
+            "z": 0.62
+          },
+          {
+            "at": 0.8,
+            "act": "walk",
+            "z": 0.62
+          }
+        ],
+        "prop": "",
+        "object_at": [
+          0.58,
+          0.83
+        ],
+        "cam": [
+          0.24,
+          345
+        ],
+        "object_unit": 5.5,
+        "object_motion": [
+          -0.05,
+          1.15,
+          4.2
+        ]
+      },
+      "choices": {
+        "simit": {
+          "staging": {
+            "set": "market",
+            "object": "simit_cart",
+            "ground": [
+              0.89,
+              0.99
+            ],
+            "cast": [
+              {
+                "at": 0.27,
+                "act": "eat",
+                "z": 0.62
+              },
+              {
+                "at": 0.69,
+                "act": "offer",
+                "z": 0.62
+              }
+            ],
+            "prop": "simit",
+            "object_at": [
+              0.51,
+              0.91
+            ],
+            "prop_holder": 0,
+            "cam": [
+              0.24,
+              345
+            ]
+          }
+        }
+      }
+    },
+    "simit": {
+      "staging": {
+        "set": "market",
+        "object": "simit_cart",
+        "ground": [
+          0.89,
+          0.99
+        ],
+        "cast": [
+          {
+            "at": 0.27,
+            "act": "eat",
+            "z": 0.62
+          },
+          {
+            "at": 0.69,
+            "act": "offer",
+            "z": 0.62
+          }
+        ],
+        "prop": "simit",
+        "object_at": [
+          0.51,
+          0.91
+        ],
+        "prop_holder": 0,
+        "cam": [
+          0.24,
+          345
+        ]
+      }
+    }
+  },
+  "istanbul:carsi": {
+    "bakery": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.83,
+          0.99
+        ],
+        "bg_scene": "IstanbulCarsi",
+        "cam": [
+          0.445,
+          250
+        ],
+        "prop_scale": 0.32,
+        "prop_at": 0.5,
+        "prop_y": 0.35,
+        "cast": [
+          {
+            "z": 0.7,
+            "at": 0.13,
+            "act": "watch"
+          },
+          {
+            "z": 0.55,
+            "at": 0.47,
+            "act": "stand",
+            "appearance": {
+              "pal": {
+                "S": "#d4a578",
+                "D": "#553d33",
+                "R": "#614932",
+                "C": "#715245"
+              },
+              "build": "adult",
+              "cut": "part",
+              "wear": "coat",
+              "face": ""
+            }
+          },
+          {
+            "z": 0.4,
+            "at": 0.67,
+            "act": "write",
+            "appearance": {
+              "pal": {
+                "a": "#ded7bc",
+                "S": "#d4a578",
+                "n": "#f0e8d0",
+                "D": "#4c5663",
+                "C": "#6c7684",
+                "R": "#342b29",
+                "g": "#dad3b9"
+              },
+              "build": "adult",
+              "cut": "crop",
+              "wear": "apron",
+              "face": ""
+            }
+          }
+        ]
+      },
+      "shots": [
+        {
+          "cast": [
+            {
+              "z": 0.7,
+              "at": 0.13,
+              "act": "watch"
+            },
+            {
+              "z": 0.4,
+              "at": 0.67,
+              "act": "stand",
+              "appearance": {
+                "pal": {
+                  "a": "#ded7bc",
+                  "S": "#d4a578",
+                  "n": "#f0e8d0",
+                  "D": "#4c5663",
+                  "C": "#6c7684",
+                  "R": "#342b29",
+                  "g": "#dad3b9"
+                },
+                "build": "adult",
+                "cut": "crop",
+                "wear": "apron",
+                "face": ""
+              }
+            }
+          ],
+          "cam": [
+            0.445,
+            250
+          ],
+          "prop_at": 0.5,
+          "prop_y": 0.35,
+          "prop_scale": 0.32
+        },
+        {
+          "cast": [
+            {
+              "z": 0.7,
+              "at": 0.13,
+              "act": "watch"
+            },
+            {
+              "z": 0.55,
+              "at": 0.47,
+              "act": "hand_over",
+              "appearance": {
+                "pal": {
+                  "S": "#d4a578",
+                  "D": "#553d33",
+                  "R": "#614932",
+                  "C": "#715245"
+                },
+                "build": "adult",
+                "cut": "part",
+                "wear": "coat",
+                "face": ""
+              }
+            },
+            {
+              "z": 0.4,
+              "at": 0.67,
+              "act": "write",
+              "appearance": {
+                "pal": {
+                  "a": "#ded7bc",
+                  "S": "#d4a578",
+                  "n": "#f0e8d0",
+                  "D": "#4c5663",
+                  "C": "#6c7684",
+                  "R": "#342b29",
+                  "g": "#dad3b9"
+                },
+                "build": "adult",
+                "cut": "crop",
+                "wear": "apron",
+                "face": ""
+              }
+            }
+          ],
+          "cam": [
+            0.445,
+            250
+          ],
+          "prop_at": 0.5,
+          "prop_y": 0.35,
+          "prop_scale": 0.32
+        }
+      ],
+      "choices": {
+        "ask": {
+          "staging": {
+            "prop": "nail",
+            "cast": [
+              {
+                "z": 0.62,
+                "act": "point",
+                "at": 0.34
+              },
+              {
+                "appearance": {
+                  "pal": {
+                    "a": "#ded7bc",
+                    "S": "#d4a578",
+                    "n": "#f0e8d0",
+                    "D": "#4c5663",
+                    "C": "#6c7684",
+                    "R": "#342b29",
+                    "g": "#dad3b9"
+                  },
+                  "build": "adult",
+                  "cut": "crop",
+                  "wear": "apron",
+                  "face": ""
+                },
+                "z": 0.4,
+                "act": "watch",
+                "at": 0.67
+              }
+            ]
+          }
+        }
+      }
+    },
+    "taken": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.83,
+          0.99
+        ],
+        "bg_scene": "IstanbulCarsi",
+        "cam": [
+          0.445,
+          250
+        ],
+        "prop_scale": 0.32,
+        "prop_at": 0.5,
+        "prop_y": 0.35,
+        "cast": [
+          {
+            "z": 0.7,
+            "at": 0.13,
+            "act": "watch"
+          },
+          {
+            "z": 0.55,
+            "at": 0.47,
+            "act": "stand",
+            "appearance": {
+              "pal": {
+                "S": "#cea077",
+                "D": "#3e4c59",
+                "R": "#aaa7a1",
+                "C": "#566978"
+              },
+              "build": "elder",
+              "cut": "crop",
+              "wear": "coat",
+              "face": ""
+            }
+          },
+          {
+            "z": 0.4,
+            "at": 0.67,
+            "act": "write",
+            "appearance": {
+              "pal": {
+                "a": "#ded7bc",
+                "S": "#d4a578",
+                "n": "#f0e8d0",
+                "D": "#4c5663",
+                "C": "#6c7684",
+                "R": "#342b29",
+                "g": "#dad3b9"
+              },
+              "build": "adult",
+              "cut": "crop",
+              "wear": "apron",
+              "face": ""
+            }
+          }
+        ]
+      },
+      "shots": [
+        {
+          "prop_holder": 1,
+          "cast": [
+            {
+              "z": 0.7,
+              "at": 0.13,
+              "act": "watch"
+            },
+            {
+              "z": 0.55,
+              "at": 0.47,
+              "act": "take",
+              "appearance": {
+                "pal": {
+                  "S": "#cea077",
+                  "D": "#3e4c59",
+                  "R": "#aaa7a1",
+                  "C": "#566978"
+                },
+                "build": "elder",
+                "cut": "crop",
+                "wear": "coat",
+                "face": ""
+              }
+            },
+            {
+              "z": 0.4,
+              "at": 0.67,
+              "act": "offer",
+              "appearance": {
+                "pal": {
+                  "a": "#ded7bc",
+                  "S": "#d4a578",
+                  "n": "#f0e8d0",
+                  "D": "#4c5663",
+                  "C": "#6c7684",
+                  "R": "#342b29",
+                  "g": "#dad3b9"
+                },
+                "build": "adult",
+                "cut": "crop",
+                "wear": "apron",
+                "face": ""
+              }
+            }
+          ],
+          "prop": "loaf",
+          "cam": [
+            0.445,
+            250
+          ],
+          "prop_at": 0.5,
+          "prop_y": 0.35,
+          "prop_scale": 0.32
+        }
+      ],
+      "choices": {
+        "pay": {
+          "staging": {
+            "set": "stall",
+            "prop": "coin",
+            "cast": [
+              {
+                "z": 0.62,
+                "act": "hand_over",
+                "at": 0.34
+              },
+              {
+                "appearance": {
+                  "pal": {
+                    "a": "#ded7bc",
+                    "S": "#d4a578",
+                    "n": "#f0e8d0",
+                    "D": "#4c5663",
+                    "C": "#6c7684",
+                    "R": "#342b29",
+                    "g": "#dad3b9"
+                  },
+                  "build": "adult",
+                  "cut": "crop",
+                  "wear": "apron",
+                  "face": ""
+                },
+                "z": 0.4,
+                "act": "take",
+                "at": 0.67
+              }
+            ]
+          }
+        },
+        "ok": {
+          "staging": {
+            "set": "stall",
+            "prop": "coin",
+            "cast": [
+              {
+                "z": 0.62,
+                "act": "hand_over",
+                "at": 0.34
+              },
+              {
+                "appearance": {
+                  "pal": {
+                    "a": "#ded7bc",
+                    "S": "#d4a578",
+                    "n": "#f0e8d0",
+                    "D": "#4c5663",
+                    "C": "#6c7684",
+                    "R": "#342b29",
+                    "g": "#dad3b9"
+                  },
+                  "build": "adult",
+                  "cut": "crop",
+                  "wear": "apron",
+                  "face": ""
+                },
+                "z": 0.4,
+                "act": "take",
+                "at": 0.67
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nail": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.83,
+          0.99
+        ],
+        "bg_scene": "IstanbulCarsi",
+        "cam": [
+          0.445,
+          250
+        ],
+        "prop_scale": 0.32,
+        "prop_at": 0.5,
+        "prop_y": 0.35,
+        "cast": [
+          {
+            "z": 0.62,
+            "at": 0.34,
+            "act": "point"
+          },
+          {
+            "z": 0.4,
+            "at": 0.67,
+            "act": "point",
+            "appearance": {
+              "pal": {
+                "a": "#ded7bc",
+                "S": "#d4a578",
+                "n": "#f0e8d0",
+                "D": "#4c5663",
+                "C": "#6c7684",
+                "R": "#342b29",
+                "g": "#dad3b9"
+              },
+              "build": "adult",
+              "cut": "crop",
+              "wear": "apron",
+              "face": ""
+            }
+          }
+        ]
+      },
+      "choices": {
+        "pay": {
+          "staging": {
+            "set": "stall",
+            "prop": "coin",
+            "cast": [
+              {
+                "z": 0.62,
+                "act": "hand_over",
+                "at": 0.34
+              },
+              {
+                "appearance": {
+                  "pal": {
+                    "a": "#ded7bc",
+                    "S": "#d4a578",
+                    "n": "#f0e8d0",
+                    "D": "#4c5663",
+                    "C": "#6c7684",
+                    "R": "#342b29",
+                    "g": "#dad3b9"
+                  },
+                  "build": "adult",
+                  "cut": "crop",
+                  "wear": "apron",
+                  "face": ""
+                },
+                "z": 0.4,
+                "act": "take",
+                "at": 0.67
+              }
+            ]
+          }
+        }
+      }
+    },
+    "hung": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.83,
+          0.99
+        ],
+        "bg_scene": "IstanbulCarsi",
+        "cam": [
+          0.445,
+          250
+        ],
+        "prop_scale": 0.32,
+        "prop_at": 0.5,
+        "prop_y": 0.35,
+        "cast": [
+          {
+            "z": 0.62,
+            "at": 0.34,
+            "act": "take"
+          },
+          {
+            "z": 0.4,
+            "at": 0.67,
+            "act": "offer",
+            "appearance": {
+              "pal": {
+                "a": "#ded7bc",
+                "S": "#d4a578",
+                "n": "#f0e8d0",
+                "D": "#4c5663",
+                "C": "#6c7684",
+                "R": "#342b29",
+                "g": "#dad3b9"
+              },
+              "build": "adult",
+              "cut": "crop",
+              "wear": "apron",
+              "face": ""
+            }
+          }
+        ]
+      },
+      "shots": [
+        {
+          "cast": [
+            {
+              "z": 0.62,
+              "at": 0.34,
+              "act": "take"
+            },
+            {
+              "z": 0.4,
+              "at": 0.67,
+              "act": "offer",
+              "appearance": {
+                "pal": {
+                  "a": "#ded7bc",
+                  "S": "#d4a578",
+                  "n": "#f0e8d0",
+                  "D": "#4c5663",
+                  "C": "#6c7684",
+                  "R": "#342b29",
+                  "g": "#dad3b9"
+                },
+                "build": "adult",
+                "cut": "crop",
+                "wear": "apron",
+                "face": ""
+              }
+            }
+          ],
+          "prop": "loaf",
+          "cam": [
+            0.445,
+            250
+          ],
+          "prop_at": 0.5,
+          "prop_y": 0.35,
+          "prop_scale": 0.32
+        }
+      ]
+    },
+    "own": {
+      "staging": {
+        "set": "stall",
+        "object": "",
+        "ground": [
+          0.83,
+          0.99
+        ],
+        "bg_scene": "IstanbulCarsi",
+        "cam": [
+          0.445,
+          250
+        ],
+        "prop_scale": 0.32,
+        "prop_at": 0.5,
+        "prop_y": 0.35,
+        "cast": [
+          {
+            "z": 0.62,
+            "at": 0.34,
+            "act": "eat"
+          },
+          {
+            "z": 0.4,
+            "at": 0.67,
+            "act": "stand",
+            "appearance": {
+              "pal": {
+                "a": "#ded7bc",
+                "S": "#d4a578",
+                "n": "#f0e8d0",
+                "D": "#4c5663",
+                "C": "#6c7684",
+                "R": "#342b29",
+                "g": "#dad3b9"
+              },
+              "build": "adult",
+              "cut": "crop",
+              "wear": "apron",
+              "face": ""
+            }
+          }
+        ],
+        "prop": "loaf",
+        "prop_holder": 0
+      }
+    }
+  }
+}

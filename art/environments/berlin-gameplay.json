@@ -1,0 +1,448 @@
+{
+  "Mitte": {
+    "floor": 430,
+    "anchors": {
+      "BusStopNPC": [
+        772.0,
+        525.0
+      ],
+      "ExchangeEntrance": [
+        1030,
+        450
+      ],
+      "ExitToKiez": [
+        28.0,
+        558.0
+      ],
+      "ExitToOst": [
+        1124.0,
+        558.0
+      ],
+      "HotelEntrance": [
+        406,
+        450
+      ],
+      "LocalSpot": [
+        217,
+        451
+      ],
+      "UBahnEntrance": [
+        599,
+        495
+      ],
+      "WalkingFriends": [
+        518,
+        566
+      ]
+    },
+    "interaction_sizes": {
+      "HotelEntrance": {
+        "CollisionShape2D": [
+          66,
+          36
+        ]
+      },
+      "ExchangeEntrance": {
+        "CollisionShape2D": [
+          66,
+          36
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          72,
+          42
+        ]
+      },
+      "UBahnEntrance": {
+        "CollisionShape2D": [
+          90,
+          36
+        ]
+      }
+    },
+    "foreground": [
+      [
+        691,
+        369,
+        199,
+        110
+      ]
+    ],
+    "solids": [
+      [
+        691,
+        369,
+        199,
+        110
+      ],
+      [
+        529,
+        410,
+        136,
+        65
+      ]
+    ],
+    "portals": [
+      {
+        "node": "HotelEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "ExchangeEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "UBahnEntrance",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "motion": [
+      {
+        "kind": "light",
+        "rect": [
+          338,
+          178,
+          136,
+          80
+        ]
+      },
+      {
+        "kind": "motes",
+        "rect": [
+          28,
+          411,
+          1095,
+          60
+        ]
+      }
+    ],
+    "texture": "res://art/environments/scenes/Mitte-retro.png",
+    "pixel_art": true
+  },
+  "MitteOst": {
+    "floor": 438,
+    "anchors": {
+      "ExitToMitte": [
+        28.0,
+        577.0
+      ],
+      "JobBoard": [
+        87,
+        492
+      ],
+      "Pigeons": [
+        818.0,
+        544.0
+      ],
+      "PoliceEntrance": [
+        615,
+        457
+      ],
+      "RestaurantEntrance": [
+        932,
+        457
+      ]
+    },
+    "interaction_sizes": {
+      "PoliceEntrance": {
+        "CollisionShape2D": [
+          86,
+          38
+        ]
+      },
+      "RestaurantEntrance": {
+        "CollisionShape2D": [
+          86,
+          38
+        ]
+      },
+      "JobBoard": {
+        "CollisionShape2D": [
+          80,
+          40
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "PoliceEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "RestaurantEntrance",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "foreground": [
+      [
+        0,
+        327,
+        227,
+        151
+      ]
+    ],
+    "solids": [
+      [
+        0,
+        327,
+        227,
+        151
+      ]
+    ],
+    "motion": [
+      {
+        "kind": "light",
+        "rect": [
+          542,
+          337,
+          145,
+          101
+        ]
+      },
+      {
+        "kind": "motes",
+        "rect": [
+          240,
+          423,
+          870,
+          70
+        ]
+      }
+    ],
+    "texture": "res://art/environments/scenes/MitteOst-retro.png",
+    "pixel_art": true
+  },
+  "BerlinPrenzlberg": {
+    "anchors": {
+      "LocalSpot": [
+        450,
+        493
+      ],
+      "TransitEntrance": [
+        138,
+        450
+      ],
+      "KeyKerstin": [
+        590,
+        555
+      ],
+      "NpcHartmut": [
+        747,
+        558
+      ],
+      "NpcIlka": [
+        961,
+        554
+      ]
+    },
+    "interaction_sizes": {
+      "LocalSpot": {
+        "CollisionShape2D": [
+          105,
+          45
+        ]
+      },
+      "TransitEntrance": {
+        "CollisionShape2D": [
+          74,
+          40
+        ]
+      }
+    },
+    "floor": 435,
+    "foreground": [
+      [
+        282,
+        383,
+        355,
+        87
+      ]
+    ],
+    "solids": [
+      [
+        282,
+        383,
+        355,
+        87
+      ]
+    ],
+    "portals": [
+      {
+        "node": "TransitEntrance",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "texture": "res://art/environments/scenes/BerlinPrenzlberg-retro.png",
+    "pixel_art": true
+  },
+  "Kiez": {
+    "interaction_sizes": {
+      "LocalSpot": {
+        "CollisionShape2D": [
+          76,
+          44
+        ]
+      }
+    },
+    "texture": "res://art/environments/scenes/Kiez-refined.png",
+    "source": [0, 0, 1671, 941],
+    "pixel_art": true
+  },
+  "BerlinKreuzberg": {
+    "floor": 499,
+    "anchors": {
+      "LocalSpot": [
+        270,
+        518
+      ],
+      "TransitEntrance": [
+        741,
+        515
+      ],
+      "NpcSibel": [
+        533,
+        531
+      ],
+      "NpcErcan": [
+        875,
+        529
+      ]
+    },
+    "interaction_sizes": {
+      "TransitEntrance": {
+        "CollisionShape2D": [
+          74,
+          40
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          95,
+          43
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "TransitEntrance",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "foreground": [
+      [
+        0,
+        548,
+        355,
+        99
+      ],
+      [
+        400,
+        548,
+        752,
+        99
+      ]
+    ],
+    "solids": [],
+    "spawn": [
+      377,
+      539
+    ],
+    "walk_bottom": 580,
+    "cats": [
+      [
+        947,
+        541,
+        0,
+        0
+      ]
+    ],
+    "texture": "res://art/environments/scenes/BerlinKreuzberg-retro.png",
+    "pixel_art": true
+  },
+  "HotelFloor": {
+    "room_numbers": [
+      {
+        "node": "Door1",
+        "rect": [
+          263,
+          76,
+          47,
+          32
+        ]
+      },
+      {
+        "node": "Door2",
+        "rect": [
+          459,
+          76,
+          47,
+          32
+        ]
+      },
+      {
+        "node": "Door3",
+        "rect": [
+          655,
+          76,
+          47,
+          32
+        ]
+      },
+      {
+        "node": "Door4",
+        "rect": [
+          851,
+          76,
+          47,
+          32
+        ]
+      }
+    ],
+    "texture": "res://art/environments/scenes/HotelFloor-retro.png",
+    "pixel_art": true
+  },
+  "HotelLobby": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/HotelLobby-retro.png"
+  },
+  "HotelRoom": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/HotelRoom-retro.png"
+  },
+  "UBahnStation": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/UBahnStation-retro.png"
+  },
+  "Airport": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/Airport-retro.png"
+  },
+  "Restaurant": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/Restaurant-retro.png"
+  },
+  "Room01": {
+    "texture": "res://art/environments/scenes/Room01-retro.png",
+    "pixel_art": true
+  },
+  "Exchange": {
+    "texture": "res://art/environments/scenes/Exchange-retro.png",
+    "pixel_art": true
+  },
+  "Hospital": {
+    "texture": "res://art/environments/scenes/Hospital-retro.png",
+    "pixel_art": true
+  },
+  "Police": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/Police-retro.png"
+  }
+}

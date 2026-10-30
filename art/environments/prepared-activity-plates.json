@@ -1,0 +1,1368 @@
+{
+  "ActivityNewYorkBodega": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/NewYorkLowerEast.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "NewYorkLowerEast",
+    "asset_contract": "Narrow Lower East Side bodega interior, shelves of tins and drinks, a deli griddle at rear right. Back counter front occupies x850–1500, top y590, base y720. Clear customer floor y735–920. Cook is added by engine at x1060,y605 behind counter; keep that zone blank. Newspapers and a sleeping cat shelf at left x240,y660; leave the cat to the engine. Old erased board above griddle has no readable prices. Warm fluorescent light, tiled floor."
+  },
+  "ActivityNewYorkRoofWork": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/NewYorkWilliamsburg.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "NewYorkWilliamsburg",
+    "asset_contract": "Brooklyn brick roof at close range. Complete wooden stave water tank x975–1400,y210–625, hoops, legs, ladder x854–914 from y775 to y400, spare staves stacked at left. Roof walking surface y730–925, clear x420–850. Thin water leak below tank at x1260,y590. No person on ladder. Keep both ladder rails and spaces between rungs legible."
+  },
+  "ActivityNewYorkRoofView": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/NewYorkWilliamsburg.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          480.23,
+          345.69,
+          226.68,
+          68.86
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "NewYorkWilliamsburg",
+    "asset_contract": "Brooklyn rooftop facing East River, bridge at left and Manhattan skyline across water, warm windows without bloom. Parapet top y630, full deck y715–930. Clear seat on parapet x600 and clear standing deck x940. Tank at far-right edge. City scale and skyline dominate the upper two thirds."
+  },
+  "ActivityNewYorkRooseveltCart": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/NewYorkJacksonHeights.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          50.99,
+          236.89,
+          219.79,
+          55.09
+        ],
+        "text": "DOSA · SWEETS",
+        "background": "#00000000",
+        "ink": "#283941",
+        "size": 24
+      },
+      {
+        "rect": [
+          330.72,
+          236.89,
+          227.37,
+          55.09
+        ],
+        "text": "PANADERÍA",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 29
+      },
+      {
+        "rect": [
+          605.63,
+          236.89,
+          235.64,
+          55.09
+        ],
+        "text": "FRESH MARKET",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 26
+      },
+      {
+        "rect": [
+          917.05,
+          238.95,
+          211.52,
+          55.09
+        ],
+        "text": "BANGLA BAZAR",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "train",
+        "rect": [
+          0.0,
+          0.0,
+          1152.0,
+          68.86
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "NewYorkJacksonHeights",
+    "asset_contract": "Roosevelt Avenue under green elevated steel. Silver train only in y0–118. Four culturally specific shopfronts behind an arepa cart at x845–1375,y568–733. Vendor zone x1080,y598 stays empty behind counter; queue at x520–740,y830. Clear customer forecourt to y930, complete cart wheels and legs. No baked train supports inside the moving train band. Blank fascia panels."
+  },
+  "ActivitySaoPauloFeira": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloLiberdade.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          128.15,
+          247.22,
+          141.24,
+          36.5
+        ],
+        "text": "LIVROS",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 26
+      },
+      {
+        "rect": [
+          427.18,
+          244.46,
+          156.4,
+          37.87
+        ],
+        "text": "FEIRA DA LIBERDADE",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 19
+      },
+      {
+        "rect": [
+          785.45,
+          256.17,
+          261.82,
+          28.92
+        ],
+        "text": "PASTEL DA FEIRA",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 26
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "steam",
+        "rect": [
+          837.13,
+          371.17,
+          19.98,
+          42.01
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloLiberdade",
+    "asset_contract": "Liberdade Sunday square with distinctive red suzuranto lamps. Frying stall at right x905–1410,y575–720, large frying pan top at y571; vendor zone x1110,y588. Three folding tables of manga, seeds and crockery across left background. Clear customer square y755–925, Portuguese and Japanese fascia left blank."
+  },
+  "ActivitySaoPauloFlea": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloBixiga.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloBixiga",
+    "asset_contract": "Praça Dom Orione antiques fair in Bixiga, intimate square and low Italianate houses. Cloths with old keys, button tins, photos, books and small brass pieces on ground x590–1040,y770–850. Vendor chair x1110,y705, seat surface y740. Keep approach x460–580 clear and walking aisle below y870."
+  },
+  "ActivitySaoPauloCantina": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloBixiga.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          642.14,
+          252.04,
+          237.7,
+          35.81
+        ],
+        "text": "CANTINA BELLINI",
+        "background": "#00000000",
+        "ink": "#644737",
+        "size": 27
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloBixiga",
+    "asset_contract": "Bixiga cantina with long shared tables, red-white checked cloths, wood chairs, plaster walls, family pictures and an Italian surname blank panel on window. Nearest table x660–1300,y680–755, seat locations x605,y792 and x1350,y792. Clear serving aisle x240–490 from y660–910. No people or food server baked in.",
+    "activity_occluders": [
+      {
+        "id": "shared_table",
+        "sort_y": 528.18,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              428.56,
+              391.83
+            ],
+            [
+              456.8,
+              385.63
+            ],
+            [
+              840.57,
+              385.63
+            ],
+            [
+              867.44,
+              395.27
+            ],
+            [
+              860.56,
+              477.91
+            ],
+            [
+              839.2,
+              482.04
+            ],
+            [
+              457.49,
+              479.97
+            ],
+            [
+              434.07,
+              470.33
+            ]
+          ],
+          [
+            [
+              447.85,
+              473.09
+            ],
+            [
+              461.63,
+              473.09
+            ],
+            [
+              461.63,
+              526.11
+            ],
+            [
+              447.85,
+              526.11
+            ]
+          ],
+          [
+            [
+              831.62,
+              473.09
+            ],
+            [
+              846.09,
+              473.09
+            ],
+            [
+              846.09,
+              527.49
+            ],
+            [
+              831.62,
+              527.49
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivitySaoPauloMarketHall": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloMercadao.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          68.9,
+          249.28,
+          211.52,
+          33.05
+        ],
+        "text": "FRUTAS DA ESTAÇÃO",
+        "background": "#00000000",
+        "ink": "#f1e5c9",
+        "size": 23
+      },
+      {
+        "rect": [
+          870.89,
+          249.28,
+          210.14,
+          33.74
+        ],
+        "text": "MERCADO MUNICIPAL",
+        "background": "#00000000",
+        "ink": "#f1e5c9",
+        "size": 24
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloMercadao",
+    "asset_contract": "Inside Mercado Municipal: distinctive tall arches, stained-glass windows, iron roof, fruit crates in deep stalls. Central aisle x570–1010 clear all the way to y940. Right fruit counter x1030–1540, top y590 and front base y724. Vendor at x1210,y612 and customers at x903,y826, empty for engine actors."
+  },
+  "ActivitySaoPauloSandwich": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloMercadao.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          633.88,
+          95.72,
+          396.17,
+          48.2
+        ],
+        "text": "SANDUÍCHE DE MORTADELA",
+        "background": "#00000000",
+        "ink": "#25443c",
+        "size": 33
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloMercadao",
+    "asset_contract": "Mercadão mezzanine sandwich counter: wood counter x845–1450, top y580, base y733, slicer and mortadella behind it, stained glass and ironwork visible over the hall. Empty cook zone x1120,y590, standing customer zone x750–900,y830. Blank modest menu panel, no prices or text."
+  },
+  "ActivitySaoPauloVao": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloPaulista.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          717.24,
+          472.4,
+          34.45,
+          55.09
+        ],
+        "text": "CAFÉ\nCOADO",
+        "background": "#00000000",
+        "ink": "#ead8b0",
+        "size": 10
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloPaulista",
+    "asset_contract": "View from the open public space under Lina Bo Bardi MASP. Monumental red supports at the far edges, underside of suspended museum high above, open skyline beyond. The architecture creates public space, no wall closing its sides. Clear plaza y680–930 with a low sitting ledge left at y721. Small coffee bicycle on right x1270,y715; do not bake people or demonstration placards."
+  },
+  "ActivitySaoPauloMASPGallery": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloPaulista.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          303.85,
+          366.35,
+          17.91,
+          11.71
+        ],
+        "text": "ACERVO",
+        "background": "#f0e8dc",
+        "ink": "#353436",
+        "size": 7
+      },
+      {
+        "rect": [
+          1001.8,
+          367.04,
+          20.67,
+          12.4
+        ],
+        "text": "ACERVO",
+        "background": "#f0e8dc",
+        "ink": "#353436",
+        "size": 7
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloPaulista",
+    "asset_contract": "MASP collection gallery: individual glass easels in concrete feet on an open floor, each holding one small painting. Clear paths between them, no partitions. Easels at x420,y690, x795,y660, x1320,y650; middle foreground x940–1160,y810 clear. Include visible backs of some frames and blank rear labels. No replicas of specific artworks."
+  },
+  "ActivitySaoPauloMuralAlley": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/SaoPauloVilaMadalena.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          273.53,
+          48.2,
+          192.92,
+          37.87
+        ],
+        "text": "ZONA LIVRE",
+        "background": "#00000000",
+        "ink": "#b4b0a3",
+        "size": 30
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SaoPauloVilaMadalena",
+    "asset_contract": "Beco do Batman alley: close textured walls with layered vivid independent murals and distant low roofs. Narrow angular black pixo band high on wall left blank for native marks. Mural contours remain stepped pixels. Clear cobbled walking band y710–930. No invented smooth graffiti letters."
+  },
+  "ActivitySydneyFerryDeck": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyCircularQuay.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          0.0,
+          266.5,
+          53.05,
+          44.07
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          113.0,
+          266.5,
+          26.87,
+          44.76
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          178.45,
+          265.81,
+          131.6,
+          38.56
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          371.37,
+          267.19,
+          409.26,
+          48.2
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          843.33,
+          268.57,
+          191.54,
+          37.87
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          1086.55,
+          266.5,
+          64.77,
+          39.25
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "SydneyCircularQuay",
+    "asset_contract": "Inside a green-yellow Sydney ferry saloon. Broad windows frame harbour and bridge, cream bulkheads, timber trim, blue bench seats. Left seat surface x500,y728, right seat x1060,y728; clear central aisle x700–960,y765–920. Separate distant sea through windows y210–495 from fixed interior."
+  },
+  "ActivitySydneyRocksLane": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyCircularQuay.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyCircularQuay",
+    "asset_contract": "Narrow sandstone passage in The Rocks, worn stone steps and rock-cut opening. Warm amber stone and slate-blue shadows in stepped pixel clusters. Clear continuous walking floor y735–925, full stair treads near rear only, no foreground fencing."
+  },
+  "ActivitySydneyMartinPlace": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyCBD.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          460.25,
+          354.64,
+          229.44,
+          27.55
+        ],
+        "text": "TO OUR GLORIOUS DEAD",
+        "background": "#00000000",
+        "ink": "#756959",
+        "size": 22
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyCBD",
+    "asset_contract": "Martin Place pedestrian plaza, sandstone bank facades, cenotaph long low stone at x520–1160,y540–683, bronze figures at its ends. Sydney Tower distant skyline. Clear respectful walking lane y755–915 in front of the stone; no scattered street props. Memorial inscription left blank for restrained engine typography."
+  },
+  "ActivitySydneyTowerDeck": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyCBD.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyCBD",
+    "asset_contract": "Sydney Tower observation deck looking over the harbour: large window wall, fixed thin mullions, distant coastline and low urban grid, curved observation rail at y615. Clear indoor floor y735–925. The harbour is the subject, no giant foreground tower."
+  },
+  "ActivitySydneyNewtownPub": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyNewtown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          776.5,
+          72.99,
+          163.29,
+          31.68
+        ],
+        "text": "LIVE MUSIC",
+        "background": "#00000000",
+        "ink": "#d4c19b",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyNewtown",
+    "asset_contract": "King Street pub interior: timber bar at back right x930–1520,y540–701, pool table at left x185–520,y590–735, empty small band area rear left. Nearest communal table x628–978,y694–751, left seat x561,y785, right seat x1030,y785. Dog location beneath pool table x352,y730 left blank. Clear bar approach x840–990,y825. No baked musicians or dogs; no written logos."
+  },
+  "ActivitySydneyNewtownMural": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyNewtown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          730.33,
+          441.41,
+          305.22,
+          30.99
+        ],
+        "text": "I HAVE A DREAM",
+        "background": "#00000000",
+        "ink": "#29303b",
+        "size": 30
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyNewtown",
+    "asset_contract": "King Street street-corner mural: respectful painted portrait of Martin Luther King Jr. on brick shop wall, local iron lace balcony beside it. Blank four-word caption strip x720–1300,y515–583 for native lettering. Clear sidewalk y738–925. Portrait rendered as deliberate pixel clusters, no smooth airbrush."
+  },
+  "ActivitySydneyBondiSurf": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyBondi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          4.82,
+          273.39,
+          288.0,
+          83.32
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          305.22,
+          305.06,
+          525.7,
+          110.87
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          881.91,
+          265.12,
+          269.4,
+          149.43
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "SydneyBondi",
+    "asset_contract": "Bondi seen from sand toward the water. Open sand y725–941, active breaking surf band y440–718. Two red-yellow patrol flags at x515 and x1085 rooted at y735; clear central swimming area between them. Calm-looking unpatrolled water toward far right. No swimmers or rescuers baked in. All flag poles complete. Pixel waves only."
+  },
+  "ActivitySydneyBondiPool": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyBondi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          199.81,
+          281.65,
+          753.76,
+          17.9
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          192.92,
+          309.88,
+          764.78,
+          16.53
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          179.14,
+          350.51,
+          785.45,
+          15.15
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          166.74,
+          391.83,
+          812.33,
+          21.35
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "SydneyBondi",
+    "asset_contract": "Ocean pool at Bondi, pale rock ledge around blue lap lanes, open sea and spray beyond. Pool rectangle x225–1420,y475–800, pool wall at y811, dry walking apron y847–930. No swimmers. Ladder at far left only, kept clear of the central swimming zone."
+  },
+  "ActivitySydneyCabramattaBakery": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/SydneyCabramatta.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          352.77,
+          113.62,
+          526.39,
+          49.58
+        ],
+        "text": "BÁNH MÌ · BAKERY",
+        "background": "#00000000",
+        "ink": "#2a5448",
+        "size": 39
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "SydneyCabramatta",
+    "asset_contract": "Vietnamese-Australian bakery with crisp bread rolls, glass ingredient case and stainless workbench at right x905–1480,y545–718. Seller zone x1120,y583 empty. Customer queue from x420–810,y836. Rear shelves of bread, low awning glimpsed through left doorway. Blank sign x695–1350,y243–317.",
+    "activity_occluders": [
+      {
+        "id": "bakery_queue",
+        "sort_y": 528.18,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              234.95,
+              430.39
+            ],
+            [
+              520.88,
+              430.39
+            ],
+            [
+              520.88,
+              440.03
+            ],
+            [
+              234.95,
+              440.03
+            ]
+          ],
+          [
+            [
+              234.95,
+              424.88
+            ],
+            [
+              245.28,
+              424.88
+            ],
+            [
+              245.28,
+              521.29
+            ],
+            [
+              234.95,
+              521.29
+            ]
+          ],
+          [
+            [
+              223.92,
+              517.85
+            ],
+            [
+              251.48,
+              517.85
+            ],
+            [
+              251.48,
+              528.18
+            ],
+            [
+              223.92,
+              528.18
+            ]
+          ],
+          [
+            [
+              516.75,
+              425.57
+            ],
+            [
+              527.77,
+              425.57
+            ],
+            [
+              527.77,
+              519.91
+            ],
+            [
+              516.75,
+              519.91
+            ]
+          ],
+          [
+            [
+              505.72,
+              517.85
+            ],
+            [
+              538.79,
+              517.85
+            ],
+            [
+              538.79,
+              528.18
+            ],
+            [
+              505.72,
+              528.18
+            ]
+          ],
+          [
+            [
+              527.77,
+              430.39
+            ],
+            [
+              635.25,
+              430.39
+            ],
+            [
+              635.25,
+              439.35
+            ],
+            [
+              527.77,
+              439.35
+            ]
+          ],
+          [
+            [
+              633.88,
+              424.88
+            ],
+            [
+              644.21,
+              424.88
+            ],
+            [
+              644.21,
+              519.23
+            ],
+            [
+              633.88,
+              519.23
+            ]
+          ],
+          [
+            [
+              623.54,
+              513.72
+            ],
+            [
+              653.17,
+              513.72
+            ],
+            [
+              653.17,
+              524.05
+            ],
+            [
+              623.54,
+              524.05
+            ]
+          ],
+          [
+            [
+              316.25,
+              411.11
+            ],
+            [
+              750.32,
+              411.11
+            ],
+            [
+              750.32,
+              421.44
+            ],
+            [
+              316.25,
+              421.44
+            ]
+          ],
+          [
+            [
+              312.8,
+              408.36
+            ],
+            [
+              323.14,
+              408.36
+            ],
+            [
+              323.14,
+              492.37
+            ],
+            [
+              312.8,
+              492.37
+            ]
+          ],
+          [
+            [
+              303.85,
+              490.3
+            ],
+            [
+              332.1,
+              490.3
+            ],
+            [
+              332.1,
+              498.57
+            ],
+            [
+              303.85,
+              498.57
+            ]
+          ],
+          [
+            [
+              422.35,
+              407.67
+            ],
+            [
+              432.0,
+              407.67
+            ],
+            [
+              432.0,
+              493.75
+            ],
+            [
+              422.35,
+              493.75
+            ]
+          ],
+          [
+            [
+              411.33,
+              490.99
+            ],
+            [
+              440.96,
+              490.99
+            ],
+            [
+              440.96,
+              499.26
+            ],
+            [
+              411.33,
+              499.26
+            ]
+          ],
+          [
+            [
+              599.43,
+              409.05
+            ],
+            [
+              607.69,
+              409.05
+            ],
+            [
+              607.69,
+              493.75
+            ],
+            [
+              599.43,
+              493.75
+            ]
+          ],
+          [
+            [
+              589.78,
+              490.3
+            ],
+            [
+              618.72,
+              490.3
+            ],
+            [
+              618.72,
+              499.26
+            ],
+            [
+              589.78,
+              499.26
+            ]
+          ],
+          [
+            [
+              746.87,
+              407.67
+            ],
+            [
+              758.58,
+              407.67
+            ],
+            [
+              758.58,
+              493.75
+            ],
+            [
+              746.87,
+              493.75
+            ]
+          ],
+          [
+            [
+              734.47,
+              489.62
+            ],
+            [
+              766.85,
+              489.62
+            ],
+            [
+              766.85,
+              499.26
+            ],
+            [
+              734.47,
+              499.26
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTorontoStreetcarStop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoDowntown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "TorontoDowntown",
+    "asset_contract": "Toronto streetcar stop at a downtown intersection. Red-and-white streetcar stopped in its tracks at back x555–1610,y345–678; open doorway x1080–1220. A clearly marked boarding strip at y735–830 between curb and vehicle; stopped road traffic well behind the waiting zone. CN Tower in distant skyline. No pedestrians."
+  },
+  "ActivityTorontoStreetcarInterior": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "TorontoTransit",
+    "asset_contract": "Long Toronto red-and-white streetcar interior, yellow poles, red upholstered seats. Driver far left behind cab partition, rear exit at x1290–1450. Clear aisle x490–1130,y710–925, seats at x384,y740 and x1160,y740. No people, no labels; outside view remains fixed except subtle light.",
+    "activity_occluders": [
+      {
+        "id": "grab_poles",
+        "sort_y": 516.47,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              305.22,
+              0.0
+            ],
+            [
+              319.69,
+              0.0
+            ],
+            [
+              319.69,
+              516.47
+            ],
+            [
+              305.22,
+              516.47
+            ]
+          ],
+          [
+            [
+              852.29,
+              0.0
+            ],
+            [
+              866.76,
+              0.0
+            ],
+            [
+              866.76,
+              516.47
+            ],
+            [
+              852.29,
+              516.47
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTorontoMarketRoom": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoKensington.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "TorontoKensington",
+    "asset_contract": "Kensington produce shop inside a converted Victorian house front room. Shop window shows crates on porch; old domestic trim and wooden floor. Scale and cash counter x850–1400,y565–720, seller zone x1100,y601; customer x749,y842. Bananas, plantain and produce shelves. No people."
+  },
+  "ActivityTorontoFabricShop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoGerrard.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": true,
+    "source_fallback": "TorontoGerrard",
+    "asset_contract": "Gerrard India Bazaar textile shop interior: bolts of sari cloth on back shelves and fabrics hanging at window, teal, maroon, gold and cream palette. Keep central foreground x525–1160,y620–905 completely clear: the game draws the working cloth table and unfurling fabric there. No baked table in this reserved area."
+  },
+  "ActivityTorontoBluffsTop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoScarborough.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          744.11,
+          429.02,
+          86.12,
+          20.66
+        ],
+        "text": "STAY ON\nMARKED PATHS",
+        "background": "#00000000",
+        "ink": "#3b4245",
+        "size": 11
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          778.56,
+          243.09,
+          285.93,
+          84.7
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          678.66,
+          320.9,
+          283.18,
+          48.2
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "TorontoScarborough",
+    "asset_contract": "Scarborough Bluffs from a public lookout: pale stratified cliffs descend to Lake Ontario, water all the way to horizon. Safe observation lawn and path y760–941. Protective fence behind actors at y692, with a marked opening far left leading to safe path. No dramatic sheer foreground edge under the actor zones. Sediment bands legible, no labels."
+  },
+  "ActivityTorontoBluffsBeach": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/TorontoScarborough.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": false,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          682.11,
+          355.33,
+          463.69,
+          77.82
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          972.17,
+          442.79,
+          175.69,
+          57.16
+        ]
+      }
+    ],
+    "asset_pending": true,
+    "source_fallback": "TorontoScarborough",
+    "asset_contract": "At the shore below Scarborough Bluffs, pale banded sediment face rises at left, Lake Ontario and stony beach at right. No city visible. Clear dry stones x400–1040,y760–925, flat sitting rock x624,y748. No precarious overhang above actors."
+  }
+}

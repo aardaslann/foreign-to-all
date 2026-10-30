@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/world/HotelDoor.gd" id="1_hd"]
+
+[sub_resource type="RectangleShape2D" id="Shape_door"]
+size = Vector2(110, 90)
+
+[node name="HotelDoor" type="Area2D"]
+script = ExtResource("1_hd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Shape_door")
+
+[node name="Prompt" type="Label" parent="."]
+position = Vector2(-26, -46)
+text = "[E]"
+visible = false
+theme_override_font_sizes/font_size = 12

@@ -1,0 +1,65 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/world/ActivityPlace.gd" id="root"]
+
+[ext_resource type="Script" path="res://scenes/world/ActivityBackground.gd" id="bg"]
+
+[ext_resource type="Script" path="res://scenes/world/WorldBorder.gd" id="border"]
+
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="solids"]
+
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="player"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn" id="exit"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn" id="service"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui"]
+
+[sub_resource type="RectangleShape2D" id="reach"]
+size = Vector2(76, 64)
+
+[node name="ActivityMoscowTsoyWall" type="Node2D"]
+script = ExtResource("root")
+place_id = "ActivityMoscowTsoyWall"
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("bg")
+scene_id = "ActivityMoscowTsoyWall"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("border")
+
+[node name="Player" parent="." instance=ExtResource("player")]
+
+[node name="WayBack" parent="." instance=ExtResource("exit")]
+position = Vector2(48.23, 564.68)
+target_scene = "res://scenes/world/MoscowArbat.tscn"
+prompt_text = "E - Back to the neighbourhood"
+
+[node name="CollisionShape2D" parent="WayBack" index="0"]
+shape = SubResource("reach")
+
+[node name="Prompt" parent="WayBack" index="1"]
+z_index = 10
+position = Vector2(-85, -120)
+theme_override_font_sizes/font_size = 16
+
+[node name="LocalSpot" parent="." instance=ExtResource("service")]
+position = Vector2(597.36, 558.48)
+service = "local"
+prompt_text = "E - Spend time at the wall"
+
+[node name="CollisionShape2D" parent="LocalSpot" index="0"]
+shape = SubResource("reach")
+
+[node name="Prompt" parent="LocalSpot" index="1"]
+z_index = 10
+position = Vector2(-130, -120)
+theme_override_font_sizes/font_size = 16
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("solids")
+
+[node name="UILayer" parent="." instance=ExtResource("ui")]

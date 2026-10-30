@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dj8fq3n2xvkp5"]
+
+[ext_resource type="Script" path="res://scenes/ui/Journal.gd" id="1_jrn"]
+
+[node name="Journal" type="CanvasLayer"]
+layer = 10
+script = ExtResource("1_jrn")
+
+[node name="UIRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2

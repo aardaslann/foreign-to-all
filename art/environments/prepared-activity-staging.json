@@ -1,0 +1,6808 @@
+{
+  "newyork:lowereast": {
+    "door": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkBodega",
+        "set": "courtyard",
+        "object": "sleeping_cat",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              545.0,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              755.83,
+              338.12
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.491,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              418.91,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "bob",
+              "face": ""
+            }
+          }
+        ],
+        "cam": [
+          0.52,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          166.05,
+          292.67
+        ],
+        "object_world_unit": 1.8
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivityNewYorkBodega",
+          "set": "courtyard",
+          "object": "sleeping_cat",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                545.0,
+                577.76
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.839,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                755.83,
+                338.12
+              ],
+              "world_height": 118,
+              "act": "cut",
+              "z": 0.491,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                418.91,
+                580.51
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.843,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "bob",
+                "face": ""
+              }
+            }
+          ],
+          "cam": [
+            0.52,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "object_world_at": [
+            166.05,
+            292.67
+          ],
+          "object_world_unit": 1.8
+        },
+        {
+          "bg_scene": "ActivityNewYorkBodega",
+          "set": "courtyard",
+          "object": "sleeping_cat",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                623.54,
+                577.76
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.839,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                755.83,
+                338.12
+              ],
+              "world_height": 118,
+              "act": "offer",
+              "z": 0.491,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                418.91,
+                580.51
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.843,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "bob",
+                "face": ""
+              },
+              "motion_path": {
+                "to": [
+                  213.59,
+                  580.51
+                ],
+                "secs": 3.2,
+                "delay": 0.25,
+                "pose": "walk"
+              }
+            }
+          ],
+          "cam": [
+            0.52,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "object_world_at": [
+            166.05,
+            292.67
+          ],
+          "object_world_unit": 1.8
+        }
+      ]
+    },
+    "copied": {
+      "staging": {
+        "bg_scene": "NewYorkLowerEast",
+        "set": "courtyard",
+        "object": "",
+        "prop": "bec",
+        "cast": [
+          {
+            "world_at": [
+              684.17,
+              539.2
+            ],
+            "world_height": 118,
+            "act": "eat",
+            "z": 0.783,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.59,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "stalled": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkBodega",
+        "set": "courtyard",
+        "object": "sleeping_cat",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              545.0,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              755.83,
+              338.12
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.491,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              418.91,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "bob",
+              "face": ""
+            }
+          }
+        ],
+        "cam": [
+          0.52,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          166.05,
+          292.67
+        ],
+        "object_world_unit": 1.8
+      },
+      "shots": []
+    },
+    "pointed": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkBodega",
+        "set": "courtyard",
+        "object": "sleeping_cat",
+        "prop": "bec",
+        "cast": [
+          {
+            "world_at": [
+              623.54,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              755.83,
+              338.12
+            ],
+            "world_height": 118,
+            "act": "hand_over",
+            "z": 0.491,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.52,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          166.05,
+          292.67
+        ],
+        "object_world_unit": 1.8,
+        "prop_holder": 0
+      },
+      "shots": []
+    }
+  },
+  "newyork:harlem": {
+    "street": {
+      "staging": {
+        "bg_scene": "NewYorkHarlem",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              531.22,
+              521.98
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.758,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              420.29,
+              417.31
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.606,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true
+          },
+          {
+            "world_at": [
+              661.44,
+              412.49
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.599,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            },
+            "seated": true
+          }
+        ],
+        "cam": [
+          0.47,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "NewYorkHarlem",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                535.35,
+                521.98
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.758,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                420.29,
+                417.31
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.606,
+              "seat": false,
+              "appearance": {
+                "build": "elder",
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true
+            },
+            {
+              "world_at": [
+                661.44,
+                412.49
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.599,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied"
+              },
+              "seated": true
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "NewYorkHarlem",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                531.22,
+                521.98
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.758,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                420.29,
+                417.31
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.606,
+              "seat": false,
+              "appearance": {
+                "build": "elder",
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true
+            },
+            {
+              "world_at": [
+                661.44,
+                412.49
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.599,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied"
+              },
+              "seated": true
+            }
+          ],
+          "cam": [
+            0.47,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "nodded": {
+      "staging": {
+        "bg_scene": "NewYorkHarlem",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              531.22,
+              521.98
+            ],
+            "world_height": 118,
+            "act": "nod",
+            "z": 0.758,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              420.29,
+              417.31
+            ],
+            "world_height": 96,
+            "act": "nod",
+            "z": 0.606,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true
+          },
+          {
+            "world_at": [
+              661.44,
+              412.49
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.599,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            },
+            "seated": true
+          }
+        ],
+        "cam": [
+          0.47,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "sat": {
+      "staging": {
+        "bg_scene": "NewYorkHarlem",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              405.82,
+              451.05
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.655,
+            "seat": false,
+            "appearance": {},
+            "seated": true
+          },
+          {
+            "world_at": [
+              420.29,
+              417.31
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.606,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true
+          },
+          {
+            "world_at": [
+              661.44,
+              412.49
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.599,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            },
+            "seated": true
+          }
+        ],
+        "cam": [
+          0.43,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "past": {
+      "staging": {
+        "bg_scene": "NewYorkHarlem",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              531.22,
+              521.98
+            ],
+            "world_height": 118,
+            "act": "walk_away",
+            "z": 0.758,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              420.29,
+              417.31
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.606,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true
+          },
+          {
+            "world_at": [
+              661.44,
+              412.49
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.599,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            },
+            "seated": true
+          }
+        ],
+        "cam": [
+          0.47,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "newyork:williamsburg": {
+    "yard": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRoofWork",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              509.86,
+              578.45
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.84,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              300.93
+            ],
+            "world_height": 106,
+            "act": "watch",
+            "z": 0.715,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "kit": "wood_staves"
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "NewYorkWilliamsburg",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                611.14,
+                550.21
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.799,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivityNewYorkRoofWork",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                409.26,
+                578.45
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.84,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                691.06,
+                492.37
+              ],
+              "world_height": 106,
+              "act": "climb",
+              "z": 0.715,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "kit": "wood_staves",
+              "motion_path": {
+                "to": [
+                  691.06,
+                  300.93
+                ],
+                "secs": 3.3,
+                "delay": 0.25,
+                "pose": "climb"
+              }
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        }
+      ]
+    },
+    "why": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRoofWork",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              509.86,
+              578.45
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.84,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              300.93
+            ],
+            "world_height": 106,
+            "act": "watch",
+            "z": 0.715,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "kit": "wood_staves"
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "up": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRoofView",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              483.67,
+              561.92
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.816,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "newyork:jacksonheights": {
+    "under": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRooseveltCart",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              540.17,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              448.3
+            ],
+            "world_height": 96,
+            "act": "offer",
+            "z": 0.651,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              399.62,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.56,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "NewYorkJacksonHeights",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                511.92,
+                566.05
+              ],
+              "world_height": 118,
+              "act": "recoil",
+              "z": 0.822,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivityNewYorkRooseveltCart",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                540.17,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                691.06,
+                448.3
+              ],
+              "world_height": 96,
+              "act": "offer",
+              "z": 0.651,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                399.62,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {
+                "wear": "tee",
+                "cut": "crop"
+              }
+            }
+          ],
+          "cam": [
+            0.56,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "listened": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRooseveltCart",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              540.17,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              448.3
+            ],
+            "world_height": 96,
+            "act": "offer",
+            "z": 0.651,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              399.62,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.56,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "guessed": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRooseveltCart",
+        "set": "courtyard",
+        "object": "",
+        "prop": "arepa",
+        "cast": [
+          {
+            "world_at": [
+              644.9,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              448.3
+            ],
+            "world_height": 96,
+            "act": "hand_over",
+            "z": 0.651,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.56,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "english": {
+      "staging": {
+        "bg_scene": "ActivityNewYorkRooseveltCart",
+        "set": "courtyard",
+        "object": "",
+        "prop": "arepa",
+        "cast": [
+          {
+            "world_at": [
+              644.9,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "eat",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              691.06,
+              448.3
+            ],
+            "world_height": 96,
+            "act": "watch",
+            "z": 0.651,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.56,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    }
+  },
+  "saopaulo:liberdade": {
+    "lamps": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFeira",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              770.99,
+              581.2
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.844,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              915.67,
+              486.17
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.706,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              611.14,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.67,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "SaoPauloLiberdade",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                473.34,
+                580.51
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.843,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySaoPauloFeira",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                770.99,
+                581.2
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.844,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                915.67,
+                486.17
+              ],
+              "world_height": 118,
+              "act": "cut",
+              "z": 0.706,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                611.14,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop"
+              }
+            }
+          ],
+          "cam": [
+            0.67,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "tables": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFeira",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              328.65,
+              578.45
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.84,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              915.67,
+              486.17
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.706,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "fried": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFeira",
+        "set": "courtyard",
+        "object": "",
+        "prop": "pastel",
+        "cast": [
+          {
+            "world_at": [
+              859.87,
+              581.2
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.844,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              915.67,
+              486.17
+            ],
+            "world_height": 118,
+            "act": "hand_over",
+            "z": 0.706,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.67,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0,
+        "handheld_scale": 0.55
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloFeira",
+          "set": "courtyard",
+          "object": "",
+          "prop": "pastel",
+          "cast": [
+            {
+              "world_at": [
+                859.87,
+                581.2
+              ],
+              "world_height": 118,
+              "act": "take",
+              "z": 0.844,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                915.67,
+                486.17
+              ],
+              "world_height": 118,
+              "act": "hand_over",
+              "z": 0.706,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied",
+                "face": ""
+              },
+              "clip_row": 18
+            }
+          ],
+          "cam": [
+            0.67,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "prop_holder": 0,
+          "handheld_scale": 0.55
+        }
+      ]
+    }
+  },
+  "saopaulo:bixiga": {
+    "praca": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFlea",
+        "set": "courtyard",
+        "object": "",
+        "prop": "book",
+        "cast": [
+          {
+            "world_at": [
+              317.63,
+              591.53
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.859,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              802.68,
+              491.68
+            ],
+            "world_height": 118,
+            "act": "read",
+            "z": 0.714,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloFlea",
+          "set": "courtyard",
+          "object": "",
+          "prop": "book",
+          "cast": [
+            {
+              "world_at": [
+                317.63,
+                591.53
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.859,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                802.68,
+                491.68
+              ],
+              "world_height": 118,
+              "act": "read",
+              "z": 0.714,
+              "seat": false,
+              "appearance": {
+                "build": "elder",
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true,
+              "clip_row": 90
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "prop_holder": 1
+        },
+        {
+          "bg_scene": "ActivitySaoPauloFlea",
+          "set": "courtyard",
+          "object": "",
+          "prop": "book",
+          "cast": [
+            {
+              "world_at": [
+                317.63,
+                591.53
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.859,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                802.68,
+                491.68
+              ],
+              "world_height": 118,
+              "act": "read",
+              "z": 0.714,
+              "seat": false,
+              "appearance": {
+                "build": "elder",
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true,
+              "clip_row": 90
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "prop_holder": 1
+        }
+      ]
+    },
+    "dig": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFlea",
+        "set": "courtyard",
+        "object": "",
+        "prop": "brass_thing",
+        "cast": [
+          {
+            "world_at": [
+              483.67,
+              596.35
+            ],
+            "world_height": 118,
+            "act": "kneel",
+            "z": 0.866,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              802.68,
+              491.68
+            ],
+            "world_height": 118,
+            "act": "read",
+            "z": 0.714,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloFlea",
+          "set": "courtyard",
+          "object": "",
+          "prop": "brass_thing",
+          "cast": [
+            {
+              "world_at": [
+                483.67,
+                596.35
+              ],
+              "world_height": 118,
+              "act": "kneel",
+              "z": 0.866,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                802.68,
+                491.68
+              ],
+              "world_height": 118,
+              "act": "read",
+              "z": 0.714,
+              "seat": false,
+              "appearance": {
+                "build": "elder",
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true,
+              "clip_row": 90
+            }
+          ],
+          "cam": [
+            0.55,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "prop_holder": 0
+        }
+      ]
+    },
+    "bought": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloFlea",
+        "set": "courtyard",
+        "object": "",
+        "prop": "brass_thing",
+        "cast": [
+          {
+            "world_at": [
+              496.08,
+              596.35
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.866,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              802.68,
+              491.68
+            ],
+            "world_height": 118,
+            "act": "count",
+            "z": 0.714,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "cantina": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloCantina",
+        "set": "courtyard",
+        "object": "",
+        "prop": "food_tray",
+        "cast": [
+          {
+            "world_at": [
+              401.0,
+              449.67
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.653,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              889.49,
+              449.67
+            ],
+            "world_height": 96,
+            "act": "sit",
+            "z": 0.653,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              279.04,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "carry",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            },
+            "motion_path": {
+              "to": [
+                320.38,
+                551.59
+              ],
+              "secs": 3.2,
+              "delay": 0.25,
+              "pose": "carry"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "prop_holder": 2
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloCantina",
+          "set": "courtyard",
+          "object": "",
+          "prop": "food_tray",
+          "cast": [
+            {
+              "world_at": [
+                401.0,
+                449.67
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.653,
+              "seat": false,
+              "appearance": {},
+              "seated": true,
+              "clip_row": 90
+            },
+            {
+              "world_at": [
+                889.49,
+                449.67
+              ],
+              "world_height": 96,
+              "act": "sit",
+              "z": 0.653,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop"
+              },
+              "seated": true,
+              "clip_row": 90
+            },
+            {
+              "world_at": [
+                279.04,
+                577.76
+              ],
+              "world_height": 118,
+              "act": "carry",
+              "z": 0.839,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied"
+              },
+              "motion_path": {
+                "to": [
+                  320.38,
+                  551.59
+                ],
+                "secs": 3.2,
+                "delay": 0.25,
+                "pose": "carry"
+              }
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "prop_holder": 2
+        }
+      ]
+    }
+  },
+  "saopaulo:mercadao": {
+    "floor": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "fruit_slice",
+        "cast": [
+          {
+            "world_at": [
+              715.87,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "offer",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloMarketHall",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                547.06,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                864.69,
+                447.61
+              ],
+              "world_height": 118,
+              "act": "offer",
+              "z": 0.65,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "clip_row": 18
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySaoPauloMarketHall",
+          "set": "courtyard",
+          "object": "",
+          "prop": "fruit_slice",
+          "cast": [
+            {
+              "world_at": [
+                715.87,
+                577.76
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.839,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                864.69,
+                447.61
+              ],
+              "world_height": 118,
+              "act": "offer",
+              "z": 0.65,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "clip_row": 18
+            }
+          ],
+          "cam": [
+            0.65,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "prop_holder": 1
+        }
+      ]
+    },
+    "watched": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "fruit_slice",
+        "cast": [
+          {
+            "world_at": [
+              498.14,
+              583.27
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.847,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "offer",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              678.66,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 2
+      },
+      "shots": []
+    },
+    "trap": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "fruit_slice",
+        "cast": [
+          {
+            "world_at": [
+              645.59,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "count",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              512.61,
+              583.96
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.848,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "paid": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "bag",
+        "cast": [
+          {
+            "world_at": [
+              645.59,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "count",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              512.61,
+              583.96
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.848,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "refused": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "fruit_slice",
+        "cast": [
+          {
+            "world_at": [
+              645.59,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "hand_over",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": []
+    },
+    "clear": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMarketHall",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              645.59,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "walk_away",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              864.69,
+              447.61
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.65,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.65,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": []
+    },
+    "sand": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloSandwich",
+        "set": "courtyard",
+        "object": "",
+        "prop": "mortadela",
+        "cast": [
+          {
+            "world_at": [
+              655.23,
+              583.27
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.847,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              906.72,
+              446.92
+            ],
+            "world_height": 118,
+            "act": "offer",
+            "z": 0.649,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.64,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 1,
+        "handheld_scale": 0.55
+      },
+      "shots": []
+    },
+    "eaten": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloSandwich",
+        "set": "courtyard",
+        "object": "",
+        "prop": "mortadela",
+        "cast": [
+          {
+            "world_at": [
+              655.23,
+              583.27
+            ],
+            "world_height": 118,
+            "act": "eat",
+            "z": 0.847,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              906.72,
+              446.92
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.649,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.64,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0,
+        "handheld_scale": 0.55
+      },
+      "shots": []
+    }
+  },
+  "saopaulo:paulista": {
+    "avenue": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloVao",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              483.67,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {},
+            "motion_path": {
+              "to": [
+                554.64,
+                584.65
+              ],
+              "secs": 3.1,
+              "delay": 0.25,
+              "pose": "walk"
+            }
+          },
+          {
+            "world_at": [
+              670.39,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              921.88,
+              482.73
+            ],
+            "world_height": 100,
+            "act": "offer",
+            "z": 0.701,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "SaoPauloPaulista",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                682.11,
+                557.79
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.81,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySaoPauloVao",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                483.67,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {},
+              "motion_path": {
+                "to": [
+                  554.64,
+                  584.65
+                ],
+                "secs": 3.1,
+                "delay": 0.25,
+                "pose": "walk"
+              }
+            },
+            {
+              "world_at": [
+                670.39,
+                576.38
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.837,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                921.88,
+                482.73
+              ],
+              "world_height": 100,
+              "act": "offer",
+              "z": 0.701,
+              "seat": false,
+              "appearance": {},
+              "clip_row": 18
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        }
+      ]
+    },
+    "vao": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloVao",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              483.67,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {},
+            "motion_path": {
+              "to": [
+                554.64,
+                584.65
+              ],
+              "secs": 3.1,
+              "delay": 0.25,
+              "pose": "walk"
+            }
+          },
+          {
+            "world_at": [
+              670.39,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              921.88,
+              482.73
+            ],
+            "world_height": 100,
+            "act": "offer",
+            "z": 0.701,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "stay": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloVao",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              292.82,
+              492.37
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.715,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              670.39,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              921.88,
+              482.73
+            ],
+            "world_height": 100,
+            "act": "offer",
+            "z": 0.701,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "inside": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMASPGallery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              780.63,
+              557.79
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.81,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              362.41,
+              552.28
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.802,
+            "seat": false,
+            "appearance": {},
+            "motion_path": {
+              "to": [
+                367.23,
+                588.78
+              ],
+              "secs": 2.7,
+              "delay": 0.25,
+              "pose": "walk"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "noorder": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMASPGallery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              922.56,
+              513.72
+            ],
+            "world_height": 96,
+            "act": "read",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.79,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "saopaulo:vilamadalena": {
+    "alley": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMuralAlley",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              534.66,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySaoPauloMuralAlley",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                447.85,
+                580.51
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.843,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySaoPauloMuralAlley",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                534.66,
+                580.51
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.843,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.51,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "murals": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMuralAlley",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              447.85,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "pixo": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMuralAlley",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              534.66,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "asked": {
+      "staging": {
+        "bg_scene": "ActivitySaoPauloMuralAlley",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              474.03,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              664.19,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied"
+            }
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "sydney:circularquay": {
+    "wharf": {
+      "staging": {
+        "bg_scene": "SydneyCircularQuay",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              554.64,
+              561.92
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.816,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              710.35,
+              555.72
+            ],
+            "world_height": 118,
+            "act": "wave",
+            "z": 0.807,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "tied",
+              "face": "",
+              "pal": {
+                "C": "#dfb94d",
+                "D": "#ad843d",
+                "O": "#414b43"
+              }
+            }
+          }
+        ],
+        "cam": [
+          0.58,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "SydneyCircularQuay",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                554.64,
+                561.92
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.816,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                710.35,
+                555.72
+              ],
+              "world_height": 118,
+              "act": "wave",
+              "z": 0.807,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "tied",
+                "face": "",
+                "pal": {
+                  "C": "#dfb94d",
+                  "D": "#ad843d",
+                  "O": "#414b43"
+                }
+              }
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "SydneyCircularQuay",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                554.64,
+                561.92
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.816,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                710.35,
+                555.72
+              ],
+              "world_height": 118,
+              "act": "wave",
+              "z": 0.807,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "tied",
+                "face": "",
+                "pal": {
+                  "C": "#dfb94d",
+                  "D": "#ad843d",
+                  "O": "#414b43"
+                }
+              }
+            }
+          ],
+          "cam": [
+            0.58,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "answered": {
+      "staging": {
+        "bg_scene": "SydneyCircularQuay",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              554.64,
+              561.92
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.816,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              710.35,
+              555.72
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.807,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "tied",
+              "face": "",
+              "pal": {
+                "C": "#dfb94d",
+                "D": "#ad843d",
+                "O": "#414b43"
+              }
+            }
+          }
+        ],
+        "cam": [
+          0.58,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "bounced": {
+      "staging": {
+        "bg_scene": "SydneyCircularQuay",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              554.64,
+              561.92
+            ],
+            "world_height": 118,
+            "act": "nod",
+            "z": 0.816,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              710.35,
+              555.72
+            ],
+            "world_height": 118,
+            "act": "nod",
+            "z": 0.807,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "tied",
+              "face": "",
+              "pal": {
+                "C": "#dfb94d",
+                "D": "#ad843d",
+                "O": "#414b43"
+              }
+            }
+          },
+          {
+            "world_at": [
+              856.42,
+              559.86
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.813,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.58,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "long": {
+      "staging": {
+        "bg_scene": "SydneyCircularQuay",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              554.64,
+              561.92
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.816,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              710.35,
+              555.72
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.807,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "tied",
+              "face": "",
+              "pal": {
+                "C": "#dfb94d",
+                "D": "#ad843d",
+                "O": "#414b43"
+              }
+            }
+          }
+        ],
+        "cam": [
+          0.58,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "ferry": {
+      "staging": {
+        "bg_scene": "ActivitySydneyFerryDeck",
+        "set": "courtyard",
+        "object": "",
+        "prop": "book",
+        "cast": [
+          {
+            "world_at": [
+              325.21,
+              451.05
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.655,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              830.24,
+              451.05
+            ],
+            "world_height": 118,
+            "act": "read",
+            "z": 0.655,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": []
+    },
+    "looked": {
+      "staging": {
+        "bg_scene": "ActivitySydneyFerryDeck",
+        "set": "courtyard",
+        "object": "",
+        "prop": "book",
+        "cast": [
+          {
+            "world_at": [
+              558.09,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              830.24,
+              451.05
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.655,
+            "seat": false,
+            "appearance": {
+              "build": "elder",
+              "wear": "shirt",
+              "cut": "crop"
+            },
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "prop_holder": 1
+      },
+      "shots": []
+    },
+    "rocks": {
+      "staging": {
+        "bg_scene": "ActivitySydneyRocksLane",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              556.02,
+              579.83
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.842,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "sydney:cbd": {
+    "plaza": {
+      "staging": {
+        "bg_scene": "ActivitySydneyMartinPlace",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              367.23,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              724.82,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          },
+          {
+            "world_at": [
+              872.27,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "SydneyCBD",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                571.18,
+                559.86
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.813,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySydneyMartinPlace",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                367.23,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                724.82,
+                576.38
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.837,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "crop"
+              }
+            },
+            {
+              "world_at": [
+                872.27,
+                581.89
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.845,
+              "seat": false,
+              "appearance": {
+                "wear": "jacket",
+                "cut": "crop"
+              }
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        }
+      ]
+    },
+    "watched": {
+      "staging": {
+        "bg_scene": "ActivitySydneyMartinPlace",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              520.19,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              724.82,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          },
+          {
+            "world_at": [
+              872.27,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "quiet": {
+      "staging": {
+        "bg_scene": "ActivitySydneyMartinPlace",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              520.19,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              724.82,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          },
+          {
+            "world_at": [
+              872.27,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "stand",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {
+              "wear": "jacket",
+              "cut": "crop"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "tower": {
+      "staging": {
+        "bg_scene": "ActivitySydneyTowerDeck",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              533.28,
+              577.76
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.839,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "sydney:newtown": {
+    "street": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownPub",
+        "set": "courtyard",
+        "object": "sleeping_dog",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              482.3,
+              513.72
+            ],
+            "world_height": 100,
+            "act": "sit",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              871.58,
+              318.15
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.462,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              318.32,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "strum",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "tied"
+            },
+            "kit": "guitar"
+          },
+          {
+            "world_at": [
+              476.78,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "watch",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob"
+            },
+            "kit": "microphone"
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "object_world_at": [
+          210.14,
+          477.22
+        ],
+        "object_world_unit": 2
+      },
+      "shots": [
+        {
+          "bg_scene": "SydneyNewtown",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                624.23,
+                561.23
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.815,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySydneyNewtownPub",
+          "set": "courtyard",
+          "object": "sleeping_dog",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                482.3,
+                513.72
+              ],
+              "world_height": 100,
+              "act": "sit",
+              "z": 0.746,
+              "seat": false,
+              "appearance": {},
+              "seated": true,
+              "clip_row": 90
+            },
+            {
+              "world_at": [
+                871.58,
+                318.15
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.462,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                318.32,
+                328.48
+              ],
+              "world_height": 83,
+              "act": "strum",
+              "z": 0.477,
+              "seat": false,
+              "appearance": {
+                "wear": "tee",
+                "cut": "tied"
+              },
+              "kit": "guitar"
+            },
+            {
+              "world_at": [
+                476.78,
+                328.48
+              ],
+              "world_height": 83,
+              "act": "watch",
+              "z": 0.477,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "bob"
+              },
+              "kit": "microphone"
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "object_world_at": [
+            210.14,
+            477.22
+          ],
+          "object_world_unit": 2
+        }
+      ]
+    },
+    "bar": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownPub",
+        "set": "courtyard",
+        "object": "sleeping_dog",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              482.3,
+              513.72
+            ],
+            "world_height": 100,
+            "act": "sit",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              871.58,
+              318.15
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.462,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              318.32,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "strum",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "tied"
+            },
+            "kit": "guitar"
+          },
+          {
+            "world_at": [
+              476.78,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "watch",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob"
+            },
+            "kit": "microphone"
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "object_world_at": [
+          210.14,
+          477.22
+        ],
+        "object_world_unit": 2
+      },
+      "shots": []
+    },
+    "waited": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownPub",
+        "set": "courtyard",
+        "object": "sleeping_dog",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              482.3,
+              513.72
+            ],
+            "world_height": 100,
+            "act": "sit",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              871.58,
+              318.15
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.462,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              318.32,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "strum",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "tied"
+            },
+            "kit": "guitar"
+          },
+          {
+            "world_at": [
+              476.78,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "watch",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob"
+            },
+            "kit": "microphone"
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "object_world_at": [
+          210.14,
+          477.22
+        ],
+        "object_world_unit": 2
+      },
+      "shots": []
+    },
+    "counter": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownPub",
+        "set": "courtyard",
+        "object": "",
+        "prop": "glass",
+        "cast": [
+          {
+            "world_at": [
+              848.84,
+              446.23
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.648,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              871.58,
+              318.15
+            ],
+            "world_height": 118,
+            "act": "offer",
+            "z": 0.462,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              318.32,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "strum",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "tied"
+            },
+            "kit": "guitar"
+          },
+          {
+            "world_at": [
+              476.78,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "watch",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob"
+            },
+            "kit": "microphone"
+          }
+        ],
+        "cam": [
+          0.71,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "round": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownPub",
+        "set": "courtyard",
+        "object": "sleeping_dog",
+        "prop": "glass",
+        "cast": [
+          {
+            "world_at": [
+              482.3,
+              513.72
+            ],
+            "world_height": 100,
+            "act": "sit",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              871.58,
+              318.15
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.462,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              318.32,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "strum",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "tied"
+            },
+            "kit": "guitar"
+          },
+          {
+            "world_at": [
+              476.78,
+              328.48
+            ],
+            "world_height": 83,
+            "act": "watch",
+            "z": 0.477,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob"
+            },
+            "kit": "microphone"
+          },
+          {
+            "world_at": [
+              769.61,
+              513.72
+            ],
+            "world_height": 100,
+            "act": "sit",
+            "z": 0.746,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              906.72,
+              566.74
+            ],
+            "world_height": 118,
+            "act": "drink",
+            "z": 0.823,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "object_world_at": [
+          210.14,
+          477.22
+        ],
+        "object_world_unit": 2,
+        "prop_holder": 5
+      },
+      "shots": []
+    },
+    "mural": {
+      "staging": {
+        "bg_scene": "ActivitySydneyNewtownMural",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              682.79,
+              580.51
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.843,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "sydney:bondi": {
+    "sand": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              482.99,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              507.1,
+              377.37
+            ],
+            "world_height": 82,
+            "act": "swim",
+            "z": 0.548,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          },
+          {
+            "world_at": [
+              660.06,
+              400.09
+            ],
+            "world_height": 85,
+            "act": "swim",
+            "z": 0.581,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivitySydneyBondiSurf",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                482.99,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                507.1,
+                377.37
+              ],
+              "world_height": 82,
+              "act": "swim",
+              "z": 0.548,
+              "seat": false,
+              "appearance": {
+                "barefoot": true
+              },
+              "clip_row": 16
+            },
+            {
+              "world_at": [
+                660.06,
+                400.09
+              ],
+              "world_height": 85,
+              "act": "swim",
+              "z": 0.581,
+              "seat": false,
+              "appearance": {
+                "barefoot": true
+              },
+              "clip_row": 16
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "plate_swimming": true
+        },
+        {
+          "bg_scene": "ActivitySydneyBondiSurf",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                482.99,
+                584.65
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.849,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                507.1,
+                377.37
+              ],
+              "world_height": 82,
+              "act": "swim",
+              "z": 0.548,
+              "seat": false,
+              "appearance": {
+                "barefoot": true
+              },
+              "clip_row": 16
+            },
+            {
+              "world_at": [
+                660.06,
+                400.09
+              ],
+              "world_height": 85,
+              "act": "swim",
+              "z": 0.581,
+              "seat": false,
+              "appearance": {
+                "barefoot": true
+              },
+              "clip_row": 16
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true,
+          "plate_swimming": true
+        }
+      ]
+    },
+    "worked": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              482.99,
+              584.65
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.849,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              507.1,
+              377.37
+            ],
+            "world_height": 82,
+            "act": "swim",
+            "z": 0.548,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          },
+          {
+            "world_at": [
+              660.06,
+              400.09
+            ],
+            "world_height": 85,
+            "act": "swim",
+            "z": 0.581,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": [],
+      "choices": {
+        "between": {
+          "staging": {
+            "bg_scene": "ActivitySydneyBondiSurf",
+            "set": "courtyard",
+            "object": "",
+            "prop": "",
+            "cast": [
+              {
+                "world_at": [
+                  564.98,
+                  409.05
+                ],
+                "world_height": 118,
+                "act": "swim",
+                "z": 0.594,
+                "seat": false,
+                "appearance": {},
+                "clip_row": 16
+              },
+              {
+                "world_at": [
+                  507.1,
+                  377.37
+                ],
+                "world_height": 82,
+                "act": "swim",
+                "z": 0.548,
+                "seat": false,
+                "appearance": {
+                  "barefoot": true
+                },
+                "clip_row": 16
+              },
+              {
+                "world_at": [
+                  660.06,
+                  400.09
+                ],
+                "world_height": 85,
+                "act": "swim",
+                "z": 0.581,
+                "seat": false,
+                "appearance": {
+                  "barefoot": true
+                },
+                "clip_row": 16
+              }
+            ],
+            "cam": [
+              0.5,
+              648
+            ],
+            "cam_y": 324,
+            "ground": [
+              0.8,
+              0.94
+            ],
+            "full_plate": true,
+            "authored_plate": true,
+            "plate_swimming": true
+          }
+        }
+      }
+    },
+    "safe": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              564.98,
+              409.05
+            ],
+            "world_height": 118,
+            "act": "swim",
+            "z": 0.594,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 16
+          },
+          {
+            "world_at": [
+              507.1,
+              377.37
+            ],
+            "world_height": 82,
+            "act": "swim",
+            "z": 0.548,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          },
+          {
+            "world_at": [
+              660.06,
+              400.09
+            ],
+            "world_height": 85,
+            "act": "swim",
+            "z": 0.581,
+            "seat": false,
+            "appearance": {
+              "barefoot": true
+            },
+            "clip_row": 16
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": []
+    },
+    "rip": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              921.88,
+              358.78
+            ],
+            "world_height": 118,
+            "act": "swim",
+            "z": 0.521,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 16
+          },
+          {
+            "world_at": [
+              1023.16,
+              389.76
+            ],
+            "world_height": 118,
+            "act": "swim",
+            "z": 0.566,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "crop",
+              "barefoot": true,
+              "pal": {
+                "C": "#d5a843",
+                "D": "#ae3934",
+                "O": "#74362f"
+              }
+            },
+            "clip_row": 16,
+            "kit": "paddle_board"
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": []
+    },
+    "float": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              828.86,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {},
+            "seated": true
+          },
+          {
+            "world_at": [
+              945.99,
+              582.58
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.566,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "crop",
+              "barefoot": true,
+              "pal": {
+                "C": "#d5a843",
+                "D": "#ae3934",
+                "O": "#74362f"
+              }
+            },
+            "clip_row": 99,
+            "kit": ""
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": []
+    },
+    "hauled": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiSurf",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              828.86,
+              581.89
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.845,
+            "seat": false,
+            "appearance": {},
+            "seated": true
+          },
+          {
+            "world_at": [
+              945.99,
+              582.58
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.566,
+            "seat": false,
+            "appearance": {
+              "wear": "tee",
+              "cut": "crop",
+              "barefoot": true,
+              "pal": {
+                "C": "#d5a843",
+                "D": "#ae3934",
+                "O": "#74362f"
+              }
+            },
+            "clip_row": 99,
+            "kit": ""
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": []
+    },
+    "pool": {
+      "staging": {
+        "bg_scene": "ActivitySydneyBondiPool",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              584.27,
+              376.68
+            ],
+            "world_height": 118,
+            "act": "swim",
+            "z": 0.547,
+            "seat": false,
+            "appearance": {},
+            "clip_row": 16
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true,
+        "plate_swimming": true
+      },
+      "shots": []
+    }
+  },
+  "sydney:cabramatta": {
+    "arch": {
+      "staging": {
+        "bg_scene": "ActivitySydneyCabramattaBakery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              548.44,
+              507.52
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.737,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              795.79,
+              427.64
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.621,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              354.83,
+              507.52
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.737,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "bob"
+            }
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "SydneyCabramatta",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                919.12,
+                504.77
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.733,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivitySydneyCabramattaBakery",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                548.44,
+                507.52
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.737,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                795.79,
+                427.64
+              ],
+              "world_height": 118,
+              "act": "cut",
+              "z": 0.621,
+              "seat": false,
+              "appearance": {
+                "wear": "blouse",
+                "cut": "tied",
+                "face": ""
+              },
+              "clip_row": 18
+            },
+            {
+              "world_at": [
+                354.83,
+                507.52
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.737,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "bob"
+              }
+            }
+          ],
+          "cam": [
+            0.55,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true
+        }
+      ]
+    },
+    "read": {
+      "staging": {
+        "bg_scene": "SydneyCabramatta",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              961.15,
+              504.77
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.733,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.8,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "queue": {
+      "staging": {
+        "bg_scene": "ActivitySydneyCabramattaBakery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              548.44,
+              507.52
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.737,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              795.79,
+              427.64
+            ],
+            "world_height": 118,
+            "act": "cut",
+            "z": 0.621,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          },
+          {
+            "world_at": [
+              354.83,
+              507.52
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.737,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "bob"
+            }
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "point": {
+      "staging": {
+        "bg_scene": "ActivitySydneyCabramattaBakery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "banh_mi",
+        "cast": [
+          {
+            "world_at": [
+              823.35,
+              514.41
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.747,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              795.79,
+              427.64
+            ],
+            "world_height": 118,
+            "act": "hand_over",
+            "z": 0.621,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0,
+        "handheld_scale": 0.6
+      },
+      "shots": []
+    },
+    "copy": {
+      "staging": {
+        "bg_scene": "ActivitySydneyCabramattaBakery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "banh_mi",
+        "cast": [
+          {
+            "world_at": [
+              823.35,
+              514.41
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.747,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              795.79,
+              427.64
+            ],
+            "world_height": 118,
+            "act": "nod",
+            "z": 0.621,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "tied",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0,
+        "handheld_scale": 0.6
+      },
+      "shots": []
+    }
+  },
+  "toronto:downtown": {
+    "stop": {
+      "staging": {
+        "bg_scene": "ActivityTorontoStreetcarStop",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              572.56,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              723.44,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              432.69,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "TorontoDowntown",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                540.17,
+                550.9
+              ],
+              "world_height": 118,
+              "act": "look_up",
+              "z": 0.8,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivityTorontoStreetcarStop",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                572.56,
+                563.99
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.819,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                723.44,
+                563.99
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.819,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                432.69,
+                563.99
+              ],
+              "world_height": 118,
+              "act": "queue",
+              "z": 0.819,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivityTorontoStreetcarInterior",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                574.62,
+                578.45
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.84,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                363.1,
+                437.97
+              ],
+              "world_height": 118,
+              "act": "sit",
+              "z": 0.636,
+              "seat": false,
+              "appearance": {},
+              "seated": true,
+              "clip_row": 90
+            },
+            {
+              "world_at": [
+                797.86,
+                437.97
+              ],
+              "world_height": 118,
+              "act": "sit",
+              "z": 0.636,
+              "seat": false,
+              "appearance": {},
+              "seated": true,
+              "clip_row": 90
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        }
+      ]
+    },
+    "watched": {
+      "staging": {
+        "bg_scene": "ActivityTorontoStreetcarStop",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              572.56,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              723.44,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              432.69,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "queue",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "thanked": {
+      "staging": {
+        "bg_scene": "ActivityTorontoStreetcarInterior",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              875.02,
+              578.45
+            ],
+            "world_height": 118,
+            "act": "wave",
+            "z": 0.84,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              363.1,
+              437.97
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.636,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              797.86,
+              437.97
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.636,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.69,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "on": {
+      "staging": {
+        "bg_scene": "ActivityTorontoStreetcarInterior",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              875.02,
+              578.45
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.84,
+            "seat": false,
+            "appearance": {},
+            "motion_path": {
+              "to": [
+                985.26,
+                513.03
+              ],
+              "secs": 2.8,
+              "delay": 0.25,
+              "pose": "walk"
+            }
+          },
+          {
+            "world_at": [
+              363.1,
+              437.97
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.636,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          },
+          {
+            "world_at": [
+              797.86,
+              437.97
+            ],
+            "world_height": 118,
+            "act": "sit",
+            "z": 0.636,
+            "seat": false,
+            "appearance": {},
+            "seated": true,
+            "clip_row": 90
+          }
+        ],
+        "cam": [
+          0.69,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  },
+  "toronto:kensington": {
+    "street": {
+      "staging": {
+        "bg_scene": "TorontoKensington",
+        "set": "courtyard",
+        "object": "",
+        "prop": "bag",
+        "cast": [
+          {
+            "world_at": [
+              418.91,
+              515.09
+            ],
+            "world_height": 118,
+            "act": "reach",
+            "z": 0.748,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              655.92,
+              515.78
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.749,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.41,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": [
+        {
+          "bg_scene": "TorontoKensington",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                418.91,
+                515.09
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.748,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "TorontoKensington",
+          "set": "courtyard",
+          "object": "",
+          "prop": "bag",
+          "cast": [
+            {
+              "world_at": [
+                418.91,
+                515.09
+              ],
+              "world_height": 118,
+              "act": "reach",
+              "z": 0.748,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                655.92,
+                515.78
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.749,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.41,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "prop_holder": 0
+        }
+      ]
+    },
+    "paid": {
+      "staging": {
+        "bg_scene": "ActivityTorontoMarketRoom",
+        "set": "courtyard",
+        "object": "",
+        "prop": "bag",
+        "cast": [
+          {
+            "world_at": [
+              730.33,
+              528.18
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.767,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              725.51,
+              375.3
+            ],
+            "world_height": 118,
+            "act": "count",
+            "z": 0.545,
+            "seat": false,
+            "appearance": {
+              "wear": "blouse",
+              "cut": "bob",
+              "face": ""
+            },
+            "clip_row": 18
+          }
+        ],
+        "cam": [
+          0.62,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "waited": {
+      "staging": {
+        "bg_scene": "TorontoKensington",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              418.91,
+              515.09
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.748,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              655.92,
+              515.78
+            ],
+            "world_height": 118,
+            "act": "walk_away",
+            "z": 0.749,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.41,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    }
+  },
+  "toronto:gerrard": {
+    "window": {
+      "staging": {
+        "bg_scene": "ActivityTorontoFabricShop",
+        "set": "courtyard",
+        "object": "fabric_unroll",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              414.09,
+              579.83
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.842,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              717.24,
+              571.56
+            ],
+            "world_height": 118,
+            "act": "unroll_cloth",
+            "z": 0.83,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            }
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          584.27,
+          581.89
+        ],
+        "object_world_unit": 2.9,
+        "object_foreground": true
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivityTorontoFabricShop",
+          "set": "courtyard",
+          "object": "fabric_unroll",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                414.09,
+                579.83
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.842,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                717.24,
+                571.56
+              ],
+              "world_height": 118,
+              "act": "unroll_cloth",
+              "z": 0.83,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              }
+            }
+          ],
+          "cam": [
+            0.51,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "object_world_at": [
+            584.27,
+            581.89
+          ],
+          "object_world_unit": 2.9,
+          "object_foreground": true
+        },
+        {
+          "bg_scene": "ActivityTorontoFabricShop",
+          "set": "courtyard",
+          "object": "fabric_unroll",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                414.09,
+                579.83
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.842,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                717.24,
+                571.56
+              ],
+              "world_height": 118,
+              "act": "unroll_cloth",
+              "z": 0.83,
+              "seat": false,
+              "appearance": {
+                "wear": "shirt",
+                "cut": "crop",
+                "face": ""
+              }
+            }
+          ],
+          "cam": [
+            0.51,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "object_world_at": [
+            584.27,
+            581.89
+          ],
+          "object_world_unit": 2.9,
+          "object_foreground": true
+        }
+      ]
+    },
+    "stayed": {
+      "staging": {
+        "bg_scene": "ActivityTorontoFabricShop",
+        "set": "courtyard",
+        "object": "fabric_unroll",
+        "prop": "glass",
+        "cast": [
+          {
+            "world_at": [
+              414.09,
+              579.83
+            ],
+            "world_height": 118,
+            "act": "drink",
+            "z": 0.842,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              717.24,
+              571.56
+            ],
+            "world_height": 118,
+            "act": "unroll_cloth",
+            "z": 0.83,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            }
+          },
+          {
+            "world_at": [
+              863.31,
+              576.38
+            ],
+            "world_height": 118,
+            "act": "point",
+            "z": 0.837,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          584.27,
+          581.89
+        ],
+        "object_world_unit": 2.9,
+        "object_foreground": true,
+        "prop_holder": 0
+      },
+      "shots": []
+    },
+    "stopped": {
+      "staging": {
+        "bg_scene": "ActivityTorontoFabricShop",
+        "set": "courtyard",
+        "object": "fabric_folded",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              414.09,
+              579.83
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.842,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              717.24,
+              571.56
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.83,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            }
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          584.27,
+          581.89
+        ],
+        "object_world_unit": 2.9,
+        "object_foreground": true
+      },
+      "shots": []
+    },
+    "bought": {
+      "staging": {
+        "bg_scene": "ActivityTorontoFabricShop",
+        "set": "courtyard",
+        "object": "fabric_folded",
+        "prop": "fabric_roll",
+        "cast": [
+          {
+            "world_at": [
+              414.09,
+              579.83
+            ],
+            "world_height": 118,
+            "act": "take",
+            "z": 0.842,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              717.24,
+              571.56
+            ],
+            "world_height": 118,
+            "act": "hand_over",
+            "z": 0.83,
+            "seat": false,
+            "appearance": {
+              "wear": "shirt",
+              "cut": "crop",
+              "face": ""
+            }
+          }
+        ],
+        "cam": [
+          0.51,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          584.27,
+          581.89
+        ],
+        "object_world_unit": 2.9,
+        "object_foreground": true,
+        "prop_holder": 0,
+        "handheld_scale": 0.65
+      },
+      "shots": []
+    }
+  },
+  "toronto:distillery": {
+    "lane": {
+      "staging": {
+        "bg_scene": "TorontoDistillery",
+        "set": "courtyard",
+        "object": "copperpot",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              523.64,
+              557.79
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.81,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              737.22,
+              548.15
+            ],
+            "world_height": 118,
+            "act": "offer",
+            "z": 0.796,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          638.01,
+          569.5
+        ],
+        "object_world_unit": 2.5
+      },
+      "shots": [
+        {
+          "bg_scene": "TorontoDistillery",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                458.18,
+                530.24
+              ],
+              "world_height": 118,
+              "act": "walk",
+              "z": 0.77,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "TorontoDistillery",
+          "set": "courtyard",
+          "object": "copperpot",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                523.64,
+                557.79
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.81,
+              "seat": false,
+              "appearance": {}
+            },
+            {
+              "world_at": [
+                737.22,
+                548.15
+              ],
+              "world_height": 118,
+              "act": "offer",
+              "z": 0.796,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.55,
+            475
+          ],
+          "cam_y": 410,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": false,
+          "authored_plate": true,
+          "object_world_at": [
+            638.01,
+            569.5
+          ],
+          "object_world_unit": 2.5
+        }
+      ]
+    },
+    "walked": {
+      "staging": {
+        "bg_scene": "TorontoDistillery",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              458.18,
+              530.24
+            ],
+            "world_height": 118,
+            "act": "walk",
+            "z": 0.77,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "pot": {
+      "staging": {
+        "bg_scene": "TorontoDistillery",
+        "set": "courtyard",
+        "object": "copperpot",
+        "prop": "cider",
+        "cast": [
+          {
+            "world_at": [
+              523.64,
+              557.79
+            ],
+            "world_height": 118,
+            "act": "drink",
+            "z": 0.81,
+            "seat": false,
+            "appearance": {}
+          },
+          {
+            "world_at": [
+              737.22,
+              548.15
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.796,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.55,
+          475
+        ],
+        "cam_y": 410,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": false,
+        "authored_plate": true,
+        "object_world_at": [
+          638.01,
+          569.5
+        ],
+        "object_world_unit": 2.5,
+        "prop_holder": 0
+      },
+      "shots": []
+    }
+  },
+  "toronto:scarborough": {
+    "top": {
+      "staging": {
+        "bg_scene": "ActivityTorontoBluffsTop",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              634.56,
+              560.54
+            ],
+            "world_height": 118,
+            "act": "recoil",
+            "z": 0.814,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": [
+        {
+          "bg_scene": "ActivityTorontoBluffsTop",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                482.3,
+                563.3
+              ],
+              "world_height": 118,
+              "act": "watch",
+              "z": 0.818,
+              "seat": false,
+              "appearance": {},
+              "motion_path": {
+                "to": [
+                  591.16,
+                  563.3
+                ],
+                "secs": 2.8,
+                "delay": 0.25,
+                "pose": "walk"
+              }
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        },
+        {
+          "bg_scene": "ActivityTorontoBluffsTop",
+          "set": "courtyard",
+          "object": "",
+          "prop": "",
+          "cast": [
+            {
+              "world_at": [
+                634.56,
+                560.54
+              ],
+              "world_height": 118,
+              "act": "recoil",
+              "z": 0.814,
+              "seat": false,
+              "appearance": {}
+            }
+          ],
+          "cam": [
+            0.5,
+            648
+          ],
+          "cam_y": 324,
+          "ground": [
+            0.8,
+            0.94
+          ],
+          "full_plate": true,
+          "authored_plate": true
+        }
+      ]
+    },
+    "read": {
+      "staging": {
+        "bg_scene": "ActivityTorontoBluffsTop",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              771.67,
+              563.99
+            ],
+            "world_height": 118,
+            "act": "look_up",
+            "z": 0.819,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "edge": {
+      "staging": {
+        "bg_scene": "ActivityTorontoBluffsTop",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              634.56,
+              560.54
+            ],
+            "world_height": 118,
+            "act": "recoil",
+            "z": 0.814,
+            "seat": false,
+            "appearance": {},
+            "motion_path": {
+              "to": [
+                541.55,
+                566.74
+              ],
+              "secs": 2.8,
+              "delay": 0.25,
+              "pose": "walk"
+            }
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    },
+    "down": {
+      "staging": {
+        "bg_scene": "ActivityTorontoBluffsBeach",
+        "set": "courtyard",
+        "object": "",
+        "prop": "",
+        "cast": [
+          {
+            "world_at": [
+              585.65,
+              586.71
+            ],
+            "world_height": 118,
+            "act": "watch",
+            "z": 0.852,
+            "seat": false,
+            "appearance": {}
+          }
+        ],
+        "cam": [
+          0.5,
+          648
+        ],
+        "cam_y": 324,
+        "ground": [
+          0.8,
+          0.94
+        ],
+        "full_plate": true,
+        "authored_plate": true
+      },
+      "shots": []
+    }
+  }
+}

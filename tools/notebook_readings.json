@@ -1,0 +1,18 @@
+{
+  "_about": "Native-script recording inputs for romanised notebook keys. Display spelling is unchanged. Matched to authored story TTS and object contexts; native listening review remains pending.",
+  "russian": {
+    "bilet":"билет", "dengi":"деньги", "posylka":"посылка", "paket":"пакет", "lotok":"лоток", "amulet":"амулет", "khleb":"хлеб", "syr":"сыр", "karta":"карта", "klyuch":"ключ", "znachok":"значок",
+    "pochinit":"починить", "zastezhka":"застёжка", "sokhranit":"сохранить", "lichnoye":"личное", "izvini":"извини", "medlenneye":"медленнее", "udobneye":"удобнее", "mozhno":"можно", "vmeste":"вместе", "vnutri":"внутри", "varenye":"варенье", "bez":"без", "spasibo":"спасибо", "skolko":"сколько", "dorogo":"дорого", "zhiv":"жив", "pesnya":"песня", "platok":"платок", "khram":"храм", "stolovaya":"столовая", "eto":"это", "remont":"ремонт"
+  },
+  "hindi": {
+    "tikat":"टिकट", "paisa":"पैसा", "parcel":"पार्सल", "thaila":"थैला", "tashtari":"तश्तरी", "nazar":"नज़र", "pav":"पाव", "paneer":"पनीर", "naksha":"नक्शा", "chaabi":"चाबी", "peetal":"पीतल", "saaman":"सामान", "batti":"बत्ती",
+    "dheere":"धीरे", "raasta":"रास्ता", "yahaan":"यहाँ", "baad":"बाद", "abhi":"अभी", "poochh":"पूछ", "theek":"ठीक", "kursi":"कुर्सी", "dhanyavaad":"धन्यवाद", "poochhna":"पूछना", "thoda":"थोड़ा", "kitna":"कितना", "nahi":"नहीं", "mannat":"मन्नत", "diya":"दीया", "kaam":"काम", "sheher":"शहर", "dana":"दाना", "kabutar":"कबूतर"
+  },
+  "japanese": {
+    "kippu":"切符", "okane":"お金", "kozutsumi":"小包", "fukuro":"袋", "toray":"トレイ", "omamori":"お守り", "pan":"パン", "chizu":"地図", "chiizu":"チーズ", "kagi":"鍵", "hako":"箱", "menchi katsu":"メンチカツ", "hon":"本", "omikuji":"おみくじ",
+    "mochiyasui":"持ちやすい", "misete":"見せて", "daijoubu":"大丈夫", "irimasu":"要ります", "mama":"まま", "negai":"願い", "jikan":"時間", "hikui":"低い", "jibun":"自分", "musunde":"結んで", "yonde":"読んで", "mata":"また", "kaminarimon":"雷門", "omairi":"お参り", "kyo":"凶", "musubu":"結ぶ", "yasui":"安い", "sen":"千", "noren":"のれん", "aitemasu":"空いてます", "atsui":"熱い", "tabearuki":"食べ歩き", "kita":"北"
+  },
+  "german": {"kase":"Käse"},
+  "turkish": {"oda karti":"oda kartı", "nazar boncugu":"nazar boncuğu", "cay":"çay"},
+  "french": {"cle":"clé", "oeil":"œil", "voila":"voilà"}
+}

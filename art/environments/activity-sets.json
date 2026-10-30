@@ -1,0 +1,93 @@
+{
+  "hanoi-badinh": {
+    "texture": "res://art/environments/activities/hanoi-badinh.png",
+    "source": [
+      0,
+      0,
+      1956,
+      804
+    ],
+    "ground": [
+      0.83,
+      0.96
+    ]
+  },
+  "hanoi-dongda": {
+    "texture": "res://art/environments/activities/hanoi-dongda.png",
+    "source": [
+      0,
+      0,
+      1956,
+      804
+    ],
+    "ground": [
+      0.83,
+      0.96
+    ]
+  },
+  "zurich-oerlikon": {
+    "texture": "res://art/environments/activities/zurich-oerlikon.png",
+    "source": [
+      0,
+      0,
+      1956,
+      804
+    ],
+    "ground": [
+      0.83,
+      0.96
+    ]
+  },
+  "dakar-ouakam": {
+    "texture": "res://art/environments/activities/dakar-ouakam.png",
+    "source": [
+      0,
+      0,
+      1959,
+      803
+    ],
+    "ground": [
+      0.83,
+      0.96
+    ]
+  },
+  "tbilisi-avlabari": {
+    "texture": "res://art/environments/activities/tbilisi-avlabari.png",
+    "source": [
+      0,
+      0,
+      1956,
+      804
+    ],
+    "ground": [
+      0.83,
+      0.96
+    ]
+  },
+  "hanoi-pagoda": {
+    "texture": "res://art/environments/activities/hanoi-pagoda.png",
+    "source": [
+      0,
+      0,
+      1960,
+      802
+    ],
+    "ground": [
+      0.86,
+      0.97
+    ]
+  },
+  "tbilisi-bath": {
+    "texture": "res://art/environments/activities/tbilisi-bath.png",
+    "source": [
+      0,
+      0,
+      1957,
+      804
+    ],
+    "ground": [
+      0.91,
+      0.99
+    ]
+  }
+}

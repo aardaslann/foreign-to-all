@@ -1,0 +1,1768 @@
+{
+	"words": [
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "fahrkarte"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "ticket"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "bilet"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "ticket"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "bilet"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "boleto"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kippu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "tikat"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "geld"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "money"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "para"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "argent"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "dengi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "dinero"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "okane"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "paisa"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "paket"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "parcel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "paket"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "colis"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "posylka"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "paquete"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kozutsumi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "parcel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "beutel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "bag"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "torba"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "sachet"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "paket"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "bolsa"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "fukuro"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "thaila"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "schale"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "dish"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "kase"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "cuvette"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "lotok"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "riñonera"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "toray"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "tashtari"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "nazar"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "eye charm"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "nazar boncugu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "oeil"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "amulet"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "ojo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "omamori"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "nazar"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "brot"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "bread"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "ekmek"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "pain"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "khleb"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "pan"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "pan"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "pav"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kase"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "cheese"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "peynir"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "fromage"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "syr"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "queso"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "chiizu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "paneer"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "karte"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "map"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "harita"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "plan"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "karta"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "mapa"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "chizu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "naksha"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "zimmerkarte"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "room key"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "oda karti"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "cle"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "klyuch"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "llave"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kagi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "chaabi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "hako"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "apfel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "arepa"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "bacon egg and cheese"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "peetal"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "saaman"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "cider"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "cloth"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "coat"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "falafel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "lei"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "menchi katsu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "hon"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "omikuji"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "portrait"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "shave ice"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "simit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "znachok"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "spray can"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "tomaten"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "tostada"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "porte-cle"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "istanbulkart"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "batti"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "danke"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "anfassen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "hoch"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "icke"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "lesen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "pfand"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kerstin"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "neue"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "setz"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "morgen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "wieder"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kaffee"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "seit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "russisch"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "mauer"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "du"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "woche"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "tüte"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "bring"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kollwitzplatz"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "von"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "soll"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "wem"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "knie"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "treppen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "samstag"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "duzen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "emil"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kommste"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "mit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "wiesn"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "stuhl"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "buyurun"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "su"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "açık"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "çay"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "demli"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "buraya"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "askıda"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "izin"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "dakika"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "bekleyebilir"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "tepsi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "misafir"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "bayram"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "kutlu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "yardım"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "give me a hand"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "the usual"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "fine"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "not tonight"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "a bit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "a bit further back"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "if you want"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "would you mind"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "esa"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "taza"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "dónde"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "cempasúchil"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "mejor"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "recuerdo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "fuera"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "nombre"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "quedas"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "tapar"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "acuerdes"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "pochinit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "zastezhka"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "sokhranit"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "lichnoye"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "izvini"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "medlenneye"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "udobneye"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "mozhno"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "vmeste"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "vnutri"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "varenye"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "bez"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "spasibo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "dheere"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "raasta"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "yahaan"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "baad"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "abhi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "poochh"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "theek"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "kursi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "dhanyavaad"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "poochhna"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "thoda"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "bonjour"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "heure"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "après"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "chaise"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "merci"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "ça va"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "appel"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "temps"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "combien"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "peut-être"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "place"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "avec"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "nom"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "encore"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "fois"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "mochiyasui"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "misete"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "daijoubu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "irimasu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "mama"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "negai"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "jikan"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "hikui"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "jibun"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "musunde"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "yonde"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "mata"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kaminarimon"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "omairi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kyo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "musubu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "yasui"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "sen"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "noren"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "aitemasu"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "kitna"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "nahi"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "mannat"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "diya"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "kaam"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "sheher"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "skolko"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "dorogo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "zhiv"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "pesnya"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "platok"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "khram"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "tramvay"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "yol"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "cay"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "ince"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "bir"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "iki"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "han"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "buyrun"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "teşekkür"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "kart"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "vapur"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "geçiş"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "pelouse"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "soir"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "voila"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "permis"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "vue"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "colline"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "arche"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "french",
+			"review": "pending",
+			"word": "axe"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "späti"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "feierabend"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "flasche"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "verschenken"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "markt"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "kilo"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "german",
+			"review": "pending",
+			"word": "stoff"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "kumaş"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "turkish",
+			"review": "pending",
+			"word": "pazar"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "round"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "yours"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "endz"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "safe"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "recycling"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "collection"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "charity"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "donation"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "automatic"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "carriage"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "platform"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "english",
+			"review": "pending",
+			"word": "doors"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "dana"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "hindi",
+			"review": "pending",
+			"word": "kabutar"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "atsui"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "tabearuki"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "japanese",
+			"review": "pending",
+			"word": "kita"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "golpe"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "aguas"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "organillero"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "spanish_mx",
+			"review": "pending",
+			"word": "propina"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "stolovaya"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "eto"
+		},
+		{
+			"context": "a word the story teaches",
+			"language": "russian",
+			"review": "pending",
+			"word": "remont"
+		}
+	]
+}

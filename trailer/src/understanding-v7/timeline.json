@@ -1,0 +1,460 @@
+{
+  "_": "Foreign to All - Understanding, revision 7. Every time is in seconds of the final film. The opening (sonder, the shutter, two seconds of black) is revision 5's exactly; the score comes in after the black, on the first picture, and every scene starts on one of its bars (6.25 s, from 11.5 s). build_audio.py reads this, composes and mixes the soundtrack and writes generated.json (voice lengths, typed-bubble keystrokes, firework bursts) for the picture.",
+  "fps": 30,
+  "duration": 126.0,
+  "story_at": 11.5,
+  "bar": 6.25,
+  "scenes": {
+    "sonder": [
+      0,
+      9.5
+    ],
+    "black": [
+      9.5,
+      11.5
+    ],
+    "arrival": [
+      11.5,
+      24.0
+    ],
+    "unfamiliar": [
+      24.0,
+      30.25
+    ],
+    "brot": [
+      30.25,
+      36.5
+    ],
+    "journal": [
+      36.5,
+      42.75
+    ],
+    "bitte": [
+      42.75,
+      49.0
+    ],
+    "london": [
+      49.0,
+      61.5
+    ],
+    "istanbul": [
+      61.5,
+      70.875
+    ],
+    "tokyo": [
+      70.875,
+      80.25
+    ],
+    "stereotype": [
+      80.25,
+      92.75
+    ],
+    "people": [
+      92.75,
+      102.125
+    ],
+    "invitation": [
+      102.125,
+      108.375
+    ],
+    "bench": [
+      108.375,
+      126.0
+    ]
+  },
+  "arrival": {
+    "rooftops": 14.6,
+    "kiez": 17.75
+  },
+  "captions": [
+    {
+      "at": 18.5,
+      "until": 23.6,
+      "text": "You arrive on Earth\nwith nothing but questions."
+    },
+    {
+      "at": 24.6,
+      "until": 29.8,
+      "text": "Unfamiliar words.\nUnwritten rules."
+    },
+    {
+      "at": 33.4,
+      "until": 36.2,
+      "text": "A word begins a conversation."
+    },
+    {
+      "at": 37.0,
+      "until": 42.4,
+      "text": "Listen. Notice. Try."
+    },
+    {
+      "at": 57.3,
+      "until": 61.2,
+      "text": "Knowing the words\nis only the beginning."
+    },
+    {
+      "at": 65.0,
+      "until": 70.5,
+      "text": "A cup of tea.\nA way of welcoming you."
+    },
+    {
+      "at": 71.4,
+      "until": 75.0,
+      "text": "Share in the traditions."
+    },
+    {
+      "at": 75.5,
+      "until": 79.9,
+      "text": "Discover the stories\nthey carry."
+    },
+    {
+      "at": 81.0,
+      "until": 85.7,
+      "text": "A stereotype reduces\na person to a label."
+    },
+    {
+      "at": 87.4,
+      "until": 92.4,
+      "text": "Get to know what\nit leaves out."
+    },
+    {
+      "at": 109.6,
+      "until": 113.5,
+      "text": "You may still be foreign."
+    },
+    {
+      "at": 113.95,
+      "until": 117.4,
+      "text": "But you can still\nunderstand."
+    }
+  ],
+  "voices": [
+    {
+      "id": "crowd-a",
+      "line": "chatter:german|Kalt heute.",
+      "at": 25.1,
+      "gain": -7
+    },
+    {
+      "id": "crowd-b",
+      "line": "chatter:german|Der Bus kommt nicht.",
+      "at": 26.7,
+      "gain": -7
+    },
+    {
+      "id": "lukas-brot",
+      "line": "lines:lukas|Ich habe auch heute frisches Brot.",
+      "at": 30.9,
+      "gain": 0
+    },
+    {
+      "id": "lukas-word",
+      "line": "lines:lukas|Ich habe auch heute frisches Brot.",
+      "last_word": true,
+      "at": 38.75,
+      "gain": 3
+    },
+    {
+      "id": "lukas-morgen",
+      "line": "lines:lukas|Guten Morgen! Kann ich Ihnen helfen?",
+      "at": 43.2,
+      "gain": 0
+    },
+    {
+      "id": "nadia-alright",
+      "file": "../understanding-v6/voice/nadia-alright.mp3",
+      "at": 50.3,
+      "gain": 0
+    },
+    {
+      "id": "nadia-hello",
+      "file": "../understanding-v6/voice/nadia-hello.mp3",
+      "at": 54.95,
+      "gain": 0
+    },
+    {
+      "id": "arda-buyurun",
+      "line": "lines:arda|Buyurun. Çay?",
+      "at": 62.4,
+      "gain": 0
+    },
+    {
+      "id": "setsuko-tanabata",
+      "line": "lines:setsuko|Tanabata da yo. Issho ni.",
+      "at": 71.7,
+      "gain": 0
+    },
+    {
+      "id": "nadia-coming",
+      "file": "../understanding-v6/voice/nadia-coming.mp3",
+      "at": 103.0,
+      "gain": 0
+    }
+  ],
+  "typed": [
+    {
+      "id": "ask",
+      "text": "Brot, bitte?",
+      "at": 45.75,
+      "cps": 11
+    },
+    {
+      "id": "crashed",
+      "text": "My ship crashed. I'm quite far from home.",
+      "at": 51.6,
+      "cps": 16
+    }
+  ],
+  "sfx": [
+    {
+      "kind": "landing",
+      "at": 17.55,
+      "gain": -16
+    },
+    {
+      "kind": "bell",
+      "at": 28.4,
+      "gain": -19
+    },
+    {
+      "kind": "decode",
+      "at": 32.55,
+      "gain": -21
+    },
+    {
+      "kind": "page",
+      "at": 36.6,
+      "gain": -21
+    },
+    {
+      "kind": "chime",
+      "at": 38.2,
+      "gain": -20
+    },
+    {
+      "kind": "decode",
+      "at": 63.25,
+      "gain": -22
+    },
+    {
+      "kind": "decode",
+      "at": 72.15,
+      "gain": -22
+    },
+    {
+      "kind": "chime",
+      "at": 76.6,
+      "gain": -22
+    },
+    {
+      "kind": "paper",
+      "at": 81.0,
+      "gain": -22
+    },
+    {
+      "kind": "paper",
+      "at": 86.0,
+      "gain": -20
+    },
+    {
+      "kind": "chime",
+      "at": 86.6,
+      "gain": -21
+    }
+  ],
+  "fireworks": {
+    "times": [
+      109.2,
+      110.4,
+      111.5,
+      112.85,
+      113.95,
+      115.05,
+      116.2,
+      117.0,
+      117.75,
+      118.6,
+      119.4,
+      120.15,
+      121.0,
+      121.4,
+      122.3,
+      122.9,
+      123.8
+    ],
+    "big": [
+      111.5,
+      113.95,
+      117.75,
+      121.4
+    ],
+    "seed": 2507
+  },
+  "score": {
+    "_": "Revision 5's piano, re-scored to this cut: the instrument of src/connection/build_audio.py, its D minor to F major progression in 6/8, composed at the original 5 s bar and slowed to 80% exactly as revisions 4 and 5 were. Bars in film seconds start at story_at + k * bar.",
+    "chords": [
+      "Dm",
+      "Bb",
+      "F",
+      "C",
+      "Dm",
+      "Bb",
+      "F",
+      "C",
+      "Dm",
+      "Bb",
+      "F",
+      "Gm",
+      "F",
+      "C",
+      "Dm",
+      "Bb",
+      "C",
+      "F"
+    ],
+    "velocity": [
+      0.3,
+      0.31,
+      0.33,
+      0.37,
+      0.36,
+      0.39,
+      0.41,
+      0.42,
+      0.45,
+      0.46,
+      0.48,
+      0.4,
+      0.44,
+      0.5,
+      0.47,
+      0.52,
+      0.58,
+      0.55
+    ],
+    "sparse_until_bar": 3,
+    "pad": [
+      0,
+      0,
+      0,
+      0,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.65,
+      0.75,
+      1.0,
+      1.0,
+      1.1,
+      1.2,
+      1.2
+    ],
+    "melody": [
+      {
+        "at": 20.0,
+        "notes": [
+          74,
+          72,
+          69
+        ]
+      },
+      {
+        "at": 32.5,
+        "notes": [
+          69,
+          72,
+          74
+        ]
+      },
+      {
+        "at": 53.2,
+        "notes": [
+          69,
+          67,
+          65
+        ]
+      },
+      {
+        "at": 63.3,
+        "notes": [
+          74,
+          72,
+          69
+        ]
+      },
+      {
+        "at": 72.2,
+        "notes": [
+          72,
+          74,
+          77
+        ]
+      },
+      {
+        "at": 86.7,
+        "notes": [
+          72,
+          74,
+          77
+        ]
+      },
+      {
+        "at": 96.0,
+        "notes": [
+          77,
+          76,
+          72,
+          69
+        ]
+      },
+      {
+        "at": 103.1,
+        "notes": [
+          72,
+          74,
+          77
+        ]
+      },
+      {
+        "at": 109.6,
+        "notes": [
+          77,
+          76,
+          72,
+          69
+        ]
+      },
+      {
+        "at": 114.0,
+        "notes": [
+          72,
+          74,
+          77,
+          79
+        ]
+      },
+      {
+        "at": 119.0,
+        "notes": [
+          72,
+          69,
+          65
+        ]
+      }
+    ],
+    "fade": [
+      124.4,
+      126.0
+    ]
+  },
+  "master": {
+    "lufs": -16,
+    "true_peak": -1.0,
+    "duck_db": -5,
+    "voice_lufs": -18
+  }
+}

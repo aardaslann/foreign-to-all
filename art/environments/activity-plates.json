@@ -1,0 +1,172 @@
+{
+  "ActivityFerryDeck": {
+    "city": "istanbul",
+    "texture": "res://art/environments/activities/istanbul-ferry-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "floor": 455,
+    "pixel_art": true,
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          83,
+          273,
+          975,
+          17
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          89,
+          321,
+          162,
+          26
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          268,
+          321,
+          185,
+          26
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          471,
+          321,
+          198,
+          26
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          686,
+          321,
+          193,
+          26
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          897,
+          321,
+          169,
+          26
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          90,
+          359,
+          162,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          268,
+          359,
+          185,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          471,
+          359,
+          198,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          686,
+          359,
+          193,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          897,
+          359,
+          169,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          90,
+          407,
+          162,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          268,
+          407,
+          185,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          471,
+          407,
+          198,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          686,
+          407,
+          193,
+          31
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          897,
+          407,
+          169,
+          31
+        ]
+      }
+    ]
+  },
+  "ActivityBerlinSpati": {
+    "city": "berlin",
+    "texture": "res://art/environments/activities/berlin-spati-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "floor": 470,
+    "pixel_art": true
+  }
+}

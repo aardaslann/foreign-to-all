@@ -1,0 +1,13 @@
+{
+  "black_frames_max_rgb": {
+    "12.5": 0,
+    "13": 0,
+    "13.9": 0
+  },
+  "music_onset_seconds": 14.011416666666667,
+  "silence_after_click": "12.6 to 14.0 seconds",
+  "dialogue_lines": 8,
+  "narrator_lines": 0,
+  "picture": "1920x1080 / 30 fps",
+  "decode": "passed"
+}

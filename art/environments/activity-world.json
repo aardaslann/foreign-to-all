@@ -1,0 +1,6632 @@
+{
+  "places": {
+    "ActivityBerlinSpati": {
+      "city": "berlin",
+      "region": "mitte",
+      "title": "The Späti",
+      "parent": "res://scenes/world/Mitte.tscn",
+      "ambience": "interior",
+      "action": [
+        799.23,
+        537.13
+      ],
+      "geometry": {
+        "floor": 440.72,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "counter_register_and_crate",
+            "sort_y": 485.48,
+            "footprints": [
+              [
+                637.32,
+                413.18,
+                410.64,
+                72.31
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  637.32,
+                  327.1
+                ],
+                [
+                  669.01,
+                  327.1
+                ],
+                [
+                  669.01,
+                  295.42
+                ],
+                [
+                  689.68,
+                  295.42
+                ],
+                [
+                  689.68,
+                  257.55
+                ],
+                [
+                  732.4,
+                  257.55
+                ],
+                [
+                  732.4,
+                  283.72
+                ],
+                [
+                  762.72,
+                  289.22
+                ],
+                [
+                  770.3,
+                  325.72
+                ],
+                [
+                  901.21,
+                  325.72
+                ],
+                [
+                  902.58,
+                  278.89
+                ],
+                [
+                  1032.8,
+                  278.89
+                ],
+                [
+                  1032.8,
+                  327.1
+                ],
+                [
+                  1047.96,
+                  327.1
+                ],
+                [
+                  1047.96,
+                  485.48
+                ],
+                [
+                  637.32,
+                  485.48
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_shelves",
+            "sort_y": 502.7,
+            "footprints": [
+              [
+                1063.12,
+                0.0,
+                88.88,
+                502.7
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/Mitte.tscn",
+          "at": [
+            117.13,
+            480.66
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "Rika",
+          "feet": [
+            833.68,
+            330.54
+          ],
+          "appearance": {
+            "wear": "shopcoat",
+            "cut": "crop",
+            "build": "adult",
+            "face": "",
+            "pal": {
+              "C": "#736546",
+              "D": "#51462f",
+              "R": "#3b302b"
+            }
+          }
+        }
+      ],
+      "activity_prompt": "Talk with Rika at the counter"
+    },
+    "ActivityFerryDeck": {
+      "city": "istanbul",
+      "region": "kadikoy",
+      "title": "The ferry deck",
+      "parent": "res://scenes/world/IstanbulKadikoy.tscn",
+      "ambience": "street",
+      "action": [
+        771.67,
+        544.02
+      ],
+      "geometry": {
+        "floor": 450.36,
+        "walk_bottom": 640,
+        "objects": [],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/IstanbulKadikoy.tscn",
+          "at": [
+            44.78,
+            526.8
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "ferry_passenger",
+          "feet": [
+            826.79,
+            488.93
+          ],
+          "appearance": {
+            "wear": "coat"
+          }
+        }
+      ],
+      "activity_prompt": "Spend time on the crossing"
+    },
+    "ActivityLondonPub": {
+      "city": "london",
+      "region": "soho",
+      "title": "The pub",
+      "parent": "res://scenes/world/LondonSoho.tscn",
+      "ambience": "interior",
+      "action": [
+        675.22,
+        523.36
+      ],
+      "geometry": {
+        "floor": 414.55,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "bar",
+            "sort_y": 447.61,
+            "footprints": [
+              [
+                474.72,
+                411.8,
+                677.28,
+                35.81
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  474.72,
+                  274.76
+                ],
+                [
+                  1152.0,
+                  274.76
+                ],
+                [
+                  1152.0,
+                  447.61
+                ],
+                [
+                  474.72,
+                  447.61
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_chair",
+            "sort_y": 452.43,
+            "footprints": [
+              [
+                196.36,
+                436.59,
+                52.36,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  190.85,
+                  321.59
+                ],
+                [
+                  254.24,
+                  321.59
+                ],
+                [
+                  254.24,
+                  402.71
+                ],
+                [
+                  190.85,
+                  402.71
+                ]
+              ],
+              [
+                [
+                  196.36,
+                  393.55
+                ],
+                [
+                  202.56,
+                  393.55
+                ],
+                [
+                  202.56,
+                  452.43
+                ],
+                [
+                  196.36,
+                  452.43
+                ]
+              ],
+              [
+                [
+                  242.53,
+                  393.55
+                ],
+                [
+                  248.73,
+                  393.55
+                ],
+                [
+                  248.73,
+                  452.43
+                ],
+                [
+                  242.53,
+                  452.43
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_chair",
+            "sort_y": 452.43,
+            "footprints": [
+              [
+                358.97,
+                436.59,
+                53.74,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  353.45,
+                  320.9
+                ],
+                [
+                  418.22,
+                  320.9
+                ],
+                [
+                  418.22,
+                  402.45
+                ],
+                [
+                  353.45,
+                  402.45
+                ]
+              ],
+              [
+                [
+                  358.97,
+                  393.24
+                ],
+                [
+                  365.17,
+                  393.24
+                ],
+                [
+                  365.17,
+                  452.43
+                ],
+                [
+                  358.97,
+                  452.43
+                ]
+              ],
+              [
+                [
+                  406.51,
+                  393.24
+                ],
+                [
+                  412.71,
+                  393.24
+                ],
+                [
+                  412.71,
+                  452.43
+                ],
+                [
+                  406.51,
+                  452.43
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "round_table",
+            "sort_y": 456.56,
+            "footprints": [
+              [
+                249.42,
+                428.33,
+                98.53,
+                28.23
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  241.15,
+                  348.45
+                ],
+                [
+                  248.04,
+                  339.49
+                ],
+                [
+                  299.02,
+                  334.67
+                ],
+                [
+                  368.61,
+                  345.0
+                ],
+                [
+                  374.12,
+                  354.64
+                ],
+                [
+                  362.41,
+                  363.6
+                ],
+                [
+                  310.05,
+                  368.42
+                ],
+                [
+                  310.05,
+                  435.21
+                ],
+                [
+                  333.47,
+                  447.61
+                ],
+                [
+                  330.72,
+                  453.81
+                ],
+                [
+                  299.71,
+                  444.17
+                ],
+                [
+                  264.57,
+                  455.18
+                ],
+                [
+                  260.44,
+                  448.3
+                ],
+                [
+                  292.13,
+                  433.84
+                ],
+                [
+                  292.13,
+                  369.11
+                ],
+                [
+                  248.73,
+                  364.28
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "stool_1110",
+            "sort_y": 453.81,
+            "footprints": [
+              [
+                770.3,
+                437.97,
+                40.65,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  764.78,
+                  358.09
+                ],
+                [
+                  816.46,
+                  358.09
+                ],
+                [
+                  816.46,
+                  417.43
+                ],
+                [
+                  764.78,
+                  417.43
+                ]
+              ],
+              [
+                [
+                  770.3,
+                  410.73
+                ],
+                [
+                  776.5,
+                  410.73
+                ],
+                [
+                  776.5,
+                  453.81
+                ],
+                [
+                  770.3,
+                  453.81
+                ]
+              ],
+              [
+                [
+                  804.75,
+                  410.73
+                ],
+                [
+                  810.95,
+                  410.73
+                ],
+                [
+                  810.95,
+                  453.81
+                ],
+                [
+                  804.75,
+                  453.81
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "stool_1240",
+            "sort_y": 453.81,
+            "footprints": [
+              [
+                859.87,
+                437.97,
+                40.65,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  854.35,
+                  358.09
+                ],
+                [
+                  906.03,
+                  358.09
+                ],
+                [
+                  906.03,
+                  417.43
+                ],
+                [
+                  854.35,
+                  417.43
+                ]
+              ],
+              [
+                [
+                  859.87,
+                  410.73
+                ],
+                [
+                  866.07,
+                  410.73
+                ],
+                [
+                  866.07,
+                  453.81
+                ],
+                [
+                  859.87,
+                  453.81
+                ]
+              ],
+              [
+                [
+                  894.32,
+                  410.73
+                ],
+                [
+                  900.52,
+                  410.73
+                ],
+                [
+                  900.52,
+                  453.81
+                ],
+                [
+                  894.32,
+                  453.81
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "stool_1367",
+            "sort_y": 453.81,
+            "footprints": [
+              [
+                947.37,
+                437.97,
+                40.65,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  941.86,
+                  358.09
+                ],
+                [
+                  993.53,
+                  358.09
+                ],
+                [
+                  993.53,
+                  417.43
+                ],
+                [
+                  941.86,
+                  417.43
+                ]
+              ],
+              [
+                [
+                  947.37,
+                  410.73
+                ],
+                [
+                  953.57,
+                  410.73
+                ],
+                [
+                  953.57,
+                  453.81
+                ],
+                [
+                  947.37,
+                  453.81
+                ]
+              ],
+              [
+                [
+                  981.82,
+                  410.73
+                ],
+                [
+                  988.02,
+                  410.73
+                ],
+                [
+                  988.02,
+                  453.81
+                ],
+                [
+                  981.82,
+                  453.81
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "stool_1497",
+            "sort_y": 453.81,
+            "footprints": [
+              [
+                1036.94,
+                437.97,
+                40.65,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1031.43,
+                  358.09
+                ],
+                [
+                  1083.1,
+                  358.09
+                ],
+                [
+                  1083.1,
+                  417.43
+                ],
+                [
+                  1031.43,
+                  417.43
+                ]
+              ],
+              [
+                [
+                  1036.94,
+                  410.73
+                ],
+                [
+                  1043.14,
+                  410.73
+                ],
+                [
+                  1043.14,
+                  453.81
+                ],
+                [
+                  1036.94,
+                  453.81
+                ]
+              ],
+              [
+                [
+                  1071.39,
+                  410.73
+                ],
+                [
+                  1077.59,
+                  410.73
+                ],
+                [
+                  1077.59,
+                  453.81
+                ],
+                [
+                  1071.39,
+                  453.81
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/LondonSoho.tscn",
+          "at": [
+            98.53,
+            447.61
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "pub_keeper",
+          "feet": [
+            708.29,
+            294.04
+          ],
+          "appearance": {
+            "wear": "shirt"
+          }
+        }
+      ],
+      "activity_prompt": "Order at the bar"
+    },
+    "ActivityLondonCharity": {
+      "city": "london",
+      "region": "highstreet",
+      "title": "The charity shop",
+      "parent": "res://scenes/world/LondonHighStreet.tscn",
+      "ambience": "interior",
+      "action": [
+        751.0,
+        545.39
+      ],
+      "geometry": {
+        "floor": 385.63,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "till",
+            "sort_y": 455.87,
+            "footprints": [
+              [
+                799.23,
+                428.33,
+                310.05,
+                27.55
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  799.23,
+                  298.18
+                ],
+                [
+                  864.69,
+                  298.18
+                ],
+                [
+                  864.69,
+                  276.14
+                ],
+                [
+                  903.96,
+                  276.14
+                ],
+                [
+                  903.96,
+                  296.8
+                ],
+                [
+                  1036.25,
+                  296.8
+                ],
+                [
+                  1036.25,
+                  274.07
+                ],
+                [
+                  1078.28,
+                  274.07
+                ],
+                [
+                  1078.28,
+                  300.24
+                ],
+                [
+                  1109.97,
+                  300.24
+                ],
+                [
+                  1109.97,
+                  455.87
+                ],
+                [
+                  799.23,
+                  455.87
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_books_and_plant",
+            "sort_y": 508.9,
+            "footprints": [
+              [
+                0.0,
+                462.76,
+                151.58,
+                46.14
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  0.0,
+                  387.7
+                ],
+                [
+                  139.87,
+                  387.7
+                ],
+                [
+                  139.87,
+                  506.83
+                ],
+                [
+                  0.0,
+                  506.83
+                ]
+              ]
+            ],
+            "foliage": [
+              [
+                [
+                  63.39,
+                  272.7
+                ],
+                [
+                  170.18,
+                  272.7
+                ],
+                [
+                  170.18,
+                  382.88
+                ],
+                [
+                  63.39,
+                  382.88
+                ]
+              ]
+            ],
+            "wood_branches": true
+          },
+          {
+            "id": "clothes_rail",
+            "sort_y": 403.54,
+            "footprints": [
+              [
+                139.87,
+                365.66,
+                476.1,
+                37.87
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/LondonHighStreet.tscn",
+          "at": [
+            757.89,
+            421.44
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "charity_volunteer",
+          "feet": [
+            930.14,
+            311.95
+          ],
+          "appearance": {
+            "wear": "jumper"
+          }
+        }
+      ],
+      "activity_prompt": "Browse and visit the till"
+    },
+    "ActivityLondonDLRPlatform": {
+      "city": "london",
+      "region": "docklands",
+      "title": "The DLR platform",
+      "parent": "res://scenes/world/LondonDocklands.tscn",
+      "ambience": "street",
+      "action": [
+        616.65,
+        561.23
+      ],
+      "geometry": {
+        "floor": 474.47,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_column",
+            "sort_y": 505.45,
+            "footprints": [
+              [
+                147.44,
+                468.27,
+                61.32,
+                37.19
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  159.85,
+                  0.0
+                ],
+                [
+                  195.67,
+                  0.0
+                ],
+                [
+                  195.67,
+                  470.33
+                ],
+                [
+                  159.85,
+                  470.33
+                ]
+              ],
+              [
+                [
+                  147.44,
+                  443.48
+                ],
+                [
+                  208.77,
+                  443.48
+                ],
+                [
+                  208.77,
+                  505.45
+                ],
+                [
+                  147.44,
+                  505.45
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_column",
+            "sort_y": 505.45,
+            "footprints": [
+              [
+                923.25,
+                468.27,
+                63.39,
+                37.19
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  935.66,
+                  0.0
+                ],
+                [
+                  970.79,
+                  0.0
+                ],
+                [
+                  970.79,
+                  468.27
+                ],
+                [
+                  935.66,
+                  468.27
+                ]
+              ],
+              [
+                [
+                  923.25,
+                  445.54
+                ],
+                [
+                  986.64,
+                  445.54
+                ],
+                [
+                  986.64,
+                  505.45
+                ],
+                [
+                  923.25,
+                  505.45
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "platform_bench",
+            "sort_y": 506.83,
+            "footprints": [
+              [
+                994.22,
+                490.99,
+                152.27,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  988.71,
+                  437.97
+                ],
+                [
+                  1152.0,
+                  437.97
+                ],
+                [
+                  1152.0,
+                  480.66
+                ],
+                [
+                  988.71,
+                  480.66
+                ]
+              ],
+              [
+                [
+                  994.22,
+                  475.84
+                ],
+                [
+                  1000.42,
+                  475.84
+                ],
+                [
+                  1000.42,
+                  506.83
+                ],
+                [
+                  994.22,
+                  506.83
+                ]
+              ],
+              [
+                [
+                  1140.29,
+                  475.84
+                ],
+                [
+                  1146.49,
+                  475.84
+                ],
+                [
+                  1146.49,
+                  506.83
+                ],
+                [
+                  1140.29,
+                  506.83
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/LondonDocklands.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityLondonDLRFront.tscn",
+          "at": [
+            651.1,
+            480.66
+          ],
+          "label": "E - Board the front carriage"
+        }
+      ],
+      "activity_prompt": "Ride at the front"
+    },
+    "ActivityLondonDLRFront": {
+      "city": "london",
+      "region": "docklands",
+      "title": "The front carriage",
+      "parent": "res://scenes/world/activities/ActivityLondonDLRPlatform.tscn",
+      "ambience": "interior",
+      "action": [
+        573.24,
+        561.23
+      ],
+      "geometry": {
+        "floor": 490.3,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "front_seats",
+            "sort_y": 511.65,
+            "footprints": [
+              [
+                194.99,
+                426.95,
+                764.78,
+                84.7
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "left_pole",
+            "sort_y": 614.95,
+            "footprints": [
+              [
+                144.69,
+                595.66,
+                18.6,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  146.07,
+                  0.0
+                ],
+                [
+                  155.71,
+                  0.0
+                ],
+                [
+                  155.71,
+                  612.88
+                ],
+                [
+                  146.07,
+                  612.88
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_pole",
+            "sort_y": 614.95,
+            "footprints": [
+              [
+                985.95,
+                595.66,
+                17.91,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  987.33,
+                  0.0
+                ],
+                [
+                  996.98,
+                  0.0
+                ],
+                [
+                  996.98,
+                  612.88
+                ],
+                [
+                  987.33,
+                  612.88
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityLondonDLRPlatform.tscn",
+          "at": [
+            1040.38,
+            553.66
+          ],
+          "label": "E - Back to the DLR platform"
+        }
+      ],
+      "activity_prompt": "Ride at the front"
+    },
+    "ActivityLondonBrixtonMural": {
+      "city": "london",
+      "region": "brixton",
+      "title": "Tunstall Road",
+      "parent": "res://scenes/world/LondonBrixton.tscn",
+      "ambience": "street",
+      "action": [
+        585.65,
+        549.53
+      ],
+      "geometry": {
+        "floor": 481.35,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "flowers_at_wall",
+            "sort_y": 482.04,
+            "footprints": [
+              [
+                385.84,
+                447.61,
+                347.94,
+                34.43
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "lamp",
+            "sort_y": 497.88,
+            "footprints": [
+              [
+                1078.28,
+                465.51,
+                19.29,
+                32.37
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1083.79,
+                  66.8
+                ],
+                [
+                  1092.75,
+                  66.8
+                ],
+                [
+                  1092.75,
+                  465.51
+                ],
+                [
+                  1083.79,
+                  465.51
+                ]
+              ],
+              [
+                [
+                  1078.28,
+                  462.76
+                ],
+                [
+                  1098.26,
+                  462.76
+                ],
+                [
+                  1098.26,
+                  499.26
+                ],
+                [
+                  1078.28,
+                  499.26
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/LondonBrixton.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Look around the neighbourhood"
+    },
+    "ActivityParisRosiers": {
+      "city": "paris",
+      "region": "marais",
+      "title": "Rue des Rosiers",
+      "parent": "res://scenes/world/ParisMarais.tscn",
+      "ambience": "street",
+      "action": [
+        757.89,
+        544.02
+      ],
+      "geometry": {
+        "floor": 451.74,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "door_plant",
+            "sort_y": 468.27,
+            "footprints": [
+              [
+                1034.87,
+                448.99,
+                33.07,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1030.05,
+                  430.39
+                ],
+                [
+                  1072.77,
+                  430.39
+                ],
+                [
+                  1072.77,
+                  468.27
+                ],
+                [
+                  1030.05,
+                  468.27
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  1015.58,
+                  338.81
+                ],
+                [
+                  1084.48,
+                  338.81
+                ],
+                [
+                  1084.48,
+                  435.21
+                ],
+                [
+                  1015.58,
+                  435.21
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/ParisMarais.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityParisVosges.tscn",
+          "at": [
+            1098.95,
+            560.54
+          ],
+          "label": "E - Continue to Place des Vosges"
+        }
+      ],
+      "activity_prompt": "Explore the neighbourhood"
+    },
+    "ActivityParisVosges": {
+      "city": "paris",
+      "region": "marais",
+      "title": "Place des Vosges",
+      "parent": "res://scenes/world/activities/ActivityParisRosiers.tscn",
+      "ambience": "street",
+      "action": [
+        654.55,
+        549.53
+      ],
+      "geometry": {
+        "floor": 414.55,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "arcade_bench",
+            "sort_y": 496.5,
+            "footprints": [
+              [
+                197.05,
+                480.66,
+                192.92,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  191.54,
+                  416.62
+                ],
+                [
+                  395.48,
+                  416.62
+                ],
+                [
+                  395.48,
+                  466.15
+                ],
+                [
+                  191.54,
+                  466.15
+                ]
+              ],
+              [
+                [
+                  197.05,
+                  460.56
+                ],
+                [
+                  203.25,
+                  460.56
+                ],
+                [
+                  203.25,
+                  496.5
+                ],
+                [
+                  197.05,
+                  496.5
+                ]
+              ],
+              [
+                [
+                  383.77,
+                  460.56
+                ],
+                [
+                  389.97,
+                  460.56
+                ],
+                [
+                  389.97,
+                  496.5
+                ],
+                [
+                  383.77,
+                  496.5
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_arcade",
+            "sort_y": 499.26,
+            "footprints": [
+              [
+                0.0,
+                0.0,
+                143.31,
+                499.26
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_arcade",
+            "sort_y": 503.39,
+            "footprints": [
+              [
+                981.82,
+                0.0,
+                170.18,
+                503.39
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "garden_border",
+            "sort_y": 413.87,
+            "footprints": [
+              [
+                351.39,
+                385.63,
+                225.99,
+                28.23
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityParisRosiers.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Rue des Rosiers"
+        }
+      ],
+      "activity_prompt": "Explore the neighbourhood"
+    },
+    "ActivityParisTertre": {
+      "city": "paris",
+      "region": "montmartre",
+      "title": "Place du Tertre",
+      "parent": "res://scenes/world/ParisMontmartre.tscn",
+      "ambience": "street",
+      "action": [
+        881.91,
+        563.99
+      ],
+      "geometry": {
+        "floor": 464.82,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "artist_chair",
+            "sort_y": 541.95,
+            "footprints": [
+              [
+                429.93,
+                517.85,
+                89.57,
+                24.1
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  429.93,
+                  410.42
+                ],
+                [
+                  476.1,
+                  410.42
+                ],
+                [
+                  476.1,
+                  429.02
+                ],
+                [
+                  429.93,
+                  429.02
+                ]
+              ],
+              [
+                [
+                  433.38,
+                  423.51
+                ],
+                [
+                  443.02,
+                  423.51
+                ],
+                [
+                  443.02,
+                  473.09
+                ],
+                [
+                  433.38,
+                  473.09
+                ]
+              ],
+              [
+                [
+                  466.45,
+                  423.51
+                ],
+                [
+                  475.41,
+                  423.51
+                ],
+                [
+                  475.41,
+                  473.09
+                ],
+                [
+                  466.45,
+                  473.09
+                ]
+              ],
+              [
+                [
+                  439.58,
+                  453.12
+                ],
+                [
+                  471.27,
+                  453.12
+                ],
+                [
+                  471.27,
+                  462.76
+                ],
+                [
+                  439.58,
+                  462.76
+                ]
+              ],
+              [
+                [
+                  440.27,
+                  470.33
+                ],
+                [
+                  491.94,
+                  468.27
+                ],
+                [
+                  517.44,
+                  474.47
+                ],
+                [
+                  517.44,
+                  486.17
+                ],
+                [
+                  440.27,
+                  488.24
+                ]
+              ],
+              [
+                [
+                  432.0,
+                  485.48
+                ],
+                [
+                  440.96,
+                  485.48
+                ],
+                [
+                  440.96,
+                  535.06
+                ],
+                [
+                  432.0,
+                  535.06
+                ]
+              ],
+              [
+                [
+                  470.58,
+                  485.48
+                ],
+                [
+                  479.54,
+                  485.48
+                ],
+                [
+                  479.54,
+                  541.95
+                ],
+                [
+                  470.58,
+                  541.95
+                ]
+              ],
+              [
+                [
+                  505.72,
+                  485.48
+                ],
+                [
+                  515.37,
+                  485.48
+                ],
+                [
+                  515.37,
+                  533.0
+                ],
+                [
+                  505.72,
+                  533.0
+                ]
+              ],
+              [
+                [
+                  441.65,
+                  506.83
+                ],
+                [
+                  511.23,
+                  506.83
+                ],
+                [
+                  511.23,
+                  515.09
+                ],
+                [
+                  441.65,
+                  515.09
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "easel",
+            "sort_y": 544.71,
+            "footprints": [
+              [
+                557.4,
+                514.41,
+                19.98,
+                30.3
+              ],
+              [
+                637.32,
+                514.41,
+                19.98,
+                30.3
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  618.03,
+                  318.15
+                ],
+                [
+                  630.43,
+                  318.15
+                ],
+                [
+                  630.43,
+                  348.45
+                ],
+                [
+                  618.03,
+                  348.45
+                ]
+              ],
+              [
+                [
+                  572.56,
+                  347.76
+                ],
+                [
+                  646.97,
+                  346.38
+                ],
+                [
+                  647.66,
+                  439.35
+                ],
+                [
+                  564.29,
+                  439.35
+                ]
+              ],
+              [
+                [
+                  560.84,
+                  438.66
+                ],
+                [
+                  651.1,
+                  438.66
+                ],
+                [
+                  651.1,
+                  446.23
+                ],
+                [
+                  560.84,
+                  446.23
+                ]
+              ],
+              [
+                [
+                  571.87,
+                  444.85
+                ],
+                [
+                  585.65,
+                  444.85
+                ],
+                [
+                  569.11,
+                  536.44
+                ],
+                [
+                  555.33,
+                  536.44
+                ]
+              ],
+              [
+                [
+                  627.67,
+                  444.85
+                ],
+                [
+                  640.77,
+                  444.85
+                ],
+                [
+                  649.72,
+                  539.2
+                ],
+                [
+                  637.32,
+                  539.2
+                ]
+              ],
+              [
+                [
+                  571.18,
+                  499.26
+                ],
+                [
+                  643.52,
+                  499.26
+                ],
+                [
+                  643.52,
+                  507.52
+                ],
+                [
+                  571.18,
+                  507.52
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "paint_stool",
+            "sort_y": 548.15,
+            "footprints": [
+              [
+                692.44,
+                523.36,
+                75.1,
+                24.79
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  688.31,
+                  458.63
+                ],
+                [
+                  714.49,
+                  453.12
+                ],
+                [
+                  728.27,
+                  453.12
+                ],
+                [
+                  728.27,
+                  435.21
+                ],
+                [
+                  746.18,
+                  435.21
+                ],
+                [
+                  746.18,
+                  456.56
+                ],
+                [
+                  764.78,
+                  460.0
+                ],
+                [
+                  764.78,
+                  468.27
+                ],
+                [
+                  687.62,
+                  468.27
+                ]
+              ],
+              [
+                [
+                  730.33,
+                  422.82
+                ],
+                [
+                  733.09,
+                  422.82
+                ],
+                [
+                  733.09,
+                  435.21
+                ],
+                [
+                  730.33,
+                  435.21
+                ]
+              ],
+              [
+                [
+                  738.6,
+                  426.26
+                ],
+                [
+                  741.36,
+                  426.26
+                ],
+                [
+                  741.36,
+                  435.21
+                ],
+                [
+                  738.6,
+                  435.21
+                ]
+              ],
+              [
+                [
+                  697.26,
+                  467.58
+                ],
+                [
+                  708.98,
+                  467.58
+                ],
+                [
+                  702.78,
+                  540.57
+                ],
+                [
+                  691.06,
+                  540.57
+                ]
+              ],
+              [
+                [
+                  740.67,
+                  467.58
+                ],
+                [
+                  753.76,
+                  467.58
+                ],
+                [
+                  768.23,
+                  542.64
+                ],
+                [
+                  755.83,
+                  542.64
+                ]
+              ],
+              [
+                [
+                  715.87,
+                  468.27
+                ],
+                [
+                  724.13,
+                  468.27
+                ],
+                [
+                  724.13,
+                  546.77
+                ],
+                [
+                  715.87,
+                  546.77
+                ]
+              ],
+              [
+                [
+                  724.13,
+                  473.78
+                ],
+                [
+                  755.83,
+                  473.78
+                ],
+                [
+                  755.83,
+                  482.04
+                ],
+                [
+                  724.13,
+                  482.04
+                ]
+              ],
+              [
+                [
+                  742.05,
+                  468.96
+                ],
+                [
+                  756.52,
+                  468.96
+                ],
+                [
+                  761.34,
+                  512.34
+                ],
+                [
+                  749.63,
+                  517.16
+                ],
+                [
+                  739.29,
+                  510.27
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_display",
+            "sort_y": 535.06,
+            "footprints": [
+              [
+                0.0,
+                402.16,
+                142.62,
+                132.91
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_display",
+            "sort_y": 559.86,
+            "footprints": [
+              [
+                994.91,
+                389.76,
+                157.09,
+                170.09
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/ParisMontmartre.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityParisVines.tscn",
+          "at": [
+            1098.95,
+            592.22
+          ],
+          "label": "E - Continue to the vineyard lane"
+        }
+      ],
+      "residents": [
+        {
+          "id": "portrait_artist",
+          "feet": [
+            909.47,
+            517.16
+          ],
+          "appearance": {
+            "wear": "coat"
+          }
+        }
+      ],
+      "activity_prompt": "Sit for a portrait"
+    },
+    "ActivityParisVines": {
+      "city": "paris",
+      "region": "montmartre",
+      "title": "The vineyard lane",
+      "parent": "res://scenes/world/activities/ActivityParisTertre.tscn",
+      "ambience": "street",
+      "action": [
+        661.44,
+        562.61
+      ],
+      "geometry": {
+        "floor": 501.32,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "vineyard_fence",
+            "sort_y": 495.81,
+            "footprints": [
+              [
+                0.0,
+                451.05,
+                1152.0,
+                44.76
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_planter",
+            "sort_y": 512.34,
+            "footprints": [
+              [
+                1064.36,
+                493.06,
+                52.91,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1056.64,
+                  474.47
+                ],
+                [
+                  1124.99,
+                  474.47
+                ],
+                [
+                  1124.99,
+                  512.34
+                ],
+                [
+                  1056.64,
+                  512.34
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  1033.49,
+                  416.62
+                ],
+                [
+                  1143.73,
+                  416.62
+                ],
+                [
+                  1143.73,
+                  479.29
+                ],
+                [
+                  1033.49,
+                  479.29
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityParisTertre.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Place du Tertre"
+        }
+      ],
+      "activity_prompt": "Sit for a portrait"
+    },
+    "ActivityParisBellevilleView": {
+      "city": "paris",
+      "region": "belleville",
+      "title": "The Belleville terrace",
+      "parent": "res://scenes/world/ParisBelleville.tscn",
+      "ambience": "street",
+      "action": [
+        562.91,
+        570.87
+      ],
+      "geometry": {
+        "floor": 481.35,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "view_bench",
+            "sort_y": 572.94,
+            "footprints": [
+              [
+                857.8,
+                557.1,
+                197.74,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  852.29,
+                  484.11
+                ],
+                [
+                  1061.05,
+                  484.11
+                ],
+                [
+                  1061.05,
+                  539.18
+                ],
+                [
+                  852.29,
+                  539.18
+                ]
+              ],
+              [
+                [
+                  857.8,
+                  532.96
+                ],
+                [
+                  864.0,
+                  532.96
+                ],
+                [
+                  864.0,
+                  572.94
+                ],
+                [
+                  857.8,
+                  572.94
+                ]
+              ],
+              [
+                [
+                  1049.34,
+                  532.96
+                ],
+                [
+                  1055.54,
+                  532.96
+                ],
+                [
+                  1055.54,
+                  572.94
+                ],
+                [
+                  1049.34,
+                  572.94
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "terrace_rail",
+            "sort_y": 484.11,
+            "footprints": [
+              [
+                0.0,
+                440.03,
+                1152.0,
+                44.07
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/ParisBelleville.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Take in the view"
+    },
+    "ActivityParisDefenseAxis": {
+      "city": "paris",
+      "region": "ladefense",
+      "title": "The Esplanade",
+      "parent": "res://scenes/world/ParisLaDefense.tscn",
+      "ambience": "street",
+      "action": [
+        593.91,
+        552.97
+      ],
+      "geometry": {
+        "floor": 400.09,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_planters",
+            "sort_y": 501.32,
+            "footprints": [
+              [
+                0.0,
+                399.4,
+                201.88,
+                101.92
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_planters",
+            "sort_y": 502.7,
+            "footprints": [
+              [
+                954.26,
+                392.52,
+                197.74,
+                110.18
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/ParisLaDefense.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Watch the Esplanade"
+    },
+    "ActivityParisChampLawn": {
+      "city": "paris",
+      "region": "champdemars",
+      "title": "The Champ-de-Mars lawn",
+      "parent": "res://scenes/world/ParisChampDeMars.tscn",
+      "ambience": "street",
+      "action": [
+        723.44,
+        572.25
+      ],
+      "geometry": {
+        "floor": 473.78,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "picnic_basket",
+            "sort_y": 582.58,
+            "footprints": [
+              [
+                381.7,
+                558.48,
+                46.85,
+                24.1
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  381.7,
+                  543.33
+                ],
+                [
+                  428.56,
+                  543.33
+                ],
+                [
+                  428.56,
+                  582.58
+                ],
+                [
+                  381.7,
+                  582.58
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/ParisChampDeMars.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Join the picnic"
+    },
+    "ActivityMoscowStolovaya": {
+      "city": "moscow",
+      "region": "kitaygorod",
+      "title": "The stolovaya",
+      "parent": "res://scenes/world/MoscowKitayGorod.tscn",
+      "ambience": "interior",
+      "action": [
+        751.0,
+        555.04
+      ],
+      "geometry": {
+        "floor": 457.25,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "serving_counter",
+            "sort_y": 447.61,
+            "footprints": [
+              [
+                186.03,
+                407.67,
+                937.03,
+                39.94
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  186.03,
+                  336.05
+                ],
+                [
+                  202.56,
+                  321.59
+                ],
+                [
+                  206.7,
+                  249.28
+                ],
+                [
+                  657.3,
+                  249.28
+                ],
+                [
+                  666.95,
+                  314.7
+                ],
+                [
+                  944.61,
+                  314.7
+                ],
+                [
+                  944.61,
+                  276.83
+                ],
+                [
+                  997.67,
+                  276.83
+                ],
+                [
+                  997.67,
+                  315.39
+                ],
+                [
+                  1121.0,
+                  337.43
+                ],
+                [
+                  1121.0,
+                  447.61
+                ],
+                [
+                  186.03,
+                  447.61
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_dining_tables",
+            "sort_y": 470.33,
+            "footprints": [
+              [
+                0.0,
+                395.96,
+                177.07,
+                74.37
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MoscowKitayGorod.tscn",
+          "at": [
+            1061.05,
+            482.04
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "canteen_server",
+          "feet": [
+            847.46,
+            331.23
+          ],
+          "appearance": {
+            "wear": "apron"
+          }
+        }
+      ],
+      "activity_prompt": "Choose lunch"
+    },
+    "ActivityMoscowRemont": {
+      "city": "moscow",
+      "region": "basmanny",
+      "title": "The repair booth",
+      "parent": "res://scenes/world/MoscowBasmanny.tscn",
+      "ambience": "street",
+      "action": [
+        689.0,
+        563.99
+      ],
+      "geometry": {
+        "floor": 510.96,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "bollard",
+            "sort_y": 566.74,
+            "footprints": [
+              [
+                121.95,
+                537.82,
+                40.65,
+                28.92
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  128.84,
+                  417.31
+                ],
+                [
+                  148.13,
+                  417.31
+                ],
+                [
+                  156.4,
+                  430.39
+                ],
+                [
+                  151.58,
+                  526.8
+                ],
+                [
+                  164.67,
+                  542.64
+                ],
+                [
+                  164.67,
+                  561.23
+                ],
+                [
+                  121.95,
+                  561.23
+                ],
+                [
+                  121.95,
+                  542.64
+                ],
+                [
+                  133.67,
+                  526.8
+                ],
+                [
+                  129.53,
+                  430.39
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "repair_planter",
+            "sort_y": 530.24,
+            "footprints": [
+              [
+                983.55,
+                510.96,
+                44.32,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  977.09,
+                  492.37
+                ],
+                [
+                  1034.33,
+                  492.37
+                ],
+                [
+                  1034.33,
+                  530.24
+                ],
+                [
+                  977.09,
+                  530.24
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  957.7,
+                  330.54
+                ],
+                [
+                  1050.03,
+                  330.54
+                ],
+                [
+                  1050.03,
+                  497.19
+                ],
+                [
+                  957.7,
+                  497.19
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MoscowBasmanny.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Ask about a repair"
+    },
+    "ActivityMoscowVernisazh": {
+      "city": "moscow",
+      "region": "izmaylovo",
+      "title": "Vernisazh",
+      "parent": "res://scenes/world/MoscowIzmaylovo.tscn",
+      "ambience": "street",
+      "action": [
+        595.98,
+        562.61
+      ],
+      "geometry": {
+        "floor": 510.27,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "stall_counter",
+            "sort_y": 502.01,
+            "footprints": [
+              [
+                220.48,
+                466.89,
+                764.78,
+                35.12
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MoscowIzmaylovo.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMoscowIzmaylovoKremlin.tscn",
+          "at": [
+            1100.33,
+            570.87
+          ],
+          "label": "E - Follow the lane to the courtyard"
+        }
+      ],
+      "activity_prompt": "Browse the market"
+    },
+    "ActivityMoscowIzmaylovoKremlin": {
+      "city": "moscow",
+      "region": "izmaylovo",
+      "title": "The Izmaylovo courtyard",
+      "parent": "res://scenes/world/activities/ActivityMoscowVernisazh.tscn",
+      "ambience": "street",
+      "action": [
+        689.0,
+        577.76
+      ],
+      "geometry": {
+        "floor": 521.29,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_shops",
+            "sort_y": 549.53,
+            "footprints": [
+              [
+                0.0,
+                440.72,
+                375.5,
+                108.8
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_shops",
+            "sort_y": 550.21,
+            "footprints": [
+              [
+                770.3,
+                440.72,
+                381.7,
+                109.49
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMoscowVernisazh.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Vernisazh"
+        }
+      ],
+      "activity_prompt": "Browse the market"
+    },
+    "ActivityMoscowTsoyWall": {
+      "city": "moscow",
+      "region": "arbat",
+      "title": "The Tsoy wall",
+      "parent": "res://scenes/world/MoscowArbat.tscn",
+      "ambience": "street",
+      "action": [
+        597.36,
+        558.48
+      ],
+      "geometry": {
+        "floor": 472.4,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "guitar_case",
+            "sort_y": 485.48,
+            "footprints": [
+              [
+                858.49,
+                466.89,
+                174.32,
+                18.59
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  858.49,
+                  462.76
+                ],
+                [
+                  873.65,
+                  449.67
+                ],
+                [
+                  971.48,
+                  437.97
+                ],
+                [
+                  990.09,
+                  422.13
+                ],
+                [
+                  1018.33,
+                  422.13
+                ],
+                [
+                  1031.43,
+                  433.15
+                ],
+                [
+                  1031.43,
+                  473.78
+                ],
+                [
+                  1012.13,
+                  485.48
+                ],
+                [
+                  868.13,
+                  481.35
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MoscowArbat.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Spend time at the wall"
+    },
+    "ActivityMoscowChurchyard": {
+      "city": "moscow",
+      "region": "zamoskvorechye",
+      "title": "The churchyard",
+      "parent": "res://scenes/world/MoscowZamoskvorechye.tscn",
+      "ambience": "street",
+      "action": [
+        551.2,
+        556.41
+      ],
+      "geometry": {
+        "floor": 418.69,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_gate_pier",
+            "sort_y": 572.25,
+            "footprints": [
+              [
+                0.0,
+                397.34,
+                285.24,
+                174.91
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_gate_pier",
+            "sort_y": 577.07,
+            "footprints": [
+              [
+                959.08,
+                397.34,
+                192.92,
+                179.73
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MoscowZamoskvorechye.tscn",
+          "at": [
+            569.11,
+            596.35
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMoscowGallery.tscn",
+          "at": [
+            861.24,
+            525.42
+          ],
+          "label": "E - Follow the lane to the gallery"
+        }
+      ],
+      "activity_prompt": "Explore the churchyard and gallery"
+    },
+    "ActivityMoscowGallery": {
+      "city": "moscow",
+      "region": "zamoskvorechye",
+      "title": "The gallery",
+      "parent": "res://scenes/world/activities/ActivityMoscowChurchyard.tscn",
+      "ambience": "interior",
+      "action": [
+        447.85,
+        567.43
+      ],
+      "geometry": {
+        "floor": 453.81,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "gallery_bench",
+            "sort_y": 532.31,
+            "footprints": [
+              [
+                571.18,
+                516.47,
+                303.85,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  565.67,
+                  451.74
+                ],
+                [
+                  880.54,
+                  451.74
+                ],
+                [
+                  880.54,
+                  501.69
+                ],
+                [
+                  565.67,
+                  501.69
+                ]
+              ],
+              [
+                [
+                  571.18,
+                  496.05
+                ],
+                [
+                  577.38,
+                  496.05
+                ],
+                [
+                  577.38,
+                  532.31
+                ],
+                [
+                  571.18,
+                  532.31
+                ]
+              ],
+              [
+                [
+                  868.82,
+                  496.05
+                ],
+                [
+                  875.02,
+                  496.05
+                ],
+                [
+                  875.02,
+                  532.31
+                ],
+                [
+                  868.82,
+                  532.31
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "bust_and_pedestal",
+            "sort_y": 495.81,
+            "footprints": [
+              [
+                963.22,
+                460.69,
+                42.03,
+                35.12
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  961.84,
+                  325.03
+                ],
+                [
+                  971.48,
+                  313.33
+                ],
+                [
+                  992.15,
+                  314.7
+                ],
+                [
+                  1005.93,
+                  328.48
+                ],
+                [
+                  997.67,
+                  353.96
+                ],
+                [
+                  1011.44,
+                  363.6
+                ],
+                [
+                  1011.44,
+                  495.81
+                ],
+                [
+                  959.08,
+                  495.81
+                ],
+                [
+                  959.08,
+                  363.6
+                ],
+                [
+                  970.79,
+                  353.96
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "gallery_plant",
+            "sort_y": 535.06,
+            "footprints": [
+              [
+                1086.52,
+                515.78,
+                43.65,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1080.15,
+                  497.19
+                ],
+                [
+                  1136.54,
+                  497.19
+                ],
+                [
+                  1136.54,
+                  535.06
+                ],
+                [
+                  1080.15,
+                  535.06
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  1061.05,
+                  327.79
+                ],
+                [
+                  1152.0,
+                  327.79
+                ],
+                [
+                  1152.0,
+                  502.01
+                ],
+                [
+                  1061.05,
+                  502.01
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMoscowChurchyard.tscn",
+          "at": [
+            137.8,
+            488.24
+          ],
+          "label": "E - Back to the churchyard"
+        }
+      ],
+      "activity_prompt": "Explore the churchyard and gallery"
+    },
+    "ActivityMumbaiKabutarkhana": {
+      "city": "mumbai",
+      "region": "bhuleshwar",
+      "title": "Kabutarkhana",
+      "parent": "res://scenes/world/MumbaiBhuleshwar.tscn",
+      "ambience": "street",
+      "action": [
+        620.1,
+        579.83
+      ],
+      "geometry": {
+        "floor": 484.79,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "raised_pigeon_platform",
+            "sort_y": 510.96,
+            "footprints": [
+              [
+                285.24,
+                399.4,
+                764.78,
+                80.57
+              ],
+              [
+                378.95,
+                479.97,
+                593.22,
+                30.99
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  284.56,
+                  396.65
+                ],
+                [
+                  372.06,
+                  380.12
+                ],
+                [
+                  902.58,
+                  380.12
+                ],
+                [
+                  1073.45,
+                  420.75
+                ],
+                [
+                  1080.34,
+                  471.02
+                ],
+                [
+                  946.68,
+                  512.34
+                ],
+                [
+                  441.65,
+                  512.34
+                ],
+                [
+                  288.0,
+                  475.15
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "grain_stall",
+            "sort_y": 484.79,
+            "footprints": [
+              [
+                0.0,
+                420.06,
+                259.06,
+                64.73
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MumbaiBhuleshwar.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Watch the pigeons"
+    },
+    "ActivityMumbaiChorStall": {
+      "city": "mumbai",
+      "region": "chorbazaar",
+      "title": "The antiques shop",
+      "parent": "res://scenes/world/MumbaiChorBazaar.tscn",
+      "ambience": "street",
+      "action": [
+        633.88,
+        569.5
+      ],
+      "geometry": {
+        "floor": 489.62,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "antique_cabinets",
+            "sort_y": 490.99,
+            "footprints": [
+              [
+                520.19,
+                431.77,
+                384.46,
+                59.22
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "left_pot",
+            "sort_y": 484.79,
+            "footprints": [
+              [
+                234.62,
+                465.51,
+                27.78,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  230.57,
+                  446.92
+                ],
+                [
+                  266.45,
+                  446.92
+                ],
+                [
+                  266.45,
+                  484.79
+                ],
+                [
+                  230.57,
+                  484.79
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  218.41,
+                  387.7
+                ],
+                [
+                  276.29,
+                  387.7
+                ],
+                [
+                  276.29,
+                  451.74
+                ],
+                [
+                  218.41,
+                  451.74
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_pot",
+            "sort_y": 486.86,
+            "footprints": [
+              [
+                950.79,
+                467.58,
+                35.39,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  945.63,
+                  448.99
+                ],
+                [
+                  991.33,
+                  448.99
+                ],
+                [
+                  991.33,
+                  486.86
+                ],
+                [
+                  945.63,
+                  486.86
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  930.14,
+                  334.67
+                ],
+                [
+                  1003.87,
+                  334.67
+                ],
+                [
+                  1003.87,
+                  453.81
+                ],
+                [
+                  930.14,
+                  453.81
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MumbaiChorBazaar.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Browse the objects"
+    },
+    "ActivityMumbaiGateway": {
+      "city": "mumbai",
+      "region": "colaba",
+      "title": "The Gateway promenade",
+      "parent": "res://scenes/world/MumbaiColaba.tscn",
+      "ambience": "street",
+      "action": [
+        677.97,
+        564.68
+      ],
+      "geometry": {
+        "floor": 464.14,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "seaward_chain",
+            "sort_y": 458.63,
+            "footprints": [
+              [
+                0.0,
+                442.1,
+                1152.0,
+                16.53
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MumbaiColaba.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Explore the promenade"
+    },
+    "ActivityMumbaiMountMary": {
+      "city": "mumbai",
+      "region": "bandra",
+      "title": "Mount Mary forecourt",
+      "parent": "res://scenes/world/MumbaiBandra.tscn",
+      "ambience": "street",
+      "action": [
+        572.56,
+        576.38
+      ],
+      "geometry": {
+        "floor": 517.85,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_candle_stall",
+            "sort_y": 539.89,
+            "footprints": [
+              [
+                0.0,
+                449.67,
+                323.83,
+                90.21
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_candle_stall",
+            "sort_y": 539.89,
+            "footprints": [
+              [
+                757.89,
+                449.67,
+                394.11,
+                90.21
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MumbaiBandra.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMumbaiSeaWall.tscn",
+          "at": [
+            1101.01,
+            592.22
+          ],
+          "label": "E - Follow the lane down to the sea"
+        }
+      ],
+      "activity_prompt": "Explore the neighbourhood"
+    },
+    "ActivityMumbaiSeaWall": {
+      "city": "mumbai",
+      "region": "bandra",
+      "title": "The sea promenade",
+      "parent": "res://scenes/world/activities/ActivityMumbaiMountMary.tscn",
+      "ambience": "street",
+      "action": [
+        716.56,
+        560.54
+      ],
+      "geometry": {
+        "floor": 429.02,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "sea_wall",
+            "sort_y": 438.66,
+            "footprints": [
+              [
+                0.0,
+                386.32,
+                1152.0,
+                52.34
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMumbaiMountMary.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Mount Mary forecourt"
+        }
+      ],
+      "activity_prompt": "Explore the neighbourhood"
+    },
+    "ActivityMumbaiMuseumGarden": {
+      "city": "mumbai",
+      "region": "byculla",
+      "title": "The museum garden",
+      "parent": "res://scenes/world/MumbaiByculla.tscn",
+      "ambience": "street",
+      "action": [
+        680.73,
+        548.84
+      ],
+      "geometry": {
+        "floor": 453.12,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "garden_bench",
+            "sort_y": 521.29,
+            "footprints": [
+              [
+                22.74,
+                505.45,
+                175.0,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  17.22,
+                  449.67
+                ],
+                [
+                  203.25,
+                  449.67
+                ],
+                [
+                  203.25,
+                  494.08
+                ],
+                [
+                  17.22,
+                  494.08
+                ]
+              ],
+              [
+                [
+                  22.74,
+                  489.06
+                ],
+                [
+                  28.94,
+                  489.06
+                ],
+                [
+                  28.94,
+                  521.29
+                ],
+                [
+                  22.74,
+                  521.29
+                ]
+              ],
+              [
+                [
+                  191.54,
+                  489.06
+                ],
+                [
+                  197.74,
+                  489.06
+                ],
+                [
+                  197.74,
+                  521.29
+                ],
+                [
+                  191.54,
+                  521.29
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "left_flowerbed",
+            "sort_y": 501.32,
+            "footprints": [
+              [
+                211.52,
+                426.95,
+                190.85,
+                74.37
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_flowerbed",
+            "sort_y": 501.32,
+            "footprints": [
+              [
+                779.25,
+                426.95,
+                281.11,
+                74.37
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "museum_notice",
+            "sort_y": 526.11,
+            "footprints": [
+              [
+                1033.49,
+                510.27,
+                44.1,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1022.47,
+                  393.9
+                ],
+                [
+                  1098.26,
+                  393.9
+                ],
+                [
+                  1098.26,
+                  477.91
+                ],
+                [
+                  1022.47,
+                  477.91
+                ]
+              ],
+              [
+                [
+                  1056.92,
+                  472.4
+                ],
+                [
+                  1064.5,
+                  472.4
+                ],
+                [
+                  1064.5,
+                  526.11
+                ],
+                [
+                  1056.92,
+                  526.11
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MumbaiByculla.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMumbaiMuseumHall.tscn",
+          "at": [
+            572.56,
+            457.94
+          ],
+          "label": "E - Enter the museum"
+        }
+      ],
+      "activity_prompt": "Visit the museum"
+    },
+    "ActivityMumbaiMuseumHall": {
+      "city": "mumbai",
+      "region": "byculla",
+      "title": "The museum hall",
+      "parent": "res://scenes/world/activities/ActivityMumbaiMuseumGarden.tscn",
+      "ambience": "interior",
+      "action": [
+        585.65,
+        564.68
+      ],
+      "geometry": {
+        "floor": 429.7,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_display",
+            "sort_y": 520.51,
+            "footprints": [
+              [
+                35.93,
+                462.39,
+                365.08,
+                58.13
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  31.62,
+                  289.32
+                ],
+                [
+                  405.32,
+                  289.32
+                ],
+                [
+                  405.32,
+                  309.8
+                ],
+                [
+                  31.62,
+                  309.8
+                ]
+              ],
+              [
+                [
+                  35.93,
+                  309.8
+                ],
+                [
+                  48.15,
+                  309.8
+                ],
+                [
+                  48.15,
+                  457.76
+                ],
+                [
+                  35.93,
+                  457.76
+                ]
+              ],
+              [
+                [
+                  388.07,
+                  309.8
+                ],
+                [
+                  401.01,
+                  309.8
+                ],
+                [
+                  401.01,
+                  457.76
+                ],
+                [
+                  388.07,
+                  457.76
+                ]
+              ],
+              [
+                [
+                  31.62,
+                  449.17
+                ],
+                [
+                  405.32,
+                  449.17
+                ],
+                [
+                  405.32,
+                  485.5
+                ],
+                [
+                  31.62,
+                  485.5
+                ]
+              ],
+              [
+                [
+                  35.93,
+                  484.18
+                ],
+                [
+                  64.68,
+                  484.18
+                ],
+                [
+                  64.68,
+                  520.51
+                ],
+                [
+                  35.93,
+                  520.51
+                ]
+              ],
+              [
+                [
+                  372.26,
+                  484.18
+                ],
+                [
+                  401.01,
+                  484.18
+                ],
+                [
+                  401.01,
+                  520.51
+                ],
+                [
+                  372.26,
+                  520.51
+                ]
+              ],
+              [
+                [
+                  63.24,
+                  500.7
+                ],
+                [
+                  373.7,
+                  500.7
+                ],
+                [
+                  373.7,
+                  511.93
+                ],
+                [
+                  63.24,
+                  511.93
+                ]
+              ]
+            ],
+            "glass": [
+              [
+                [
+                  48.15,
+                  309.8
+                ],
+                [
+                  388.07,
+                  309.8
+                ],
+                [
+                  388.07,
+                  449.17
+                ],
+                [
+                  48.15,
+                  449.17
+                ]
+              ]
+            ],
+            "glass_tint": "#26383830"
+          },
+          {
+            "id": "right_display",
+            "sort_y": 520.51,
+            "footprints": [
+              [
+                749.55,
+                462.39,
+                362.2,
+                58.13
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  745.24,
+                  289.32
+                ],
+                [
+                  1116.07,
+                  289.32
+                ],
+                [
+                  1116.07,
+                  309.8
+                ],
+                [
+                  745.24,
+                  309.8
+                ]
+              ],
+              [
+                [
+                  749.55,
+                  309.8
+                ],
+                [
+                  761.77,
+                  309.8
+                ],
+                [
+                  761.77,
+                  457.76
+                ],
+                [
+                  749.55,
+                  457.76
+                ]
+              ],
+              [
+                [
+                  1098.82,
+                  309.8
+                ],
+                [
+                  1111.76,
+                  309.8
+                ],
+                [
+                  1111.76,
+                  457.76
+                ],
+                [
+                  1098.82,
+                  457.76
+                ]
+              ],
+              [
+                [
+                  745.24,
+                  449.17
+                ],
+                [
+                  1116.07,
+                  449.17
+                ],
+                [
+                  1116.07,
+                  485.5
+                ],
+                [
+                  745.24,
+                  485.5
+                ]
+              ],
+              [
+                [
+                  749.55,
+                  484.18
+                ],
+                [
+                  778.3,
+                  484.18
+                ],
+                [
+                  778.3,
+                  520.51
+                ],
+                [
+                  749.55,
+                  520.51
+                ]
+              ],
+              [
+                [
+                  1083.01,
+                  484.18
+                ],
+                [
+                  1111.76,
+                  484.18
+                ],
+                [
+                  1111.76,
+                  520.51
+                ],
+                [
+                  1083.01,
+                  520.51
+                ]
+              ],
+              [
+                [
+                  776.86,
+                  500.7
+                ],
+                [
+                  1084.45,
+                  500.7
+                ],
+                [
+                  1084.45,
+                  511.93
+                ],
+                [
+                  776.86,
+                  511.93
+                ]
+              ]
+            ],
+            "glass": [
+              [
+                [
+                  761.77,
+                  309.8
+                ],
+                [
+                  1098.82,
+                  309.8
+                ],
+                [
+                  1098.82,
+                  449.17
+                ],
+                [
+                  761.77,
+                  449.17
+                ]
+              ]
+            ],
+            "glass_tint": "#26383830"
+          },
+          {
+            "id": "left_rear_case",
+            "sort_y": 457,
+            "footprints": [
+              [
+                400,
+                429,
+                69,
+                29
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_rear_case",
+            "sort_y": 457,
+            "footprints": [
+              [
+                687,
+                429,
+                65,
+                29
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMumbaiMuseumGarden.tscn",
+          "at": [
+            538.79,
+            453.81
+          ],
+          "label": "E - Back to the museum garden"
+        }
+      ],
+      "activity_prompt": "Visit the museum"
+    },
+    "ActivityTokyoMenchi": {
+      "city": "tokyo",
+      "region": "yanaka",
+      "title": "The menchi shop",
+      "parent": "res://scenes/world/TokyoYanaka.tscn",
+      "ambience": "street",
+      "action": [
+        654.55,
+        554.35
+      ],
+      "geometry": {
+        "floor": 467.58,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_planter",
+            "sort_y": 477.91,
+            "footprints": [
+              [
+                376.19,
+                458.63,
+                33.07,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  371.37,
+                  440.03
+                ],
+                [
+                  414.09,
+                  440.03
+                ],
+                [
+                  414.09,
+                  477.91
+                ],
+                [
+                  371.37,
+                  477.91
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  356.9,
+                  381.5
+                ],
+                [
+                  425.8,
+                  381.5
+                ],
+                [
+                  425.8,
+                  444.85
+                ],
+                [
+                  356.9,
+                  444.85
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_planter",
+            "sort_y": 479.97,
+            "footprints": [
+              [
+                1027.04,
+                460.69,
+                37.37,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1021.59,
+                  442.1
+                ],
+                [
+                  1069.86,
+                  442.1
+                ],
+                [
+                  1069.86,
+                  479.97
+                ],
+                [
+                  1021.59,
+                  479.97
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  1005.24,
+                  369.79
+                ],
+                [
+                  1083.1,
+                  369.79
+                ],
+                [
+                  1083.1,
+                  446.92
+                ],
+                [
+                  1005.24,
+                  446.92
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/TokyoYanaka.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoYanakaCemetery.tscn",
+          "at": [
+            1101.01,
+            570.87
+          ],
+          "label": "E - Continue along the cemetery path"
+        }
+      ],
+      "activity_prompt": "Visit the shop and cemetery lane"
+    },
+    "ActivityTokyoYanakaCemetery": {
+      "city": "tokyo",
+      "region": "yanaka",
+      "title": "The cemetery path",
+      "parent": "res://scenes/world/activities/ActivityTokyoMenchi.tscn",
+      "ambience": "street",
+      "action": [
+        663.5,
+        557.79
+      ],
+      "geometry": {
+        "floor": 440.72,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_graves",
+            "sort_y": 448.3,
+            "footprints": [
+              [
+                0.0,
+                369.11,
+                527.08,
+                79.19
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_graves",
+            "sort_y": 448.3,
+            "footprints": [
+              [
+                911.54,
+                369.11,
+                240.46,
+                79.19
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoMenchi.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the menchi shop"
+        }
+      ],
+      "activity_prompt": "Visit the shop and cemetery lane"
+    },
+    "ActivityTokyoBookshop": {
+      "city": "tokyo",
+      "region": "jinbocho",
+      "title": "The secondhand bookshop",
+      "parent": "res://scenes/world/TokyoJinbocho.tscn",
+      "ambience": "street",
+      "action": [
+        723.44,
+        560.54
+      ],
+      "geometry": {
+        "floor": 473.78,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "book_trolley",
+            "sort_y": 484.11,
+            "footprints": [
+              [
+                353.45,
+                447.61,
+                144.69,
+                36.5
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  345.88,
+                  286.47
+                ],
+                [
+                  505.72,
+                  286.47
+                ],
+                [
+                  505.72,
+                  475.15
+                ],
+                [
+                  345.88,
+                  475.15
+                ]
+              ],
+              [
+                [
+                  356.9,
+                  472.4
+                ],
+                [
+                  366.55,
+                  472.4
+                ],
+                [
+                  366.55,
+                  486.17
+                ],
+                [
+                  356.9,
+                  486.17
+                ]
+              ],
+              [
+                [
+                  482.99,
+                  472.4
+                ],
+                [
+                  492.63,
+                  472.4
+                ],
+                [
+                  492.63,
+                  486.17
+                ],
+                [
+                  482.99,
+                  486.17
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "blue_pot",
+            "sort_y": 482.73,
+            "footprints": [
+              [
+                76.78,
+                463.45,
+                40.68,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  70.85,
+                  444.85
+                ],
+                [
+                  123.39,
+                  444.85
+                ],
+                [
+                  123.39,
+                  482.73
+                ],
+                [
+                  70.85,
+                  482.73
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  53.05,
+                  362.22
+                ],
+                [
+                  137.8,
+                  362.22
+                ],
+                [
+                  137.8,
+                  449.67
+                ],
+                [
+                  53.05,
+                  449.67
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "right_pot",
+            "sort_y": 495.12,
+            "footprints": [
+              [
+                1086.52,
+                475.84,
+                43.65,
+                19.28
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1080.15,
+                  457.25
+                ],
+                [
+                  1136.54,
+                  457.25
+                ],
+                [
+                  1136.54,
+                  495.12
+                ],
+                [
+                  1080.15,
+                  495.12
+                ]
+              ]
+            ],
+            "wood_branches": true,
+            "foliage": [
+              [
+                [
+                  1061.05,
+                  377.37
+                ],
+                [
+                  1152.0,
+                  377.37
+                ],
+                [
+                  1152.0,
+                  462.07
+                ],
+                [
+                  1061.05,
+                  462.07
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/TokyoJinbocho.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Browse the books"
+    },
+    "ActivityTokyoKaminarimon": {
+      "city": "tokyo",
+      "region": "asakusa",
+      "title": "Kaminarimon",
+      "parent": "res://scenes/world/TokyoAsakusa.tscn",
+      "ambience": "street",
+      "action": [
+        564.98,
+        566.74
+      ],
+      "geometry": {
+        "floor": 473.78,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_gate",
+            "sort_y": 484.11,
+            "footprints": [
+              [
+                184.65,
+                378.75,
+                271.46,
+                105.36
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_gate",
+            "sort_y": 484.11,
+            "footprints": [
+              [
+                720.0,
+                378.75,
+                265.95,
+                105.36
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/TokyoAsakusa.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoSensojiIncense.tscn",
+          "at": [
+            573.24,
+            477.91
+          ],
+          "label": "E - Through the gate to the forecourt"
+        }
+      ],
+      "activity_prompt": "Explore the temple forecourt"
+    },
+    "ActivityTokyoSensojiIncense": {
+      "city": "tokyo",
+      "region": "asakusa",
+      "title": "The Sensō-ji forecourt",
+      "parent": "res://scenes/world/activities/ActivityTokyoKaminarimon.tscn",
+      "ambience": "street",
+      "action": [
+        602.87,
+        579.14
+      ],
+      "geometry": {
+        "floor": 452.43,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "incense_burner",
+            "sort_y": 524.05,
+            "footprints": [
+              [
+                724.82,
+                461.38,
+                124.02,
+                29.61
+              ],
+              [
+                708.29,
+                490.99,
+                162.6,
+                33.05
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  682.11,
+                  298.18
+                ],
+                [
+                  708.29,
+                  287.16
+                ],
+                [
+                  778.56,
+                  265.81
+                ],
+                [
+                  792.34,
+                  252.73
+                ],
+                [
+                  804.06,
+                  267.88
+                ],
+                [
+                  859.18,
+                  286.47
+                ],
+                [
+                  887.43,
+                  291.29
+                ],
+                [
+                  876.4,
+                  305.75
+                ],
+                [
+                  868.13,
+                  311.95
+                ],
+                [
+                  858.49,
+                  311.26
+                ],
+                [
+                  858.49,
+                  508.21
+                ],
+                [
+                  847.46,
+                  514.41
+                ],
+                [
+                  843.33,
+                  311.26
+                ],
+                [
+                  723.44,
+                  311.26
+                ],
+                [
+                  723.44,
+                  509.59
+                ],
+                [
+                  709.67,
+                  514.41
+                ],
+                [
+                  709.67,
+                  310.57
+                ],
+                [
+                  693.13,
+                  307.82
+                ]
+              ],
+              [
+                [
+                  734.47,
+                  445.54
+                ],
+                [
+                  841.95,
+                  445.54
+                ],
+                [
+                  833.68,
+                  477.22
+                ],
+                [
+                  817.15,
+                  493.75
+                ],
+                [
+                  805.44,
+                  502.01
+                ],
+                [
+                  762.03,
+                  502.01
+                ],
+                [
+                  759.27,
+                  490.99
+                ],
+                [
+                  744.11,
+                  484.11
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoKaminarimon.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Kaminarimon"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoOmikuji.tscn",
+          "at": [
+            1087.23,
+            564.68
+          ],
+          "label": "E - Visit the omikuji counter"
+        }
+      ],
+      "activity_prompt": "Explore the temple forecourt"
+    },
+    "ActivityTokyoOmikuji": {
+      "city": "tokyo",
+      "region": "asakusa",
+      "title": "The omikuji counter",
+      "parent": "res://scenes/world/activities/ActivityTokyoSensojiIncense.tscn",
+      "ambience": "street",
+      "action": [
+        585.65,
+        561.92
+      ],
+      "geometry": {
+        "floor": 479.97,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "fortune_counter",
+            "sort_y": 473.09,
+            "footprints": [
+              [
+                112.31,
+                420.06,
+                536.04,
+                53.02
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_column",
+            "sort_y": 479.97,
+            "footprints": [
+              [
+                999.04,
+                420.06,
+                71.66,
+                59.91
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoSensojiIncense.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the Sensō-ji forecourt"
+        }
+      ],
+      "activity_prompt": "Explore the temple forecourt"
+    },
+    "ActivityTokyoAmeyoko": {
+      "city": "tokyo",
+      "region": "ueno",
+      "title": "Ameyoko market",
+      "parent": "res://scenes/world/TokyoUeno.tscn",
+      "ambience": "street",
+      "action": [
+        677.28,
+        572.25
+      ],
+      "geometry": {
+        "floor": 490.99,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "market_counters",
+            "sort_y": 493.06,
+            "footprints": [
+              [
+                328.65,
+                442.1,
+                716.56,
+                50.96
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/TokyoUeno.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Browse the market"
+    },
+    "ActivityTokyoShinbashiSquare": {
+      "city": "tokyo",
+      "region": "shinbashi",
+      "title": "Shinbashi square",
+      "parent": "res://scenes/world/TokyoShinbashi.tscn",
+      "ambience": "street",
+      "action": [
+        647.66,
+        559.86
+      ],
+      "geometry": {
+        "floor": 473.78,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "locomotive_border",
+            "sort_y": 474.47,
+            "footprints": [
+              [
+                0.0,
+                406.98,
+                626.3,
+                67.49
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/TokyoShinbashi.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoTachinomi.tscn",
+          "at": [
+            748.25,
+            485.48
+          ],
+          "label": "E - Visit the bar under the tracks"
+        }
+      ],
+      "activity_prompt": "Visit the standing bar"
+    },
+    "ActivityTokyoTachinomi": {
+      "city": "tokyo",
+      "region": "shinbashi",
+      "title": "The standing bar",
+      "parent": "res://scenes/world/activities/ActivityTokyoShinbashiSquare.tscn",
+      "ambience": "street",
+      "action": [
+        654.55,
+        564.68
+      ],
+      "geometry": {
+        "floor": 479.97,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "bar_counter",
+            "sort_y": 482.73,
+            "footprints": [
+              [
+                446.47,
+                445.54,
+                593.22,
+                37.19
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityTokyoShinbashiSquare.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to Shinbashi square"
+        }
+      ],
+      "activity_prompt": "Visit the standing bar"
+    },
+    "ActivityMexicoMercedAisle": {
+      "city": "mexico",
+      "region": "merced",
+      "title": "The Merced market aisle",
+      "parent": "res://scenes/world/MexicoMerced.tscn",
+      "ambience": "interior",
+      "action": [
+        589.09,
+        559.86
+      ],
+      "geometry": {
+        "floor": 362.22,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_stock_0",
+            "sort_y": 431.77,
+            "footprints": [
+              [
+                0.0,
+                344.31,
+                338.99,
+                87.46
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "left_stock_1",
+            "sort_y": 528.18,
+            "footprints": [
+              [
+                0.0,
+                431.77,
+                281.11,
+                96.41
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "left_stock_2",
+            "sort_y": 648.0,
+            "footprints": [
+              [
+                0.0,
+                528.18,
+                234.26,
+                119.82
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_stock_0",
+            "sort_y": 431.77,
+            "footprints": [
+              [
+                813.01,
+                344.31,
+                338.99,
+                87.46
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_stock_1",
+            "sort_y": 528.18,
+            "footprints": [
+              [
+                870.89,
+                431.77,
+                281.11,
+                96.41
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "right_stock_2",
+            "sort_y": 648.0,
+            "footprints": [
+              [
+                930.83,
+                528.18,
+                221.17,
+                119.82
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MexicoMerced.tscn",
+          "at": [
+            556.02,
+            605.99
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMexicoMercedLoading.tscn",
+          "at": [
+            578.07,
+            367.73
+          ],
+          "label": "E - Continue through the loading door"
+        }
+      ],
+      "activity_prompt": "Spend time in the market"
+    },
+    "ActivityMexicoMercedLoading": {
+      "city": "mexico",
+      "region": "merced",
+      "title": "The loading courtyard",
+      "parent": "res://scenes/world/activities/ActivityMexicoMercedAisle.tscn",
+      "ambience": "street",
+      "action": [
+        695.89,
+        560.54
+      ],
+      "geometry": {
+        "floor": 437.97,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "delivery_van",
+            "sort_y": 457.94,
+            "footprints": [
+              [
+                881.22,
+                422.82,
+                243.22,
+                35.12
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  882.6,
+                  247.22
+                ],
+                [
+                  1092.06,
+                  247.22
+                ],
+                [
+                  1093.44,
+                  269.25
+                ],
+                [
+                  1119.62,
+                  269.25
+                ],
+                [
+                  1138.91,
+                  422.82
+                ],
+                [
+                  1118.93,
+                  444.17
+                ],
+                [
+                  1112.04,
+                  452.43
+                ],
+                [
+                  1091.37,
+                  452.43
+                ],
+                [
+                  1086.55,
+                  440.03
+                ],
+                [
+                  927.39,
+                  440.03
+                ],
+                [
+                  921.88,
+                  453.12
+                ],
+                [
+                  899.14,
+                  453.12
+                ],
+                [
+                  892.94,
+                  440.72
+                ],
+                [
+                  873.65,
+                  417.31
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "loading_crates",
+            "sort_y": 441.41,
+            "footprints": [
+              [
+                471.96,
+                378.75,
+                165.36,
+                62.67
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMexicoMercedAisle.tscn",
+          "at": [
+            348.63,
+            438.66
+          ],
+          "label": "E - Back to the Merced market aisle"
+        }
+      ],
+      "activity_prompt": "Spend time in the market"
+    },
+    "ActivityMexicoRomaPlaza": {
+      "city": "mexico",
+      "region": "roma",
+      "title": "Plaza Río de Janeiro",
+      "parent": "res://scenes/world/MexicoRoma.tscn",
+      "ambience": "street",
+      "action": [
+        695.89,
+        558.48
+      ],
+      "geometry": {
+        "floor": 472.4,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "plaza_bench",
+            "sort_y": 521.29,
+            "footprints": [
+              [
+                79.23,
+                505.45,
+                247.35,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  73.72,
+                  444.17
+                ],
+                [
+                  332.1,
+                  444.17
+                ],
+                [
+                  332.1,
+                  491.98
+                ],
+                [
+                  73.72,
+                  491.98
+                ]
+              ],
+              [
+                [
+                  79.23,
+                  486.59
+                ],
+                [
+                  85.44,
+                  486.59
+                ],
+                [
+                  85.44,
+                  521.29
+                ],
+                [
+                  79.23,
+                  521.29
+                ]
+              ],
+              [
+                [
+                  320.38,
+                  486.59
+                ],
+                [
+                  326.58,
+                  486.59
+                ],
+                [
+                  326.58,
+                  521.29
+                ],
+                [
+                  320.38,
+                  521.29
+                ]
+              ]
+            ]
+          },
+          {
+            "id": "fountain_garden",
+            "sort_y": 482.04,
+            "footprints": [
+              [
+                407.89,
+                433.84,
+                441.65,
+                48.2
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "construction_fence",
+            "sort_y": 518.54,
+            "footprints": [
+              [
+                868.82,
+                395.96,
+                283.18,
+                122.58
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MexicoRoma.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Spend time in the plaza"
+    },
+    "ActivityMexicoCoyoacanMarket": {
+      "city": "mexico",
+      "region": "coyoacan",
+      "title": "The Coyoacán market",
+      "parent": "res://scenes/world/MexicoCoyoacan.tscn",
+      "ambience": "interior",
+      "action": [
+        677.97,
+        572.25
+      ],
+      "geometry": {
+        "floor": 495.12,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "food_counter",
+            "sort_y": 505.45,
+            "footprints": [
+              [
+                159.85,
+                464.82,
+                868.82,
+                40.63
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MexicoCoyoacan.tscn",
+          "at": [
+            96.46,
+            543.33
+          ],
+          "label": "E - Back to the neighbourhood"
+        },
+        {
+          "target": "res://scenes/world/activities/ActivityMexicoCoyoacanCoyotes.tscn",
+          "at": [
+            1103.08,
+            578.45
+          ],
+          "label": "E - Continue outside to the fountain"
+        }
+      ],
+      "activity_prompt": "Order at the market"
+    },
+    "ActivityMexicoCoyoacanCoyotes": {
+      "city": "mexico",
+      "region": "coyoacan",
+      "title": "The coyote fountain",
+      "parent": "res://scenes/world/activities/ActivityMexicoCoyoacanMarket.tscn",
+      "ambience": "street",
+      "action": [
+        895.69,
+        571.56
+      ],
+      "geometry": {
+        "floor": 387.7,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "coyote_fountain",
+            "sort_y": 481.35,
+            "footprints": [
+              [
+                379.64,
+                413.87,
+                402.37,
+                15.84
+              ],
+              [
+                309.36,
+                429.7,
+                540.17,
+                35.81
+              ],
+              [
+                352.77,
+                465.51,
+                466.45,
+                15.84
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  301.78,
+                  457.94
+                ],
+                [
+                  310.74,
+                  448.3
+                ],
+                [
+                  310.74,
+                  428.33
+                ],
+                [
+                  321.07,
+                  418.0
+                ],
+                [
+                  386.53,
+                  406.29
+                ],
+                [
+                  489.88,
+                  402.16
+                ],
+                [
+                  491.94,
+                  392.52
+                ],
+                [
+                  505.03,
+                  377.37
+                ],
+                [
+                  518.12,
+                  375.99
+                ],
+                [
+                  531.9,
+                  360.15
+                ],
+                [
+                  545.68,
+                  356.71
+                ],
+                [
+                  562.91,
+                  363.6
+                ],
+                [
+                  569.8,
+                  377.37
+                ],
+                [
+                  591.16,
+                  375.99
+                ],
+                [
+                  600.8,
+                  380.81
+                ],
+                [
+                  622.85,
+                  377.37
+                ],
+                [
+                  639.39,
+                  384.26
+                ],
+                [
+                  655.92,
+                  381.5
+                ],
+                [
+                  669.7,
+                  391.14
+                ],
+                [
+                  684.17,
+                  409.73
+                ],
+                [
+                  762.03,
+                  406.98
+                ],
+                [
+                  833.0,
+                  418.69
+                ],
+                [
+                  847.46,
+                  429.7
+                ],
+                [
+                  847.46,
+                  452.43
+                ],
+                [
+                  859.18,
+                  459.32
+                ],
+                [
+                  859.18,
+                  468.27
+                ],
+                [
+                  817.15,
+                  477.22
+                ],
+                [
+                  757.89,
+                  481.35
+                ],
+                [
+                  408.57,
+                  481.35
+                ],
+                [
+                  332.1,
+                  471.71
+                ],
+                [
+                  301.78,
+                  465.51
+                ]
+              ],
+              [
+                [
+                  531.22,
+                  305.06
+                ],
+                [
+                  522.26,
+                  286.47
+                ],
+                [
+                  519.5,
+                  268.57
+                ],
+                [
+                  513.99,
+                  258.24
+                ],
+                [
+                  514.68,
+                  248.6
+                ],
+                [
+                  517.44,
+                  246.53
+                ],
+                [
+                  522.26,
+                  254.79
+                ],
+                [
+                  534.66,
+                  262.37
+                ],
+                [
+                  541.55,
+                  263.74
+                ],
+                [
+                  544.31,
+                  267.88
+                ],
+                [
+                  536.04,
+                  269.25
+                ],
+                [
+                  547.75,
+                  288.54
+                ],
+                [
+                  562.22,
+                  298.18
+                ],
+                [
+                  577.38,
+                  306.44
+                ],
+                [
+                  585.65,
+                  320.21
+                ],
+                [
+                  588.4,
+                  333.3
+                ],
+                [
+                  594.6,
+                  340.87
+                ],
+                [
+                  590.47,
+                  344.31
+                ],
+                [
+                  582.89,
+                  335.36
+                ],
+                [
+                  573.24,
+                  321.59
+                ],
+                [
+                  567.73,
+                  314.01
+                ],
+                [
+                  552.57,
+                  311.26
+                ],
+                [
+                  540.17,
+                  308.51
+                ]
+              ],
+              [
+                [
+                  527.08,
+                  300.24
+                ],
+                [
+                  536.04,
+                  307.13
+                ],
+                [
+                  535.35,
+                  347.76
+                ],
+                [
+                  540.17,
+                  355.33
+                ],
+                [
+                  536.73,
+                  359.46
+                ],
+                [
+                  531.22,
+                  357.4
+                ],
+                [
+                  529.84,
+                  351.2
+                ]
+              ],
+              [
+                [
+                  538.11,
+                  309.88
+                ],
+                [
+                  544.31,
+                  313.33
+                ],
+                [
+                  542.24,
+                  348.45
+                ],
+                [
+                  546.37,
+                  355.33
+                ],
+                [
+                  543.62,
+                  359.46
+                ],
+                [
+                  537.42,
+                  357.4
+                ]
+              ],
+              [
+                [
+                  561.53,
+                  311.26
+                ],
+                [
+                  569.8,
+                  312.64
+                ],
+                [
+                  567.73,
+                  332.61
+                ],
+                [
+                  576.69,
+                  345.69
+                ],
+                [
+                  578.76,
+                  357.4
+                ],
+                [
+                  572.56,
+                  362.22
+                ],
+                [
+                  567.04,
+                  360.15
+                ],
+                [
+                  572.56,
+                  355.33
+                ],
+                [
+                  569.8,
+                  347.76
+                ],
+                [
+                  560.15,
+                  336.74
+                ]
+              ],
+              [
+                [
+                  581.51,
+                  345.0
+                ],
+                [
+                  593.91,
+                  333.99
+                ],
+                [
+                  613.89,
+                  330.54
+                ],
+                [
+                  643.52,
+                  322.97
+                ],
+                [
+                  667.64,
+                  320.9
+                ],
+                [
+                  669.01,
+                  311.95
+                ],
+                [
+                  673.15,
+                  313.33
+                ],
+                [
+                  675.22,
+                  320.9
+                ],
+                [
+                  678.66,
+                  312.64
+                ],
+                [
+                  681.42,
+                  320.9
+                ],
+                [
+                  692.44,
+                  325.03
+                ],
+                [
+                  701.4,
+                  327.79
+                ],
+                [
+                  701.4,
+                  331.92
+                ],
+                [
+                  695.2,
+                  335.36
+                ],
+                [
+                  685.55,
+                  333.99
+                ],
+                [
+                  672.46,
+                  346.38
+                ],
+                [
+                  655.92,
+                  355.33
+                ],
+                [
+                  637.32,
+                  351.89
+                ],
+                [
+                  624.23,
+                  348.45
+                ],
+                [
+                  613.89,
+                  354.64
+                ],
+                [
+                  602.18,
+                  362.22
+                ],
+                [
+                  589.78,
+                  369.79
+                ],
+                [
+                  585.65,
+                  367.04
+                ],
+                [
+                  594.6,
+                  356.02
+                ],
+                [
+                  597.36,
+                  348.45
+                ],
+                [
+                  587.71,
+                  357.4
+                ],
+                [
+                  579.44,
+                  359.46
+                ]
+              ],
+              [
+                [
+                  608.38,
+                  348.45
+                ],
+                [
+                  617.34,
+                  349.82
+                ],
+                [
+                  611.83,
+                  364.97
+                ],
+                [
+                  602.87,
+                  372.55
+                ],
+                [
+                  602.87,
+                  379.43
+                ],
+                [
+                  597.36,
+                  383.57
+                ],
+                [
+                  591.16,
+                  380.81
+                ],
+                [
+                  596.67,
+                  377.37
+                ],
+                [
+                  595.98,
+                  371.17
+                ]
+              ],
+              [
+                [
+                  655.92,
+                  349.13
+                ],
+                [
+                  663.5,
+                  347.07
+                ],
+                [
+                  664.88,
+                  375.3
+                ],
+                [
+                  668.33,
+                  379.43
+                ],
+                [
+                  666.95,
+                  384.26
+                ],
+                [
+                  659.37,
+                  383.57
+                ]
+              ],
+              [
+                [
+                  646.28,
+                  353.27
+                ],
+                [
+                  652.48,
+                  353.96
+                ],
+                [
+                  653.17,
+                  375.99
+                ],
+                [
+                  657.99,
+                  380.12
+                ],
+                [
+                  654.55,
+                  384.26
+                ],
+                [
+                  648.34,
+                  381.5
+                ]
+              ]
+            ]
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/activities/ActivityMexicoCoyoacanMarket.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the Coyoacán market"
+        }
+      ],
+      "activity_prompt": "Order at the market"
+    },
+    "ActivityMexicoCondesaPark": {
+      "city": "mexico",
+      "region": "condesa",
+      "title": "Parque México",
+      "parent": "res://scenes/world/MexicoCondesa.tscn",
+      "ambience": "street",
+      "action": [
+        757.89,
+        579.83
+      ],
+      "geometry": {
+        "floor": 455.87,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "central_planting",
+            "sort_y": 477.22,
+            "footprints": [
+              [
+                126.09,
+                411.8,
+                847.46,
+                65.42
+              ]
+            ],
+            "polygons": []
+          },
+          {
+            "id": "lower_left_bed",
+            "sort_y": 648.0,
+            "footprints": [
+              [
+                0.0,
+                495.12,
+                89.57,
+                53.02
+              ],
+              [
+                0.0,
+                548.15,
+                136.42,
+                42.7
+              ],
+              [
+                0.0,
+                590.84,
+                208.08,
+                57.16
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  53.74,
+                  498.57
+                ],
+                [
+                  84.06,
+                  502.7
+                ],
+                [
+                  115.75,
+                  515.78
+                ],
+                [
+                  132.98,
+                  530.93
+                ],
+                [
+                  134.35,
+                  546.08
+                ],
+                [
+                  126.78,
+                  557.79
+                ],
+                [
+                  148.13,
+                  568.81
+                ],
+                [
+                  166.05,
+                  587.4
+                ],
+                [
+                  209.45,
+                  607.37
+                ],
+                [
+                  214.97,
+                  617.7
+                ],
+                [
+                  191.54,
+                  648.0
+                ],
+                [
+                  179.14,
+                  648.0
+                ],
+                [
+                  201.19,
+                  619.08
+                ],
+                [
+                  175.0,
+                  612.88
+                ],
+                [
+                  157.78,
+                  594.98
+                ],
+                [
+                  133.67,
+                  579.83
+                ],
+                [
+                  115.06,
+                  562.61
+                ],
+                [
+                  112.31,
+                  546.08
+                ],
+                [
+                  112.31,
+                  532.31
+                ],
+                [
+                  92.33,
+                  518.54
+                ],
+                [
+                  68.21,
+                  511.65
+                ]
+              ]
+            ],
+            "foliage": [
+              [
+                [
+                  0.0,
+                  466.89
+                ],
+                [
+                  42.03,
+                  468.27
+                ],
+                [
+                  64.08,
+                  493.06
+                ],
+                [
+                  95.77,
+                  511.65
+                ],
+                [
+                  110.93,
+                  528.87
+                ],
+                [
+                  110.93,
+                  560.54
+                ],
+                [
+                  170.87,
+                  577.76
+                ],
+                [
+                  195.67,
+                  603.24
+                ],
+                [
+                  206.01,
+                  630.78
+                ],
+                [
+                  197.05,
+                  648.0
+                ],
+                [
+                  0.0,
+                  648.0
+                ]
+              ]
+            ],
+            "pink_blossoms": true
+          },
+          {
+            "id": "lower_right_bed",
+            "sort_y": 648.0,
+            "footprints": [
+              [
+                1045.89,
+                448.99,
+                106.11,
+                73.68
+              ],
+              [
+                1066.56,
+                522.67,
+                85.44,
+                17.22
+              ],
+              [
+                995.6,
+                540.57,
+                156.4,
+                77.13
+              ],
+              [
+                940.48,
+                617.7,
+                211.52,
+                30.3
+              ]
+            ],
+            "polygons": [
+              [
+                [
+                  1069.32,
+                  426.95
+                ],
+                [
+                  1062.43,
+                  451.05
+                ],
+                [
+                  1077.59,
+                  461.38
+                ],
+                [
+                  1125.82,
+                  476.53
+                ],
+                [
+                  1152.0,
+                  478.6
+                ],
+                [
+                  1152.0,
+                  464.14
+                ],
+                [
+                  1109.28,
+                  457.94
+                ],
+                [
+                  1075.52,
+                  446.23
+                ]
+              ],
+              [
+                [
+                  1063.81,
+                  526.8
+                ],
+                [
+                  1063.81,
+                  539.89
+                ],
+                [
+                  1026.6,
+                  557.79
+                ],
+                [
+                  997.67,
+                  583.27
+                ],
+                [
+                  990.78,
+                  608.75
+                ],
+                [
+                  939.79,
+                  632.85
+                ],
+                [
+                  939.79,
+                  648.0
+                ],
+                [
+                  958.39,
+                  648.0
+                ],
+                [
+                  958.39,
+                  637.67
+                ],
+                [
+                  1006.62,
+                  621.14
+                ],
+                [
+                  1013.51,
+                  592.91
+                ],
+                [
+                  1041.76,
+                  568.12
+                ],
+                [
+                  1090.68,
+                  548.84
+                ],
+                [
+                  1090.68,
+                  537.13
+                ]
+              ]
+            ],
+            "foliage": [
+              [
+                [
+                  1067.25,
+                  515.09
+                ],
+                [
+                  1114.79,
+                  480.66
+                ],
+                [
+                  1152.0,
+                  475.15
+                ],
+                [
+                  1152.0,
+                  648.0
+                ],
+                [
+                  943.92,
+                  648.0
+                ],
+                [
+                  952.19,
+                  619.08
+                ],
+                [
+                  988.02,
+                  594.98
+                ],
+                [
+                  1018.33,
+                  561.23
+                ]
+              ]
+            ],
+            "pink_blossoms": true
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MexicoCondesa.tscn",
+          "at": [
+            144.69,
+            486.17
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "activity_prompt": "Explore the park"
+    },
+    "ActivityMexicoJuarezOrgan": {
+      "city": "mexico",
+      "region": "juarez",
+      "title": "The Juárez café corner",
+      "parent": "res://scenes/world/MexicoJuarez.tscn",
+      "ambience": "street",
+      "action": [
+        682.11,
+        570.87
+      ],
+      "geometry": {
+        "floor": 487.55,
+        "walk_bottom": 640,
+        "objects": [
+          {
+            "id": "left_cafe_tables",
+            "sort_y": 489.62,
+            "footprints": [
+              [
+                0.0,
+                422.82,
+                514.68,
+                66.8
+              ]
+            ],
+            "polygons": []
+          }
+        ],
+        "spawn": [
+          172.25,
+          557.79
+        ]
+      },
+      "exits": [
+        {
+          "target": "res://scenes/world/MexicoJuarez.tscn",
+          "at": [
+            48.23,
+            564.68
+          ],
+          "label": "E - Back to the neighbourhood"
+        }
+      ],
+      "residents": [
+        {
+          "id": "organ_listener",
+          "feet": [
+            868.13,
+            544.71
+          ],
+          "appearance": {
+            "wear": "coat"
+          }
+        }
+      ],
+      "activity_prompt": "Listen to the organillero"
+    }
+  },
+  "entries": {
+    "res://scenes/world/Mitte.tscn": {
+      "LocalSpot": {
+        "place": "ActivityBerlinSpati",
+        "prompt": "E - Enter the Späti"
+      }
+    },
+    "res://scenes/world/IstanbulKadikoy.tscn": {
+      "LocalSpot": {
+        "place": "ActivityFerryDeck",
+        "prompt": "E - Follow the quay to the ferry",
+        "at": [
+          1030.05,
+          546.77
+        ]
+      }
+    },
+    "res://scenes/world/LondonSoho.tscn": {
+      "LocalSpot": {
+        "place": "ActivityLondonPub",
+        "prompt": "E - Enter the pub"
+      }
+    },
+    "res://scenes/world/LondonHighStreet.tscn": {
+      "LocalSpot": {
+        "place": "ActivityLondonCharity",
+        "prompt": "E - Enter the charity shop"
+      }
+    },
+    "res://scenes/world/LondonDocklands.tscn": {
+      "LocalSpot": {
+        "place": "ActivityLondonDLRPlatform",
+        "prompt": "E - Go up to the DLR platform"
+      }
+    },
+    "res://scenes/world/LondonBrixton.tscn": {
+      "LocalSpot": {
+        "place": "ActivityLondonBrixtonMural",
+        "prompt": "E - Walk to Tunstall Road"
+      }
+    },
+    "res://scenes/world/ParisMarais.tscn": {
+      "LocalSpot": {
+        "place": "ActivityParisRosiers",
+        "prompt": "E - Walk along Rue des Rosiers"
+      }
+    },
+    "res://scenes/world/ParisMontmartre.tscn": {
+      "LocalSpot": {
+        "place": "ActivityParisTertre",
+        "prompt": "E - Walk into Place du Tertre"
+      }
+    },
+    "res://scenes/world/ParisBelleville.tscn": {
+      "LocalSpot": {
+        "place": "ActivityParisBellevilleView",
+        "prompt": "E - Follow the path to the viewpoint"
+      }
+    },
+    "res://scenes/world/ParisLaDefense.tscn": {
+      "LocalSpot": {
+        "place": "ActivityParisDefenseAxis",
+        "prompt": "E - Continue along the Esplanade"
+      }
+    },
+    "res://scenes/world/ParisChampDeMars.tscn": {
+      "LocalSpot": {
+        "place": "ActivityParisChampLawn",
+        "prompt": "E - Step onto the lawn"
+      }
+    },
+    "res://scenes/world/MoscowKitayGorod.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMoscowStolovaya",
+        "prompt": "E - Enter the stolovaya"
+      }
+    },
+    "res://scenes/world/MoscowBasmanny.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMoscowRemont",
+        "prompt": "E - Visit the repair booth",
+        "at": [
+          218.41,
+          484.79
+        ]
+      }
+    },
+    "res://scenes/world/MoscowIzmaylovo.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMoscowVernisazh",
+        "prompt": "E - Browse the Vernisazh stalls"
+      }
+    },
+    "res://scenes/world/MoscowArbat.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMoscowTsoyWall",
+        "prompt": "E - Follow the lane to the Tsoy wall"
+      }
+    },
+    "res://scenes/world/MoscowZamoskvorechye.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMoscowChurchyard",
+        "prompt": "E - Walk into the churchyard"
+      }
+    },
+    "res://scenes/world/MumbaiBhuleshwar.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMumbaiKabutarkhana",
+        "prompt": "E - Walk to Kabutarkhana"
+      }
+    },
+    "res://scenes/world/MumbaiChorBazaar.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMumbaiChorStall",
+        "prompt": "E - Browse the antiques shop"
+      }
+    },
+    "res://scenes/world/MumbaiColaba.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMumbaiGateway",
+        "prompt": "E - Walk to the Gateway promenade"
+      }
+    },
+    "res://scenes/world/MumbaiBandra.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMumbaiMountMary",
+        "prompt": "E - Follow the lane to Mount Mary"
+      }
+    },
+    "res://scenes/world/MumbaiByculla.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMumbaiMuseumGarden",
+        "prompt": "E - Enter the museum garden"
+      }
+    },
+    "res://scenes/world/TokyoYanaka.tscn": {
+      "LocalSpot": {
+        "place": "ActivityTokyoMenchi",
+        "prompt": "E - Follow the lane to the menchi shop"
+      }
+    },
+    "res://scenes/world/TokyoJinbocho.tscn": {
+      "LocalSpot": {
+        "place": "ActivityTokyoBookshop",
+        "prompt": "E - Browse the bookshop"
+      }
+    },
+    "res://scenes/world/TokyoAsakusa.tscn": {
+      "LocalSpot": {
+        "place": "ActivityTokyoKaminarimon",
+        "prompt": "E - Walk to Kaminarimon"
+      }
+    },
+    "res://scenes/world/TokyoUeno.tscn": {
+      "LocalSpot": {
+        "place": "ActivityTokyoAmeyoko",
+        "prompt": "E - Browse Ameyoko market"
+      }
+    },
+    "res://scenes/world/TokyoShinbashi.tscn": {
+      "LocalSpot": {
+        "place": "ActivityTokyoShinbashiSquare",
+        "prompt": "E - Walk to the square"
+      }
+    },
+    "res://scenes/world/MexicoMerced.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMexicoMercedAisle",
+        "prompt": "E - Enter the market aisle"
+      }
+    },
+    "res://scenes/world/MexicoRoma.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMexicoRomaPlaza",
+        "prompt": "E - Walk into the plaza"
+      }
+    },
+    "res://scenes/world/MexicoCoyoacan.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMexicoCoyoacanMarket",
+        "prompt": "E - Enter the market"
+      }
+    },
+    "res://scenes/world/MexicoCondesa.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMexicoCondesaPark",
+        "prompt": "E - Follow the park path"
+      }
+    },
+    "res://scenes/world/MexicoJuarez.tscn": {
+      "LocalSpot": {
+        "place": "ActivityMexicoJuarezOrgan",
+        "prompt": "E - Walk to the café corner"
+      }
+    }
+  }
+}

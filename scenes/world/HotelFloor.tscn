@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/HotelFloor.gd"           id="1_hf"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentInterior.gd" id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"          id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"            id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/Elevator.tscn"           id="5_elv"]
+[ext_resource type="PackedScene" path="res://scenes/world/HotelDoor.tscn"          id="6_door"]
+[ext_resource type="PackedScene" path="res://scenes/ui/ElevatorPanel.tscn"         id="15_ep"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui_layer"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+
+
+
+[node name="HotelFloor" type="Node2D"]
+script = ExtResource("1_hf")
+[node name="HotelFloorBackground" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "HotelFloor"
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_left = 44.0
+wall_right = 1108.0
+wall_bottom = 606.0
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(170, 440)
+[node name="Elevator" parent="." instance=ExtResource("5_elv")]
+position = Vector2(110, 360)
+[node name="Door1" parent="." instance=ExtResource("6_door")]
+position = Vector2(294, 340)
+door_index = 1
+[node name="Door2" parent="." instance=ExtResource("6_door")]
+position = Vector2(494, 340)
+door_index = 2
+[node name="Door3" parent="." instance=ExtResource("6_door")]
+position = Vector2(694, 340)
+door_index = 3
+[node name="Door4" parent="." instance=ExtResource("6_door")]
+position = Vector2(894, 340)
+door_index = 4
+[node name="ElevatorPanel" parent="." instance=ExtResource("15_ep")]
+
+[node name="UILayer" parent="." instance=ExtResource("ui_layer")]
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../HotelFloorBackground")

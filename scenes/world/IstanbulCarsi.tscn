@@ -1,0 +1,105 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/IstanbulCarsi.gd"                     id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"     id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"                  id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"                    id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"                  id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"                       id="6_ui"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"                        id="9_solid"]
+[ext_resource type="PackedScene" path="res://scenes/npc/CityNPC.tscn"                   id="8_npc"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="sp_70"]
+
+
+[node name="IstanbulCarsi" type="Node2D"]
+script = ExtResource("1_root")
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "IstanbulCarsi"
+district = "carsi"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(160, 430)
+
+[node name="HanGate" parent="." instance=ExtResource("5_exit")]
+position = Vector2(560, 336)
+target_scene = "res://scenes/world/IstanbulHan.tscn"
+spawn_tag = "from_carsi"
+prompt_text = "E — Through the studded door"
+
+[node name="OtelEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(212, 330)
+target_scene = "res://scenes/world/IstanbulOtel.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — OTEL"
+sign_text = "OTEL"
+frontage = "lodging"
+
+[node name="LokantaEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(392, 330)
+target_scene = "res://scenes/world/IstanbulLokanta.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — LOKANTA — the steam trays"
+sign_text = "LOKANTA"
+frontage = "food"
+
+[node name="DovizEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(700, 330)
+target_scene = "res://scenes/world/IstanbulDoviz.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — DÖVİZ"
+sign_text = "DÖVİZ"
+frontage = "money"
+
+[node name="MetroEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(880, 336)
+target_scene = "res://scenes/world/IstanbulMetro.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — METRO"
+sign_text = "METRO"
+frontage = "transit"
+
+[node name="KarakolEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(1010, 330)
+target_scene = "res://scenes/world/IstanbulKarakol.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — KARAKOL"
+sign_text = "KARAKOL"
+frontage = "civic"
+
+[node name="HastaneEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(78, 330)
+target_scene = "res://scenes/world/IstanbulHastane.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — ACİL"
+sign_text = "ACİL"
+frontage = "medical"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="NpcNurhan" parent="." instance=ExtResource("8_npc")]
+position = Vector2(420, 430)
+npc_id = "nurhan"
+city = "istanbul"
+build = "adult"
+
+[node name="NpcEmre" parent="." instance=ExtResource("8_npc")]
+position = Vector2(250, 500)
+npc_id = "emre"
+city = "istanbul"
+build = "child"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="LocalSpot" parent="." instance=ExtResource("sp_70")]
+position = Vector2(340, 372)
+service = "local"
+prompt_text = "E - The bakery"

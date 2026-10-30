@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foreign to All · Steam page preview</title>
+<style>
+:root {
+	--steam-bg: #1b2838;
+	--steam-top: #171a21;
+	--text: #c6d4df;
+	--muted: #8f98a0;
+	--dim: #556772;
+	--link: #67c1f5;
+	--desc: #acb2b8;
+	--h2: #2f89bc;
+	--white: #fff;
+	--green-a: #75b022;
+	--green-b: #588a1b;
+	--ink: #12101c;
+	--lavender: #c3b2de;
+	--mint: #79dcc4;
+	--amber: #efb864;
+	--page: 1200px;
+	--left: 780px;
+	--right: 396px;
+	--media: 808px;
+	--glance: 375px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--steam-bg); color: var(--text); font: 12px/1.4 Arial, Helvetica, sans-serif; }
+a { color: var(--link); text-decoration: none; }
+button { font: inherit; }
+
+/* ── preview chrome (not part of Steam) ───────────────────────────────────── */
+.pv-bar { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; gap: 18px; height: 46px; padding: 0 18px;
+	background: #0c0b14; border-bottom: 1px solid #2b2742; color: #e9e4f7; font-family: "Segoe UI", system-ui, sans-serif; }
+.pv-brand { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 13px; white-space: nowrap; }
+.pv-brand img { width: 26px; height: 26px; border-radius: 50%; }
+.pv-chip { font-size: 11px; font-weight: 600; letter-spacing: .04em; color: var(--ink); background: var(--amber); padding: 2px 8px; border-radius: 10px; }
+.pv-tabs { display: flex; gap: 4px; margin-left: auto; }
+.pv-tabs button { background: transparent; color: #b9b2cf; border: 0; padding: 7px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.pv-tabs button:hover { background: #1c1930; color: #fff; }
+.pv-tabs button[aria-selected="true"] { background: #262140; color: #fff; box-shadow: inset 0 -2px 0 var(--mint); }
+.pv-notes { display: flex; align-items: center; gap: 8px; margin-left: 10px; font-size: 13px; color: #b9b2cf; cursor: pointer; user-select: none; white-space: nowrap; }
+.pv-notes input { accent-color: var(--mint); width: 16px; height: 16px; }
+.view { display: none; }
+.view.on { display: block; }
+
+/* ── Steam global header (generic, no Valve marks) ────────────────────────── */
+.st-global { background: var(--steam-top); height: 92px; }
+.st-global .in { width: var(--page); margin: 0 auto; height: 100%; display: flex; align-items: center; gap: 40px; padding: 0 4px; }
+.st-logo { display: flex; align-items: center; gap: 10px; color: #e5e5e5; font: 700 21px/1 Arial, sans-serif; letter-spacing: .02em; }
+.st-logo i { width: 34px; height: 34px; border-radius: 50%; border: 5px solid #c5c3c0; display: inline-block; position: relative; }
+.st-logo i::after { content: ""; position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #c5c3c0; right: -9px; top: 4px; }
+.st-menu { display: flex; gap: 26px; font: 14px Arial, sans-serif; text-transform: uppercase; letter-spacing: .03em; }
+.st-menu span { color: #dcdedf; } .st-menu span.on { color: #1a9fff; border-bottom: 3px solid #1a9fff; padding-bottom: 6px; }
+.st-nav { width: var(--page); margin: 18px auto 0; height: 36px; display: flex; align-items: center; gap: 2px; padding-left: 8px;
+	background: linear-gradient(90deg, rgba(62,103,150,.92) 11%, rgba(58,120,177,.8) 25%, rgb(15,33,110) 100%); box-shadow: 0 0 3px rgba(0,0,0,.4); }
+.st-nav span { color: #e5e5e5; font-size: 13px; padding: 0 12px; }
+.st-search { margin-left: auto; margin-right: 6px; width: 260px; height: 26px; border-radius: 3px; background: #316282; color: #0e1c25; display: flex; align-items: center; padding: 0 10px; font-style: italic; font-size: 13px; color: #a7c4d8; }
+
+/* ── page background ──────────────────────────────────────────────────────── */
+.st-page { position: relative; padding-bottom: 80px; }
+.st-bg { position: absolute; inset: 0 0 auto 0; height: 1100px; overflow: hidden; pointer-events: none; }
+.st-bg::before { content: ""; position: absolute; inset: 0; background: url(assets/page_background_1438x810.png) center top / 1438px 810px no-repeat; opacity: .55; filter: saturate(.9); }
+.st-bg::after { content: ""; position: absolute; inset: 0;
+	background: radial-gradient(ellipse 760px 520px at 50% 300px, rgba(27,40,56,0) 0%, rgba(27,40,56,.55) 60%, var(--steam-bg) 100%),
+		linear-gradient(180deg, rgba(27,40,56,0) 50%, var(--steam-bg) 86%); }
+.st-wrap { position: relative; width: var(--page); margin: 0 auto; }
+
+/* ── title ────────────────────────────────────────────────────────────────── */
+.crumbs { padding-top: 26px; color: var(--muted); font-size: 12px; }
+.crumbs a { color: var(--muted); }
+.titlerow { display: flex; align-items: center; margin: 6px 0 14px; }
+.titlerow h1 { margin: 0; font: 400 26px/32px "Motiva Sans", Arial, sans-serif; color: #fff; }
+.btn-blue { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 15px; border-radius: 2px; background: rgba(103,193,245,.2); color: var(--link); font-size: 15px; cursor: pointer; border: 0; }
+.btn-blue:hover { background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%); color: #fff; }
+.titlerow .btn-blue { margin-left: auto; font-size: 14px; }
+
+/* ── highlights + glance ──────────────────────────────────────────────────── */
+.top { display: flex; justify-content: space-between; padding: 16px; background: rgba(0,0,0,.2); box-shadow: 0 0 12px rgba(0,0,0,.25); }
+.media { width: var(--media); }
+.player { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
+.player video, .player img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.player .arrow { position: absolute; top: 50%; translate: 0 -50%; width: 38px; height: 64px; border: 0; background: rgba(0,0,0,.45); color: #fff; font-size: 26px; cursor: pointer; opacity: 0; transition: opacity .2s; }
+.player:hover .arrow { opacity: 1; } .player .prev { left: 0; } .player .next { right: 0; }
+.cap { position: absolute; left: 12px; bottom: 12px; right: 12px; color: #fff; font-size: 13px; text-shadow: 0 1px 3px #000; pointer-events: none; opacity: .92; }
+.strip { position: relative; margin-top: 8px; overflow: hidden; }
+.strip-in { display: flex; gap: 4px; transition: transform .35s ease; }
+.thumb { position: relative; flex: 0 0 auto; width: 116px; height: 65px; border: 2px solid transparent; cursor: pointer; background: #000 center / cover no-repeat; opacity: .72; }
+.thumb:hover { opacity: 1; } .thumb.on { border-color: #fff; opacity: 1; }
+.thumb.movie::after { content: "▶"; position: absolute; inset: 0; display: grid; place-items: center; color: #fff; font-size: 18px; text-shadow: 0 0 6px #000; }
+.slider { margin-top: 6px; height: 18px; display: flex; align-items: center; gap: 6px; }
+.slider .rail { position: relative; flex: 1; height: 8px; background: rgba(0,0,0,.4); border-radius: 3px; }
+.slider .knob { position: absolute; top: 0; height: 8px; border-radius: 3px; background: #417a9b; }
+.slider button { width: 22px; height: 16px; border: 0; background: rgba(103,193,245,.2); color: var(--link); cursor: pointer; font-size: 10px; border-radius: 2px; }
+.glance { width: var(--glance); }
+.glance .header-cap { width: 100%; display: block; aspect-ratio: 920 / 430; }
+.snippet { margin: 12px 0 14px; font-size: 14px; line-height: 19px; color: var(--text); }
+.facts { display: grid; grid-template-columns: 104px 1fr; row-gap: 7px; font-size: 13px; align-items: baseline; }
+.facts .k { color: #556772; font-size: 10px; text-transform: uppercase; letter-spacing: .03em; }
+.facts .v { color: var(--muted); } .facts .v a { color: var(--link); }
+.facts .gap { grid-column: 1 / -1; height: 6px; }
+.tagsblock { margin-top: 18px; }
+.tagsblock .lbl { color: #556772; font-size: 12px; margin-bottom: 4px; }
+.tags { display: flex; flex-wrap: wrap; gap: 2px; }
+.tag { display: inline-block; height: 19px; line-height: 19px; padding: 0 7px; border-radius: 2px; background: rgba(103,193,245,.2); color: var(--link); font-size: 11px; }
+.queue { display: flex; align-items: center; gap: 4px; margin-top: 0; padding: 12px 16px; background: linear-gradient(90deg, rgba(36,62,84,.92), rgba(28,46,64,.7)); }
+.queue .btn-blue { font-size: 13px; height: 32px; }
+.queue .spacer { flex: 1; }
+
+/* ── columns ──────────────────────────────────────────────────────────────── */
+.cols { display: flex; justify-content: space-between; margin-top: 24px; }
+.leftcol { width: var(--left); }
+.rightcol { width: var(--right); }
+.box { position: relative; margin-bottom: 28px; padding: 16px 16px 26px; border-radius: 4px; background: linear-gradient(-60deg, rgba(226,244,255,.3) 5%, rgba(84,107,115,.3) 95%); }
+.box h3 { margin: 0 0 4px; font: 400 21px/26px "Motiva Sans", Arial, sans-serif; color: #fff; }
+.box .sub { color: var(--text); font-size: 13px; max-width: 520px; }
+.box .act { position: absolute; right: 16px; bottom: -16px; display: flex; padding: 2px; background: #000; border-radius: 2px; }
+.btn-green { height: 32px; padding: 0 15px; border: 0; border-radius: 2px; cursor: pointer; color: #d2efa9; font-size: 15px; background: linear-gradient(90deg, var(--green-a) 5%, var(--green-b) 95%); }
+.btn-green:hover { color: #fff; background: linear-gradient(90deg, #8ed629 5%, #6aa621 95%); }
+.platforms { position: absolute; right: 16px; top: 18px; display: flex; gap: 6px; }
+.plat { font: 700 9px/16px Arial; letter-spacing: .05em; color: #c6d4df; padding: 0 5px; border: 1px solid rgba(198,212,223,.5); border-radius: 2px; opacity: .85; }
+.soon { background: linear-gradient(-60deg, rgba(103,193,245,.42) 5%, rgba(46,94,140,.5) 95%); padding-bottom: 18px; }
+.soon .notyet { font-size: 12px; color: #c6d4df; opacity: .8; }
+.soon h3 { font-size: 21px; }
+.soon .interested { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,.12); color: #c6d4df; font-size: 12px; }
+.sect { margin: 34px 0 10px; padding-top: 2px; font: 400 14px/26px "Motiva Sans", Arial, sans-serif; color: #fff;
+	background: linear-gradient(90deg, #3b6e8f 0%, rgba(59,110,143,0) 100%) left bottom / 100% 1px no-repeat; text-transform: uppercase; letter-spacing: .04em; }
+.about { color: var(--desc); font: 14px/21px "Motiva Sans", Arial, sans-serif; }
+.about h2.bb { margin: 18px 0 0; padding-top: 2px; font: 400 15px/26px "Motiva Sans", Arial, sans-serif; color: var(--h2); }
+.about .img { display: block; margin: 6px 0 4px; max-width: 100%; }
+.about video.img { width: 100%; height: auto; background: #000; }
+.about ul { margin: 6px 0 12px; padding-left: 18px; } .about li { margin: 2px 0; }
+.about i { color: #bfc6cd; }
+.sysreq .tabs { display: flex; gap: 2px; margin: 8px 0 0; }
+.sysreq .tabs button { border: 0; padding: 6px 14px; background: rgba(103,193,245,.12); color: var(--muted); cursor: pointer; font-size: 12px; }
+.sysreq .tabs button.on { background: #2a475e; color: #fff; }
+.sysreq .pane { display: none; padding: 14px 16px; background: rgba(0,0,0,.2); color: var(--desc); font-size: 13px; line-height: 20px; }
+.sysreq .pane.on { display: block; }
+.sysreq .pane b { color: #fff; font-weight: 400; display: block; margin-bottom: 6px; text-transform: uppercase; font-size: 12px; letter-spacing: .03em; }
+.sysreq ul { margin: 0; padding: 0; list-style: none; } .sysreq li span { color: #8f98a0; }
+.blk { margin-bottom: 14px; padding: 12px 14px; background: rgba(0,0,0,.2); }
+.blk h4 { margin: 0 0 8px; color: #fff; font-weight: 400; font-size: 14px; }
+.blk p { margin: 0 0 10px; color: var(--muted); font-size: 12px; }
+.feat { display: flex; align-items: center; gap: 10px; height: 26px; margin-bottom: 2px; padding: 0 8px; background: rgba(0,0,0,.2); color: #fff; font-size: 12px; }
+.feat svg { width: 16px; height: 16px; fill: #67c1f5; flex: none; }
+.langs { width: 100%; border-collapse: collapse; font-size: 12px; }
+.langs th { color: #b0aeac; font-weight: 400; text-align: center; padding: 2px 4px; } .langs th:first-child { text-align: left; }
+.langs td { padding: 4px; text-align: center; color: var(--link); border-top: 1px solid rgba(255,255,255,.05); } .langs td:first-child { text-align: left; color: var(--text); }
+.details { color: var(--muted); font-size: 12px; line-height: 19px; }
+.details b { color: #556772; font-weight: 400; text-transform: uppercase; }
+.linkrow { display: block; margin-top: 2px; padding: 4px 8px; background: rgba(0,0,0,.2); color: var(--link); font-size: 12px; }
+.deck { display: flex; align-items: center; gap: 10px; color: var(--muted); }
+.deck .dot { width: 18px; height: 18px; border-radius: 50%; border: 2px solid #556772; display: grid; place-items: center; color: #8f98a0; font-size: 11px; }
+
+/* ── annotations ──────────────────────────────────────────────────────────── */
+.pin { position: absolute; z-index: 30; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--ink); background: var(--mint); color: var(--ink);
+	font: 800 12px/22px "Segoe UI", system-ui, sans-serif; text-align: center; cursor: pointer; box-shadow: 0 0 0 3px rgba(121,220,196,.25), 0 4px 10px rgba(0,0,0,.5); }
+.pin:hover, .pin.open { background: #fff; }
+body:not(.notes) .pin, body:not(.notes) .note { display: none; }
+.note { position: absolute; z-index: 40; width: 330px; padding: 14px 16px 12px; border-radius: 10px; background: #f7f4ee; color: #231f2e; font: 13px/1.5 "Segoe UI", system-ui, sans-serif;
+	box-shadow: 0 18px 40px rgba(0,0,0,.45); display: none; }
+.note.on { display: block; }
+.note h5 { margin: 0 0 6px; font-size: 14px; color: #141019; }
+.note .ref { margin-top: 8px; padding-top: 8px; border-top: 1px solid #e3ddd2; color: #6a6378; font-size: 12px; }
+.note .owner { display: inline-block; margin-top: 8px; padding: 2px 8px; border-radius: 10px; background: #fde6b5; color: #6b4a07; font-size: 11px; font-weight: 700; }
+.note .x { position: absolute; right: 8px; top: 6px; border: 0; background: transparent; font-size: 18px; color: #8a8496; cursor: pointer; }
+
+/* ── art view ─────────────────────────────────────────────────────────────── */
+.art { width: 1200px; margin: 0 auto; padding: 30px 0 80px; }
+.art h2 { margin: 40px 0 6px; color: #fff; font: 400 20px "Motiva Sans", Arial, sans-serif; }
+.art .why { margin: 0 0 14px; color: var(--muted); font-size: 13px; max-width: 760px; }
+.maincap { display: flex; width: 940px; height: 353px; background: #0f1922; box-shadow: 0 0 10px #000; }
+.maincap > img { width: 616px; height: 353px; display: block; }
+.maincap .info { flex: 1; padding: 12px 14px; display: flex; flex-direction: column; background: linear-gradient(180deg, #23384b, #152331); }
+.maincap .info h3 { margin: 0 0 8px; color: #fff; font: 400 22px "Motiva Sans", Arial; }
+.maincap .shots { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.maincap .shots img { width: 100%; aspect-ratio: 16/9; display: block; }
+.maincap .bottom { margin-top: auto; display: flex; align-items: center; justify-content: space-between; color: #fff; font-size: 14px; }
+.row { display: flex; align-items: center; gap: 12px; width: 940px; height: 79px; padding: 5px; background: rgba(0,0,0,.2); }
+.row:hover { background: linear-gradient(90deg, #95bcd3 0%, #2f5d77 100%); }
+.row img { width: 184px; height: 69px; }
+.row .t { flex: 1; color: #c7d5e0; font-size: 15px; }
+.row .d { width: 140px; color: var(--muted); font-size: 12px; }
+.sale { display: flex; gap: 14px; }
+.vcard { width: 249px; height: 298px; position: relative; }
+.vcard img { width: 100%; height: 100%; display: block; }
+.ph { display: grid; place-items: center; background: repeating-linear-gradient(45deg, #24364a 0 10px, #203245 10px 20px); color: #4c6278; font-size: 12px; }
+.lib { width: 1200px; background: #1d2026; display: flex; box-shadow: 0 0 10px #000; }
+.lib .side { width: 230px; background: #23262e; padding: 10px 0; color: #9aa0a8; font-size: 13px; }
+.lib .side div { display: flex; align-items: center; gap: 8px; padding: 4px 12px; }
+.lib .side div.on { background: #3d4450; color: #fff; }
+.lib .side img, .lib .side .ico { width: 16px; height: 16px; }
+.lib .side .ico { background: #3a4150; border-radius: 2px; }
+.lib .main { flex: 1; }
+.hero { position: relative; aspect-ratio: 3840 / 1240; background: url(assets/library_hero_3840x1240.png) center / cover; }
+.hero .logo { position: absolute; left: 4%; bottom: 12%; width: 34%; }
+.libbar { display: flex; align-items: center; gap: 18px; padding: 14px 24px; background: #23262e; color: #8b929a; }
+.libbar .play { height: 44px; padding: 0 30px; border: 0; border-radius: 3px; color: #fff; font-size: 16px; font-weight: 700; background: linear-gradient(90deg, #47bfff 0%, #1a44c2 100%); }
+.shelf { display: flex; gap: 14px; padding: 24px; }
+.shelf > * { width: 150px; height: 225px; }
+.shelf img { width: 150px; height: 225px; display: block; box-shadow: 0 6px 14px rgba(0,0,0,.5); }
+.sizes { display: flex; align-items: flex-end; gap: 22px; flex-wrap: wrap; }
+.sizes figure { margin: 0; color: var(--muted); font-size: 12px; }
+.sizes img { display: block; margin-bottom: 6px; }
+.wish { display: flex; gap: 14px; align-items: center; width: 940px; padding: 12px; background: rgba(0,0,0,.25); }
+.wish img { width: 240px; height: 112px; display: block; }
+.wish .t { color: #fff; font-size: 17px; }
+
+/* ── paste view ───────────────────────────────────────────────────────────── */
+.paste { width: 940px; margin: 0 auto; padding: 30px 0 80px; color: #dde3e9; font: 14px/1.6 "Segoe UI", system-ui, sans-serif; }
+.paste h1 { color: #fff; font-size: 24px; margin: 10px 0 4px; }
+.paste h2 { color: #fff; font-size: 18px; margin: 34px 0 8px; padding-bottom: 6px; border-bottom: 1px solid #2c4255; }
+.paste h3 { color: #fff; font-size: 15px; margin: 20px 0 6px; }
+.paste table { border-collapse: collapse; width: 100%; margin: 8px 0 14px; font-size: 13px; }
+.paste th, .paste td { border: 1px solid #2c4255; padding: 5px 8px; text-align: left; vertical-align: top; }
+.paste th { background: #1f3346; color: #fff; font-weight: 600; }
+.paste blockquote { margin: 8px 0; padding: 8px 14px; border-left: 3px solid var(--mint); background: rgba(0,0,0,.2); }
+.paste code { background: rgba(0,0,0,.3); padding: 1px 5px; border-radius: 3px; font-size: 12.5px; }
+.copybox { position: relative; margin: 8px 0 18px; }
+.copybox pre { margin: 0; max-height: 360px; overflow: auto; padding: 14px 16px; background: #0f1a24; border: 1px solid #2c4255; border-radius: 6px; white-space: pre-wrap; font: 12.5px/1.55 Consolas, monospace; color: #cfe3f1; padding-right: 84px; }
+.copybox button { position: absolute; top: 8px; right: 8px; padding: 5px 12px; border: 0; border-radius: 4px; background: var(--mint); color: var(--ink); font-weight: 700; cursor: pointer; }
+.count { color: var(--muted); font-size: 12px; }
+
+/* ── narrower windows: Steam's classic 940 layout, then one column ────────── */
+@media (max-width: 1260px) {
+	:root { --page: 940px; --left: 616px; --right: 308px; --media: 600px; --glance: 308px; }
+	.art, .lib { width: 940px; }
+	.thumb { width: 104px; height: 58px; }
+}
+@media (max-width: 980px) {
+	:root { --page: calc(100vw - 32px); --left: 100%; --right: 100%; --media: 100%; --glance: 100%; }
+	.top, .cols { flex-direction: column; gap: 18px; }
+	.st-global, .st-nav, .pv-tabs button span { display: none; }
+	.art, .lib, .paste, .maincap, .row, .wish { width: 100%; }
+	.maincap { flex-direction: column; height: auto; } .maincap > img { width: 100%; height: auto; }
+	.pv-brand span { display: none; }
+}
+</style>
+</head>
+<body class="notes">
+<div class="pv-bar">
+	<div class="pv-brand"><img src="assets/community_icon_184.jpg" alt=""><span>Foreign to All · Steam page preview</span><em class="pv-chip">DRAFT · NOT PUBLISHED</em></div>
+	<div class="pv-tabs" role="tablist">
+		<button role="tab" aria-selected="true" data-view="store">Store page</button>
+		<button role="tab" aria-selected="false" data-view="art">Where the art appears</button>
+		<button role="tab" aria-selected="false" data-view="paste">Paste into Steamworks</button>
+	</div>
+	<label class="pv-notes"><input type="checkbox" id="notes" checked> Design notes</label>
+</div>
+
+<!-- ═══════════════════════════ STORE PAGE ═══════════════════════════ -->
+<section class="view on" id="view-store">
+	<div class="st-global"><div class="in">
+		<div class="st-logo"><i></i>STORE</div>
+		<div class="st-menu"><span class="on">Store</span><span>Community</span><span>About</span><span>Support</span></div>
+	</div></div>
+	<div class="st-page">
+		<div class="st-bg"></div>
+		<div class="st-nav" style="position:relative"><span>Your Store</span><span>New &amp; Noteworthy</span><span>Categories</span><span>Points Shop</span><span>News</span><span>Labs</span><div class="st-search">search</div></div>
+		<div class="st-wrap">
+			<div class="crumbs"><a>All Games</a> &gt; <a>Indie Games</a> &gt; <a>Foreign to All</a></div>
+			<div class="titlerow"><h1>Foreign to All</h1><button class="btn-blue">Community Hub</button></div>
+
+			<div class="top">
+				<div class="media">
+					<div class="player" id="player"></div>
+					<div class="strip"><div class="strip-in" id="strip"></div></div>
+					<div class="slider" data-note="carousel"><button id="sl-prev">◀</button><div class="rail"><div class="knob" id="knob"></div></div><button id="sl-next">▶</button></div>
+				</div>
+				<div class="glance">
+					<img class="header-cap" src="assets/header_capsule_920x430.png" alt="Foreign to All header capsule" data-note="header">
+					<div class="snippet" id="snippet" data-note="short"></div>
+					<div class="facts" data-note="dev">
+						<span class="k">All reviews:</span><span class="v">No user reviews</span>
+						<span class="gap"></span>
+						<span class="k">Release date:</span><span class="v">To be announced</span>
+						<span class="gap"></span>
+						<span class="k">Developer:</span><span class="v"><a>Arda Aslan</a></span>
+						<span class="k">Publisher:</span><span class="v"><a>Arda Aslan</a></span>
+					</div>
+					<div class="tagsblock" data-note="tags"><div class="lbl">Popular user-defined tags for this product:</div><div class="tags" id="tags-top"></div></div>
+				</div>
+			</div>
+			<div class="queue" data-note="wishlist">
+				<button class="btn-blue">Add to your wishlist</button><button class="btn-blue">Follow</button><button class="btn-blue">Ignore ▾</button>
+				<span class="spacer"></span><button class="btn-blue">View Your Queue ➜</button>
+			</div>
+
+			<div class="cols">
+				<div class="leftcol">
+					<div class="box" data-note="playtest">
+						<h3>Join the Foreign to All Playtest</h3>
+						<div class="sub">Request access to the playtest. The developer will be notified, and you will get an email when you have been let in.</div>
+						<div class="act"><button class="btn-green">Request Access</button></div>
+					</div>
+					<div class="box soon">
+						<div class="platforms"><span class="plat">WIN</span><span class="plat">MAC</span><span class="plat">LINUX</span></div>
+						<div class="notyet">This game is not yet available on Steam</div>
+						<h3>Planned Release Date: <span style="color:#fff">To be announced</span></h3>
+						<div class="interested"><span>Interested?<br>Add to your wishlist and get notified when it becomes available.</span><button class="btn-green">Add to your wishlist</button></div>
+					</div>
+
+					<div class="sect">About This Game</div>
+					<div class="about" id="about"></div>
+
+					<div class="sect" data-note="sysreq">System Requirements</div>
+					<div class="sysreq">
+						<div class="tabs" id="sys-tabs"></div>
+						<div id="sys-panes"></div>
+					</div>
+				</div>
+
+				<div class="rightcol">
+					<div class="blk"><h4>Is this game relevant to you?</h4><p>Sign in to see reasons why you may or may not like this based on your games, friends, and curators you follow.</p><button class="btn-blue">Sign In</button></div>
+					<div class="blk" data-note="features" style="padding-bottom:10px">
+						<div class="feat"><svg viewBox="0 0 16 16"><circle cx="8" cy="5" r="3"/><path d="M2 15c0-3.3 2.7-6 6-6s6 2.7 6 6z"/></svg>Single-player</div>
+						<div class="feat"><svg viewBox="0 0 16 16"><path d="M3 5h10a3 3 0 013 3v1a3 3 0 01-5 2.2L9.5 10h-3L5 11.2A3 3 0 010 9V8a3 3 0 013-3z"/></svg>Partial Controller Support</div>
+						<div class="feat"><svg viewBox="0 0 16 16"><circle cx="5" cy="5" r="2.4"/><circle cx="11" cy="5" r="2.4"/><path d="M0 14c0-2.5 2.2-4.5 5-4.5S10 11.5 10 14zM8 14c0-2.4 1.4-4.5 3-4.5s5 2 5 4.5z"/></svg>Family Sharing</div>
+					</div>
+					<div class="blk" data-note="access">
+						<h4>Accessibility Features</h4>
+						<div id="access"></div>
+					</div>
+					<div class="blk" data-note="langs">
+						<table class="langs"><tr><th>Languages:</th><th>Interface</th><th>Full Audio</th><th>Subtitles</th></tr><tr><td>English</td><td>✔</td><td></td><td>✔</td></tr></table>
+					</div>
+					<div class="blk deck"><span class="dot">?</span><span>Steam Deck Compatibility: <span style="color:#c6d4df">Unknown</span></span></div>
+					<div class="blk details">
+						<b>Title:</b> Foreign to All<br>
+						<b>Genre:</b> <a>Adventure</a>, <a>Casual</a>, <a>Indie</a><br>
+						<b>Developer:</b> <a>Arda Aslan</a><br>
+						<b>Publisher:</b> <a>Arda Aslan</a><br>
+						<b>Release Date:</b> To be announced
+						<a class="linkrow" style="margin-top:10px">View update history</a><a class="linkrow">Read related news</a><a class="linkrow">View discussions</a><a class="linkrow">Find Community Groups</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ═══════════════════════════ WHERE THE ART APPEARS ═══════════════════════════ -->
+<section class="view" id="view-art">
+	<div class="art">
+		<h2>Front page: main capsule carousel</h2>
+		<p class="why">The 1232 x 706 main capsule is what Steam shows when it features the game on its front page, next to the first four screenshots. One figure, one title, warm light against a dark sky: it has to read from across the room.</p>
+		<div class="maincap"><img src="assets/capsule_main_1232x706.png" alt=""><div class="info"><h3>Foreign to All</h3><div class="shots" id="mc-shots"></div><div class="tags" style="margin-top:10px" id="mc-tags"></div><div class="bottom"><span>Coming soon</span><button class="btn-green">Wishlist</button></div></div></div>
+
+		<h2>Search results and lists</h2>
+		<p class="why">The small capsule (462 x 174) is shrunk to 184 x 69 and 120 x 45 in search, top sellers and new releases. The logo nearly fills it, with the stroke weight raised one pixel so the title survives the shrink.</p>
+		<div class="row"><img src="assets/small_capsule_462x174.png" alt=""><div class="t">Foreign to All<div style="margin-top:4px"><span class="plat">WIN</span> <span class="plat">MAC</span> <span class="plat">LINUX</span></div></div><div class="d">To be announced</div><div class="d" style="width:70px;text-align:right">—</div></div>
+		<div class="sizes" style="margin-top:16px">
+			<figure><img src="assets/small_capsule_462x174.png" width="462" height="174" alt="">462 x 174</figure>
+			<figure><img src="assets/small_capsule_462x174.png" width="184" height="69" alt="">184 x 69</figure>
+			<figure><img src="assets/small_capsule_462x174.png" width="120" height="45" alt="">120 x 45</figure>
+		</div>
+
+		<h2>Wishlist</h2>
+		<p class="why">Wishlists and recommendations use the header capsule. Every place a player saves the game shows the same alien on the same rooftop.</p>
+		<div class="wish"><img src="assets/header_capsule_920x430.png" alt=""><div><div class="t">Foreign to All</div><div class="tags" style="margin-top:8px" id="wl-tags"></div><div style="color:var(--muted);margin-top:8px">Release date: To be announced</div></div></div>
+
+		<h2>Seasonal sales: vertical capsule</h2>
+		<p class="why">During Steam's seasonal sales the front page uses 748 x 896 vertical capsules. The other tiles here are placeholders for other games.</p>
+		<div class="sale"><div class="vcard ph">other game</div><div class="vcard"><img src="assets/vertical_capsule_748x896.png" alt=""></div><div class="vcard ph">other game</div><div class="vcard ph">other game</div></div>
+
+		<h2>Library</h2>
+		<p class="why">Once someone owns the game: the 3840 x 1240 hero with no text, the transparent logo placed bottom left, the 600 x 900 library capsule on the shelf, and the glyph Earth from the TikTok page as the community icon.</p>
+		<div class="lib">
+			<div class="side"><div>GAMES</div><div><i class="ico"></i>Another game</div><div class="on"><img src="assets/community_icon_184.jpg" alt="">Foreign to All</div><div><i class="ico"></i>Another game</div></div>
+			<div class="main">
+				<div class="hero"><img class="logo" src="assets/library_logo_1280x448.png" alt="Foreign to All logo"></div>
+				<div class="libbar"><button class="play">INSTALL</button><span>LAST PLAYED<br><b style="color:#fff">Never</b></span><span>PLAY TIME<br><b style="color:#fff">0 hours</b></span></div>
+				<div class="shelf"><div class="ph">other</div><img src="assets/library_capsule_600x900.png" alt=""><div class="ph">other</div><div class="ph">other</div><div class="ph">other</div></div>
+			</div>
+		</div>
+
+		<h2>The full set</h2>
+		<p class="why">Every file at its real size ratio. Sizes follow partner.steamgames.com/doc/store/assets, checked 2026-10-11.</p>
+		<div class="sizes">
+			<figure><img src="assets/header_capsule_920x430.png" width="460" alt="">Header capsule 920 x 430</figure>
+			<figure><img src="assets/capsule_main_1232x706.png" width="493" alt="">Main capsule 1232 x 706</figure>
+			<figure><img src="assets/vertical_capsule_748x896.png" width="250" alt="">Vertical 748 x 896</figure>
+			<figure><img src="assets/library_capsule_600x900.png" width="200" alt="">Library capsule 600 x 900</figure>
+			<figure><img src="assets/page_background_1438x810.png" width="480" alt="">Page background 1438 x 810</figure>
+			<figure style="background:#3a3f4a;padding:8px"><img src="assets/library_logo_1280x448.png" width="400" alt="">Library logo 1280 x 448 (transparent)</figure>
+			<figure><img src="assets/community_icon_184.jpg" width="92" alt="">Community icon 184</figure>
+			<figure><img src="assets/library_hero_3840x1240.png" width="960" alt="">Library hero 3840 x 1240</figure>
+		</div>
+	</div>
+</section>
+
+<!-- ═══════════════════════════ PASTE ═══════════════════════════ -->
+<section class="view" id="view-paste">
+	<div class="paste">
+		<h1>Paste into Steamworks</h1>
+		<p style="color:var(--muted)">The exact text the store page above is rendered from. Sources: <code>docs/steam/page/short-description.txt</code>, <code>about.bbcode</code> and <code>store-fields.md</code>.</p>
+		<h2>Short description <span class="count" id="short-count"></span></h2>
+		<div class="copybox"><pre id="copy-short"></pre><button data-copy="copy-short">Copy</button></div>
+		<h2>About This Game (BBCode)</h2>
+		<div class="copybox"><pre id="copy-about"></pre><button data-copy="copy-about">Copy</button></div>
+		<div id="fields"></div>
+	</div>
+</section>
+
+<script>
+const DATA = /*__DATA__*/{"short": "", "about": "", "fields": ""}/*__END__*/;
+
+const SHOTS = [
+	['istanbul-tea', 'İstanbul, the han at dawn: some words already boxed, some still glyphs'],
+	['tokyo-ueno', 'Tokyo, Ueno at midday'],
+	['word-to-keep', 'A word to keep: "anfassen", explained by the moment it was said'],
+	['mumbai-bhuleshwar', 'Mumbai, Bhuleshwar'],
+	['berlin-first-words', 'Berlin: Kerstin\'s first line, still in glyphs'],
+	['berlin-a-seat', 'Berlin: "I sit. It is the first time anybody on this planet has given me somewhere to be that was not a queue."'],
+	['paris-marais', 'Paris, the Marais at dawn'],
+	['field-notes', 'Field Notes: phrases in German, Turkish, Hindi and Japanese'],
+	['mexico-coyoacan-night', 'Mexico City, Coyoacán at night'],
+	['london-plain-english', 'London: plain English, and still not plain'],
+	['moscow-basmanny', 'Moscow, Basmanny'],
+	['istanbul-han', 'İstanbul, the han courtyard'],
+];
+const ITEMS = [
+	{movie: 'assets/trailer_gameplay_1080p.mp4', thumb: 'assets/thumbs/poster_gameplay.jpg', poster: 'assets/poster_gameplay.jpg', cap: 'Gameplay Trailer · 60 seconds of real play'},
+	{movie: 'assets/trailer_understanding_1080p.mp4', thumb: 'assets/thumbs/poster_understanding.jpg', poster: 'assets/poster_understanding.jpg', cap: 'Story Trailer · Understanding'},
+	...SHOTS.map(([n, cap], i) => {
+		const f = `ss_${String(i + 1).padStart(2, '0')}_${n}.jpg`;
+		return {img: `assets/screenshots/${f}`, thumb: `assets/thumbs/${f}`, cap};
+	}),
+];
+
+const NOTES = {
+	carousel: ['Gameplay first, then the feeling', 'Trailer 1 is sixty seconds of real play recorded with Godot\'s movie writer and cut on the bar to the game\'s own title theme. Trailer 2 is Understanding v7, which sells the idea. Twelve screenshots follow; the first four (İstanbul, Tokyo, a word to keep, Mumbai) are what Steam shows when the game is hovered in a list.', 'Most top pages lead with gameplay (median: 2 trailers, 9.5 screenshots).'],
+	header: ['One figure, one title', 'The key art is all game art: the intro\'s Berlin rooftop at dawn, the alien\'s own back-view sprite, and the city\'s windows talking in the dialogue box\'s glyphs. The only text is the title, as Valve\'s capsule rules require.', 'Every capsule in the 26-page study has a single focal point and the logo.'],
+	short: ['Verb first (268 of 300 characters)', 'What you do (arrive, explore, read people, earn words), where (eight cities) and why it matters (belonging). "Cozy" names the feeling for the players who search for it.', 'A Short Hike opens with "Hike, climb, and soar"; Venba says who you play and why.'],
+	dev: ['Your public name', 'Shown as it appears in the game\'s credits.', null, 'Owner: confirm the developer and publisher name'],
+	tags: ['Feeling plus verb', 'Exploration, Story Rich, Pixel Graphics, Cozy and Narrative lead; Word Game puts the game next to Chants of Sennaar, the closest commercial success. All 20 names were checked against Steam\'s official tag list.', 'Spiritfarer, A Short Hike and Unpacking tag by feeling (Relaxing, Cozy, Emotional).', 'Owner: decide whether to add Language Learning'],
+	wishlist: ['The page launches as Coming Soon', 'With no price or date, the call to action is the wishlist. The trailer\'s end card says "Wishlist on Steam" to match.', null],
+	playtest: ['Your beta testers, on Steam', 'Steam Playtest is free and invite-friendly, so testers can get builds through Steam without the store page going public. It is the next home for the Drive beta.', 'docs/steam/playtest-plan.md'],
+	sysreq: ['Draft numbers', 'The Compatibility renderer needs only OpenGL 3.3. Storage comes from the measured builds (1.11 GB Windows, 1.17 GB Mac). Memory and processor still need a test on a modest machine.', null, 'Owner: measure on low-end hardware'],
+	features: ['Only what is true', 'Partial, not full, controller support (typing a guess needs a keyboard). No achievements, cloud saves or Steam Deck claim yet.', null],
+	access: ['Steam\'s accessibility filters', 'Players can filter search by these since 2025. Each one maps to a setting the game already has: text sizes, separate volumes, untimed panels, reduced motion, full keyboard play.', null],
+	langs: ['English only, honestly', 'The 19 other interface languages are previews that fall back to English, so they are not listed. The eight languages you meet in the world are content, and the About text names them.', null],
+	about0: ['Motion before words', 'The opening banner: the city says hello in all eight languages, each greeting coming into focus from glyphs and taking the light-purple box the game gives a word you understand. The section then repeats one unit five times: a headline, a real gameplay loop, two or three sentences.', 'The Venba, DREDGE and Hades II pattern. Loops are WebM (1.4 MB in total), with GIFs (13.3 MB) as a fallback.'],
+	about4: ['The thesis, in a headline', '"Knowing the words is not enough" is the research question in plain words, shown over London, the one city where you can read everything.', null],
+};
+
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+
+/* ── BBCode as Steam renders it ── */
+function bbcode(src) {
+	let h = esc(src.trim());
+	let n = 0;
+	h = h.replace(/\[img\]\{STEAM_APP_IMAGE\}\/extras\/([\w-]+)\.gif\[\/img\]/g, (_, name) =>
+		`<video class="img" src="assets/about/${name}.webm" poster="assets/about/${name}.jpg" preload="auto" autoplay muted loop playsinline data-about="${name}"></video>`);
+	h = h.replace(/\[h2\](.*?)\[\/h2\]/g, (_, t) => `<h2 class="bb" data-note="about${++n}">${t}</h2>`);
+	h = h.replace(/\[list\]([\s\S]*?)\[\/list\]/g, (_, items) => '<ul>' + items.split('[*]').filter((s) => s.trim()).map((s) => `<li>${s.trim()}</li>`).join('') + '</ul>');
+	h = h.replace(/\[b\](.*?)\[\/b\]/g, '<b>$1</b>').replace(/\[i\]([\s\S]*?)\[\/i\]/g, '<i>$1</i>');
+	return h.split(/\n{2,}/).map((p) => p.replace(/\n/g, '<br>')).join('<br><br>').replace(/<br>(<h2|<ul|<video)/g, '$1').replace(/(<\/h2>|<\/ul>|<\/video>)<br>/g, '$1');
+}
+
+/* ── a little Markdown, enough for store-fields.md ── */
+function md(src) {
+	const lines = src.split('\n');
+	let out = '', i = 0;
+	const inline = (s) => esc(s).replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\*(.+?)\*/g, '<i>$1</i>');
+	while (i < lines.length) {
+		const l = lines[i];
+		if (/^#{1,3} /.test(l)) { const k = l.match(/^#+/)[0].length; out += `<h${k + 1}>${inline(l.slice(k + 1))}</h${k + 1}>`; i++; }
+		else if (/^\|/.test(l)) {
+			const rows = []; while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
+			const cells = (r) => r.replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
+			out += '<table><tr>' + cells(rows[0]).map((c) => `<th>${inline(c)}</th>`).join('') + '</tr>' +
+				rows.slice(2).map((r) => '<tr>' + cells(r).map((c) => `<td>${inline(c)}</td>`).join('') + '</tr>').join('') + '</table>';
+		}
+		else if (/^> /.test(l)) { let q = ''; while (i < lines.length && /^>/.test(lines[i])) q += lines[i++].replace(/^> ?/, '') + ' '; out += `<blockquote>${inline(q)}</blockquote>`; }
+		else if (/^(\d+\.|-) /.test(l)) {
+			const ordered = /^\d/.test(l); let items = '';
+			while (i < lines.length && /^(\d+\.|-) /.test(lines[i])) items += `<li>${inline(lines[i++].replace(/^(\d+\.|-) /, ''))}</li>`;
+			out += ordered ? `<ol>${items}</ol>` : `<ul>${items}</ul>`;
+		}
+		else if (l.trim() === '') i++;
+		else { let p = ''; while (i < lines.length && lines[i].trim() && !/^(#|\||>|\d+\. |- )/.test(lines[i])) p += lines[i++] + ' '; out += `<p>${inline(p)}</p>`; }
+	}
+	return out;
+}
+
+function section(src, title) {
+	const m = src.split(/\n(?=## )/).find((s) => s.startsWith('## ' + title));
+	return m ? m.slice(m.indexOf('\n') + 1) : '';
+}
+
+/* ── carousel ── */
+let current = -1, auto = true, timer = null;
+function show(i) {
+	current = (i + ITEMS.length) % ITEMS.length;
+	const it = ITEMS[current], p = $('#player');
+	clearTimeout(timer);
+	p.innerHTML = it.movie
+		? `<video src="${it.movie}" poster="${it.poster}" autoplay muted controls playsinline></video>`
+		: `<img src="${it.img}" alt="">`;
+	p.insertAdjacentHTML('beforeend', `<button class="arrow prev" aria-label="Previous">‹</button><button class="arrow next" aria-label="Next">›</button>${it.movie ? '' : `<div class="cap">${esc(it.cap)}</div>`}`);
+	$('.prev', p).onclick = () => { auto = false; show(current - 1); };
+	$('.next', p).onclick = () => { auto = false; show(current + 1); };
+	const v = $('video', p);
+	if (v) v.onended = () => auto && show(current + 1);
+	else if (auto) timer = setTimeout(() => show(current + 1), 5000);
+	document.querySelectorAll('.thumb').forEach((t, k) => t.classList.toggle('on', k === current));
+	const strip = $('#strip'), w = strip.parentElement.clientWidth, tw = 120;
+	const max = Math.max(0, ITEMS.length * tw - w), off = Math.min(max, Math.max(0, current * tw - w / 2 + tw / 2));
+	strip.style.transform = `translateX(${-off}px)`;
+	const knob = $('#knob'), frac = w / (ITEMS.length * tw);
+	knob.style.width = `${Math.min(100, frac * 100)}%`;
+	knob.style.left = `${max ? (off / max) * (100 - Math.min(100, frac * 100)) : 0}%`;
+}
+
+function build() {
+	$('#snippet').textContent = DATA.short;
+	$('#about').innerHTML = bbcode(DATA.about);
+	const firstVideo = $('#about video');
+	if (firstVideo) firstVideo.dataset.note = 'about0';
+	const tags = section(DATA.fields, 'Tags').split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, ''));
+	const tagHtml = (n) => tags.slice(0, n).map((t) => `<a class="tag">${esc(t)}</a>`).join('') + '<a class="tag">+</a>';
+	$('#tags-top').innerHTML = tagHtml(6); $('#mc-tags').innerHTML = tagHtml(4); $('#wl-tags').innerHTML = tagHtml(5);
+	const access = section(DATA.fields, 'Accessibility').split('\n').filter((l) => /^\| [A-Z]/.test(l) && !l.startsWith('| Feature')).map((l) => l.split('|')[1].trim());
+	$('#access').innerHTML = access.map((a) => `<div class="feat"><svg viewBox="0 0 16 16"><path d="M6.5 11.2 3 7.7l1.4-1.4 2.1 2.1 5.1-5.1L13 4.7z"/></svg>${esc(a)}</div>`).join('');
+	// system requirements: one tab per platform column of the markdown table
+	const sys = section(DATA.fields, 'System requirements').split('\n').filter((l) => l.startsWith('|'));
+	const head = sys[0].split('|').slice(2, -1).map((c) => c.trim());
+	const rows = sys.slice(2).map((r) => r.split('|').slice(1, -1).map((c) => c.trim()));
+	$('#sys-tabs').innerHTML = head.map((h, k) => `<button class="${k ? '' : 'on'}" data-k="${k}">${esc(h)}</button>`).join('');
+	$('#sys-panes').innerHTML = head.map((h, k) => `<div class="pane ${k ? '' : 'on'}"><b>Minimum:</b><ul>${rows.filter((r) => r[k + 1]).map((r) => `<li><span>${esc(r[0])}:</span> ${esc(r[k + 1])}</li>`).join('')}</ul></div>`).join('');
+	document.querySelectorAll('#sys-tabs button').forEach((b) => b.onclick = () => {
+		document.querySelectorAll('#sys-tabs button, #sys-panes .pane').forEach((e) => e.classList.remove('on'));
+		b.classList.add('on'); document.querySelectorAll('#sys-panes .pane')[+b.dataset.k].classList.add('on');
+	});
+	// strip + front-page shots
+	$('#strip').innerHTML = ITEMS.map((it, k) => `<div class="thumb ${it.movie ? 'movie' : ''}" style="background-image:url('${it.thumb}')" data-k="${k}" title="${esc(it.cap)}"></div>`).join('');
+	document.querySelectorAll('.thumb').forEach((t) => t.onclick = () => { auto = false; show(+t.dataset.k); });
+	$('#sl-prev').onclick = () => { auto = false; show(current - 1); };
+	$('#sl-next').onclick = () => { auto = false; show(current + 1); };
+	$('#mc-shots').innerHTML = ITEMS.slice(2, 6).map((it) => `<img src="${it.thumb}" alt="">`).join('');
+	// paste view
+	$('#copy-short').textContent = DATA.short;
+	$('#short-count').textContent = `${[...DATA.short].length} / 300 characters`;
+	$('#copy-about').textContent = DATA.about;
+	$('#fields').innerHTML = md(DATA.fields.replace(/^# .*\n/, ''));
+	document.querySelectorAll('[data-copy]').forEach((b) => b.onclick = async () => {
+		const text = $('#' + b.dataset.copy).textContent;
+		try { await navigator.clipboard.writeText(text); } catch { const t = document.createElement('textarea'); t.value = text; document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); }
+		b.textContent = 'Copied'; setTimeout(() => b.textContent = 'Copy', 1400);
+	});
+	show(0);
+}
+
+/* ── design notes: numbered pins beside the parts they explain ── */
+const pins = [];
+function placePins() {
+	pins.forEach(({pin, el}) => {
+		const r = el.getBoundingClientRect();
+		const visible = r.width > 0 && el.closest('.view.on');
+		pin.style.display = visible ? '' : 'none';
+		// beside the element's right edge: in the page margin or the column gutter
+		pin.style.left = `${r.right + scrollX + 4}px`;
+		pin.style.top = `${r.top + scrollY + 2}px`;
+	});
+}
+function notes() {
+	let n = 0;
+	document.querySelectorAll('[data-note]').forEach((el) => {
+		const note = NOTES[el.dataset.note];
+		if (!note) return;
+		const [title, body, ref, owner] = note;
+		const pin = document.createElement('button');
+		pin.className = 'pin'; pin.textContent = ++n; pin.setAttribute('aria-label', `Design note ${n}: ${title}`);
+		const card = document.createElement('div');
+		card.className = 'note';
+		card.innerHTML = `<button class="x" aria-label="Close">×</button><h5>${n}. ${esc(title)}</h5><div>${esc(body)}</div>${ref ? `<div class="ref">${esc(ref)}</div>` : ''}${owner ? `<span class="owner">${esc(owner)}</span>` : ''}`;
+		document.body.append(pin, card);
+		pin.onclick = (e) => {
+			e.stopPropagation();
+			const open = card.classList.contains('on');
+			document.querySelectorAll('.note.on').forEach((c) => c.classList.remove('on'));
+			document.querySelectorAll('.pin.open').forEach((p) => p.classList.remove('open'));
+			if (open) return;
+			const r = pin.getBoundingClientRect();
+			const room = innerWidth - r.right;
+			const left = room > 352 ? r.right + 8 : r.left - 338;
+			card.style.left = `${Math.max(8, left + scrollX)}px`; card.style.top = `${r.top + scrollY - 4}px`;
+			card.classList.add('on'); pin.classList.add('open');
+		};
+		$('.x', card).onclick = () => { card.classList.remove('on'); pin.classList.remove('open'); };
+		pins.push({pin, el});
+	});
+	document.addEventListener('click', (e) => { if (!e.target.closest('.note')) { document.querySelectorAll('.note.on').forEach((c) => c.classList.remove('on')); document.querySelectorAll('.pin.open').forEach((p) => p.classList.remove('open')); } });
+	placePins();
+	addEventListener('resize', placePins);
+	new ResizeObserver(placePins).observe(document.body);
+}
+
+function open(view) {
+	document.querySelectorAll('.pv-tabs button').forEach((x) => x.setAttribute('aria-selected', x.dataset.view === view));
+	document.querySelectorAll('.view').forEach((v) => v.classList.toggle('on', v.id === 'view-' + view));
+	document.querySelectorAll('.note.on').forEach((c) => c.classList.remove('on'));
+	history.replaceState(null, '', view === 'store' ? location.pathname : '#' + view);
+	scrollTo(0, 0); placePins();
+}
+document.querySelectorAll('.pv-tabs button').forEach((b) => b.onclick = () => open(b.dataset.view));
+$('#notes').onchange = (e) => document.body.classList.toggle('notes', e.target.checked);
+
+build();
+notes();
+if (['art', 'paste'].includes(location.hash.slice(1))) open(location.hash.slice(1));
+</script>
+</body>
+</html>

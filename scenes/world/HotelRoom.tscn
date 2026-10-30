@@ -1,0 +1,57 @@
+[gd_scene load_steps=16 format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/HotelRoom.gd"           id="1_hr"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentInterior.gd" id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"         id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"           id="4_player"]
+[ext_resource type="Script"      path="res://scenes/world/BedRest.gd"             id="5_bed"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"         id="6_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui_layer"]
+[ext_resource type="PackedScene" path="res://scenes/npc/Encounter.tscn" id="enc_1"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+
+
+[sub_resource type="RectangleShape2D" id="Shape_bed"]
+size = Vector2(380, 240)
+
+
+[node name="HotelRoom" type="Node2D"]
+script = ExtResource("1_hr")
+[node name="HotelRoomBackground" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "HotelRoom"
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_left = 44.0
+wall_right = 1108.0
+wall_bottom = 606.0
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(150, 430)
+[node name="BedRest" type="Area2D" parent="."]
+position = Vector2(405, 356)
+script = ExtResource("5_bed")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BedRest"]
+shape = SubResource("Shape_bed")
+[node name="Prompt" type="Label" parent="BedRest"]
+position = Vector2(-28, -122)
+text = "[E] Rest"
+visible = false
+theme_override_font_sizes/font_size = 12
+[node name="ExitToCorridor" parent="." instance=ExtResource("6_exit")]
+position = Vector2(98, 330)
+target_scene = "res://scenes/world/HotelFloor.tscn"
+spawn_tag = "from_room"
+prompt_text = "E — Back to the corridor"
+
+[node name="UILayer" parent="." instance=ExtResource("ui_layer")]
+
+[node name="Encounter" parent="." instance=ExtResource("enc_1")]
+position = Vector2(760, 470)
+encounter = "berlin_room"
+leave_to = Vector2(104, 356)
+leave_via = PackedVector2Array(700, 524, 176, 524)
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../HotelRoomBackground")

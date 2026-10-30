@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://b3raxxaoe35b7"]
+
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://scenes/npc/NPC.tscn" id="2_npc"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui_layer"]
+[ext_resource type="Script" path="res://scenes/world/EnvironmentInterior.gd" id="design_bg"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+
+
+
+
+[node name="Room01" type="Node2D" unique_id=1365502973]
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("design_bg")
+scene_id = "Room01"
+
+[node name="Player" parent="." unique_id=284101615 instance=ExtResource("1_player")]
+position = Vector2(220, 324)
+[node name="NPC" parent="." unique_id=777895625 instance=ExtResource("2_npc")]
+position = Vector2(600, 324)
+
+[node name="UILayer" parent="." instance=ExtResource("ui_layer")]
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../Background")

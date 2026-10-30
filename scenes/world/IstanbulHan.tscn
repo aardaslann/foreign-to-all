@@ -1,0 +1,70 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/IstanbulHan.gd"                     id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"     id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"                  id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"                    id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"                  id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"                       id="6_ui"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"                        id="9_solid"]
+[ext_resource type="PackedScene" path="res://scenes/npc/CityNPC.tscn"                   id="8_npc"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="sp_70"]
+[ext_resource type="PackedScene" path="res://scenes/npc/KeyNPC.tscn"            id="key_99"]
+[ext_resource type="PackedScene" path="res://scenes/npc/Encounter.tscn" id="enc_1"]
+
+
+[node name="IstanbulHan" type="Node2D"]
+script = ExtResource("1_root")
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "IstanbulHan"
+district = "han"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(560, 430)
+
+[node name="BackToCarsi" parent="." instance=ExtResource("5_exit")]
+position = Vector2(560, 600)
+target_scene = "res://scenes/world/IstanbulCarsi.tscn"
+spawn_tag = "from_han"
+prompt_text = "E — Back out to the lane"
+sign_text = "ÇARŞI →"
+
+[node name="YusufDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(846, 396)
+target_scene = "res://scenes/world/IstanbulYusuf.tscn"
+spawn_tag = "from_han"
+prompt_text = "E — The shop under the arcade"
+sign_text = "YUSUF — SAATÇİ"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="NpcMeryem" parent="." instance=ExtResource("8_npc")]
+position = Vector2(360, 470)
+npc_id = "meryem"
+city = "istanbul"
+build = "elder"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="LocalSpot" parent="." instance=ExtResource("sp_70")]
+position = Vector2(360, 372)
+service = "local"
+prompt_text = "E - Under the tree"
+
+[node name="KeyArda" parent="." instance=ExtResource("key_99")]
+position = Vector2(800, 570)
+city = "istanbul"
+
+[node name="Encounter" parent="." instance=ExtResource("enc_1")]
+position = Vector2(780, 430)
+encounter = "istanbul_cay"
+leave_to = Vector2(978, 376)

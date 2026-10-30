@@ -1,0 +1,71 @@
+{
+  "_": "Foreign to All - Understanding, revision 6. Every time is in seconds of the final film, which is also seconds of the score: the music starts on frame 0. Scenes start on downbeats (131.25 BPM, bar 1.8286 s, first downbeat 0.577 s). build_audio.py reads this, mixes the soundtrack and writes generated.json (typing schedule, voice lengths, firework bursts) for the picture.",
+  "fps": 30,
+  "duration": 141.5,
+  "bar": 1.8286,
+  "downbeat": 0.577,
+  "scenes": {
+    "sonder": [0, 9.72],
+    "black": [9.72, 11.55],
+    "arrival": [11.55, 24.35],
+    "unfamiliar": [24.35, 31.66],
+    "brot": [31.66, 38.98],
+    "journal": [38.98, 44.46],
+    "bitte": [44.46, 49.95],
+    "london": [49.95, 60.92],
+    "istanbul": [60.92, 68.23],
+    "tokyo": [68.23, 75.55],
+    "stereotype": [75.55, 84.69],
+    "cities": [84.69, 92.01],
+    "invitation": [92.01, 99.32],
+    "fireworks": [99.32, 121.26],
+    "title": [121.26, 141.5]
+  },
+  "sonder": {
+    "word": "sonder",
+    "phonetic": "[ˈsɒn·dər]",
+    "kind": "noun",
+    "lines": ["the profound realization that every random stranger", "is living a life as vivid, complex, and central to them", "as your own is to you."],
+    "word_at": 0.55,
+    "definition_at": 2.15,
+    "definition_end": 7.6,
+    "shutter": 9.72
+  },
+  "voices": [
+    {"id": "crowd-a", "line": "chatter:german|Kalt heute.", "at": 24.9, "gain": -7},
+    {"id": "crowd-b", "line": "chatter:german|Der Bus kommt nicht.", "at": 26.3, "gain": -7},
+    {"id": "lukas-brot", "line": "lines:lukas|Ich habe auch heute frisches Brot.", "at": 32.3, "gain": 0},
+    {"id": "lukas-word", "line": "lines:lukas|Ich habe auch heute frisches Brot.", "last_word": true, "at": 40.75, "gain": 3},
+    {"id": "lukas-morgen", "line": "lines:lukas|Guten Morgen! Kann ich Ihnen helfen?", "at": 44.75, "gain": 0},
+    {"id": "nadia-alright", "file": "voice/nadia-alright.mp3", "at": 50.85, "gain": 0},
+    {"id": "nadia-hello", "file": "voice/nadia-hello.mp3", "at": 55.2, "gain": 0},
+    {"id": "arda-buyurun", "line": "lines:arda|Buyurun. Çay?", "at": 61.55, "gain": 0},
+    {"id": "setsuko-tanabata", "line": "lines:setsuko|Tanabata da yo. Issho ni.", "at": 68.85, "gain": 0},
+    {"id": "nadia-coming", "file": "voice/nadia-coming.mp3", "at": 92.7, "gain": 0}
+  ],
+  "sfx": [
+    {"kind": "shutter", "at": 9.72, "gain": -4},
+    {"kind": "descent", "at": 15.3, "until": 18.86, "gain": -15},
+    {"kind": "crash", "at": 18.86, "gain": -2},
+    {"kind": "bell", "at": 28.2, "gain": -14},
+    {"kind": "decode", "at": 34.12, "gain": -15},
+    {"kind": "page", "at": 39.05, "gain": -17},
+    {"kind": "chime", "at": 40.3, "gain": -13},
+    {"kind": "decode", "at": 47.05, "gain": -16},
+    {"kind": "tick", "at": 48.45, "gain": -14},
+    {"kind": "decode", "at": 62.45, "gain": -18},
+    {"kind": "decode", "at": 69.35, "gain": -18},
+    {"kind": "chime", "at": 72.45, "gain": -19},
+    {"kind": "stamp", "at": 75.9, "gain": -9},
+    {"kind": "rip", "at": 80.2, "gain": -14},
+    {"kind": "chime", "at": 80.75, "gain": -17},
+    {"kind": "swish", "every": 0.9143, "from": 84.69, "count": 8, "gain": -22},
+    {"kind": "bloom", "at": 121.26, "gain": -10}
+  ],
+  "fireworks": {
+    "times": [100.18, 101.15, 102.06, 102.98, 103.9, 104.81, 105.27, 105.72, 106.63, 107.55, 108.46, 109.37, 110.29, 110.75, 111.2, 112.12, 113.03, 113.95, 114.4, 114.86, 115.78, 116.7, 117.61, 117.84, 118.07, 118.52, 118.98, 119.43, 119.66, 119.89, 120.35, 120.8],
+    "big": [101.15, 102.98, 104.81, 106.63, 108.46, 110.29, 112.12, 113.95, 115.78, 117.61, 119.43, 120.8],
+    "seed": 1105
+  },
+  "master": {"lufs": -14, "true_peak": -1.0, "duck_db": -7, "voice_lufs": -18}
+}

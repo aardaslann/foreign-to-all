@@ -1,0 +1,107 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/Interior.gd"            id="1_int"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentInterior.gd"  id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"         id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"           id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"      id="5_sp"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"         id="6_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"              id="7_ui"]
+[ext_resource type="PackedScene" path="res://scenes/world/JobSpot.tscn" id="jobspot_1"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+
+
+[sub_resource type="RectangleShape2D" id="Shape_exit"]
+size = Vector2(70, 200)
+
+
+
+[node name="UBahnStation" type="Node2D"]
+script = ExtResource("1_int")
+region = "mitte"
+spawn = Vector2(210, 430)
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "UBahnStation"
+room = "ubahn"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 336.0
+wall_bottom = 606.0
+wall_left = 44.0
+wall_right = 1108.0
+
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(210, 430)
+
+
+[node name="Platform" parent="." instance=ExtResource("5_sp")]
+position = Vector2(360, 380)
+service = "ubahn_travel"
+prompt_text = "E — Wait for a train"
+
+
+[node name="TicketMachine" parent="." instance=ExtResource("5_sp")]
+position = Vector2(878, 430)
+service = "ubahn_ticket"
+prompt_text = "E — Ticket machine"
+
+
+[node name="LostProperty" parent="." instance=ExtResource("5_sp")]
+position = Vector2(690, 392)
+service = "lost_property"
+prompt_text = "E — Fundbüro"
+clerk = "commuter_m"
+clerk_offset = Vector2(0, -142)
+
+
+[node name="FlyerJob" parent="." instance=ExtResource("5_sp")]
+position = Vector2(180, 470)
+service = "job_flyers"
+prompt_text = "E — The steps"
+
+
+[node name="Exit" parent="." instance=ExtResource("6_exit")]
+position = Vector2(98, 330)
+target_scene = "res://scenes/world/Mitte.tscn"
+spawn_tag = "from_ubahn_stairs"
+is_return = true
+prompt_text = "E — Up to the street"
+is_return = true
+
+[node name="CollisionShape2D" parent="Exit" index="0"]
+shape = SubResource("Shape_exit")
+
+[node name="UILayer" parent="." instance=ExtResource("7_ui")]
+
+[node name="JobSpot1" parent="." instance=ExtResource("jobspot_1")]
+position = Vector2(300, 470)
+job = "flyers"
+role = "take"
+pile = "box"
+
+[node name="JobSpot2" parent="." instance=ExtResource("jobspot_1")]
+position = Vector2(880, 470)
+job = "flyers"
+role = "give"
+pile = "papers"
+
+[node name="JobSpot3" parent="." instance=ExtResource("jobspot_1")]
+position = Vector2(360, 508)
+job = "sweep"
+role = "take"
+pile = "broomup"
+
+[node name="JobSpot4" parent="." instance=ExtResource("jobspot_1")]
+position = Vector2(820, 508)
+job = "sweep"
+role = "give"
+pile = "broomup"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../Background")

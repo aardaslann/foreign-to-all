@@ -1,0 +1,793 @@
+{
+  "IstanbulCarsi": {
+    "floor": 455,
+    "anchors": {
+      "DovizEntrance": [
+        757,
+        476
+      ],
+      "HanGate": [
+        644,
+        476
+      ],
+      "HastaneEntrance": [
+        84,
+        476
+      ],
+      "KarakolEntrance": [
+        1072,
+        476
+      ],
+      "LocalSpot": [
+        511,
+        487
+      ],
+      "LokantaEntrance": [
+        420,
+        474
+      ],
+      "MetroEntrance": [
+        918,
+        476
+      ],
+      "OtelEntrance": [
+        216,
+        476
+      ],
+      "NpcNurhan": [
+        655,
+        570
+      ],
+      "NpcEmre": [
+        320,
+        558
+      ]
+    },
+    "interaction_sizes": {
+      "HastaneEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "OtelEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "LokantaEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "HanGate": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "DovizEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "MetroEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "KarakolEntrance": {
+        "CollisionShape2D": [
+          65,
+          36
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          72,
+          46
+        ]
+      }
+    },
+    "foreground": [],
+    "solids": [],
+    "cats": [
+      [
+        842,
+        552,
+        1,
+        2
+      ],
+      [
+        985,
+        584,
+        0,
+        1
+      ]
+    ],
+    "portals": [
+      {
+        "node": "HastaneEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "OtelEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "LokantaEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "HanGate",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "DovizEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "MetroEntrance",
+        "type": "door",
+        "baked_sign": true
+      },
+      {
+        "node": "KarakolEntrance",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          300,
+          330,
+          86,
+          60
+        ]
+      },
+      {
+        "kind": "light",
+        "rect": [
+          856,
+          328,
+          106,
+          23
+        ]
+      },
+      {
+        "kind": "motes",
+        "rect": [
+          20,
+          460,
+          1112,
+          70
+        ]
+      }
+    ],
+    "texture": "res://art/environments/scenes/IstanbulCarsi-retro.png",
+    "pixel_art": true
+  },
+  "IstanbulHan": {
+    "floor": 466,
+    "anchors": {
+      "BackToCarsi": [
+        1108,
+        601
+      ],
+      "LocalSpot": [
+        345,
+        525
+      ],
+      "YusufDoor": [
+        918,
+        490
+      ],
+      "NpcMeryem": [
+        240,
+        575
+      ],
+      "KeyArda": [
+        800,
+        570
+      ]
+    },
+    "interaction_sizes": {
+      "YusufDoor": {
+        "CollisionShape2D": [
+          72,
+          40
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          90,
+          60
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "YusufDoor",
+        "type": "door",
+        "sign_rect": [
+          865,
+          333,
+          76,
+          17
+        ]
+      },
+      {
+        "node": "BackToCarsi",
+        "type": "plaque",
+        "object": "rugs",
+        "sign_rect": [
+          1070,
+          547,
+          66,
+          16
+        ]
+      }
+    ],
+    "foreground": [
+      [
+        450,
+        465,
+        238,
+        124
+      ],
+      [
+        45,
+        484,
+        111,
+        71
+      ],
+      [
+        1002,
+        484,
+        138,
+        93
+      ]
+    ],
+    "solids": [
+      [
+        450,
+        465,
+        238,
+        124
+      ],
+      [
+        45,
+        484,
+        111,
+        71
+      ],
+      [
+        1002,
+        484,
+        138,
+        93
+      ]
+    ],
+    "motion": [
+      {
+        "kind": "water",
+        "rect": [
+          474,
+          507,
+          189,
+          52
+        ]
+      }
+    ],
+    "cats": [
+      [
+        730,
+        500,
+        1,
+        1
+      ]
+    ],
+    "texture": "res://art/environments/scenes/IstanbulHan-retro.png",
+    "pixel_art": true
+  },
+  "IstanbulMetro": {
+    "anchors": {
+      "Exit": [
+        70,
+        347
+      ],
+      "Machine": [
+        907,
+        420
+      ],
+      "Platform": [
+        610,
+        336
+      ],
+      "ToAirport": [
+        878,
+        347
+      ]
+    },
+    "interaction_sizes": {
+      "Exit": {
+        "CollisionShape2D": [
+          72,
+          38
+        ]
+      },
+      "Platform": {
+        "CollisionShape2D": [
+          108,
+          48
+        ]
+      },
+      "Machine": {
+        "CollisionShape2D": [
+          86,
+          45
+        ]
+      },
+      "ToAirport": {
+        "CollisionShape2D": [
+          78,
+          38
+        ]
+      }
+    },
+    "floor": 330,
+    "portals": [
+      {
+        "node": "ToAirport",
+        "type": "door",
+        "sign_rect": [
+          818,
+          160,
+          113,
+          19
+        ]
+      }
+    ],
+    "solids": [
+      [
+        288.0,
+        428.0,
+        46.0,
+        130.0
+      ],
+      [
+        449.0,
+        428.0,
+        46.0,
+        130.0
+      ],
+      [
+        634.0,
+        428.0,
+        46.0,
+        130.0
+      ],
+      [
+        783.0,
+        428.0,
+        46.0,
+        130.0
+      ],
+      [
+        991.0,
+        0.0,
+        115.0,
+        531.0
+      ],
+      [
+        0,
+        351,
+        217,
+        222
+      ],
+      [
+        880,
+        399,
+        44,
+        38
+      ]
+    ],
+    "texture": "res://art/environments/scenes/IstanbulMetro-retro.png",
+    "pixel_art": true,
+    "foreground": [
+      [
+        853,
+        310,
+        110,
+        129
+      ]
+    ],
+    "motion": []
+  },
+  "IstanbulKadikoy": {
+    "floor": 430,
+    "anchors": {
+      "LocalSpot": [
+        310,
+        457
+      ],
+      "TransitDoor": [
+        1124,
+        470
+      ],
+      "NpcSevim": [
+        546,
+        531
+      ]
+    },
+    "interaction_sizes": {
+      "LocalSpot": {
+        "CollisionShape2D": [
+          108,
+          48
+        ]
+      },
+      "TransitDoor": {
+        "CollisionShape2D": [
+          44,
+          66
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "TransitDoor",
+        "type": "direction",
+        "baked_sign": true
+      }
+    ],
+    "solids": [
+      [
+        60,
+        370,
+        316,
+        68
+      ],
+      [
+        725,
+        347,
+        242,
+        88
+      ]
+    ],
+    "foreground": [
+      [
+        60,
+        370,
+        316,
+        68
+      ],
+      [
+        725,
+        347,
+        242,
+        88
+      ]
+    ],
+    "texture": "res://art/environments/scenes/IstanbulKadikoy-retro.png",
+    "pixel_art": true
+  },
+  "IstanbulKarakoy": {
+    "floor": 423,
+    "anchors": {
+      "LocalSpot": [
+        169,
+        458
+      ],
+      "TransitEntrance": [
+        1070,
+        435
+      ],
+      "NpcBulent": [
+        345,
+        531
+      ],
+      "NpcYasemin": [
+        636,
+        526
+      ]
+    },
+    "interaction_sizes": {
+      "TransitEntrance": {
+        "CollisionShape2D": [
+          74,
+          40
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          105,
+          45
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "TransitEntrance",
+        "type": "door",
+        "sign_rect": [
+          1017,
+          218,
+          106,
+          24
+        ]
+      }
+    ],
+    "fittings": [
+      {
+        "kind": "activity_object",
+        "object": "turnstile",
+        "at": [
+          159,
+          443
+        ],
+        "unit": 1.6,
+        "directed_separately": true
+      },
+      {
+        "kind": "activity_object",
+        "object": "card_machine",
+        "at": [
+          235,
+          443
+        ],
+        "unit": 1.6,
+        "directed_separately": true
+      }
+    ],
+    "solids": [
+      [
+        120,
+        399,
+        93,
+        44
+      ],
+      [
+        211,
+        368,
+        48,
+        75
+      ],
+      [
+        382,
+        487,
+        96,
+        89
+      ],
+      [
+        691,
+        492,
+        92,
+        85
+      ]
+    ],
+    "foreground": [
+      [
+        382,
+        487,
+        96,
+        89
+      ],
+      [
+        691,
+        492,
+        92,
+        85
+      ]
+    ],
+    "cats": [
+      [
+        80,
+        490,
+        0,
+        2
+      ],
+      [
+        664,
+        503,
+        1,
+        0
+      ],
+      [
+        986,
+        508,
+        0,
+        1
+      ]
+    ],
+    "texture": "res://art/environments/scenes/IstanbulKarakoy-retro.png",
+    "pixel_art": true,
+    "animation_patches": [
+      {
+        "rect": [
+          0,
+          310,
+          76,
+          40
+        ],
+        "kind": "water"
+      },
+      {
+        "rect": [
+          108,
+          310,
+          104,
+          14
+        ],
+        "kind": "water"
+      },
+      {
+        "rect": [
+          284,
+          201,
+          20,
+          74
+        ],
+        "kind": "water"
+      }
+    ]
+  },
+  "IstanbulBeyoglu": {
+    "floor": 450,
+    "anchors": {
+      "LocalSpot": [
+        757,
+        509
+      ],
+      "TransitDoor": [
+        659,
+        463
+      ],
+      "NpcAltan": [
+        460,
+        542
+      ]
+    },
+    "interaction_sizes": {
+      "TransitDoor": {
+        "CollisionShape2D": [
+          84,
+          40
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          92,
+          48
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "TransitDoor",
+        "type": "door",
+        "baked_sign": true
+      }
+    ],
+    "texture": "res://art/environments/scenes/IstanbulBeyoglu-retro.png",
+    "pixel_art": true,
+    "fittings": [
+      {
+        "object": "tram",
+        "journey": [
+          -260,
+          1412
+        ],
+        "duration": 12,
+        "unit": 4.2,
+        "kind": "passing_vehicle",
+        "period": 36,
+        "at": [
+          -160,
+          604
+        ]
+      }
+    ]
+  },
+  "IstanbulOtel": {
+    "floor": 378,
+    "anchors": {
+      "Desk": [
+        576,
+        458
+      ],
+      "Exit": [
+        1045,
+        396
+      ],
+      "StairsToRoom": [
+        123,
+        397
+      ]
+    },
+    "interaction_sizes": {
+      "StairsToRoom": {
+        "CollisionShape2D": [
+          78,
+          48
+        ]
+      },
+      "Exit": {
+        "CollisionShape2D": [
+          82,
+          48
+        ]
+      }
+    },
+    "portals": [
+      {
+        "node": "StairsToRoom",
+        "type": "door",
+        "sign_rect": [
+          79,
+          72,
+          86,
+          20
+        ]
+      }
+    ],
+    "texture": "res://art/environments/scenes/IstanbulOtel-retro.png",
+    "pixel_art": true
+  },
+  "IstanbulHavalimani": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulHavalimani-retro.png",
+    "anchors": {
+      "BagDrop": [
+        265,
+        505
+      ],
+      "Exit": [
+        1094,
+        490
+      ]
+    }
+  },
+  "IstanbulLokanta": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulLokanta-retro.png",
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          486,
+          173,
+          26,
+          76
+        ]
+      }
+    ]
+  },
+  "IstanbulDoviz": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulDoviz-retro.png"
+  },
+  "IstanbulHastane": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulHastane-retro.png"
+  },
+  "IstanbulYusuf": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulYusuf-retro.png"
+  },
+  "IstanbulKarakol": {
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/IstanbulKarakol-retro.png"
+  }
+}

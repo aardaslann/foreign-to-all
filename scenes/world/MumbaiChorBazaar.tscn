@@ -1,0 +1,68 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/CityStreet.gd"      id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"      id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"     id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"       id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"     id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"          id="6_ui"]
+[ext_resource type="PackedScene" path="res://scenes/npc/CityNPC.tscn"                   id="8_npc"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="7_sp"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"          id="9_solid"]
+
+[node name="MumbaiChorBazaar" type="Node2D"]
+script = ExtResource("1_root")
+region = "chorbazaar"
+spawn = Vector2(1000, 430)
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "MumbaiChorBazaar"
+district = "chorbazaar"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(1000, 430)
+
+[node name="AirportDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(700, 330)
+target_scene = "res://scenes/world/MumbaiAirport.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - Departures"
+sign_text = "AIRPORT"
+frontage = "transit"
+
+[node name="ExitWest" parent="." instance=ExtResource("5_exit")]
+position = Vector2(28, 440)
+target_scene = "res://scenes/world/MumbaiBhuleshwar.tscn"
+spawn_tag = "from_chorbazaar"
+prompt_text = "E - Back into the wholesale lanes"
+
+[node name="TransitDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(420, 336)
+target_scene = "res://scenes/world/MumbaiTransit.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - The station"
+sign_text = "RAILWAY"
+frontage = "transit"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="NpcFarid" parent="." instance=ExtResource("8_npc")]
+position = Vector2(440, 430)
+npc_id = "farid"
+city = "mumbai"
+build = "adult"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="LocalSpot" parent="." instance=ExtResource("7_sp")]
+position = Vector2(360, 372)
+service = "local"
+prompt_text = "E - The lane of things"

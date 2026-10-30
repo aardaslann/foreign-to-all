@@ -1,0 +1,7064 @@
+{
+  "ActivityDakarTailor": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarTailor-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 458.63,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityDakarClothShop": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarClothShop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 494.44,
+    "lettering": [
+      {
+        "rect": [
+          995.6,
+          267.19,
+          37.21,
+          55.09
+        ],
+        "text": "WAX\n6 YARDS",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 13
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityDakarKermel": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarKermel-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 496.5,
+    "lettering": [
+      {
+        "rect": [
+          467.14,
+          181.11,
+          182.58,
+          21.35
+        ],
+        "text": "MARCHÉ KERMEL",
+        "background": "#00000000",
+        "ink": "#384e47",
+        "size": 26
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityDakarOuakamLookout": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarOuakamLookout-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 495.12,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          197.05,
+          248.6,
+          197.74,
+          33.74
+        ]
+      }
+    ]
+  },
+  "ActivityDakarOuakamPath": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarOuakamPath-retro.png",
+    "source": [
+      0,
+      0,
+      1671,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 468.96,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          668.33,
+          227.25,
+          106.79,
+          29.61
+        ]
+      }
+    ]
+  },
+  "ActivityDakarOuakamShore": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarOuakamShore-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 485.48,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          765.47,
+          269.94,
+          371.37,
+          103.98
+        ]
+      }
+    ]
+  },
+  "ActivityDakarYoffLanding": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarYoffLanding-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 458.63,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          600.8,
+          244.46,
+          344.5,
+          109.49
+        ]
+      }
+    ]
+  },
+  "ActivityDakarTailorSewing": {
+    "city": "dakar",
+    "texture": "res://art/environments/scenes/ActivityDakarTailor-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 458.63,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "sewing_wheel",
+        "rect": [
+          724.82,
+          321.59,
+          11.71,
+          24.1
+        ]
+      }
+    ]
+  },
+  "ActivityHanoiBiaHoi": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiBiaHoi-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 426.95,
+    "lettering": [
+      {
+        "rect": [
+          509.86,
+          89.52,
+          181.89,
+          29.61
+        ],
+        "text": "BIA HƠI",
+        "background": "#00000000",
+        "ink": "#304f40",
+        "size": 32
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHanoiLongBienNight": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiLongBienNight-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 473.78,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          511.92,
+          310.57,
+          125.4,
+          17.9
+        ]
+      }
+    ]
+  },
+  "ActivityHanoiBaDinhQueue": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiBaDinhQueue-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 468.27,
+    "lettering": [
+      {
+        "rect": [
+          465.07,
+          107.43,
+          221.86,
+          19.97
+        ],
+        "text": "HỒ CHÍ MINH",
+        "background": "#00000000",
+        "ink": "#34434b",
+        "size": 22
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHanoiOnePillar": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiOnePillar-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 485.48,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          611.14,
+          400.78,
+          113.0,
+          28.92
+        ]
+      }
+    ]
+  },
+  "ActivityHanoiTayHoFood": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiTayHoFood-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 546.77,
+    "lettering": [
+      {
+        "rect": [
+          861.24,
+          149.43,
+          222.55,
+          29.61
+        ],
+        "text": "BÁNH TÔM",
+        "background": "#00000000",
+        "ink": "#304b42",
+        "size": 33
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          893.63,
+          271.32,
+          65.45,
+          36.5
+        ]
+      }
+    ],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          148.82,
+          238.27,
+          178.45,
+          49.58
+        ]
+      }
+    ]
+  },
+  "ActivityHanoiTranQuocCourtyard": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiTranQuocCourtyard-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 521.29,
+    "lettering": [],
+    "motion": [
+      {
+        "kind": "incense",
+        "rect": [
+          485.05,
+          362.22,
+          26.87,
+          41.32
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityHanoiTempleSteles": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiTempleSteles-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 479.29,
+    "lettering": [
+      {
+        "rect": [
+          565.67,
+          276.14,
+          23.43,
+          77.13
+        ],
+        "text": "進\n士\n題\n名",
+        "background": "#00000000",
+        "ink": "#454844",
+        "size": 18,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          852.29,
+          276.14,
+          23.43,
+          77.13
+        ],
+        "text": "進\n士\n題\n名",
+        "background": "#00000000",
+        "ink": "#454844",
+        "size": 18,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHanoiGraduates": {
+    "city": "hanoi",
+    "texture": "res://art/environments/scenes/ActivityHanoiGraduates-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 466.2,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHonoluluKuhioBeach": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluKuhioBeach-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 495.81,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          392.73,
+          268.57,
+          744.11,
+          83.32
+        ]
+      }
+    ]
+  },
+  "ActivityHonoluluKuhioLineup": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluKuhioLineup-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 495.81,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          27.56,
+          272.7,
+          1095.5,
+          322.97
+        ]
+      }
+    ]
+  },
+  "ActivityHonoluluLeiStand": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluLeiStand-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 464.14,
+    "lettering": [
+      {
+        "rect": [
+          377.57,
+          121.89,
+          385.84,
+          28.23
+        ],
+        "text": "CHINATOWN · LEI",
+        "background": "#00000000",
+        "ink": "#305442",
+        "size": 30
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHonoluluManoaPorch": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluManoaPorch-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 483.42,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHonoluluManoaInterior": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluManoaInterior-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 475.84,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHonoluluMural": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluMural-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 510.27,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityHonoluluWaimeaLookout": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluWaimeaLookout-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 490.99,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          489.88,
+          164.58,
+          424.42,
+          139.79
+        ]
+      }
+    ]
+  },
+  "ActivityHonoluluWaimeaSand": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluWaimeaSand-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 490.3,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          294.89,
+          181.8,
+          693.82,
+          168.71
+        ]
+      }
+    ]
+  },
+  "ActivityHonoluluManoaRain": {
+    "city": "honolulu",
+    "texture": "res://art/environments/scenes/ActivityHonoluluManoaPorch-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 483.42,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "rain",
+        "rect": [
+          137.8,
+          169.4,
+          282.49,
+          268.57
+        ]
+      }
+    ]
+  },
+  "ActivityLaPazFeria": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazFeria-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 527.49,
+    "lettering": [
+      {
+        "rect": [
+          459.56,
+          296.11,
+          155.02,
+          21.35
+        ],
+        "text": "FERIA 16 DE JULIO",
+        "background": "#00000000",
+        "ink": "#403a37",
+        "size": 20
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLaPazScale": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazScale-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 508.9,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLaPazCasera": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazCasera-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 533.69,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLaPazAbaroa": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazAbaroa-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 490.99,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          447.85,
+          362.91,
+          167.43,
+          14.46
+        ]
+      }
+    ]
+  },
+  "ActivityLaPazSanPedroSquare": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazSanPedroSquare-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 502.01,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLaPazCableCabin": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazCableCabin-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 567.43,
+    "lettering": [
+      {
+        "rect": [
+          460.94,
+          13.77,
+          230.81,
+          20.66
+        ],
+        "text": "LÍNEA VERDE · IRPAVI",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "cable_cars",
+        "rect": [
+          639.39,
+          55.09,
+          372.06,
+          133.59
+        ],
+        "covers": [
+          [
+            [
+              924.63,
+              64.04
+            ],
+            [
+              1012.82,
+              44.76
+            ],
+            [
+              1048.65,
+              406.29
+            ],
+            [
+              974.24,
+              398.72
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityLaPazZonaSur": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazZonaSur-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 543.33,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLaPazMall": {
+    "city": "lapaz",
+    "texture": "res://art/environments/scenes/ActivityLaPazMall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "escalator_sloped",
+        "rect": [
+          860.56,
+          273.39,
+          84.06,
+          190.75
+        ],
+        "direction": 1
+      },
+      {
+        "kind": "escalator_sloped",
+        "rect": [
+          922.56,
+          273.39,
+          96.46,
+          190.75
+        ],
+        "direction": -1
+      }
+    ]
+  },
+  "ActivityLondonPub": {
+    "city": "london",
+    "texture": "res://art/environments/scenes/ActivityLondonPub-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 454.5,
+    "lettering": [
+      {
+        "rect": [
+          256.31,
+          112.25,
+          91.64,
+          129.46
+        ],
+        "text": "AT THE BAR\n\nALE\nCIDER\nTEA",
+        "background": "#20252a",
+        "ink": "#f1eddf",
+        "size": 13
+      },
+      {
+        "rect": [
+          1079.66,
+          152.88,
+          49.61,
+          83.32
+        ],
+        "text": "HOUSE\nALES",
+        "background": "#20252a",
+        "ink": "#f1eddf",
+        "size": 10
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLondonCharity": {
+    "city": "london",
+    "texture": "res://art/environments/scenes/ActivityLondonCharity-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 447.61,
+    "lettering": [
+      {
+        "rect": [
+          452.67,
+          116.38,
+          165.36,
+          42.7
+        ],
+        "text": "CHARITY SHOP",
+        "background": "#dec3a0",
+        "ink": "#1d352e",
+        "size": 22
+      },
+      {
+        "rect": [
+          216.34,
+          82.64,
+          99.9,
+          40.63
+        ],
+        "text": "DONATIONS\nWELCOME",
+        "background": "#dec3a0",
+        "ink": "#1d352e",
+        "size": 12
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLondonDLRPlatform": {
+    "city": "london",
+    "texture": "res://art/environments/scenes/ActivityLondonDLRPlatform-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 484.79,
+    "lettering": [
+      {
+        "rect": [
+          454.74,
+          120.51,
+          241.15,
+          34.43
+        ],
+        "text": "CANARY WHARF",
+        "background": "#183762",
+        "ink": "#f1eddf",
+        "size": 25
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLondonDLRFront": {
+    "city": "london",
+    "texture": "res://art/environments/scenes/ActivityLondonDLRFront-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 515.09,
+    "lettering": [
+      {
+        "rect": [
+          449.91,
+          44.07,
+          254.24,
+          22.72
+        ],
+        "text": "DOCKLANDS LIGHT RAILWAY",
+        "background": "#183762",
+        "ink": "#f1eddf",
+        "size": 19
+      },
+      {
+        "rect": [
+          825.42,
+          223.12,
+          70.97,
+          15.84
+        ],
+        "text": "CANARY WHARF",
+        "background": "#2b5875",
+        "ink": "#f1eddf",
+        "size": 8
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "rail_view",
+        "rect": [
+          467.14,
+          298.87,
+          192.23,
+          56.47
+        ]
+      }
+    ]
+  },
+  "ActivityLondonBrixtonMural": {
+    "city": "london",
+    "texture": "res://art/environments/scenes/ActivityLondonBrixtonMural-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.24,
+    "lettering": [
+      {
+        "rect": [
+          13.09,
+          87.46,
+          279.73,
+          44.07
+        ],
+        "text": "MORLEYS",
+        "background": "#ddc39b",
+        "ink": "#20322c",
+        "size": 30
+      },
+      {
+        "rect": [
+          838.51,
+          243.77,
+          50.3,
+          75.06
+        ],
+        "text": "TUNSTALL\nROAD",
+        "background": "#ddc39b",
+        "ink": "#263631",
+        "size": 10
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityLondonBinLid": {
+    "city": "london",
+    "pixel_art": true,
+    "texture": "res://art/environments/scenes/LondonTerrace-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "floor": 502.7,
+    "animation_patches": [
+      {
+        "kind": "bin_lid",
+        "rect": [
+          414.09,
+          428.33,
+          37.89,
+          10.33
+        ]
+      }
+    ]
+  },
+  "ActivityMexicoMercedAisle": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoMercedAisle-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 493.06,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMexicoMercedLoading": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoMercedLoading-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 475.15,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMexicoRomaPlaza": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoRomaPlaza-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 521.98,
+    "lettering": [
+      {
+        "rect": [
+          999.04,
+          363.6,
+          101.28,
+          44.76
+        ],
+        "text": "19 · 09 · 1985\n19 · 09 · 2017",
+        "background": "#00000000",
+        "ink": "#3a3b37",
+        "size": 12
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          436.13,
+          419.38,
+          261.82,
+          6.89
+        ]
+      }
+    ]
+  },
+  "ActivityMexicoCoyoacanMarket": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoCoyoacanMarket-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 493.75,
+    "lettering": [
+      {
+        "rect": [
+          325.89,
+          100.54,
+          494.7,
+          49.58
+        ],
+        "text": "TOSTADAS · COYOACÁN",
+        "background": "#00000000",
+        "ink": "#74432c",
+        "size": 40
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMexicoCoyoacanCoyotes": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoCoyoacanCoyotes-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 479.29,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          406.51,
+          413.87,
+          368.61,
+          7.57
+        ]
+      }
+    ]
+  },
+  "ActivityMexicoCondesaPark": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoCondesaPark-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 482.73,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMexicoJuarezOrgan": {
+    "city": "mexico",
+    "texture": "res://art/environments/scenes/ActivityMexicoJuarezOrgan-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 495.12,
+    "lettering": [
+      {
+        "rect": [
+          141.93,
+          310.57,
+          303.16,
+          25.48
+        ],
+        "text": "CAFÉ JUÁREZ",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 29
+      },
+      {
+        "rect": [
+          865.38,
+          303.0,
+          192.92,
+          28.92
+        ],
+        "text": "LIBRERÍA",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 30
+      },
+      {
+        "rect": [
+          641.45,
+          316.08,
+          121.95,
+          18.59
+        ],
+        "text": "TALLER",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 22
+      },
+      {
+        "rect": [
+          75.1,
+          435.21,
+          38.58,
+          46.14
+        ],
+        "text": "CAFÉ\nTÉ\nPAN",
+        "background": "#183640",
+        "ink": "#f1eddf",
+        "size": 10
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMoscowStolovaya": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowStolovaya-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 451.74,
+    "lettering": [
+      {
+        "rect": [
+          311.43,
+          75.06,
+          563.6,
+          58.53
+        ],
+        "text": "СУПЫ    ·    САЛАТЫ    ·    ГОРЯЧЕЕ",
+        "background": "#34483d",
+        "ink": "#e5d9b8",
+        "size": 31
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          695.2,
+          228.62,
+          22.05,
+          24.1
+        ]
+      },
+      {
+        "kind": "steam",
+        "rect": [
+          731.71,
+          231.38,
+          17.22,
+          23.41
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityMoscowRemont": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowRemont-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 528.18,
+    "lettering": [
+      {
+        "rect": [
+          470.58,
+          150.81,
+          407.2,
+          30.3
+        ],
+        "text": "РЕМОНТ  ·  КЛЮЧИ  ·  ЧАСЫ",
+        "background": "#526c6b",
+        "ink": "#e3dbbb",
+        "size": 27
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMoscowTsoyWall": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowTsoyWall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 482.04,
+    "lettering": [
+      {
+        "rect": [
+          377.57,
+          239.64,
+          179.14,
+          66.8
+        ],
+        "text": "ЦОЙ ЖИВ",
+        "background": "#00000000",
+        "ink": "#38332e",
+        "size": 42
+      },
+      {
+        "rect": [
+          608.38,
+          260.3,
+          179.14,
+          57.84
+        ],
+        "text": "КИНО",
+        "background": "#00000000",
+        "ink": "#9d493b",
+        "size": 39
+      },
+      {
+        "rect": [
+          464.38,
+          346.38,
+          119.2,
+          30.3
+        ],
+        "text": "ЦОЙ ЖИВ",
+        "background": "#00000000",
+        "ink": "#ead9aa",
+        "size": 21
+      },
+      {
+        "rect": [
+          625.61,
+          364.28,
+          83.37,
+          24.1
+        ],
+        "text": "КИНО",
+        "background": "#00000000",
+        "ink": "#293e48",
+        "size": 19
+      },
+      {
+        "rect": [
+          766.16,
+          185.93,
+          139.18,
+          28.23
+        ],
+        "text": "ЦОЙ ЖИВ",
+        "background": "#00000000",
+        "ink": "#594537",
+        "size": 21
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMoscowVernisazh": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowVernisazh-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 495.12,
+    "lettering": [
+      {
+        "rect": [
+          530.53,
+          228.62,
+          142.62,
+          21.35
+        ],
+        "text": "ВЕРНИСАЖ",
+        "background": "#655039",
+        "ink": "#ead8ae",
+        "size": 19
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          902.58,
+          233.45,
+          19.98,
+          24.79
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityMoscowIzmaylovoKremlin": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowIzmaylovoKremlin-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 548.15,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMoscowChurchyard": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowChurchyard-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 550.21,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMoscowGallery": {
+    "city": "moscow",
+    "texture": "res://art/environments/scenes/ActivityMoscowGallery-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 518.54,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMumbaiKabutarkhana": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiKabutarkhana-retro.png",
+    "source": [
+      0,
+      0,
+      1671,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 513.03,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "pigeon_flock",
+        "rect": [
+          474.72,
+          391.14,
+          581.51,
+          35.12
+        ],
+        "count": 84
+      }
+    ]
+  },
+  "ActivityMumbaiChorStall": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiChorStall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 494.44,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMumbaiGateway": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiGateway-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 485.48,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          865.38,
+          389.08,
+          232.19,
+          40.63
+        ]
+      }
+    ]
+  },
+  "ActivityMumbaiMountMary": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiMountMary-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 535.75,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMumbaiSeaWall": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiSeaWall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 446.23,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          460.94,
+          289.22,
+          688.31,
+          77.13
+        ]
+      }
+    ]
+  },
+  "ActivityMumbaiMuseumGarden": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiMuseumGarden-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 491.68,
+    "lettering": [
+      {
+        "rect": [
+          1031.43,
+          399.4,
+          63.39,
+          48.2
+        ],
+        "text": "DR BHAU\nDAJI LAD\nMUSEUM",
+        "background": "#00000000",
+        "ink": "#354d47",
+        "size": 12
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMumbaiMuseumHall": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiMuseumHall-retro.png",
+    "source": [
+      0,
+      0,
+      1603,
+      981
+    ],
+    "pixel_art": true,
+    "floor": 530.24,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityMumbaiKabutarFlight": {
+    "city": "mumbai",
+    "texture": "res://art/environments/scenes/ActivityMumbaiKabutarkhana-retro.png",
+    "source": [
+      0,
+      0,
+      1671,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 513.03,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "pigeon_flock",
+        "rect": [
+          474.72,
+          391.14,
+          581.51,
+          35.12
+        ],
+        "count": 84,
+        "takeoff": true
+      }
+    ]
+  },
+  "ActivityNewYorkBodega": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/ActivityNewYorkBodega-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "NewYorkLowerEast",
+    "asset_contract": "Narrow Lower East Side bodega interior, shelves of tins and drinks, a deli griddle at rear right. Back counter front occupies x850–1500, top y590, base y720. Clear customer floor y735–920. Cook is added by engine at x1060,y605 behind counter; keep that zone blank. Newspapers and a sleeping cat shelf at left x240,y660; leave the cat to the engine. Old erased board above griddle has no readable prices. Warm fluorescent light, tiled floor."
+  },
+  "ActivityNewYorkRoofView": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/ActivityNewYorkRoofView-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          480.23,
+          345.69,
+          226.68,
+          68.86
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "NewYorkWilliamsburg",
+    "asset_contract": "Brooklyn rooftop facing East River, bridge at left and Manhattan skyline across water, warm windows without bloom. Parapet top y630, full deck y715–930. Clear seat on parapet x600 and clear standing deck x940. Tank at far-right edge. City scale and skyline dominate the upper two thirds."
+  },
+  "ActivityNewYorkRoofWork": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/ActivityNewYorkRoofWork-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "NewYorkWilliamsburg",
+    "asset_contract": "Brooklyn brick roof at close range. Complete wooden stave water tank x975–1400,y210–625, hoops, legs, ladder x854–914 from y775 to y400, spare staves stacked at left. Roof walking surface y730–925, clear x420–850. Thin water leak below tank at x1260,y590. No person on ladder. Keep both ladder rails and spaces between rungs legible."
+  },
+  "ActivityNewYorkRooseveltCart": {
+    "city": "newyork",
+    "texture": "res://art/environments/scenes/ActivityNewYorkRooseveltCart-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          50.99,
+          236.89,
+          219.79,
+          55.09
+        ],
+        "text": "DOSA · SWEETS",
+        "background": "#00000000",
+        "ink": "#283941",
+        "size": 24
+      },
+      {
+        "rect": [
+          330.72,
+          236.89,
+          227.37,
+          55.09
+        ],
+        "text": "PANADERÍA",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 29
+      },
+      {
+        "rect": [
+          605.63,
+          236.89,
+          235.64,
+          55.09
+        ],
+        "text": "FRESH MARKET",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 26
+      },
+      {
+        "rect": [
+          917.05,
+          238.95,
+          211.52,
+          55.09
+        ],
+        "text": "BANGLA BAZAR",
+        "background": "#00000000",
+        "ink": "#f1eddf",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "train",
+        "rect": [
+          0.0,
+          0.0,
+          1152.0,
+          68.86
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "NewYorkJacksonHeights",
+    "asset_contract": "Roosevelt Avenue under green elevated steel. Silver train only in y0–118. Four culturally specific shopfronts behind an arepa cart at x845–1375,y568–733. Vendor zone x1080,y598 stays empty behind counter; queue at x520–740,y830. Clear customer forecourt to y930, complete cart wheels and legs. No baked train supports inside the moving train band. Blank fascia panels."
+  },
+  "ActivityParisRosiers": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisRosiers-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 460.69,
+    "lettering": [
+      {
+        "rect": [
+          558.09,
+          182.49,
+          367.23,
+          26.17
+        ],
+        "text": "FALAFEL",
+        "background": "#153b2e",
+        "ink": "#ead5a2",
+        "size": 26
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisVosges": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisVosges-retro.png",
+    "source": [
+      0,
+      0,
+      1671,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 496.5,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          709.67,
+          331.23,
+          8.96,
+          43.38
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          781.32,
+          333.99,
+          8.96,
+          40.63
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          736.54,
+          297.49,
+          25.49,
+          26.17
+        ]
+      }
+    ]
+  },
+  "ActivityParisTertre": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisTertre-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 545.39,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisVines": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisVines-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 514.41,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisBellevilleView": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisBellevilleView-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 502.7,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisDefenseAxis": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisDefenseAxis-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 506.14,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisChampLawn": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisChampLawn-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 541.95,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityParisPortrait": {
+    "city": "paris",
+    "texture": "res://art/environments/scenes/ActivityParisTertre-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 545.39,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "charcoal_portrait",
+        "rect": [
+          572.56,
+          353.27,
+          66.83,
+          78.5
+        ]
+      }
+    ]
+  },
+  "ActivityRomeButcher": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeButcher-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 483.42,
+    "lettering": [
+      {
+        "rect": [
+          522.26,
+          88.83,
+          289.38,
+          46.14
+        ],
+        "text": "MACELLERIA",
+        "background": "#ddd0ad",
+        "ink": "#632e25",
+        "size": 31
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityRomeEsquilinoMarket": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeEsquilinoMarket-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 519.23,
+    "lettering": [
+      {
+        "rect": [
+          711.73,
+          187.31,
+          217.72,
+          25.48
+        ],
+        "text": "SPEZIE E LEGUMI",
+        "background": "#8e352c",
+        "ink": "#f1eddf",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityRomeGarbatellaCourt": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeGarbatellaCourt-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 526.11,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "laundry",
+        "rect": [
+          540.17,
+          170.09,
+          41.34,
+          48.89
+        ]
+      },
+      {
+        "kind": "laundry",
+        "rect": [
+          647.66,
+          194.19,
+          42.03,
+          37.19
+        ]
+      },
+      {
+        "kind": "laundry",
+        "rect": [
+          777.19,
+          192.82,
+          48.23,
+          37.19
+        ]
+      }
+    ]
+  },
+  "ActivityRomeMontiPiazza": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeMontiPiazza-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 517.85,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "objects": [
+      {
+        "id": "fountain",
+        "sort_y": 515.09,
+        "footprints": [
+          [
+            542.93,
+            468.27,
+            303.85,
+            45.45
+          ]
+        ],
+        "polygons": [],
+        "water": {
+          "kind": "spouts",
+          "streams": [
+            [
+              [
+                662.12,
+                286.47
+              ],
+              [
+                660.06,
+                327.1
+              ],
+              [
+                660.06,
+                380.81
+              ],
+              [
+                660.06,
+                426.95
+              ]
+            ],
+            [
+              [
+                731.71,
+                286.47
+              ],
+              [
+                734.47,
+                329.16
+              ],
+              [
+                734.47,
+                380.81
+              ],
+              [
+                734.47,
+                426.95
+              ]
+            ],
+            [
+              [
+                697.26,
+                276.83
+              ],
+              [
+                697.26,
+                257.55
+              ],
+              [
+                701.4,
+                265.12
+              ],
+              [
+                701.4,
+                277.52
+              ]
+            ]
+          ],
+          "pool": [
+            575.31,
+            423.51,
+            245.28,
+            8.26
+          ]
+        }
+      }
+    ]
+  },
+  "ActivityRomeMontiBar": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeMontiBar-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 521.29,
+    "lettering": [
+      {
+        "rect": [
+          551.2,
+          154.94,
+          53.74,
+          56.47
+        ],
+        "text": "AL BANCO\n\nCAFFÈ\nBIBITE",
+        "background": "#292b23",
+        "ink": "#e3d7af",
+        "size": 9
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          170.18,
+          208.65,
+          20.67,
+          24.1
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityRomeTrastevereSteps": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeTrastevereSteps-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 519.23,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityRomeMattatoio": {
+    "city": "rome",
+    "texture": "res://art/environments/scenes/ActivityRomeMattatoio-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 492.37,
+    "lettering": [
+      {
+        "rect": [
+          916.36,
+          362.91,
+          45.47,
+          75.06
+        ],
+        "text": "MATTATOIO\n\nARTE\nE CULTURA",
+        "background": "#dfddd1",
+        "ink": "#3d4745",
+        "size": 8
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityRomeNasoneArc": {
+    "texture": "res://art/environments/scenes/RomeTrastevere-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 457.94,
+    "spawn": [
+      639.39,
+      574.32
+    ],
+    "objects": [
+      {
+        "id": "terrace_0",
+        "sort_y": 480.66,
+        "footprints": [
+          [
+            77.17,
+            465.51,
+            124.02,
+            15.15
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              100.59,
+              419.38
+            ],
+            [
+              176.38,
+              419.38
+            ],
+            [
+              185.34,
+              447.61
+            ],
+            [
+              179.83,
+              457.25
+            ],
+            [
+              174.32,
+              448.99
+            ],
+            [
+              101.97,
+              448.3
+            ],
+            [
+              98.53,
+              457.25
+            ],
+            [
+              94.39,
+              448.3
+            ]
+          ],
+          [
+            [
+              104.73,
+              447.61
+            ],
+            [
+              110.93,
+              447.61
+            ],
+            [
+              110.93,
+              478.6
+            ],
+            [
+              104.73,
+              478.6
+            ]
+          ],
+          [
+            [
+              171.56,
+              447.61
+            ],
+            [
+              177.76,
+              447.61
+            ],
+            [
+              177.76,
+              478.6
+            ],
+            [
+              171.56,
+              478.6
+            ]
+          ],
+          [
+            [
+              135.04,
+              448.3
+            ],
+            [
+              141.24,
+              448.3
+            ],
+            [
+              141.24,
+              471.71
+            ],
+            [
+              135.04,
+              471.71
+            ]
+          ],
+          [
+            [
+              127.46,
+              472.4
+            ],
+            [
+              148.82,
+              472.4
+            ],
+            [
+              148.82,
+              477.91
+            ],
+            [
+              127.46,
+              477.91
+            ]
+          ],
+          [
+            [
+              75.79,
+              407.67
+            ],
+            [
+              86.81,
+              404.91
+            ],
+            [
+              93.01,
+              445.54
+            ],
+            [
+              99.9,
+              445.54
+            ],
+            [
+              102.66,
+              451.74
+            ],
+            [
+              92.33,
+              453.12
+            ],
+            [
+              91.64,
+              480.66
+            ],
+            [
+              86.12,
+              480.66
+            ],
+            [
+              85.44,
+              453.12
+            ],
+            [
+              80.61,
+              453.12
+            ],
+            [
+              79.92,
+              479.29
+            ],
+            [
+              75.1,
+              479.29
+            ],
+            [
+              77.17,
+              447.61
+            ]
+          ],
+          [
+            [
+              190.16,
+              406.29
+            ],
+            [
+              199.12,
+              409.05
+            ],
+            [
+              199.12,
+              444.85
+            ],
+            [
+              203.94,
+              479.97
+            ],
+            [
+              197.05,
+              479.97
+            ],
+            [
+              193.61,
+              453.81
+            ],
+            [
+              182.58,
+              453.81
+            ],
+            [
+              181.89,
+              479.29
+            ],
+            [
+              175.69,
+              479.29
+            ],
+            [
+              175.69,
+              446.92
+            ],
+            [
+              188.78,
+              446.23
+            ]
+          ],
+          [
+            [
+              137.11,
+              400.78
+            ],
+            [
+              144.0,
+              400.78
+            ],
+            [
+              144.0,
+              420.75
+            ],
+            [
+              137.11,
+              420.75
+            ]
+          ],
+          [
+            [
+              154.33,
+              411.11
+            ],
+            [
+              159.85,
+              411.11
+            ],
+            [
+              159.85,
+              420.06
+            ],
+            [
+              154.33,
+              420.06
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "terrace_1",
+        "sort_y": 480.66,
+        "footprints": [
+          [
+            231.5,
+            465.51,
+            124.02,
+            15.15
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              254.93,
+              419.38
+            ],
+            [
+              330.72,
+              419.38
+            ],
+            [
+              339.67,
+              447.61
+            ],
+            [
+              334.16,
+              457.25
+            ],
+            [
+              328.65,
+              448.99
+            ],
+            [
+              256.31,
+              448.3
+            ],
+            [
+              252.86,
+              457.25
+            ],
+            [
+              248.73,
+              448.3
+            ]
+          ],
+          [
+            [
+              259.06,
+              447.61
+            ],
+            [
+              265.26,
+              447.61
+            ],
+            [
+              265.26,
+              478.6
+            ],
+            [
+              259.06,
+              478.6
+            ]
+          ],
+          [
+            [
+              325.89,
+              447.61
+            ],
+            [
+              332.1,
+              447.61
+            ],
+            [
+              332.1,
+              478.6
+            ],
+            [
+              325.89,
+              478.6
+            ]
+          ],
+          [
+            [
+              289.38,
+              448.3
+            ],
+            [
+              295.58,
+              448.3
+            ],
+            [
+              295.58,
+              471.71
+            ],
+            [
+              289.38,
+              471.71
+            ]
+          ],
+          [
+            [
+              281.8,
+              472.4
+            ],
+            [
+              303.16,
+              472.4
+            ],
+            [
+              303.16,
+              477.91
+            ],
+            [
+              281.8,
+              477.91
+            ]
+          ],
+          [
+            [
+              230.12,
+              407.67
+            ],
+            [
+              241.15,
+              404.91
+            ],
+            [
+              247.35,
+              445.54
+            ],
+            [
+              254.24,
+              445.54
+            ],
+            [
+              257.0,
+              451.74
+            ],
+            [
+              246.66,
+              453.12
+            ],
+            [
+              245.97,
+              480.66
+            ],
+            [
+              240.46,
+              480.66
+            ],
+            [
+              239.77,
+              453.12
+            ],
+            [
+              234.95,
+              453.12
+            ],
+            [
+              234.26,
+              479.29
+            ],
+            [
+              229.44,
+              479.29
+            ],
+            [
+              231.5,
+              447.61
+            ]
+          ],
+          [
+            [
+              344.5,
+              406.29
+            ],
+            [
+              353.45,
+              409.05
+            ],
+            [
+              353.45,
+              444.85
+            ],
+            [
+              358.28,
+              479.97
+            ],
+            [
+              351.39,
+              479.97
+            ],
+            [
+              347.94,
+              453.81
+            ],
+            [
+              336.92,
+              453.81
+            ],
+            [
+              336.23,
+              479.29
+            ],
+            [
+              330.03,
+              479.29
+            ],
+            [
+              330.03,
+              446.92
+            ],
+            [
+              343.12,
+              446.23
+            ]
+          ],
+          [
+            [
+              291.44,
+              400.78
+            ],
+            [
+              298.33,
+              400.78
+            ],
+            [
+              298.33,
+              420.75
+            ],
+            [
+              291.44,
+              420.75
+            ]
+          ],
+          [
+            [
+              308.67,
+              411.11
+            ],
+            [
+              314.18,
+              411.11
+            ],
+            [
+              314.18,
+              420.06
+            ],
+            [
+              308.67,
+              420.06
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "west_tree",
+        "sort_y": 471.71,
+        "footprints": [
+          [
+            22.05,
+            457.25,
+            46.16,
+            14.46
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              19.98,
+              426.95
+            ],
+            [
+              70.28,
+              426.95
+            ],
+            [
+              70.28,
+              435.21
+            ],
+            [
+              66.83,
+              471.71
+            ],
+            [
+              23.43,
+              471.71
+            ],
+            [
+              19.98,
+              435.21
+            ]
+          ],
+          [
+            [
+              36.52,
+              395.27
+            ],
+            [
+              45.47,
+              395.27
+            ],
+            [
+              45.47,
+              430.39
+            ],
+            [
+              36.52,
+              430.39
+            ]
+          ]
+        ],
+        "foliage": [
+          [
+            [
+              0.0,
+              318.15
+            ],
+            [
+              84.06,
+              318.15
+            ],
+            [
+              84.06,
+              429.02
+            ],
+            [
+              0.0,
+              429.02
+            ]
+          ]
+        ],
+        "wood_branches": true
+      },
+      {
+        "id": "window_pot",
+        "sort_y": 472.4,
+        "footprints": [
+          [
+            386.53,
+            457.94,
+            43.41,
+            14.46
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              384.46,
+              430.39
+            ],
+            [
+              432.0,
+              430.39
+            ],
+            [
+              432.0,
+              438.66
+            ],
+            [
+              428.56,
+              472.4
+            ],
+            [
+              387.9,
+              472.4
+            ],
+            [
+              384.46,
+              438.66
+            ]
+          ]
+        ],
+        "foliage": [
+          [
+            [
+              378.95,
+              389.08
+            ],
+            [
+              440.27,
+              389.08
+            ],
+            [
+              440.27,
+              434.52
+            ],
+            [
+              378.95,
+              434.52
+            ]
+          ]
+        ],
+        "wood_branches": true
+      },
+      {
+        "id": "fountain_pot",
+        "sort_y": 471.02,
+        "footprints": [
+          [
+            534.66,
+            456.56,
+            37.21,
+            14.46
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              532.59,
+              428.33
+            ],
+            [
+              573.93,
+              428.33
+            ],
+            [
+              573.93,
+              436.59
+            ],
+            [
+              570.49,
+              471.02
+            ],
+            [
+              536.04,
+              471.02
+            ],
+            [
+              532.59,
+              436.59
+            ]
+          ]
+        ],
+        "foliage": [
+          [
+            [
+              528.46,
+              391.14
+            ],
+            [
+              577.38,
+              391.14
+            ],
+            [
+              577.38,
+              431.08
+            ],
+            [
+              528.46,
+              431.08
+            ]
+          ]
+        ],
+        "wood_branches": true
+      },
+      {
+        "id": "laundry_tree",
+        "sort_y": 471.71,
+        "footprints": [
+          [
+            795.79,
+            457.25,
+            45.47,
+            14.46
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              793.72,
+              423.51
+            ],
+            [
+              843.33,
+              423.51
+            ],
+            [
+              843.33,
+              431.77
+            ],
+            [
+              839.89,
+              471.71
+            ],
+            [
+              797.17,
+              471.71
+            ],
+            [
+              793.72,
+              431.77
+            ]
+          ],
+          [
+            [
+              809.57,
+              426.26
+            ],
+            [
+              809.57,
+              398.72
+            ],
+            [
+              790.97,
+              380.81
+            ],
+            [
+              795.79,
+              375.3
+            ],
+            [
+              813.01,
+              389.76
+            ],
+            [
+              813.01,
+              362.22
+            ],
+            [
+              822.66,
+              362.22
+            ],
+            [
+              822.66,
+              392.52
+            ],
+            [
+              837.13,
+              374.61
+            ],
+            [
+              841.95,
+              379.43
+            ],
+            [
+              823.35,
+              404.91
+            ],
+            [
+              823.35,
+              426.26
+            ]
+          ]
+        ],
+        "foliage": [
+          [
+            [
+              771.67,
+              287.85
+            ],
+            [
+              861.93,
+              287.85
+            ],
+            [
+              861.93,
+              419.38
+            ],
+            [
+              771.67,
+              419.38
+            ]
+          ]
+        ],
+        "wood_branches": true
+      },
+      {
+        "id": "east_tree",
+        "sort_y": 471.71,
+        "footprints": [
+          [
+            1098.26,
+            457.25,
+            44.1,
+            14.46
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              1096.19,
+              423.51
+            ],
+            [
+              1144.42,
+              423.51
+            ],
+            [
+              1144.42,
+              431.77
+            ],
+            [
+              1140.98,
+              471.71
+            ],
+            [
+              1099.64,
+              471.71
+            ],
+            [
+              1096.19,
+              431.77
+            ]
+          ],
+          [
+            [
+              1114.11,
+              426.26
+            ],
+            [
+              1114.11,
+              395.27
+            ],
+            [
+              1096.88,
+              373.24
+            ],
+            [
+              1101.7,
+              367.73
+            ],
+            [
+              1116.86,
+              382.19
+            ],
+            [
+              1116.86,
+              348.45
+            ],
+            [
+              1126.51,
+              348.45
+            ],
+            [
+              1126.51,
+              382.19
+            ],
+            [
+              1144.42,
+              364.28
+            ],
+            [
+              1149.24,
+              369.79
+            ],
+            [
+              1127.89,
+              397.34
+            ],
+            [
+              1127.89,
+              426.26
+            ]
+          ]
+        ],
+        "foliage": [
+          [
+            [
+              1080.34,
+              250.66
+            ],
+            [
+              1152.0,
+              250.66
+            ],
+            [
+              1152.0,
+              415.24
+            ],
+            [
+              1080.34,
+              415.24
+            ]
+          ]
+        ],
+        "wood_branches": true
+      },
+      {
+        "id": "nasone",
+        "sort_y": 499.94,
+        "footprints": [
+          [
+            456.11,
+            483.42,
+            33.76,
+            16.53
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              456.11,
+              498.57
+            ],
+            [
+              456.11,
+              484.79
+            ],
+            [
+              460.94,
+              480.66
+            ],
+            [
+              460.94,
+              429.02
+            ],
+            [
+              458.18,
+              426.26
+            ],
+            [
+              458.18,
+              420.75
+            ],
+            [
+              462.32,
+              416.62
+            ],
+            [
+              468.52,
+              414.55
+            ],
+            [
+              468.52,
+              410.42
+            ],
+            [
+              471.27,
+              406.29
+            ],
+            [
+              475.41,
+              406.29
+            ],
+            [
+              478.85,
+              410.42
+            ],
+            [
+              478.85,
+              414.55
+            ],
+            [
+              485.05,
+              417.31
+            ],
+            [
+              488.5,
+              421.44
+            ],
+            [
+              488.5,
+              427.64
+            ],
+            [
+              484.36,
+              430.39
+            ],
+            [
+              484.36,
+              436.59
+            ],
+            [
+              494.7,
+              436.59
+            ],
+            [
+              499.52,
+              440.72
+            ],
+            [
+              499.52,
+              447.61
+            ],
+            [
+              494.7,
+              447.61
+            ],
+            [
+              494.7,
+              443.48
+            ],
+            [
+              484.36,
+              443.48
+            ],
+            [
+              484.36,
+              481.35
+            ],
+            [
+              489.88,
+              484.79
+            ],
+            [
+              489.88,
+              498.57
+            ]
+          ]
+        ],
+        "water": {
+          "kind": "spouts",
+          "streams": [
+            [
+              [
+                492.63,
+                438.66
+              ],
+              [
+                494.7,
+                411.8
+              ],
+              [
+                503.66,
+                406.29
+              ],
+              [
+                514.68,
+                420.75
+              ]
+            ]
+          ],
+          "pool": [
+            493.32,
+            495.81,
+            22.05,
+            2.07
+          ]
+        }
+      }
+    ],
+    "anchors": {
+      "TransitDoor": [
+        673.84,
+        490.3
+      ],
+      "LocalSpot": [
+        513.3,
+        518.54
+      ]
+    },
+    "lettering": [
+      {
+        "rect": [
+          100.59,
+          260.99,
+          259.06,
+          29.61
+        ],
+        "text": "TRATTORIA",
+        "background": "#513727",
+        "ink": "#f1eddf",
+        "size": 30
+      },
+      {
+        "rect": [
+          875.02,
+          243.77,
+          191.54,
+          33.74
+        ],
+        "text": "LAVANDERIA",
+        "background": "#e3d2ab",
+        "ink": "#304438",
+        "size": 27
+      },
+      {
+        "rect": [
+          637.32,
+          390.45,
+          59.25,
+          15.84
+        ],
+        "text": "METRO →",
+        "background": "#563123",
+        "ink": "#f1eddf",
+        "size": 11
+      }
+    ],
+    "foreground": [],
+    "solids": [],
+    "portals": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "laundry",
+        "rect": [
+          888.8,
+          146.68,
+          27.56,
+          44.07
+        ]
+      },
+      {
+        "kind": "laundry",
+        "rect": [
+          932.9,
+          146.68,
+          26.87,
+          48.89
+        ]
+      },
+      {
+        "kind": "washer",
+        "rect": [
+          978.37,
+          398.72,
+          33.76,
+          34.43
+        ]
+      },
+      {
+        "kind": "washer",
+        "rect": [
+          1023.16,
+          398.72,
+          31.0,
+          34.43
+        ]
+      }
+    ],
+    "desks": [],
+    "fittings": [],
+    "motion_layers": [],
+    "interaction_sizes": {
+      "TransitDoor": {
+        "CollisionShape2D": [
+          74,
+          34
+        ]
+      },
+      "LocalSpot": {
+        "CollisionShape2D": [
+          74,
+          34
+        ]
+      }
+    },
+    "prompt_overrides": {
+      "TransitDoor": "E — Walk to the metro"
+    },
+    "city": "rome"
+  },
+  "ActivitySaoPauloFeira": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloFeira-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          128.15,
+          247.22,
+          141.24,
+          36.5
+        ],
+        "text": "LIVROS",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 26
+      },
+      {
+        "rect": [
+          427.18,
+          244.46,
+          156.4,
+          37.87
+        ],
+        "text": "FEIRA DA LIBERDADE",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 19
+      },
+      {
+        "rect": [
+          785.45,
+          256.17,
+          261.82,
+          28.92
+        ],
+        "text": "PASTEL DA FEIRA",
+        "background": "#00000000",
+        "ink": "#363237",
+        "size": 26
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "steam",
+        "rect": [
+          837.13,
+          371.17,
+          19.98,
+          42.01
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloLiberdade",
+    "asset_contract": "Liberdade Sunday square with distinctive red suzuranto lamps. Frying stall at right x905–1410,y575–720, large frying pan top at y571; vendor zone x1110,y588. Three folding tables of manga, seeds and crockery across left background. Clear customer square y755–925, Portuguese and Japanese fascia left blank."
+  },
+  "ActivitySaoPauloFlea": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloFlea-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloBixiga",
+    "asset_contract": "Praça Dom Orione antiques fair in Bixiga, intimate square and low Italianate houses. Cloths with old keys, button tins, photos, books and small brass pieces on ground x590–1040,y770–850. Vendor chair x1110,y705, seat surface y740. Keep approach x460–580 clear and walking aisle below y870."
+  },
+  "ActivitySaoPauloCantina": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloCantina-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          642.14,
+          252.04,
+          237.7,
+          35.81
+        ],
+        "text": "CANTINA BELLINI",
+        "background": "#00000000",
+        "ink": "#644737",
+        "size": 27
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloBixiga",
+    "asset_contract": "Bixiga cantina with long shared tables, red-white checked cloths, wood chairs, plaster walls, family pictures and an Italian surname blank panel on window. Nearest table x660–1300,y680–755, seat locations x605,y792 and x1350,y792. Clear serving aisle x240–490 from y660–910. No people or food server baked in.",
+    "activity_occluders": [
+      {
+        "id": "shared_table",
+        "sort_y": 528.18,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              428.56,
+              391.83
+            ],
+            [
+              456.8,
+              385.63
+            ],
+            [
+              840.57,
+              385.63
+            ],
+            [
+              867.44,
+              395.27
+            ],
+            [
+              860.56,
+              477.91
+            ],
+            [
+              839.2,
+              482.04
+            ],
+            [
+              457.49,
+              479.97
+            ],
+            [
+              434.07,
+              470.33
+            ]
+          ],
+          [
+            [
+              447.85,
+              473.09
+            ],
+            [
+              461.63,
+              473.09
+            ],
+            [
+              461.63,
+              526.11
+            ],
+            [
+              447.85,
+              526.11
+            ]
+          ],
+          [
+            [
+              831.62,
+              473.09
+            ],
+            [
+              846.09,
+              473.09
+            ],
+            [
+              846.09,
+              527.49
+            ],
+            [
+              831.62,
+              527.49
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivitySaoPauloMarketHall": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloMarketHall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          68.9,
+          249.28,
+          211.52,
+          33.05
+        ],
+        "text": "FRUTAS DA ESTAÇÃO",
+        "background": "#00000000",
+        "ink": "#f1e5c9",
+        "size": 23
+      },
+      {
+        "rect": [
+          870.89,
+          249.28,
+          210.14,
+          33.74
+        ],
+        "text": "MERCADO MUNICIPAL",
+        "background": "#00000000",
+        "ink": "#f1e5c9",
+        "size": 24
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloMercadao",
+    "asset_contract": "Inside Mercado Municipal: distinctive tall arches, stained-glass windows, iron roof, fruit crates in deep stalls. Central aisle x570–1010 clear all the way to y940. Right fruit counter x1030–1540, top y590 and front base y724. Vendor at x1210,y612 and customers at x903,y826, empty for engine actors."
+  },
+  "ActivitySaoPauloSandwich": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloSandwich-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          633.88,
+          95.72,
+          396.17,
+          48.2
+        ],
+        "text": "SANDUÍCHE DE MORTADELA",
+        "background": "#00000000",
+        "ink": "#25443c",
+        "size": 33
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloMercadao",
+    "asset_contract": "Mercadão mezzanine sandwich counter: wood counter x845–1450, top y580, base y733, slicer and mortadella behind it, stained glass and ironwork visible over the hall. Empty cook zone x1120,y590, standing customer zone x750–900,y830. Blank modest menu panel, no prices or text."
+  },
+  "ActivitySaoPauloMASPGallery": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloMASPGallery-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          303.85,
+          366.35,
+          17.91,
+          11.71
+        ],
+        "text": "ACERVO",
+        "background": "#f0e8dc",
+        "ink": "#353436",
+        "size": 7
+      },
+      {
+        "rect": [
+          1001.8,
+          367.04,
+          20.67,
+          12.4
+        ],
+        "text": "ACERVO",
+        "background": "#f0e8dc",
+        "ink": "#353436",
+        "size": 7
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloPaulista",
+    "asset_contract": "MASP collection gallery: individual glass easels in concrete feet on an open floor, each holding one small painting. Clear paths between them, no partitions. Easels at x420,y690, x795,y660, x1320,y650; middle foreground x940–1160,y810 clear. Include visible backs of some frames and blank rear labels. No replicas of specific artworks."
+  },
+  "ActivitySaoPauloVao": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloVao-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          717.24,
+          472.4,
+          34.45,
+          55.09
+        ],
+        "text": "CAFÉ\nCOADO",
+        "background": "#00000000",
+        "ink": "#ead8b0",
+        "size": 10
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloPaulista",
+    "asset_contract": "View from the open public space under Lina Bo Bardi MASP. Monumental red supports at the far edges, underside of suspended museum high above, open skyline beyond. The architecture creates public space, no wall closing its sides. Clear plaza y680–930 with a low sitting ledge left at y721. Small coffee bicycle on right x1270,y715; do not bake people or demonstration placards."
+  },
+  "ActivitySaoPauloMuralAlley": {
+    "city": "saopaulo",
+    "texture": "res://art/environments/scenes/ActivitySaoPauloMuralAlley-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          273.53,
+          48.2,
+          192.92,
+          37.87
+        ],
+        "text": "ZONA LIVRE",
+        "background": "#00000000",
+        "ink": "#b4b0a3",
+        "size": 30
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SaoPauloVilaMadalena",
+    "asset_contract": "Beco do Batman alley: close textured walls with layered vivid independent murals and distant low roofs. Narrow angular black pixo band high on wall left blank for native marks. Mural contours remain stepped pixels. Clear cobbled walking band y710–930. No invented smooth graffiti letters."
+  },
+  "ActivitySeoulLathe": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulLathe-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          515.37,
+          121.89,
+          461.63,
+          44.07
+        ],
+        "text": "정밀가공 · 금속",
+        "background": "#efdfc3",
+        "ink": "#293e49",
+        "size": 34,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          140.56,
+          180.42,
+          216.34,
+          19.97
+        ],
+        "text": "을지공업사",
+        "background": "#254967",
+        "ink": "#f3ebd6",
+        "size": 21,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "rotor_marks",
+        "rect": [
+          675.9,
+          340.87,
+          9.65,
+          26.17
+        ],
+        "speed": 8.0
+      }
+    ]
+  },
+  "ActivitySeoulEuljiroNight": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulEuljiroNight-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 510.27,
+    "lettering": [
+      {
+        "rect": [
+          466.45,
+          126.71,
+          236.33,
+          33.05
+        ],
+        "text": "정밀공업",
+        "background": "#d6c5ac",
+        "ink": "#2c3d45",
+        "size": 27,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          945.99,
+          154.25,
+          140.56,
+          26.86
+        ],
+        "text": "노가리 · 맥주",
+        "background": "#263c51",
+        "ink": "#f3ebd6",
+        "size": 23,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivitySeoulGwangjang": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulGwangjang-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 500.63,
+    "lettering": [
+      {
+        "rect": [
+          587.02,
+          77.82,
+          373.44,
+          43.38
+        ],
+        "text": "광장시장 · 빈대떡",
+        "background": "#e5d7ba",
+        "ink": "#25463f",
+        "size": 34,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          584.27,
+          304.37,
+          24.11,
+          42.7
+        ]
+      },
+      {
+        "kind": "steam",
+        "rect": [
+          677.28,
+          302.31,
+          20.67,
+          42.7
+        ]
+      }
+    ],
+    "animation_patches": [
+      {
+        "kind": "rotor_marks",
+        "rect": [
+          1010.07,
+          283.03,
+          76.48,
+          12.4
+        ],
+        "speed": 0.85
+      }
+    ]
+  },
+  "ActivitySeoulMangwonJeon": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulMangwonJeon-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 506.14,
+    "lettering": [
+      {
+        "rect": [
+          569.11,
+          153.56,
+          340.36,
+          42.01
+        ],
+        "text": "망원시장 · 전",
+        "background": "#eddfbf",
+        "ink": "#2f483d",
+        "size": 34,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          571.87,
+          309.19,
+          18.6,
+          37.19
+        ]
+      },
+      {
+        "kind": "steam",
+        "rect": [
+          699.33,
+          311.26,
+          15.85,
+          33.74
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivitySeoulHongdaeBusking": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulHongdaeBusking-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 484.79,
+    "lettering": [
+      {
+        "rect": [
+          167.43,
+          155.63,
+          219.79,
+          24.1
+        ],
+        "text": "홍대 음악",
+        "background": "#254967",
+        "ink": "#f3ebd6",
+        "size": 27,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          669.01,
+          152.88,
+          279.73,
+          31.68
+        ],
+        "text": "커피 · 차",
+        "background": "#e8d5b4",
+        "ink": "#354a44",
+        "size": 28,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          513.99,
+          232.07,
+          27.56,
+          37.19
+        ],
+        "text": "오늘\nLIVE",
+        "background": "#ce5167",
+        "ink": "#f3ebd6",
+        "size": 11,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivitySeoulShoeWorkshop": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulShoeWorkshop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 490.99,
+    "lettering": [
+      {
+        "rect": [
+          485.05,
+          61.29,
+          586.33,
+          24.79
+        ],
+        "text": "성수 수제화",
+        "background": "#253a49",
+        "ink": "#f3ebd6",
+        "size": 30,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          912.23,
+          221.74,
+          78.55,
+          29.61
+        ],
+        "text": "구두수선",
+        "background": "#dcc7a3",
+        "ink": "#354339",
+        "size": 20,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivitySeoulFactoryCafe": {
+    "city": "seoul",
+    "texture": "res://art/environments/scenes/ActivitySeoulFactoryCafe-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 508.21,
+    "lettering": [
+      {
+        "rect": [
+          742.05,
+          212.79,
+          155.02,
+          24.1
+        ],
+        "text": "공장 커피",
+        "background": "#d7ba87",
+        "ink": "#324740",
+        "size": 24,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      },
+      {
+        "rect": [
+          999.04,
+          211.41,
+          62.7,
+          39.94
+        ],
+        "text": "커피\n차",
+        "background": "#204d43",
+        "ink": "#f3ebd6",
+        "size": 17,
+        "font": "res://art/fonts/NotoSansKR.ttf"
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          132.98,
+          377.37,
+          19.29,
+          26.17
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivitySydneyFerryDeck": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyFerryDeck-retro.png",
+    "source": [
+      0,
+      0,
+      1671,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          0.0,
+          266.5,
+          53.05,
+          44.07
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          113.0,
+          266.5,
+          26.87,
+          44.76
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          178.45,
+          265.81,
+          131.6,
+          38.56
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          371.37,
+          267.19,
+          409.26,
+          48.2
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          843.33,
+          268.57,
+          191.54,
+          37.87
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          1086.55,
+          266.5,
+          64.77,
+          39.25
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "SydneyCircularQuay",
+    "asset_contract": "Inside a green-yellow Sydney ferry saloon. Broad windows frame harbour and bridge, cream bulkheads, timber trim, blue bench seats. Left seat surface x500,y728, right seat x1060,y728; clear central aisle x700–960,y765–920. Separate distant sea through windows y210–495 from fixed interior."
+  },
+  "ActivitySydneyRocksLane": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyRocksLane-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyCircularQuay",
+    "asset_contract": "Narrow sandstone passage in The Rocks, worn stone steps and rock-cut opening. Warm amber stone and slate-blue shadows in stepped pixel clusters. Clear continuous walking floor y735–925, full stair treads near rear only, no foreground fencing."
+  },
+  "ActivitySydneyTowerDeck": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyTowerDeck-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyCBD",
+    "asset_contract": "Sydney Tower observation deck looking over the harbour: large window wall, fixed thin mullions, distant coastline and low urban grid, curved observation rail at y615. Clear indoor floor y735–925. The harbour is the subject, no giant foreground tower."
+  },
+  "ActivitySydneyMartinPlace": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyMartinPlace-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          460.25,
+          354.64,
+          229.44,
+          27.55
+        ],
+        "text": "TO OUR GLORIOUS DEAD",
+        "background": "#00000000",
+        "ink": "#756959",
+        "size": 22
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyCBD",
+    "asset_contract": "Martin Place pedestrian plaza, sandstone bank facades, cenotaph long low stone at x520–1160,y540–683, bronze figures at its ends. Sydney Tower distant skyline. Clear respectful walking lane y755–915 in front of the stone; no scattered street props. Memorial inscription left blank for restrained engine typography."
+  },
+  "ActivitySydneyNewtownMural": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyNewtownMural-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          730.33,
+          441.41,
+          305.22,
+          30.99
+        ],
+        "text": "I HAVE A DREAM",
+        "background": "#00000000",
+        "ink": "#29303b",
+        "size": 30
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyNewtown",
+    "asset_contract": "King Street street-corner mural: respectful painted portrait of Martin Luther King Jr. on brick shop wall, local iron lace balcony beside it. Blank four-word caption strip x720–1300,y515–583 for native lettering. Clear sidewalk y738–925. Portrait rendered as deliberate pixel clusters, no smooth airbrush."
+  },
+  "ActivitySydneyNewtownPub": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyNewtownPub-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          776.5,
+          72.99,
+          163.29,
+          31.68
+        ],
+        "text": "LIVE MUSIC",
+        "background": "#00000000",
+        "ink": "#d4c19b",
+        "size": 23
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyNewtown",
+    "asset_contract": "King Street pub interior: timber bar at back right x930–1520,y540–701, pool table at left x185–520,y590–735, empty small band area rear left. Nearest communal table x628–978,y694–751, left seat x561,y785, right seat x1030,y785. Dog location beneath pool table x352,y730 left blank. Clear bar approach x840–990,y825. No baked musicians or dogs; no written logos."
+  },
+  "ActivitySydneyBondiPool": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyBondiPool-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          199.81,
+          281.65,
+          753.76,
+          17.9
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          192.92,
+          309.88,
+          764.78,
+          16.53
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          179.14,
+          350.51,
+          785.45,
+          15.15
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          166.74,
+          391.83,
+          812.33,
+          21.35
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "SydneyBondi",
+    "asset_contract": "Ocean pool at Bondi, pale rock ledge around blue lap lanes, open sea and spray beyond. Pool rectangle x225–1420,y475–800, pool wall at y811, dry walking apron y847–930. No swimmers. Ladder at far left only, kept clear of the central swimming zone."
+  },
+  "ActivitySydneyBondiSurf": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyBondiSurf-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          4.82,
+          273.39,
+          288.0,
+          83.32
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          305.22,
+          305.06,
+          525.7,
+          110.87
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          881.91,
+          265.12,
+          269.4,
+          149.43
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "SydneyBondi",
+    "asset_contract": "Bondi seen from sand toward the water. Open sand y725–941, active breaking surf band y440–718. Two red-yellow patrol flags at x515 and x1085 rooted at y735; clear central swimming area between them. Calm-looking unpatrolled water toward far right. No swimmers or rescuers baked in. All flag poles complete. Pixel waves only."
+  },
+  "ActivitySydneyCabramattaBakery": {
+    "city": "sydney",
+    "texture": "res://art/environments/scenes/ActivitySydneyCabramattaBakery-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          352.77,
+          113.62,
+          526.39,
+          49.58
+        ],
+        "text": "BÁNH MÌ · BAKERY",
+        "background": "#00000000",
+        "ink": "#2a5448",
+        "size": 39
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "SydneyCabramatta",
+    "asset_contract": "Vietnamese-Australian bakery with crisp bread rolls, glass ingredient case and stainless workbench at right x905–1480,y545–718. Seller zone x1120,y583 empty. Customer queue from x420–810,y836. Rear shelves of bread, low awning glimpsed through left doorway. Blank sign x695–1350,y243–317.",
+    "activity_occluders": [
+      {
+        "id": "bakery_queue",
+        "sort_y": 528.18,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              234.95,
+              430.39
+            ],
+            [
+              520.88,
+              430.39
+            ],
+            [
+              520.88,
+              440.03
+            ],
+            [
+              234.95,
+              440.03
+            ]
+          ],
+          [
+            [
+              234.95,
+              424.88
+            ],
+            [
+              245.28,
+              424.88
+            ],
+            [
+              245.28,
+              521.29
+            ],
+            [
+              234.95,
+              521.29
+            ]
+          ],
+          [
+            [
+              223.92,
+              517.85
+            ],
+            [
+              251.48,
+              517.85
+            ],
+            [
+              251.48,
+              528.18
+            ],
+            [
+              223.92,
+              528.18
+            ]
+          ],
+          [
+            [
+              516.75,
+              425.57
+            ],
+            [
+              527.77,
+              425.57
+            ],
+            [
+              527.77,
+              519.91
+            ],
+            [
+              516.75,
+              519.91
+            ]
+          ],
+          [
+            [
+              505.72,
+              517.85
+            ],
+            [
+              538.79,
+              517.85
+            ],
+            [
+              538.79,
+              528.18
+            ],
+            [
+              505.72,
+              528.18
+            ]
+          ],
+          [
+            [
+              527.77,
+              430.39
+            ],
+            [
+              635.25,
+              430.39
+            ],
+            [
+              635.25,
+              439.35
+            ],
+            [
+              527.77,
+              439.35
+            ]
+          ],
+          [
+            [
+              633.88,
+              424.88
+            ],
+            [
+              644.21,
+              424.88
+            ],
+            [
+              644.21,
+              519.23
+            ],
+            [
+              633.88,
+              519.23
+            ]
+          ],
+          [
+            [
+              623.54,
+              513.72
+            ],
+            [
+              653.17,
+              513.72
+            ],
+            [
+              653.17,
+              524.05
+            ],
+            [
+              623.54,
+              524.05
+            ]
+          ],
+          [
+            [
+              316.25,
+              411.11
+            ],
+            [
+              750.32,
+              411.11
+            ],
+            [
+              750.32,
+              421.44
+            ],
+            [
+              316.25,
+              421.44
+            ]
+          ],
+          [
+            [
+              312.8,
+              408.36
+            ],
+            [
+              323.14,
+              408.36
+            ],
+            [
+              323.14,
+              492.37
+            ],
+            [
+              312.8,
+              492.37
+            ]
+          ],
+          [
+            [
+              303.85,
+              490.3
+            ],
+            [
+              332.1,
+              490.3
+            ],
+            [
+              332.1,
+              498.57
+            ],
+            [
+              303.85,
+              498.57
+            ]
+          ],
+          [
+            [
+              422.35,
+              407.67
+            ],
+            [
+              432.0,
+              407.67
+            ],
+            [
+              432.0,
+              493.75
+            ],
+            [
+              422.35,
+              493.75
+            ]
+          ],
+          [
+            [
+              411.33,
+              490.99
+            ],
+            [
+              440.96,
+              490.99
+            ],
+            [
+              440.96,
+              499.26
+            ],
+            [
+              411.33,
+              499.26
+            ]
+          ],
+          [
+            [
+              599.43,
+              409.05
+            ],
+            [
+              607.69,
+              409.05
+            ],
+            [
+              607.69,
+              493.75
+            ],
+            [
+              599.43,
+              493.75
+            ]
+          ],
+          [
+            [
+              589.78,
+              490.3
+            ],
+            [
+              618.72,
+              490.3
+            ],
+            [
+              618.72,
+              499.26
+            ],
+            [
+              589.78,
+              499.26
+            ]
+          ],
+          [
+            [
+              746.87,
+              407.67
+            ],
+            [
+              758.58,
+              407.67
+            ],
+            [
+              758.58,
+              493.75
+            ],
+            [
+              746.87,
+              493.75
+            ]
+          ],
+          [
+            [
+              734.47,
+              489.62
+            ],
+            [
+              766.85,
+              489.62
+            ],
+            [
+              766.85,
+              499.26
+            ],
+            [
+              734.47,
+              499.26
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTbilisiHall": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiHall-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 504.77,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "laundry",
+        "rect": [
+          742.05,
+          196.95,
+          31.69,
+          52.34
+        ]
+      },
+      {
+        "kind": "laundry",
+        "rect": [
+          813.01,
+          196.95,
+          31.0,
+          50.96
+        ]
+      }
+    ]
+  },
+  "ActivityTbilisiBazaar": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiBazaar-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 490.3,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTbilisiDomes": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiDomes-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 517.85,
+    "lettering": [],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          729.65,
+          223.12,
+          34.45,
+          55.78
+        ]
+      },
+      {
+        "kind": "steam",
+        "rect": [
+          964.59,
+          285.09,
+          27.56,
+          39.94
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityTbilisiBath": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiBath-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 558.48,
+    "lettering": [],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          233.57,
+          394.58,
+          34.45,
+          44.07
+        ]
+      },
+      {
+        "kind": "steam",
+        "rect": [
+          329.34,
+          394.58,
+          31.0,
+          47.52
+        ]
+      }
+    ],
+    "animation_patches": [],
+    "objects": [
+      {
+        "id": "bath_water",
+        "sort_y": 494.44,
+        "footprints": [
+          [
+            126.78,
+            478.6,
+            283.18,
+            13.77
+          ]
+        ],
+        "polygons": [],
+        "water": {
+          "kind": "spouts",
+          "streams": [
+            [
+              [
+                217.03,
+                328.48
+              ],
+              [
+                217.03,
+                338.12
+              ],
+              [
+                217.03,
+                348.45
+              ]
+            ],
+            [
+              [
+                935.66,
+                328.48
+              ],
+              [
+                934.28,
+                338.12
+              ],
+              [
+                934.28,
+                347.76
+              ]
+            ]
+          ],
+          "pool": [
+            128.15,
+            462.07,
+            285.24,
+            19.97
+          ]
+        }
+      }
+    ]
+  },
+  "ActivityTbilisiYard": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiYard-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 568.12,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "laundry",
+        "rect": [
+          384.46,
+          285.09,
+          29.63,
+          33.74
+        ]
+      }
+    ]
+  },
+  "ActivityTbilisiFabrika": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiFabrika-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 520.6,
+    "lettering": [
+      {
+        "rect": [
+          476.1,
+          263.74,
+          181.21,
+          34.43
+        ],
+        "text": "ფაბრიკა",
+        "background": "#d4bc89",
+        "ink": "#32474b",
+        "size": 32,
+        "font": "res://art/fonts/NotoSansGeorgian.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTbilisiBalcony": {
+    "city": "tbilisi",
+    "texture": "res://art/environments/scenes/ActivityTbilisiBalcony-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "pixel_art": true,
+    "floor": 554.35,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTbilisiEscalator": {
+    "texture": "res://art/environments/scenes/TbilisiTransit-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 461.38,
+    "spawn": [
+      582.89,
+      572.25
+    ],
+    "objects": [
+      {
+        "id": "ticket_machine",
+        "sort_y": 488.93,
+        "footprints": [
+          [
+            154.33,
+            472.4,
+            73.72,
+            16.53
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              154.33,
+              342.25
+            ],
+            [
+              228.06,
+              342.25
+            ],
+            [
+              228.06,
+              488.24
+            ],
+            [
+              154.33,
+              488.24
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "west_turnstile",
+        "sort_y": 490.3,
+        "footprints": [
+          [
+            47.54,
+            473.78,
+            106.79,
+            16.53
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              47.54,
+              364.97
+            ],
+            [
+              101.28,
+              364.97
+            ],
+            [
+              101.28,
+              489.62
+            ],
+            [
+              47.54,
+              489.62
+            ]
+          ],
+          [
+            [
+              136.42,
+              351.89
+            ],
+            [
+              146.76,
+              351.89
+            ],
+            [
+              146.76,
+              458.63
+            ],
+            [
+              136.42,
+              458.63
+            ]
+          ],
+          [
+            [
+              99.9,
+              420.41
+            ],
+            [
+              138.49,
+              420.41
+            ],
+            [
+              138.49,
+              415.59
+            ],
+            [
+              99.9,
+              415.59
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "east_turnstile",
+        "sort_y": 490.3,
+        "footprints": [
+          [
+            228.06,
+            473.78,
+            158.47,
+            16.53
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              272.84,
+              367.73
+            ],
+            [
+              321.07,
+              367.73
+            ],
+            [
+              321.07,
+              489.62
+            ],
+            [
+              272.84,
+              489.62
+            ]
+          ],
+          [
+            [
+              239.08,
+              351.89
+            ],
+            [
+              249.42,
+              351.89
+            ],
+            [
+              249.42,
+              459.32
+            ],
+            [
+              239.08,
+              459.32
+            ]
+          ],
+          [
+            [
+              379.64,
+              351.89
+            ],
+            [
+              386.53,
+              351.89
+            ],
+            [
+              386.53,
+              459.32
+            ],
+            [
+              379.64,
+              459.32
+            ]
+          ],
+          [
+            [
+              248.73,
+              420.41
+            ],
+            [
+              272.84,
+              420.41
+            ],
+            [
+              272.84,
+              415.59
+            ],
+            [
+              248.73,
+              415.59
+            ]
+          ],
+          [
+            [
+              321.07,
+              420.41
+            ],
+            [
+              383.77,
+              420.41
+            ],
+            [
+              383.77,
+              415.59
+            ],
+            [
+              321.07,
+              415.59
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "escalator_west_post",
+        "sort_y": 464.14,
+        "footprints": [
+          [
+            415.46,
+            452.43,
+            32.38,
+            11.71
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              415.46,
+              364.28
+            ],
+            [
+              447.85,
+              364.28
+            ],
+            [
+              447.85,
+              463.45
+            ],
+            [
+              415.46,
+              463.45
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "escalator_east_post",
+        "sort_y": 464.14,
+        "footprints": [
+          [
+            737.22,
+            452.43,
+            32.38,
+            11.71
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              737.22,
+              364.28
+            ],
+            [
+              769.61,
+              364.28
+            ],
+            [
+              769.61,
+              463.45
+            ],
+            [
+              737.22,
+              463.45
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "bench",
+        "sort_y": 479.97,
+        "footprints": [
+          [
+            833.68,
+            463.45,
+            177.07,
+            16.53
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              826.11,
+              365.66
+            ],
+            [
+              1015.58,
+              365.66
+            ],
+            [
+              1015.58,
+              382.88
+            ],
+            [
+              826.11,
+              382.88
+            ]
+          ],
+          [
+            [
+              826.11,
+              389.76
+            ],
+            [
+              1015.58,
+              389.76
+            ],
+            [
+              1015.58,
+              406.29
+            ],
+            [
+              826.11,
+              406.29
+            ]
+          ],
+          [
+            [
+              826.11,
+              413.18
+            ],
+            [
+              1015.58,
+              413.18
+            ],
+            [
+              1015.58,
+              429.7
+            ],
+            [
+              826.11,
+              429.7
+            ]
+          ],
+          [
+            [
+              826.11,
+              435.9
+            ],
+            [
+              1015.58,
+              435.9
+            ],
+            [
+              1015.58,
+              447.61
+            ],
+            [
+              826.11,
+              447.61
+            ]
+          ],
+          [
+            [
+              833.68,
+              447.61
+            ],
+            [
+              877.78,
+              447.61
+            ],
+            [
+              877.78,
+              478.6
+            ],
+            [
+              833.68,
+              478.6
+            ]
+          ],
+          [
+            [
+              961.84,
+              447.61
+            ],
+            [
+              1010.76,
+              447.61
+            ],
+            [
+              1010.76,
+              478.6
+            ],
+            [
+              961.84,
+              478.6
+            ]
+          ]
+        ]
+      },
+      {
+        "id": "station_bin",
+        "sort_y": 477.91,
+        "footprints": [
+          [
+            1063.81,
+            462.76,
+            51.67,
+            15.15
+          ]
+        ],
+        "polygons": [
+          [
+            [
+              1063.81,
+              367.04
+            ],
+            [
+              1115.48,
+              367.04
+            ],
+            [
+              1115.48,
+              476.53
+            ],
+            [
+              1063.81,
+              476.53
+            ]
+          ]
+        ]
+      }
+    ],
+    "anchors": {
+      "Machine": [
+        190.85,
+        520.6
+      ],
+      "Platform": [
+        591.16,
+        490.3
+      ],
+      "Exit": [
+        48.23,
+        560.54
+      ]
+    },
+    "lettering": [
+      {
+        "rect": [
+          471.96,
+          110.18,
+          204.63,
+          35.81
+        ],
+        "text": "თბილისი",
+        "background": "#566b6c",
+        "ink": "#f1eddf",
+        "size": 31,
+        "font": "res://art/fonts/NotoSansGeorgian.ttf"
+      },
+      {
+        "rect": [
+          213.59,
+          222.43,
+          143.31,
+          48.2
+        ],
+        "text": "გასასვლელი\n← EXIT",
+        "background": "#276654",
+        "ink": "#f1eddf",
+        "size": 19,
+        "font": "res://art/fonts/NotoSansGeorgian.ttf"
+      },
+      {
+        "rect": [
+          162.6,
+          347.76,
+          57.19,
+          15.84
+        ],
+        "text": "ბილეთი",
+        "background": "#706a57",
+        "ink": "#f1eddf",
+        "size": 10,
+        "object": "ticket_machine",
+        "font": "res://art/fonts/NotoSansGeorgian.ttf"
+      }
+    ],
+    "foreground": [],
+    "solids": [],
+    "portals": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "escalator",
+        "rect": [
+          510.55,
+          236.89,
+          39.96,
+          161.83
+        ],
+        "direction": 1
+      },
+      {
+        "kind": "escalator",
+        "rect": [
+          633.88,
+          236.89,
+          39.96,
+          161.83
+        ],
+        "direction": -1
+      }
+    ],
+    "desks": [],
+    "fittings": [],
+    "motion_layers": [],
+    "interaction_sizes": {
+      "Machine": {
+        "CollisionShape2D": [
+          74,
+          34
+        ]
+      },
+      "Platform": {
+        "CollisionShape2D": [
+          74,
+          34
+        ]
+      },
+      "Exit": {
+        "CollisionShape2D": [
+          74,
+          34
+        ]
+      }
+    },
+    "city": "tbilisi"
+  },
+  "ActivityTokyoMenchi": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoMenchi-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 481.35,
+    "lettering": [
+      {
+        "rect": [
+          474.72,
+          154.94,
+          458.18,
+          42.7
+        ],
+        "text": "谷中のお肉屋さん",
+        "background": "#eee1be",
+        "ink": "#263b49",
+        "size": 38,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          935.66,
+          279.58,
+          49.61,
+          97.79
+        ],
+        "text": "メ\nン\nチ",
+        "background": "#213f68",
+        "ink": "#f1ead9",
+        "size": 25,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          425.8,
+          288.54,
+          20.67,
+          51.65
+        ],
+        "text": "揚げたて",
+        "background": "#eee1be",
+        "ink": "#263b49",
+        "size": 11,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          844.02,
+          329.85,
+          17.91,
+          37.87
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityTokyoYanakaCemetery": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoYanakaCemetery-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 468.27,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTokyoBookshop": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoBookshop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 471.71,
+    "lettering": [
+      {
+        "rect": [
+          411.33,
+          29.61,
+          330.72,
+          39.25
+        ],
+        "text": "神保町 古書",
+        "background": "#eee1be",
+        "ink": "#253b4a",
+        "size": 38,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          926.01,
+          222.43,
+          30.32,
+          35.12
+        ],
+        "text": "古書",
+        "background": "#eee1be",
+        "ink": "#253b4a",
+        "size": 18,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTokyoKaminarimon": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoKaminarimon-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 497.19,
+    "lettering": [
+      {
+        "rect": [
+          544.31,
+          234.82,
+          57.19,
+          93.65
+        ],
+        "text": "雷\n門",
+        "background": "#00000000",
+        "ink": "#202d36",
+        "size": 41,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTokyoSensojiIncense": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoSensojiIncense-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 528.18,
+    "lettering": [],
+    "motion": [
+      {
+        "kind": "incense",
+        "rect": [
+          780.63,
+          341.56,
+          57.19,
+          60.6
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityTokyoOmikuji": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoOmikuji-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 478.6,
+    "lettering": [
+      {
+        "rect": [
+          207.39,
+          70.93,
+          378.26,
+          29.61
+        ],
+        "text": "おみくじ",
+        "background": "#e8d8b5",
+        "ink": "#293b46",
+        "size": 34,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          49.61,
+          336.74,
+          47.54,
+          99.85
+        ],
+        "text": "百円\nおみくじ",
+        "background": "#eee1be",
+        "ink": "#263b49",
+        "size": 17,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          186.03,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "1",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          242.53,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "2",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          299.02,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "3",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          355.52,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "4",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          412.02,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "5",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          468.52,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "6",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          525.01,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "7",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          581.51,
+          159.07,
+          17.91,
+          9.64
+        ],
+        "text": "8",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          186.03,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "9",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          242.53,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "10",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          299.02,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "11",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          355.52,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "12",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          412.02,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "13",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          468.52,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "14",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          525.01,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "15",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          581.51,
+          192.13,
+          17.91,
+          9.64
+        ],
+        "text": "16",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          186.03,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "17",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          242.53,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "18",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          299.02,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "19",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          355.52,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "20",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          412.02,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "21",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          468.52,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "22",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          525.01,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "23",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          581.51,
+          225.18,
+          17.91,
+          9.64
+        ],
+        "text": "24",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          186.03,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "25",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          242.53,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "26",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          299.02,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "27",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          355.52,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "28",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          412.02,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "29",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          468.52,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "30",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          525.01,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "31",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          581.51,
+          258.24,
+          17.91,
+          9.64
+        ],
+        "text": "32",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          186.03,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "33",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          242.53,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "34",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          299.02,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "35",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          355.52,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "36",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          412.02,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "37",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          468.52,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "38",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          525.01,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "39",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      },
+      {
+        "rect": [
+          581.51,
+          291.29,
+          17.91,
+          9.64
+        ],
+        "text": "40",
+        "background": "#eadbbc",
+        "ink": "#3c3a32",
+        "size": 9
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTokyoAmeyoko": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoAmeyoko-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          468.52,
+          154.25,
+          461.63,
+          42.01
+        ],
+        "text": "アメ横 菓子問屋",
+        "background": "#eedeb9",
+        "ink": "#254339",
+        "size": 37,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          1047.27,
+          185.24,
+          29.63,
+          87.46
+        ],
+        "text": "特\n売",
+        "background": "#ae483b",
+        "ink": "#f1ead9",
+        "size": 27,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          605.63,
+          377.37,
+          23.43,
+          11.71
+        ],
+        "text": "500円",
+        "background": "#eedeb9",
+        "ink": "#263b49",
+        "size": 9,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "motion_layers": [
+      {
+        "rect": [
+          343.81,
+          30.3,
+          808.19,
+          60.6
+        ],
+        "sample": [
+          582.89,
+          30.3,
+          241.84,
+          60.6
+        ],
+        "occluders": [
+          [
+            389.28,
+            30.3,
+            42.72,
+            60.6
+          ],
+          [
+            560.84,
+            30.3,
+            13.78,
+            60.6
+          ],
+          [
+            829.55,
+            30.3,
+            15.85,
+            60.6
+          ],
+          [
+            971.48,
+            30.3,
+            46.16,
+            60.6
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTokyoShinbashiSquare": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoShinbashiSquare-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 477.22,
+    "lettering": [
+      {
+        "rect": [
+          219.79,
+          422.13,
+          39.96,
+          11.02
+        ],
+        "text": "C11 292",
+        "background": "#58616a",
+        "ink": "#f1ead9",
+        "size": 8
+      },
+      {
+        "rect": [
+          673.15,
+          297.49,
+          127.46,
+          26.17
+        ],
+        "text": "立呑み",
+        "background": "#25456d",
+        "ink": "#f1ead9",
+        "size": 26,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          942.55,
+          296.11,
+          124.02,
+          17.22
+        ],
+        "text": "小料理",
+        "background": "#253f62",
+        "ink": "#f1ead9",
+        "size": 22,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          629.05,
+          393.21,
+          17.22,
+          29.61
+        ],
+        "text": "営業中",
+        "background": "#e7d8b7",
+        "ink": "#263b49",
+        "size": 10,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": [],
+    "motion_layers": [
+      {
+        "rect": [
+          667.64,
+          90.21,
+          484.36,
+          64.04
+        ],
+        "sample": [
+          671.08,
+          90.21,
+          298.33,
+          64.04
+        ],
+        "occluders": [
+          [
+            801.99,
+            90.21,
+            4.82,
+            64.04
+          ],
+          [
+            971.48,
+            90.21,
+            25.49,
+            64.04
+          ],
+          [
+            1126.51,
+            90.21,
+            18.6,
+            64.04
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTokyoTachinomi": {
+    "city": "tokyo",
+    "texture": "res://art/environments/scenes/ActivityTokyoTachinomi-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 484.79,
+    "lettering": [
+      {
+        "rect": [
+          181.21,
+          241.02,
+          84.06,
+          37.87
+        ],
+        "text": "立呑み",
+        "background": "#25456d",
+        "ink": "#f1ead9",
+        "size": 24,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          352.08,
+          243.09,
+          30.32,
+          66.8
+        ],
+        "text": "本日の\nおすすめ",
+        "background": "#ecd9b5",
+        "ink": "#28343a",
+        "size": 11,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          593.91,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "生\nビ\nー\nル",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          620.1,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "お\n酒",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          646.28,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "冷\n奴",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          672.46,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "煮\n込\nみ",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          809.57,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "焼\nき\n鳥",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          835.06,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "漬\n物",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      },
+      {
+        "rect": [
+          861.24,
+          224.49,
+          12.4,
+          30.99
+        ],
+        "text": "枝\n豆",
+        "background": "#e5cda7",
+        "ink": "#2e3435",
+        "size": 8,
+        "font": "res://art/fonts/NotoSansJP.ttf"
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityTorontoStreetcarStop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoStreetcarStop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "TorontoDowntown",
+    "asset_contract": "Toronto streetcar stop at a downtown intersection. Red-and-white streetcar stopped in its tracks at back x555–1610,y345–678; open doorway x1080–1220. A clearly marked boarding strip at y735–830 between curb and vehicle; stopped road traffic well behind the waiting zone. CN Tower in distant skyline. No pedestrians."
+  },
+  "ActivityTorontoStreetcarInterior": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoStreetcarInterior-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "TorontoTransit",
+    "asset_contract": "Long Toronto red-and-white streetcar interior, yellow poles, red upholstered seats. Driver far left behind cab partition, rear exit at x1290–1450. Clear aisle x490–1130,y710–925, seats at x384,y740 and x1160,y740. No people, no labels; outside view remains fixed except subtle light.",
+    "activity_occluders": [
+      {
+        "id": "grab_poles",
+        "sort_y": 516.47,
+        "footprints": [],
+        "polygons": [
+          [
+            [
+              305.22,
+              0.0
+            ],
+            [
+              319.69,
+              0.0
+            ],
+            [
+              319.69,
+              516.47
+            ],
+            [
+              305.22,
+              516.47
+            ]
+          ],
+          [
+            [
+              852.29,
+              0.0
+            ],
+            [
+              866.76,
+              0.0
+            ],
+            [
+              866.76,
+              516.47
+            ],
+            [
+              852.29,
+              516.47
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "ActivityTorontoMarketRoom": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoMarketRoom-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "TorontoKensington",
+    "asset_contract": "Kensington produce shop inside a converted Victorian house front room. Shop window shows crates on porch; old domestic trim and wooden floor. Scale and cash counter x850–1400,y565–720, seller zone x1100,y601; customer x749,y842. Bananas, plantain and produce shelves. No people."
+  },
+  "ActivityTorontoFabricShop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoFabricShop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [],
+    "asset_pending": false,
+    "source_fallback": "TorontoGerrard",
+    "asset_contract": "Gerrard India Bazaar textile shop interior: bolts of sari cloth on back shelves and fabrics hanging at window, teal, maroon, gold and cream palette. Keep central foreground x525–1160,y620–905 completely clear: the game draws the working cloth table and unfurling fabric there. No baked table in this reserved area."
+  },
+  "ActivityTorontoBluffsBeach": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoBluffsBeach-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          682.11,
+          355.33,
+          463.69,
+          77.82
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          972.17,
+          442.79,
+          175.69,
+          57.16
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "TorontoScarborough",
+    "asset_contract": "At the shore below Scarborough Bluffs, pale banded sediment face rises at left, Lake Ontario and stony beach at right. No city visible. Clear dry stones x400–1040,y760–925, flat sitting rock x624,y748. No precarious overhang above actors."
+  },
+  "ActivityTorontoBluffsTop": {
+    "city": "toronto",
+    "texture": "res://art/environments/scenes/ActivityTorontoBluffsTop-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 488.93,
+    "lettering": [
+      {
+        "rect": [
+          744.11,
+          429.02,
+          86.12,
+          20.66
+        ],
+        "text": "STAY ON\nMARKED PATHS",
+        "background": "#00000000",
+        "ink": "#3b4245",
+        "size": 11
+      }
+    ],
+    "motion": [],
+    "animation_patches": [
+      {
+        "kind": "water",
+        "rect": [
+          778.56,
+          243.09,
+          285.93,
+          84.7
+        ]
+      },
+      {
+        "kind": "water",
+        "rect": [
+          678.66,
+          320.9,
+          283.18,
+          48.2
+        ]
+      }
+    ],
+    "asset_pending": false,
+    "source_fallback": "TorontoScarborough",
+    "asset_contract": "Scarborough Bluffs from a public lookout: pale stratified cliffs descend to Lake Ontario, water all the way to horizon. Safe observation lawn and path y760–941. Protective fence behind actors at y692, with a marked opening far left leading to safe path. No dramatic sheer foreground edge under the actor zones. Sediment bands legible, no labels."
+  },
+  "ActivityZurichKiosk": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichKiosk-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 447.61,
+    "lettering": [
+      {
+        "rect": [
+          542.93,
+          184.55,
+          285.24,
+          38.56
+        ],
+        "text": "DÖNER KEBAB",
+        "background": "#501e25",
+        "ink": "#e7d6b8",
+        "size": 31
+      },
+      {
+        "rect": [
+          857.8,
+          181.8,
+          211.52,
+          41.32
+        ],
+        "text": "LEBENSMITTEL",
+        "background": "#153d3b",
+        "ink": "#e7d6b8",
+        "size": 25
+      }
+    ],
+    "motion": [
+      {
+        "kind": "steam",
+        "rect": [
+          726.2,
+          339.49,
+          33.07,
+          28.92
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityZurichFreitag": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichFreitag-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 525.42,
+    "lettering": [
+      {
+        "rect": [
+          490.56,
+          475.84,
+          86.81,
+          13.08
+        ],
+        "text": "FREITAG",
+        "background": "#28312e",
+        "ink": "#f1eddf",
+        "size": 15
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityZurichBadi": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichBadi-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 517.85,
+    "lettering": [],
+    "motion": [
+      {
+        "kind": "water",
+        "rect": [
+          243.22,
+          382.19,
+          597.36,
+          79.19
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityZurichGarden": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichGarden-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 502.01,
+    "lettering": [
+      {
+        "rect": [
+          934.97,
+          154.94,
+          32.38,
+          90.9
+        ],
+        "text": "KUNMING\n↕\nZÜRICH",
+        "background": "#e0d6b4",
+        "ink": "#4e251b",
+        "size": 8
+      }
+    ],
+    "motion": [
+      {
+        "kind": "water",
+        "rect": [
+          668.33,
+          382.19,
+          147.44,
+          35.81
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "ActivityZurichMFOPark": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichMFOPark-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 492.37,
+    "lettering": [
+      {
+        "rect": [
+          1049.34,
+          437.97,
+          61.32,
+          36.5
+        ],
+        "text": "MFO-PARK\nMaschinenfabrik\nOerlikon",
+        "background": "#4c3b29",
+        "ink": "#e1d5b2",
+        "size": 8
+      }
+    ],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityZurichMFOUpper": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichMFOUpper-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 466.2,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  },
+  "ActivityZurichWestRoof": {
+    "city": "zurich",
+    "texture": "res://art/environments/scenes/ActivityZurichWestRoof-retro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "pixel_art": true,
+    "floor": 491.68,
+    "lettering": [],
+    "motion": [],
+    "animation_patches": []
+  }
+}

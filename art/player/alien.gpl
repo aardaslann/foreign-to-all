@@ -1,0 +1,18 @@
+GIMP Palette
+Name: The Alien
+Columns: 7
+#
+92 76 126	skin outline (#5c4c7e)
+195 178 222	skin (#c3b2de)
+222 210 240	skin light (#ded2f0)
+147 127 184	skin shadow (#937fb8)
+42 35 64	eye (#2a2340)
+244 239 255	eye highlight (#f4efff)
+71 131 124	cloak (#47837c)
+53 100 94	cloak shadow (#35645e)
+36 71 68	cloak outline (#244744)
+226 180 92	gold accent (#e2b45c)
+138 98 68	boot leather (#8a6244)
+86 64 44	boot dark (#56402c)
+242 233 216	paper (#f2e9d8)
+185 173 146	paper line (#b9ad92)

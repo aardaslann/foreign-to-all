@@ -1,0 +1,35 @@
+extends "res://tools/design_mexico_spot_check.gd"
+
+# Sample the newly integrated service approaches and depth contacts.
+# Exhaustive corner testing remains deferred at the user's request.
+func _run() -> void:
+	await load_world("NewYorkExchange")
+	await create_timer(.4).timeout
+	still()
+	await walk_route("exchange-counter",[feet(900,830),feet(555,830),feet(555,681),feet(886,681)])
+	await capture("exchange-rail-behind",feet(886,681))
+	await capture("exchange-rail-front",feet(886,781))
+	await sweep("queue rail blocks crossing",feet(886,781),feet(886,681),true)
+	await load_world("NewYorkHotel")
+	still()
+	await walk_route("hotel-reception",[feet(805,820),feet(805,731)])
+	await sweep("reception cabinet blocks feet",feet(805,731),feet(805,595),true)
+	await capture("hotel-counter-contact",player.position)
+	await load_world("NewYorkAirport")
+	still()
+	await walk_route("airport-information",[feet(820,913),feet(820,885)])
+	await sweep("information counter blocks feet",feet(820,885),feet(820,750),true)
+	await capture("airport-counter-contact",player.position)
+	await sweep("baggage carousel blocks feet",feet(1350,850),feet(1350,680),true)
+	await walk_route("airport-ground-transport",[feet(960,892),feet(1570,892),feet(1570,865)])
+	await load_world("NewYorkTransit")
+	still()
+	await walk_route("platform-door",[feet(1127,855),feet(1127,690)])
+	await capture("platform-bench-behind",feet(800,677))
+	await capture("platform-bench-front",feet(800,765))
+	await sweep("bench base blocks feet",feet(800,765),feet(800,677),true)
+	await load_world("NewYorkWilliamsburg")
+	still()
+	await capture("williamsburg-sky",feet(900,812))
+	print("NEWYORK_SPOT_CHECK ",failures.size()," failures")
+	quit(0 if failures.is_empty() else 1)

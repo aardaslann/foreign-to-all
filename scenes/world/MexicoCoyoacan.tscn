@@ -1,0 +1,58 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/CityStreet.gd"      id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"      id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"     id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"       id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"     id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="7_sp"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"          id="6_ui"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"          id="9_solid"]
+[ext_resource type="PackedScene" path="res://scenes/npc/KeyNPC.tscn"            id="key_99"]
+[ext_resource type="PackedScene" path="res://scenes/npc/Encounter.tscn" id="enc_1"]
+
+[node name="MexicoCoyoacan" type="Node2D"]
+script = ExtResource("1_root")
+region = "coyoacan"
+spawn = Vector2(576, 430)
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "MexicoCoyoacan"
+district = "coyoacan"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(576, 430)
+
+[node name="TransitDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(880, 336)
+target_scene = "res://scenes/world/MexicoTransit.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - The station"
+sign_text = "METRO"
+frontage = "transit"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="LocalSpot" parent="." instance=ExtResource("7_sp")]
+position = Vector2(300, 372)
+service = "local"
+prompt_text = "E - Mercado de Coyoacán"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="KeyRocio" parent="." instance=ExtResource("key_99")]
+position = Vector2(490, 550)
+city = "mexico"
+
+[node name="Encounter" parent="." instance=ExtResource("enc_1")]
+position = Vector2(830, 436)
+encounter = "mexico_flowers"
+leave_to = Vector2(1120, 436)

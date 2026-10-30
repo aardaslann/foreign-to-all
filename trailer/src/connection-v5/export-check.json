@@ -1,0 +1,31 @@
+{
+  "duration_seconds": 118.549333,
+  "frames": 3555,
+  "black_frames_max_rgb": {
+    "9.5": 0,
+    "10": 0,
+    "10.9": 0,
+    "11.46": 0
+  },
+  "black_seconds": 2,
+  "definition_completed_at": 8.1,
+  "definition_hold_seconds": 1.4,
+  "letters_frame_aligned": true,
+  "pickup_at": 10.458333333333334,
+  "picture_and_downbeat_at": 11.5,
+  "opening_music_peak_gain_db": 21.869649937764947,
+  "story_audio_max_difference_after_18s": 4.76837158203125e-07,
+  "story_frame_mean_differences": {
+    "21": 0.0,
+    "33": 0.0,
+    "60": 0.008698559670781893,
+    "81": 0.0,
+    "107": 0.0,
+    "115": 0.0
+  },
+  "dialogue_lines": 8,
+  "narrator_lines": 0,
+  "picture": "1920x1080 / 30 fps",
+  "audio": "48 kHz stereo",
+  "full_decode": "passed"
+}

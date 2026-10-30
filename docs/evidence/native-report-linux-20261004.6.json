@@ -1,0 +1,57 @@
+{
+  "system": "Linux",
+  "os_version": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "archive": "ForeignToAll-0.2.1-beta.1-20261004.6-linux.tar.gz",
+  "archive_sha256": "25bae2865648a197456ad2f63c8534ba1ae4d60280de74a525f188fba29b8903",
+  "suites": [
+    {
+      "script": "beta_journey_test.gd",
+      "checks": 944,
+      "failures": 0,
+      "mode": "headless editor host"
+    },
+    {
+      "script": "beta_mechanics_test.gd",
+      "checks": 1075,
+      "failures": 0,
+      "mode": "headless editor host"
+    },
+    {
+      "script": "quest_guidance_edge_test.gd",
+      "checks": 51,
+      "failures": 0,
+      "mode": "headless editor host"
+    },
+    {
+      "script": "player_feedback_test.gd",
+      "checks": 71,
+      "failures": 0,
+      "mode": "headless editor host"
+    },
+    {
+      "script": "word_affordance_test.gd",
+      "checks": 66,
+      "failures": 0,
+      "mode": "graphical editor host"
+    },
+    {
+      "script": "player_feedback_ui_review.gd",
+      "checks": 102,
+      "failures": 0,
+      "mode": "graphical editor host"
+    },
+    {
+      "script": "packaged_smoke.gd",
+      "checks": 148,
+      "failures": 0,
+      "mode": "graphical editor host"
+    }
+  ],
+  "complete": true,
+  "limitations": [
+    "No human audio/controller evaluation",
+    "No Gatekeeper/notarization approval"
+  ],
+  "release_startup": "headless and graphical passed"
+}

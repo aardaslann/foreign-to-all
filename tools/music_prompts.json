@@ -1,0 +1,184 @@
+{
+  "_how": "Suno web (v6 model, Advanced mode, Premier plan), instrumental: lyrics left empty. Weirdness 34%, Style Influence 75%, Exclude styles below. Each Create makes two takes; the chosen take is suno_id, cut into a loop by tools/music_loop.py. See Foreign to All/decisions/2026-09-30-music.md.",
+  "_exclude": "vocals, singing, humming, choir, spoken word, rap, sad, melancholic, slow, ballad, ambient drone, cinematic, epic orchestral, trailer, EDM drop, dubstep, distortion, aggressive, long reverb, sound effects, fade out",
+  "berlin": {
+    "suno_title": "FtA - Berlin",
+    "suno_id": "013fbf24-a160-41af-a5c2-9bd5fa39569e",
+    "chosen_from": "",
+    "prompt": "Instrumental city theme for Berlin in a cozy pixel-art exploration game. Upbeat, bouncy Berlin indie-electronica at 114 BPM: punchy but soft analog drum machine, rubbery synth bass, offbeat chord stabs with a light dub delay, a catchy playful Rhodes and synth-pluck melody, tiny kalimba sparkles. A sunny afternoon in a Berlin Kiez: friendly, cheeky, curious and a little streetwise. Steady groove from the first beat, warm clean mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "dakar": {
+    "suno_title": "FtA - Dakar",
+    "suno_id": "39859d99-3fca-430d-ad77-f1de5fe358c9",
+    "chosen_from": "dakar_a",
+    "prompt": "Instrumental city theme for Dakar in a cozy pixel-art exploration game. Upbeat Senegalese afro-pop at 112 BPM: lively sabar and djembe groove with a tight kick, bouncy bass, bright kora and clean electric guitar interlocking in catchy repeating figures, a hint of xalam lute and balafon. Fabric markets and tailors in the Medina, an ocean breeze: warm, sociable, sunny and buoyant. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_berlin": {
+    "suno_title": "FtA - Fest Berlin",
+    "suno_id": "cf89b739-734c-45ce-aaf7-3522a4f193d6",
+    "chosen_from": "festival_berlin_a",
+    "prompt": "Instrumental festival theme for a Berlin courtyard 'little Oktoberfest' in a cozy pixel-art exploration game. Upbeat Bavarian-style brass polka at 120 BPM, played small and friendly: tuba oom-pah bass, a bright clarinet and trumpet melody, button accordion, snare and offbeat handclaps, a little glockenspiel. Fairy lights over a Hinterhof, pretzels on a trestle table, neighbours raising glasses: cheerful, warm, a little tongue-in-cheek. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_istanbul": {
+    "suno_title": "FtA - Fest Istanbul",
+    "suno_id": "06c0c961-679b-4a15-af7d-7697ff8b4bda",
+    "chosen_from": "festival_istanbul_a",
+    "prompt": "Instrumental festival theme for Ramazan Bayrami in Istanbul in a cozy pixel-art exploration game. Upbeat Turkish festive groove at 118 BPM in 4/4: darbuka and def frame drum, bouncy baglama saz riffs, a joyful clarinet melody, kanun ripples, round bass, handclaps. Sweets offered at every door, families visiting in their best clothes, neighbours greeting on the stairs: bright, sweet, welcoming. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_london": {
+    "suno_title": "FtA - Fest London",
+    "suno_id": "62372207-b098-406e-a055-0ad9cbc34f27",
+    "chosen_from": "festival_london_a",
+    "prompt": "Instrumental festival theme for Bonfire Night in London in a cozy pixel-art exploration game. Upbeat English folk-brass stomp at 124 BPM in 4/4: a village brass band melody on cornet and tenor horn, lively fiddle and tin whistle answers, bodhran and snare, bouncy tuba bass, handclaps. Sparklers, toffee apples and a park bonfire under fireworks: bright, warm, communal. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_mexico": {
+    "suno_title": "FtA - Fest Mexico",
+    "suno_id": "827896ff-6ddd-4ae5-9c0c-9239ab9a0ac4",
+    "chosen_from": "festival_mexico_a",
+    "prompt": "Instrumental festival theme for Dia de Muertos in Mexico City in a cozy pixel-art exploration game. Upbeat Mexican festive groove at 110 BPM: a joyful marimba melody, jarana and guitar strums, guitarron bass, a small brass band answering with trumpet and trombone, light hand percussion. Marigold arches, sugar skulls, papel picado and a family ofrenda that becomes a street party: celebratory, colourful, warm. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_moscow": {
+    "suno_title": "FtA - Fest Moscow",
+    "suno_id": "d7b4ec48-3bc1-4f7b-b241-ec08028530d9",
+    "chosen_from": "festival_moscow_a",
+    "prompt": "Instrumental festival theme for Maslenitsa in Moscow in a cozy pixel-art exploration game. Upbeat Russian folk-fair groove at 126 BPM: a bright balalaika tremolo melody, bayan button accordion, domra runs, tambourine and wooden spoons, bouncy bass balalaika, sleigh bells. Blini stalls, painted swings and a snowy park fair saying goodbye to winter: merry, playful, warm. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_mumbai": {
+    "suno_title": "FtA - Fest Mumbai",
+    "suno_id": "c5d7171c-8a49-44bf-80a0-48d0b3223557",
+    "chosen_from": "festival_mumbai_a",
+    "prompt": "Instrumental festival theme for Ganesh Chaturthi in Mumbai in a cozy pixel-art exploration game. Upbeat Indian festival groove at 116 BPM: a dhol and tasha procession rhythm kept light and bouncy, small jhanj cymbals, a cheerful bansuri flute and shehnai-style melody, harmonium chords, round bass. A neighbourhood Ganesh mandal with marigold garlands, modak sweets and a street procession: joyful, colourful, communal. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_paris": {
+    "suno_title": "FtA - Fest Paris",
+    "suno_id": "9166ed23-e1ef-4732-8714-2b12624fa395",
+    "chosen_from": "festival_paris_b",
+    "prompt": "Instrumental festival theme for a 14 Juillet neighbours' meal in Paris in a cozy pixel-art exploration game. Upbeat bal-musette swing at 132 BPM: a twirling accordion waltz-free melody in 4/4, gypsy-jazz guitar pompe, walking upright bass, brushed snare, a playful clarinet answer. Bunting over a long street table, bread and wine, a dance in the square: joyful, light on its feet, charming. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "festival_tokyo": {
+    "suno_title": "FtA - Fest Tokyo",
+    "suno_id": "637c15b5-d371-4134-9ca1-d750a3e7fc97",
+    "chosen_from": "festival_tokyo_a",
+    "prompt": "Instrumental festival theme for Tanabata in Tokyo in a cozy pixel-art exploration game. Upbeat Japanese summer matsuri groove at 120 BPM: taiko and shime-daiko, a bright shinobue flute melody, plucky shamisen, handclaps and small bells, a round bass underneath. Paper wish strips on bamboo branches, yukata, food stalls and paper lanterns on a summer evening: playful, bright, charming. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "hanoi": {
+    "suno_title": "FtA - Hanoi",
+    "suno_id": "2d9e9d16-cb02-4c70-a287-0c4f3d4a1bcb",
+    "chosen_from": "hanoi_a",
+    "prompt": "Instrumental city theme for Hanoi in a cozy pixel-art exploration game. Upbeat Vietnamese folk-pop at 106 BPM: bouncy drums with wooden clicks and hand percussion, round bass, a catchy dan tranh zither melody, playful dan bau bends and bamboo flute answers, soft electric piano. Street food on plastic stools, motorbikes and tea carts by the lake: lively, curious and friendly. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "honolulu": {
+    "suno_title": "FtA - Honolulu",
+    "suno_id": "c8bc9df6-5b86-4f1d-b106-6adacb6d9d2e",
+    "chosen_from": "honolulu_a",
+    "prompt": "Instrumental city theme for Honolulu in a cozy pixel-art exploration game. Upbeat Hawaiian island groove at 100 BPM: bouncy ukulele strums, a slack-key guitar melody with steel guitar slides, a light reggae-style offbeat, round bass, soft hand percussion and shaker. Surfboards, lei stands and warm trade winds: relaxed but lively, friendly and sunny. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "istanbul": {
+    "suno_title": "FtA - Istanbul",
+    "suno_id": "3b38c707-04cb-4822-a791-454774b11236",
+    "chosen_from": "istanbul_a",
+    "prompt": "Instrumental city theme for Istanbul in a cozy pixel-art exploration game. Upbeat Anatolian funk-pop at 108 BPM: bouncy bass guitar and tight funky drums with darbuka and finger cymbals, a catchy baglama (saz) riff, playful ud and kanun answers, warm Rhodes, a light 70s Turkish psychedelic groove kept clean and sunny. Tea glasses on trays, busy bazaar lanes, friendly and nimble. Steady groove from the first beat, warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "lapaz": {
+    "suno_title": "FtA - La Paz",
+    "suno_id": "3d76ae8d-370c-41ce-b686-00171aeda373",
+    "chosen_from": "lapaz_a",
+    "prompt": "Instrumental city theme for La Paz in a cozy pixel-art exploration game. Upbeat Andean cumbia at 106 BPM: a bouncy huayno-cumbia groove with bombo and guira, round bass, bright charango strumming, a catchy quena and zampona melody, light clean electric guitar answers. Cable cars over the valley, busy markets under a high sky: alert, sunny, grounded and friendly. Steady groove from the first beat, warm clean mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "london": {
+    "suno_title": "FtA - London",
+    "suno_id": "6bb5f623-d9a0-4d79-9531-443db03555aa",
+    "chosen_from": "london_b",
+    "prompt": "Instrumental city theme for London in a cozy pixel-art exploration game. Upbeat London nu-jazz and broken-beat at 118 BPM: crisp shuffled drums with a light UK garage swing, bouncy electric bass, warm Rhodes chords, clean jazz guitar licks and a catchy vibraphone hook, a touch of soulful organ. A bright afternoon on a terraced street and the caff on the corner: witty, easygoing, quietly cool. Steady groove from the first beat, warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "mexico": {
+    "suno_title": "FtA - Mexico City",
+    "suno_id": "fc5e7011-81ac-466f-a902-89691c373c1e",
+    "chosen_from": "mexico_a",
+    "prompt": "Instrumental city theme for Mexico City in a cozy pixel-art exploration game. Upbeat Mexican cumbia at 104 BPM: a bouncy cumbia groove with guiro and congas, rounded bass, jarana and requinto guitar strums, a catchy marimba melody answered by a bright accordion, a soft trumpet in the distance. Flower stalls in La Merced, colourful markets and neighbourhood plazas: warm, friendly and alive. Steady groove from the first beat, warm clean mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "moscow": {
+    "suno_title": "FtA - Moscow",
+    "suno_id": "26cc55a9-6937-40c9-9492-825f06a6b0c9",
+    "chosen_from": "moscow_a",
+    "prompt": "Instrumental city theme for Moscow in a cozy pixel-art exploration game. Upbeat Russian folk-pop at 116 BPM: a bouncy two-step groove with tight modern drums and tambourine, balalaika strums and quick domra tremolo lines, a catchy bayan accordion hook, rounded bass. Russian folk melodic turns with a playful, good-humoured, slightly cheeky character: courtyards, repair booths and metro kiosks. Steady groove from the first beat, warm clean mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "mumbai": {
+    "suno_title": "FtA - Mumbai",
+    "suno_id": "047c4c90-7df9-4d2a-8744-adc83f60f3b2",
+    "chosen_from": "mumbai_b",
+    "prompt": "Instrumental city theme for Mumbai in a cozy pixel-art exploration game. Upbeat Bollywood funk at 112 BPM: lively tabla and dholak groove with a tight modern kick, funky bass, a catchy bansuri flute hook answered by sitar plucks and harmonium chords, bright shakers and handclaps. Busy Bhuleshwar lanes, phone-repair stalls and festival preparations: warm, energetic, friendly and playful. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "newyork": {
+    "suno_title": "FtA - New York",
+    "suno_id": "4b53cce0-c961-4a52-b678-cb20892c60ca",
+    "chosen_from": "newyork_a",
+    "prompt": "Instrumental city theme for New York in a cozy pixel-art exploration game. Upbeat jazzy boom-bap at 96 BPM with a bouncy swing: crisp head-nod drums, upright bass, a bright jazz piano riff, soft muted horn stabs, a little vibraphone and warm vinyl texture. Diners, newsstands and brownstone stoops: quick, witty, streetwise and good-humoured. Steady groove from the first beat, warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "paris": {
+    "suno_title": "FtA - Paris",
+    "suno_id": "004b57c8-62d7-454b-b4b2-be3da62204d7",
+    "chosen_from": "paris_a",
+    "prompt": "Instrumental city theme for Paris in a cozy pixel-art exploration game. Upbeat Parisian manouche swing at 124 BPM: nimble gypsy-jazz rhythm guitar pompe, a playful accordion melody, light upright bass, brushed snare, a few bright clarinet answers. A sunny morning in the Marais, bakeries and cafe tables: charming and witty with a spring in its step. Steady swing from the first beat, light warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "rome": {
+    "suno_title": "FtA - Rome",
+    "suno_id": "f4c36ca7-c9e2-4b71-86cf-50092aaada8d",
+    "chosen_from": "rome_a",
+    "prompt": "Instrumental city theme for Rome in a cozy pixel-art exploration game. Upbeat Italian swing at 118 BPM: bright mandolin tremolo melody, strummed acoustic guitar, walking upright bass, brushed drums, a playful clarinet and accordion answer, the lightness of a 1960s Italian holiday film without a big orchestra. Market stalls, espresso bars and scooters in narrow streets: sunny, witty and lively. Steady groove from the first beat, warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "saopaulo": {
+    "suno_title": "FtA - Sao Paulo",
+    "suno_id": "3e5b091c-e5d0-4fb2-b9b5-26f0340c73b3",
+    "chosen_from": "saopaulo_a",
+    "prompt": "Instrumental city theme for Sao Paulo in a cozy pixel-art exploration game. Upbeat samba-funk at 104 BPM: a light samba groove with pandeiro, tamborim and shaker over tight drums, bouncy bass, cavaquinho and nylon guitar interlocking, a catchy flute and Rhodes melody. Salon doors open to the street, June festival lights: warm, tactile, sociable and sunny. Steady groove from the first beat, warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "seoul": {
+    "suno_title": "FtA - Seoul",
+    "suno_id": "2fe54c01-e84b-4ffa-a105-5eb5a5790d7b",
+    "chosen_from": "seoul_b",
+    "prompt": "Instrumental city theme for Seoul in a cozy pixel-art exploration game. Upbeat Korean indie-pop at 114 BPM: tight funky drums, bouncy bass, bright electric piano and clean guitar, a catchy gayageum melody with playful bends, light janggu accents, sparkling synth bells. Print shops, alleys and neon cafes: modern, curious, cheerful and quick. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "sydney": {
+    "suno_title": "FtA - Sydney",
+    "suno_id": "ddc4a25f-ade6-46d6-a250-cddbed18e085",
+    "chosen_from": "sydney_a",
+    "prompt": "Instrumental city theme for Sydney in a cozy pixel-art exploration game. Upbeat Australian surf-indie pop at 120 BPM: bright jangly clean guitars with a little spring reverb, bouncy bass, breezy live drums with shaker, a catchy guitar lead melody, sunny organ chords. The ferry wharf, harbour light and a salty breeze: carefree, friendly, sunny and playful. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "tbilisi": {
+    "suno_title": "FtA - Tbilisi",
+    "suno_id": "d7a55c4e-3f8e-4548-97d2-3551651bd3d2",
+    "chosen_from": "tbilisi_a",
+    "prompt": "Instrumental city theme for Tbilisi in a cozy pixel-art exploration game. Upbeat Georgian folk-pop at 112 BPM: lively panduri and chonguri strums, a catchy salamuri flute melody, doli hand drum over light modern drums, round bass, a hint of accordion. Carved wooden balconies, cheese and herb stalls, a supra table waiting: warm, hospitable, buoyant and proud. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "title": {
+    "suno_title": "FtA - Title",
+    "suno_id": "240fcfed-8198-45c0-b83f-bde05e441a85",
+    "chosen_from": "",
+    "prompt": "Instrumental main theme for a cozy pixel-art adventure game about a curious alien exploring the world's cities. Upbeat, bouncy and hopeful at 112 BPM: a playful hook on kalimba and nylon-string guitar trading call-and-response phrases, warm Rhodes chords, round bouncy bass, crisp soft drums with shaker and light claps, tiny glassy synth sparkles. A light worldly flavour - hand drums, a hint of accordion and marimba - blended into one warm modern indie-pop sound. Catchy and inviting, like setting off on a journey. Starts straight into the groove, steady energy, no big build or drop, clean warm mix, loops smoothly."
+  },
+  "tokyo": {
+    "suno_title": "FtA - Tokyo",
+    "suno_id": "b6fdc5be-c24a-4d1d-a33c-22cc0c1b4e74",
+    "chosen_from": "tokyo_b",
+    "prompt": "Instrumental city theme for Tokyo in a cozy pixel-art exploration game. Upbeat Japanese city pop at 112 BPM: funky electric bass, bright clean electric piano and guitar chords, crisp tight drums with a light disco hi-hat, a catchy koto and synth-bell melody, tiny shamisen accents. Kitchenware shops on Kappabashi, paper lanterns and busy crossings: precise, sunny, playful and curious. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "toronto": {
+    "suno_title": "FtA - Toronto",
+    "suno_id": "29159e23-413e-4482-994d-ed36e06cc4ff",
+    "chosen_from": "toronto_a",
+    "prompt": "Instrumental city theme for Toronto in a cozy pixel-art exploration game. Upbeat Canadian indie-pop at 116 BPM: jangly clean electric guitars, bouncy bass, crisp live drums with tambourine, a catchy Wurlitzer and glockenspiel melody, warm and slightly loose. Streetcars, corner stores and friendly neighbourhoods: easygoing, bright, polite and curious. Steady groove from the first beat, warm clean mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "travel": {
+    "suno_title": "FtA - Departures",
+    "suno_id": "948a98a1-c423-42f0-9fb6-d7726c684eb3",
+    "chosen_from": "travel_a",
+    "prompt": "Instrumental travel theme for airports and departures in a cozy pixel-art exploration game about a curious alien touring the world. Upbeat, breezy and optimistic at 116 BPM: light bossa-house groove, shuffling brushed drums and shaker, round bass, bright nylon guitar and vibraphone trading a catchy little tune, soft Rhodes chords, low airy synth pads, tiny kalimba sparkles. Rolling a suitcase through a sunny terminal, ready for the next city. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  },
+  "zurich": {
+    "suno_title": "FtA - Zurich",
+    "suno_id": "b078ebbe-3f88-4108-b8ea-bab5f71dc0ef",
+    "chosen_from": "zurich_a",
+    "prompt": "Instrumental city theme for Zurich in a cozy pixel-art exploration game. Upbeat Swiss folk-electronica at 112 BPM: a tidy clicky beat with soft kick and brushes, round bass, a catchy Schwyzerorgeli accordion tune, bright hackbrett hammered-dulcimer runs, light glockenspiel, a soft alphorn-like horn note now and then. Trams, kiosks and clean lakeside streets: neat, cheerful, precise and a little quirky. Steady groove from the first beat, clean warm mix that sits under dialogue, no big build or drop, loops smoothly."
+  }
+}

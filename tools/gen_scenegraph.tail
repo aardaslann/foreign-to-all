@@ -1,0 +1,75 @@
+
+
+# The next scene to head for, walking from `here` toward `there`. Empty when
+# there is no route, or when you are already standing in the answer.
+static func route(here: String, there: String) -> String:
+	if here.is_empty() or there.is_empty() or here == there:
+		return ""
+	# Not `DOORS.has(here)`: a transit hall's only doorway is marked is_return
+	# and is therefore in no edge list, so the hall itself could not route
+	# anywhere despite being the one place in a city that reaches everywhere.
+	if _out_of(here).is_empty():
+		return ""
+	# Breadth first, so the answer is the fewest doors rather than whichever
+	# corridor got tried first. Two hundred scenes and three hundred doors is
+	# small enough to walk whenever the arrow asks.
+	var seen: Dictionary = {here: true}
+	var queue: Array = []
+	for first: String in _out_of(here):
+		if seen.has(first):
+			continue
+		seen[first] = true
+		queue.append([first, first])      # [reached, the first step taken]
+	while not queue.is_empty():
+		var at: Array = queue.pop_front()
+		var scene: String = String(at[0])
+		var step: String = String(at[1])
+		if scene == there:
+			return step
+		for nxt: String in _out_of(scene):
+			if seen.has(nxt):
+				continue
+			seen[nxt] = true
+			queue.append([nxt, step])
+	return ""
+
+
+# Everywhere you can get to from one scene in one move: through its doors, and
+# off its platform if it has one.
+static func _out_of(scene: String) -> Array:
+	var out: Array = []
+	for d: Array in DOORS.get(scene, []):
+		var t: String = String(d[0])
+		if not out.has(t):
+			out.append(t)
+	if TRANSIT.has(scene):
+		for t2: String in Array(TRANSIT[scene][1]):
+			if not out.has(t2):
+				out.append(t2)
+	return out
+
+
+# Where the door leading to `next` stands inside `here`.
+static func door_pos(here: String, next: String) -> Vector2:
+	for d: Array in DOORS.get(here, []):
+		if String(d[0]) == next:
+			return d[1] as Vector2
+	# Not a doorway: a ride. Point at the platform you take it from.
+	if TRANSIT.has(here) and Array(TRANSIT[here][1]).has(next):
+		return TRANSIT[here][0] as Vector2
+	return Vector2.ZERO
+
+
+# The door to take, as a position in the scene you are standing in. This is
+# what the arrow points at.
+static func way_to(here: String, there: String) -> Vector2:
+	var step: String = route(here, there)
+	if step.is_empty():
+		return Vector2.ZERO
+	return door_pos(here, step)
+
+
+# Is there any way at all from one to the other? Used to keep the arrow from
+# pointing hopefully at a place no door reaches.
+static func reachable(here: String, there: String) -> bool:
+	return here == there or not route(here, there).is_empty()

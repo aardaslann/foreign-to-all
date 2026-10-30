@@ -1,0 +1,710 @@
+{
+  "_about": "Who speaks in what voice. Each entry is a brief for ElevenLabs Voice Design (tools/eleven_voices.py), written from the character's role, age and lines in the game. 'share' reuses another speaker's voice (a counter clerk or a one-line stranger heard nowhere near them). 'keep' voices stay in the account after recording so their lines can be re-recorded when a script changes; the rest are removed to free slots (Creator plan: 30 slots, 95 adds a month). 'gender' marked assumed was not stated anywhere in the game's text - confirm or correct.",
+  "model": "eleven_v4",
+  "design_model": "eleven_ttv_v3",
+  "style": "Natural, unpolished, conversational speech, as recorded on a real street - not a narrator, announcer or voice assistant. Perfect audio quality.",
+  "_crowd": "Two passers-by per language say the street's chatter fragments (AudioManager.murmur picks one at random); nobody from a story is in the crowd.",
+  "crowd": {
+    "german": [
+      "jonas",
+      "ayse"
+    ],
+    "turkish": [
+      "cay_man",
+      "istanbul_nurhan"
+    ],
+    "english": [
+      "london_femi",
+      "london_trish"
+    ],
+    "french": [
+      "bonjour_man",
+      "paris_elodie"
+    ],
+    "spanish_mx": [
+      "mexico_chuy",
+      "flower_woman"
+    ],
+    "russian": [
+      "moscow_artyom",
+      "moscow_galina"
+    ],
+    "hindi": [
+      "mumbai_farid",
+      "mumbai_sunita"
+    ],
+    "japanese": [
+      "tokyo_iwata",
+      "eating_woman"
+    ],
+    "portuguese": [
+      "saopaulo_wellington",
+      "saopaulo_jandira"
+    ],
+    "italian": [
+      "rome_nando",
+      "rome_lucia"
+    ],
+    "korean": [
+      "seoul_baek",
+      "seoul_jiwon"
+    ],
+    "vietnamese": [
+      "hanoi_duc",
+      "hanoi_lan"
+    ],
+    "georgian": [
+      "tbilisi_zurab",
+      "tbilisi_nino"
+    ],
+    "wolof": [
+      "dakar_ousmane",
+      "dakar_awa"
+    ],
+    "swissgerman": [
+      "zurich_ruedi",
+      "zurich_frau_amsler"
+    ],
+    "spanish_bo": [
+      "lapaz_mauricio",
+      "lapaz_remedios"
+    ]
+  },
+  "_notebook": "One clear, unhurried voice per language says the notebook's words on their own.",
+  "notebook": {
+    "german": "weber",
+    "turkish": "istanbul_yasemin",
+    "english": "london_esme",
+    "french": "paris_elodie",
+    "spanish_mx": "flower_woman"
+  },
+  "voices": {
+    "kerstin": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 57,
+      "keep": true,
+      "design": "A 57-year-old woman from East Berlin who has run a corner shop since 1998. Native German with a broad Berlin dialect. Warm, slightly husky, lived-in mid-low voice; brisk, practical and dryly funny, talking while she works."
+    },
+    "emil": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 74,
+      "keep": true,
+      "design": "A 74-year-old retired Berlin tram driver with a bad knee. Native German with a strong old Berlin dialect. Gravelly, slightly hoarse older man's voice, slow and deliberate; proud and gruff with strangers, soft underneath."
+    },
+    "rika": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 22,
+      "keep": true,
+      "design": "A woman in her early twenties from Berlin, bilingual in German and English, with a light German accent in English. Bright, quick, casual and friendly, a little teasing."
+    },
+    "berlin_hartmut": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 68,
+      "design": "A 68-year-old Berlin pensioner born in a Prenzlauer Berg tenement. Native German with a Berlin accent. Dry, amused, a little gravelly but lively; talks in short bursts, enjoying correcting a stranger."
+    },
+    "berlin_ilka": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 31,
+      "design": "A 31-year-old woman from Stuttgart who has lived in Berlin for nine years. Native German with a noticeable Swabian lilt. Clear mid-pitched voice, friendly, a touch self-deprecating."
+    },
+    "berlin_sibel": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 26,
+      "design": "A 26-year-old woman born in Berlin-Kreuzberg to a Turkish family, working a market stall till. Native in both Turkish and German and switching between them mid-sentence. Quick, confident, warm market-stall energy."
+    },
+    "berlin_ercan": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 59,
+      "design": "A 59-year-old bicycle mechanic in Kreuzberg who came to Berlin from Turkey at nine. Native-level German with a faint Turkish colour and a Berlin street tone. Calm, wry and unhurried, slightly rough."
+    },
+    "lukas": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 40,
+      "design": "A man around forty who runs a bread stall at an early-morning Berlin market, up since four. Native German, standard accent with a relaxed Berlin tone. Cheerful, warm, a little sleepy, the easy friendliness of a market seller."
+    },
+    "renate": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 76,
+      "design": "A 76-year-old Berlin woman waiting at a bus stop that the bus has not come to. Native German with a Berlin accent. Thin, sharp older woman's voice, indignant about the bus but kindly underneath."
+    },
+    "weber": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 45,
+      "design": "Frau Weber, a hotel night receptionist in Berlin in her mid-forties. Native standard German. Polite, composed and professionally warm at five in the morning, slightly tired."
+    },
+    "neumann": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 55,
+      "design": "A German businessman in his mid-fifties who finds a stranger in his hotel room. Native German, standard accent. Firm, startled and indignant at first, then embarrassed."
+    },
+    "ayse": {
+      "city": "berlin",
+      "gender": "female",
+      "age": 30,
+      "design": "A woman around thirty from Berlin with Turkish roots, out on an early-morning walk with a friend. Native German with a Berlin tone. Upbeat, easy, chatty."
+    },
+    "jonas": {
+      "city": "berlin",
+      "gender": "male",
+      "age": 32,
+      "gender_source": "assumed",
+      "design": "A man in his early thirties from Berlin, out on an early-morning walk with a friend. Native German with a Berlin accent. Relaxed, amused, a bit exasperated about the bus."
+    },
+    "counter_berlin": {
+      "share": "weber"
+    },
+    "arda": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 18,
+      "keep": true,
+      "design": "An 18-year-old Istanbul tea boy who runs trays of tea through an old han all day. Native Turkish, Istanbul accent. Light young man's voice, quick, cheerful and hospitable, a little cheeky."
+    },
+    "hasan": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 70,
+      "keep": true,
+      "design": "A shopkeeper around seventy in an old Istanbul han. Native Turkish, Istanbul accent. Deep, warm older man's voice, particular about his tea, courteous and settled."
+    },
+    "selin": {
+      "city": "istanbul",
+      "gender": "female",
+      "age": 35,
+      "keep": true,
+      "design": "A woman in her mid-thirties in Istanbul, sorting holiday parcels. Native Turkish, Istanbul accent. Clear, warm, direct and good-humoured."
+    },
+    "istanbul_altan": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 63,
+      "design": "A 63-year-old second-hand bookseller in a passage off Istiklal who was a translator for thirty years. Native Turkish, educated Istanbul accent. Soft, reflective, a little melancholy."
+    },
+    "istanbul_bulent": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 63,
+      "design": "A 63-year-old ship chandler in an Istanbul market. Native Turkish, Istanbul accent. Deep, generous, hospitable older man's voice that does not take no for an answer."
+    },
+    "cay_man": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 45,
+      "design": "A shopkeeper in his mid-forties in an Istanbul bazaar inviting a passer-by in for tea. Native Turkish. A man's voice, warm and medium-low; hearty, welcoming and insistent without shouting.",
+      "note": "Redesigned 2026-09-30: the first voice measured far outside the brief's pitch range for their gender."
+    },
+    "istanbul_emre": {
+      "city": "istanbul",
+      "gender": "male",
+      "age": 10,
+      "design": "An adult voice actor performing a lively young boy for an animated film, in native Turkish: light, high, playful and bossy delivery.",
+      "note": "9 in the game; cast the conventional way, an adult performing a child. If Voice Design refuses, he stays silent.",
+      "unvoiced": "ElevenLabs Voice Design refuses to make a child's voice, even as an adult performing one; left silent rather than worked around. Needs a real recording or another service."
+    },
+    "istanbul_meryem": {
+      "city": "istanbul",
+      "gender": "female",
+      "age": 74,
+      "design": "A woman in her seventies in Istanbul who feeds whoever is in her son's shop. Native Turkish, Istanbul accent. Soft, motherly, fussing older woman's voice."
+    },
+    "istanbul_nurhan": {
+      "city": "istanbul",
+      "gender": "female",
+      "age": 55,
+      "design": "A woman in her fifties who runs a snack kiosk in the Istanbul bazaar. Native Turkish. Brisk, kind, motherly and quick."
+    },
+    "istanbul_sevim": {
+      "city": "istanbul",
+      "gender": "female",
+      "age": 51,
+      "gender_source": "assumed",
+      "design": "A 51-year-old woman who runs a fish stall by the Kadikoy ferry. Native Turkish, Istanbul accent. Hearty, outdoor voice, friendly and a bit raspy."
+    },
+    "istanbul_yasemin": {
+      "city": "istanbul",
+      "gender": "female",
+      "age": 34,
+      "design": "A 34-year-old woman who runs a modern coffee place in an Istanbul neighbourhood she grew up in. Native Turkish, Istanbul accent. Polished, friendly, businesslike, quietly proud."
+    },
+    "counter_istanbul": {
+      "share": "istanbul_yasemin"
+    },
+    "nadia": {
+      "city": "london",
+      "gender": "female",
+      "age": 17,
+      "keep": true,
+      "design": "A young woman around nineteen from London who draws and works in a caff on Saturdays. Native English with a modern multicultural London accent. Quick, dry, a little guarded, warm once she knows you.",
+      "note": "17 in the game; briefed as a young adult because Voice Design refuses briefs describing minors."
+    },
+    "val": {
+      "city": "london",
+      "gender": "female",
+      "age": 52,
+      "keep": true,
+      "design": "A woman in her fifties who runs a London caff and organises the street. Native English with a working-class London accent. Warm, busy and indirect, softening every request."
+    },
+    "ahmed": {
+      "city": "london",
+      "gender": "male",
+      "age": 68,
+      "keep": true,
+      "design": "A man in his late sixties who has lived in London for decades, originally from South Asia. Fluent English with a gentle South Asian accent. Courteous, precise, gently humorous older man's voice."
+    },
+    "london_aggarwal": {
+      "city": "london",
+      "gender": "male",
+      "age": 55,
+      "design": "A London newsagent in his fifties who came to Britain at nineteen from India. Fluent English with an Indian accent, speaking more carefully and correctly than anyone around him. Polite, measured."
+    },
+    "bins_woman": {
+      "city": "london",
+      "gender": "female",
+      "age": 60,
+      "design": "A woman around sixty in a London terrace who has waited a week to mention the recycling. Native English with a London accent. Politely indirect, apologetic but firm."
+    },
+    "london_dot": {
+      "city": "london",
+      "gender": "female",
+      "age": 71,
+      "gender_source": "assumed",
+      "design": "A 71-year-old woman who has run a London caff since 1974 and calls everyone love. Native English with a broad Cockney accent. Warm, raspy, motherly older woman's voice."
+    },
+    "london_esme": {
+      "city": "london",
+      "gender": "female",
+      "age": 34,
+      "design": "A 34-year-old woman who keeps the stage door at a London theatre. Native English with a London accent. A woman's voice, clear and mid-pitched; unflappable and dry, with a quiet deadpan humour.",
+      "note": "Redesigned 2026-09-30: the first voice measured far outside the brief's pitch range for their gender."
+    },
+    "london_femi": {
+      "city": "london",
+      "gender": "male",
+      "age": 24,
+      "design": "A 24-year-old night security desk officer in a London office tower, of Nigerian heritage. Native English with a London accent. Polite, formulaic and courteous, quietly tired."
+    },
+    "london_kai": {
+      "city": "london",
+      "gender": "male",
+      "age": 16,
+      "design": "A young man around nineteen from London waiting for a late bus. Native English with a strong Multicultural London English accent. Talks fast and quietly, casual slang.",
+      "note": "16 in the game; briefed as a young adult because Voice Design refuses briefs describing minors."
+    },
+    "london_marcus": {
+      "city": "london",
+      "gender": "male",
+      "age": 58,
+      "design": "A 58-year-old man who runs a record shop under railway arches in London, of Caribbean heritage. Native English with a London accent and a Caribbean lilt. Deep, laid-back, gently wry."
+    },
+    "london_trish": {
+      "city": "london",
+      "gender": "female",
+      "age": 52,
+      "design": "A 52-year-old office cleaner in London who has worked the same five a.m. shift for nineteen years. Native English with a working-class London accent. Plain-spoken, tired, dry and matter-of-fact."
+    },
+    "counter_london": {
+      "share": "london_esme"
+    },
+    "odile": {
+      "city": "paris",
+      "gender": "female",
+      "age": 71,
+      "keep": true,
+      "design": "A 71-year-old retired lycee teacher who has lived in the same Marais flat for forty-one years. Native Parisian French. Clear, precise, cultivated older woman's voice; exacting about politeness, dry wit."
+    },
+    "ines": {
+      "city": "paris",
+      "gender": "female",
+      "age": 28,
+      "keep": true,
+      "design": "A woman in her late twenties in Paris, friendly and easygoing, distracted by a phone call she is waiting for. Native Parisian French. Light, warm, informal."
+    },
+    "marcel": {
+      "city": "paris",
+      "gender": "male",
+      "age": 50,
+      "keep": true,
+      "design": "A Paris baker around fifty, up early every day, who goes to bed at nine. Native French, Parisian accent. Warm, gruff, amused and plain-spoken."
+    },
+    "bonjour_man": {
+      "city": "paris",
+      "gender": "male",
+      "age": 60,
+      "design": "A Paris shopkeeper around sixty who corrects a customer for not saying bonjour. Native Parisian French. Dry, precise, mildly reproachful, not unkind."
+    },
+    "paris_elodie": {
+      "city": "paris",
+      "gender": "female",
+      "age": 40,
+      "design": "A woman around forty who runs a kiosk by a Paris park and has been asked for directions in nine languages. Native Parisian French. Patient, crisp, gently amused."
+    },
+    "paris_karim": {
+      "city": "paris",
+      "gender": "male",
+      "age": 45,
+      "design": "A man in his mid-forties who sells second-hand books from a trestle in Paris, of North African heritage. Native Parisian French. Relaxed, sharp, switches from formal to friendly in one sentence."
+    },
+    "counter_paris": {
+      "share": "paris_elodie"
+    },
+    "viktor": {
+      "city": "moscow",
+      "gender": "male",
+      "age": 46,
+      "keep": true,
+      "design": "A 46-year-old Moscow repair-booth man who mends shoes, zips, keys and watches. Native Russian, Moscow accent. Low, terse, gruff voice of few words, which warms up completely when he talks about football."
+    },
+    "alina": {
+      "city": "moscow",
+      "gender": "female",
+      "age": 38,
+      "keep": true,
+      "design": "A woman in her late thirties in Moscow with a grandmother's brooch that needs repairing. Native Russian, Moscow accent. Quiet, firm and private, polite but reserved."
+    },
+    "pavel": {
+      "city": "moscow",
+      "gender": "male",
+      "age": 40,
+      "keep": true,
+      "design": "A man around forty in Moscow, talkative and eager, who speaks for other people too readily. Native Russian, Moscow accent. Warm, quick, a bit overbearing, then genuinely apologetic."
+    },
+    "moscow_artyom": {
+      "city": "moscow",
+      "gender": "male",
+      "age": 33,
+      "design": "A 33-year-old lift mechanic in Moscow who smiles about twice a year. Native Russian. Flat, low, laconic, helpful without warmth."
+    },
+    "moscow_galina": {
+      "city": "moscow",
+      "gender": "female",
+      "age": 57,
+      "design": "A 57-year-old kiosk seller by a Moscow metro station. Native Russian, Moscow accent. Stern, unsmiling, brisk older woman's voice that will help you completely anyway."
+    },
+    "hold_man": {
+      "city": "moscow",
+      "gender": "male",
+      "age": 45,
+      "design": "A Moscow man in his mid-forties whose bag strap has just broken, asking a stranger to hold something. Native Russian. Hurried, direct, slightly out of breath."
+    },
+    "counter_moscow": {
+      "share": "moscow_galina"
+    },
+    "omkar": {
+      "city": "mumbai",
+      "gender": "male",
+      "age": 22,
+      "keep": true,
+      "design": "A 22-year-old man from Mumbai who repairs phones and runs the lane's festival committee. Native Hindi with Mumbai Bambaiya flavour, mixing in English words. Clearly male, medium-low young man's voice; friendly, quick and easygoing, with a grin in it."
+    },
+    "asha": {
+      "city": "mumbai",
+      "gender": "female",
+      "age": 40,
+      "keep": true,
+      "design": "A woman around forty in Mumbai organising a neighbourhood gathering. Native Hindi, Mumbai accent. Warm, organised, practical and welcoming."
+    },
+    "yusuf": {
+      "city": "mumbai",
+      "gender": "male",
+      "age": 45,
+      "keep": true,
+      "design": "A delivery man in his mid-forties in a crowded Mumbai lane. Native Hindi, Mumbai accent. Steady, practical, patient, mid-low voice."
+    },
+    "mumbai_farid": {
+      "city": "mumbai",
+      "gender": "male",
+      "age": 54,
+      "gender_source": "assumed",
+      "design": "A 54-year-old dealer in brass, clocks and ship salvage at a Mumbai market. Native Hindi mixing in English, Mumbai accent. A man's voice, medium-low and a little gravelly; jovial, quick-talking salesman, not shouting.",
+      "note": "Redesigned 2026-09-30: the first voice measured far outside the brief's pitch range for their gender."
+    },
+    "mumbai_sunita": {
+      "city": "mumbai",
+      "gender": "female",
+      "age": 47,
+      "design": "A 47-year-old fourth-generation wholesale thread merchant in Mumbai. Native Hindi mixing English, Mumbai accent. Businesslike, sharp, corrects your grammar kindly."
+    },
+    "mandal_boy": {
+      "city": "mumbai",
+      "gender": "male",
+      "age": 13,
+      "design": "An adult voice actor performing an eager young boy for an animated film, in native Mumbai Hindi: bright, quick, persuasive delivery.",
+      "note": "A boy in the game; cast the conventional way, an adult performing a child. If Voice Design refuses, he stays silent.",
+      "unvoiced": "ElevenLabs Voice Design refuses to make a child's voice, even as an adult performing one; left silent rather than worked around. Needs a real recording or another service."
+    },
+    "counter_mumbai": {
+      "share": "mumbai_sunita"
+    },
+    "setsuko": {
+      "city": "tokyo",
+      "gender": "female",
+      "age": 74,
+      "keep": true,
+      "design": "A 74-year-old woman who runs a kitchenware shop on Kappabashi street in Tokyo. Native Japanese, Tokyo accent. Composed, gracious older woman's voice, polite and patient, with a firm edge on the phone."
+    },
+    "haru": {
+      "city": "tokyo",
+      "gender": "neutral",
+      "age": 26,
+      "keep": true,
+      "gender_source": "not stated in the game - written without pronouns; cast androgynous",
+      "design": "An androgynous young adult in their mid-twenties in Tokyo who designs paper displays and dreams of opening a shop. Native Japanese, Tokyo accent. Mid-pitched, soft, gender-neutral voice; casual, curious and gentle."
+    },
+    "mori": {
+      "city": "tokyo",
+      "gender": "male",
+      "age": 72,
+      "keep": true,
+      "design": "Mr Mori, a regular customer in his early seventies in Tokyo with stiff fingers and firm preferences. Native Japanese, Tokyo accent. Quiet, polite, reserved older man's voice, reassuring in tone."
+    },
+    "tokyo_iwata": {
+      "city": "tokyo",
+      "gender": "male",
+      "age": 62,
+      "design": "A 62-year-old third-generation second-hand bookshop owner in Tokyo who never refuses outright. Native Japanese, Tokyo accent. Soft, hesitant, very polite, trailing off."
+    },
+    "tokyo_sora": {
+      "city": "tokyo",
+      "gender": "neutral",
+      "age": 19,
+      "gender_source": "not stated in the game; cast androgynous",
+      "design": "A 19-year-old art student in Tokyo who talks too much and knows it. Native Japanese, Tokyo accent. Youthful, gender-neutral, lively and slightly awkward."
+    },
+    "eating_woman": {
+      "city": "tokyo",
+      "gender": "female",
+      "age": 50,
+      "design": "A Tokyo shopkeeper around fifty who politely follows a customer out to say eating while walking is not quite done. Native Japanese. Very polite, indirect, gently embarrassed."
+    },
+    "counter_tokyo": {
+      "share": "eating_woman"
+    },
+    "rocio": {
+      "city": "mexico",
+      "gender": "female",
+      "age": 45,
+      "keep": true,
+      "design": "A 45-year-old flower seller from La Merced market in Mexico City, preparing her family's Day of the Dead altar. Native Mexican Spanish, Mexico City accent. Warm, strong, busy and direct."
+    },
+    "lucia": {
+      "city": "mexico",
+      "gender": "female",
+      "age": 30,
+      "keep": true,
+      "design": "A woman around thirty in Mexico City who draws what she wants to remember. Native Mexican Spanish, chilango accent. Gentle, thoughtful, curious."
+    },
+    "tomas": {
+      "city": "mexico",
+      "gender": "male",
+      "age": 75,
+      "keep": true,
+      "design": "An old man in his mid-seventies in Mexico City who laughs through his grief over a familiar blue cup. Native Mexican Spanish. Warm, slightly cracked older man's voice, tender and funny."
+    },
+    "mexico_chuy": {
+      "city": "mexico",
+      "gender": "male",
+      "age": 26,
+      "design": "A 26-year-old man with a juice cart on a Mexico City corner who never says no to anybody. Native Mexican Spanish, chilango accent. Easygoing, friendly, fast."
+    },
+    "mexico_pilar": {
+      "city": "mexico",
+      "gender": "female",
+      "age": 63,
+      "design": "Dona Pilar, a 63-year-old herb and dried chilli seller in a Mexico City market who uses diminutives for everything. Native Mexican Spanish. Sweet, motherly, sing-song older woman's voice."
+    },
+    "flower_woman": {
+      "city": "mexico",
+      "gender": "female",
+      "age": 50,
+      "design": "A Mexico City woman around fifty with both arms full of flowers asking a stranger to help. Native Mexican Spanish. Hurried, warm, familiar."
+    },
+    "counter_mexico": {
+      "share": "flower_woman"
+    },
+    "dakar_ousmane": {
+      "city": "dakar",
+      "gender": "male",
+      "age": 52,
+      "design": "A 52-year-old tailor in the Medina in Dakar, Senegal, never rushed. Native Wolof speaker who also speaks French with a Senegalese accent. Deep, calm, courteous."
+    },
+    "dakar_awa": {
+      "city": "dakar",
+      "gender": "female",
+      "age": 36,
+      "design": "A 36-year-old wax cloth seller in Dakar, Senegal, who will out-greet anybody. Native Wolof speaker who also speaks French with a Senegalese accent. Bright, lively, warm, teasing."
+    },
+    "hanoi_duc": {
+      "city": "hanoi",
+      "gender": "male",
+      "age": 24,
+      "design": "A 24-year-old motorbike taxi rider in Hanoi. Native Vietnamese, northern Hanoi accent. Casual, quick, friendly young man."
+    },
+    "hanoi_hien": {
+      "city": "hanoi",
+      "gender": "female",
+      "age": 38,
+      "design": "A 38-year-old woman selling noodles from a plastic stool in Hanoi, endlessly patient about tones. Native Vietnamese, northern Hanoi accent. Patient, clear, warm."
+    },
+    "hanoi_lan": {
+      "city": "hanoi",
+      "gender": "female",
+      "age": 29,
+      "design": "A 29-year-old woman selling iced tea from a cart by the Hanoi metro. Native Vietnamese, northern Hanoi accent. Light, cheerful, repeats things back clearly."
+    },
+    "honolulu_kimo": {
+      "city": "honolulu",
+      "gender": "male",
+      "age": 40,
+      "design": "A Native Hawaiian man around forty in Honolulu who lends out surfboards. Speaks Hawaii Pidgin English with a local Hawaiian accent. Relaxed, warm, easygoing."
+    },
+    "honolulu_lani": {
+      "city": "honolulu",
+      "gender": "female",
+      "age": 45,
+      "design": "A Native Hawaiian woman in her forties in Honolulu who strings leis. Local Hawaiian English accent. Gentle, warm, unhurried."
+    },
+    "lapaz_mauricio": {
+      "city": "lapaz",
+      "gender": "male",
+      "age": 39,
+      "gender_source": "assumed",
+      "design": "A 39-year-old cable car operator in La Paz, Bolivia. Native Bolivian Spanish, Andean La Paz accent. Measured, curious, friendly."
+    },
+    "lapaz_remedios": {
+      "city": "lapaz",
+      "gender": "female",
+      "age": 64,
+      "design": "Dona Remedios, a 64-year-old Aymara market seller of potatoes and dried maize in El Alto, Bolivia. Native Bolivian Spanish with an Andean accent. Firm, skeptical, deliberate older woman's voice."
+    },
+    "newyork_dov": {
+      "city": "newyork",
+      "gender": "male",
+      "age": 55,
+      "design": "A New York diner griddle cook in his fifties who has been on since five. Native American English with a strong New York accent. Gruff, fast, no-nonsense."
+    },
+    "newyork_marisol": {
+      "city": "newyork",
+      "gender": "female",
+      "age": 45,
+      "design": "A Puerto Rican New Yorker in her forties who runs a newsstand on a busy corner. Native American English with a New York accent. Quick, blunt, streetwise, not unfriendly."
+    },
+    "rome_nando": {
+      "city": "rome",
+      "gender": "male",
+      "age": 59,
+      "design": "A 59-year-old Roman market stall holder, forty years at the same stall. Native Italian with a strong Roman accent. A man's voice, deep and a little hoarse from years of calling out; warm and theatrical, talking over everyone without shrieking.",
+      "note": "Redesigned 2026-09-30: the first voice measured far outside the brief's pitch range for their gender."
+    },
+    "rome_lucia": {
+      "city": "rome",
+      "gender": "female",
+      "age": 44,
+      "gender_source": "assumed",
+      "design": "A 44-year-old woman who runs a bar by a market in Rome and serves whoever speaks up. Native Italian, Roman accent. Brisk, sharp, quietly warm."
+    },
+    "neusa": {
+      "city": "saopaulo",
+      "gender": "female",
+      "age": 61,
+      "keep": true,
+      "design": "A 61-year-old hairdresser who has run a salon in Bixiga, Sao Paulo, for thirty-one years. Native Brazilian Portuguese, Sao Paulo accent. Warm, tactile, affectionate, a little bossy."
+    },
+    "saopaulo_jandira": {
+      "city": "saopaulo",
+      "gender": "female",
+      "age": 41,
+      "design": "A 41-year-old shopkeeper in Sao Paulo who stands very close when she talks. Native Brazilian Portuguese, paulistano accent. Warm, friendly, teasing."
+    },
+    "saopaulo_wellington": {
+      "city": "saopaulo",
+      "gender": "male",
+      "age": 29,
+      "design": "A 29-year-old sound engineer in Sao Paulo who touches your arm mid-sentence. Native Brazilian Portuguese, paulistano accent. Laid-back, friendly, slangy."
+    },
+    "beijo_woman": {
+      "share": "saopaulo_jandira"
+    },
+    "seoul_baek": {
+      "city": "seoul",
+      "gender": "male",
+      "age": 71,
+      "design": "A 71-year-old owner of a lathe and press workshop in Seoul, in the same unit since 1979. Native Korean, Seoul accent. Gruff, formal, older man's voice who asks your age first."
+    },
+    "seoul_jiwon": {
+      "city": "seoul",
+      "gender": "female",
+      "age": 31,
+      "design": "A 31-year-old type designer in Seoul. Native Korean, Seoul accent. Friendly, casual, warm, dropping formality as a gesture of friendship."
+    },
+    "sydney_jen": {
+      "city": "sydney",
+      "gender": "female",
+      "age": 35,
+      "design": "A woman in her thirties who works the ferry wharf in Sydney. Native Australian English with a broad Aussie accent. Breezy, friendly, shortens every word."
+    },
+    "sydney_thuy": {
+      "city": "sydney",
+      "gender": "female",
+      "age": 30,
+      "design": "A Vietnamese-Australian woman around thirty who grew up in western Sydney and works in an office tower. Native Australian English with a western Sydney accent. Dry, direct, patient."
+    },
+    "tbilisi_zurab": {
+      "city": "tbilisi",
+      "gender": "male",
+      "age": 66,
+      "gender_source": "assumed",
+      "design": "A 66-year-old Georgian man in Tbilisi who keeps wine in his cellar and runs the table at feasts. Native Georgian, Tbilisi accent. Deep, resonant, ceremonious and warm."
+    },
+    "tbilisi_nino": {
+      "city": "tbilisi",
+      "gender": "female",
+      "age": 48,
+      "design": "A 48-year-old Georgian woman selling cheese and herbs by the Tbilisi station who quietly coaches visitors. Native Georgian. Calm, kind, low voice."
+    },
+    "toronto_priya": {
+      "city": "toronto",
+      "gender": "female",
+      "age": 28,
+      "design": "A Canadian woman of South Asian heritage in her late twenties who rides a Toronto streetcar twice a day. Native Canadian English, Toronto accent. Polite, apologetic, friendly."
+    },
+    "toronto_wes": {
+      "city": "toronto",
+      "gender": "male",
+      "age": 60,
+      "design": "A Toronto shopkeeper around sixty, third generation in the same front room. Native Canadian English. Easygoing, understated, kind."
+    },
+    "beat": {
+      "city": "zurich",
+      "gender": "male",
+      "age": 34,
+      "keep": true,
+      "design": "A 34-year-old man who runs a newspaper kiosk in Zurich. Native Swiss German speaker, Zurich dialect, switching awkwardly into standard High German for foreigners. Friendly, a bit shy, precise."
+    },
+    "zurich_ruedi": {
+      "city": "zurich",
+      "gender": "male",
+      "age": 46,
+      "design": "A 46-year-old Zurich tram driver. Native Swiss German, broad Zurich dialect. Easy, matter-of-fact, unhurried."
+    },
+    "zurich_frau_amsler": {
+      "city": "zurich",
+      "gender": "female",
+      "age": 68,
+      "design": "Frau Amsler, a 68-year-old kiosk owner in Zurich who speaks four languages. Native Swiss German, Zurich dialect. Crisp, brisk, precise older woman's voice."
+    },
+    "sunntig_frau": {
+      "share": "zurich_frau_amsler"
+    }
+  }
+}

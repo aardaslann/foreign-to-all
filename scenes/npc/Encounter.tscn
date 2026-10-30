@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/npc/Encounter.gd" id="1_enc"]
+
+[sub_resource type="RectangleShape2D" id="Shape_enc"]
+size = Vector2(26, 14)
+
+[node name="Encounter" type="CharacterBody2D"]
+script = ExtResource("1_enc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -6)
+shape = SubResource("Shape_enc")

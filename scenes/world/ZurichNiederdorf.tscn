@@ -1,0 +1,77 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/CityStreet.gd"      id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"      id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"     id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"       id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"     id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"          id="6_ui"]
+[ext_resource type="PackedScene" path="res://scenes/npc/CityNPC.tscn"                   id="8_npc"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"          id="9_solid"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="sp_70"]
+
+[node name="ZurichNiederdorf" type="Node2D"]
+script = ExtResource("1_root")
+region = "niederdorf"
+spawn = Vector2(160, 430)
+arrival_thought = "I can read every sign in this street.\n\nNobody in it is speaking the language I learned."
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "ZurichNiederdorf"
+district = "niederdorf"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(160, 430)
+
+[node name="HotelDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(212, 330)
+target_scene = "res://scenes/world/ZurichHotel.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - A bed"
+sign_text = "HOTEL"
+frontage = "lodging"
+
+[node name="ExchangeDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(560, 330)
+target_scene = "res://scenes/world/ZurichExchange.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - Change money"
+sign_text = "WECHSEL"
+frontage = "money"
+
+[node name="ExitEast" parent="." instance=ExtResource("5_exit")]
+position = Vector2(1124, 440)
+target_scene = "res://scenes/world/ZurichLangstrasse.tscn"
+spawn_tag = "from_niederdorf"
+prompt_text = "E - Down the hill, where the lanes stop being pretty"
+
+[node name="TransitDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(880, 336)
+target_scene = "res://scenes/world/ZurichTransit.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - The station"
+sign_text = "TRAM"
+frontage = "transit"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="NpcRuedi" parent="." instance=ExtResource("8_npc")]
+position = Vector2(420, 430)
+npc_id = "ruedi"
+city = "zurich"
+build = "adult"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="LocalSpot" parent="." instance=ExtResource("sp_70")]
+position = Vector2(360, 372)
+service = "local"
+prompt_text = "E - The fountain"

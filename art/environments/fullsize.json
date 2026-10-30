@@ -1,0 +1,2043 @@
+{
+  "HanoiHotel": {
+    "texture": "res://art/environments/scenes/HanoiHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "solids": [
+      [
+        786,
+        373,
+        140,
+        59
+      ],
+      [
+        245,
+        339,
+        452,
+        130
+      ]
+    ],
+    "foreground": [
+      [
+        786,
+        373,
+        140,
+        59
+      ],
+      [
+        245,
+        339,
+        452,
+        130
+      ]
+    ],
+    "clerks": {
+      "Point": [
+        475,
+        353
+      ]
+    },
+    "anchors": {
+      "Point": [
+        475,
+        494
+      ],
+      "Exit": [
+        108,
+        470
+      ]
+    },
+    "animation_patches": [
+      {
+        "kind": "fan",
+        "rect": [
+          360,
+          56,
+          248,
+          44
+        ],
+        "clean": true
+      }
+    ]
+  },
+  "HanoiPhoCo": {
+    "texture": "res://art/environments/scenes/HanoiPhoCo.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiLongBien": {
+    "texture": "res://art/environments/scenes/HanoiLongBien.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiBaDinh": {
+    "texture": "res://art/environments/scenes/HanoiBaDinh.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiDongDa": {
+    "texture": "res://art/environments/scenes/HanoiDongDa.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiTayHo": {
+    "texture": "res://art/environments/scenes/HanoiTayHo.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiAirport": {
+    "texture": "res://art/environments/scenes/HanoiAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiExchange": {
+    "texture": "res://art/environments/scenes/HanoiExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HanoiTransit": {
+    "texture": "res://art/environments/scenes/HanoiTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Mitte": {
+    "texture": "res://art/environments/scenes/Mitte.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MitteOst": {
+    "texture": "res://art/environments/scenes/MitteOst.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "BerlinPrenzlberg": {
+    "texture": "res://art/environments/scenes/BerlinPrenzlberg.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "BerlinKreuzberg": {
+    "texture": "res://art/environments/scenes/BerlinKreuzberg.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Kiez": {
+    "texture": "res://art/environments/scenes/Kiez.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "anchors": {
+      "CoinPouch": [
+        471,
+        604
+      ],
+      "CrateJob": [
+        945.0,
+        518.0
+      ],
+      "ExitToMitte": [
+        1124.0,
+        467.0
+      ],
+      "JobSpot1": [
+        173.0,
+        590.0
+      ],
+      "JobSpot2": [
+        933.0,
+        583.0
+      ],
+      "LocalSpot": [
+        548,
+        541
+      ],
+      "NPC": [
+        737.0,
+        454.0
+      ],
+      "WreckSite": [
+        311.0,
+        512.0
+      ]
+    },
+    "interaction_offsets": {
+      "NPC": {
+        "InteractionArea": [
+          0,
+          94
+        ],
+        "Prompt": [
+          -42,
+          -8
+        ]
+      }
+    },
+    "fittings": [
+      {
+        "kind": "apple_crate",
+        "at": [
+          548,
+          522
+        ]
+      }
+    ]
+  },
+  "HotelLobby": {
+    "texture": "res://art/environments/scenes/HotelLobby.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HotelRoom": {
+    "texture": "res://art/environments/scenes/HotelRoom.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Airport": {
+    "texture": "res://art/environments/scenes/Airport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HotelFloor": {
+    "texture": "res://art/environments/scenes/HotelFloor.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Hospital": {
+    "texture": "res://art/environments/scenes/Hospital.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Exchange": {
+    "texture": "res://art/environments/scenes/Exchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Police": {
+    "texture": "res://art/environments/scenes/Police.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Room01": {
+    "texture": "res://art/environments/scenes/Room01.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "Restaurant": {
+    "texture": "res://art/environments/scenes/Restaurant.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "UBahnStation": {
+    "texture": "res://art/environments/scenes/UBahnStation.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulCarsi": {
+    "texture": "res://art/environments/scenes/IstanbulCarsi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulKadikoy": {
+    "texture": "res://art/environments/scenes/IstanbulKadikoy.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulHan": {
+    "texture": "res://art/environments/scenes/IstanbulHan.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulBeyoglu": {
+    "texture": "res://art/environments/scenes/IstanbulBeyoglu.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulKarakoy": {
+    "texture": "res://art/environments/scenes/IstanbulKarakoy.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulDoviz": {
+    "texture": "res://art/environments/scenes/IstanbulDoviz.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulOtel": {
+    "texture": "res://art/environments/scenes/IstanbulOtel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulHavalimani": {
+    "texture": "res://art/environments/scenes/IstanbulHavalimani.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulLokanta": {
+    "texture": "res://art/environments/scenes/IstanbulLokanta.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulYusuf": {
+    "texture": "res://art/environments/scenes/IstanbulYusuf.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulHastane": {
+    "texture": "res://art/environments/scenes/IstanbulHastane.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulKarakol": {
+    "texture": "res://art/environments/scenes/IstanbulKarakol.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "IstanbulMetro": {
+    "texture": "res://art/environments/scenes/IstanbulMetro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "motion_layers": [
+      {
+        "rect": [
+          471,
+          187,
+          542,
+          125
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "LondonTerrace": {
+    "texture": "res://art/environments/scenes/LondonTerrace.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonHighStreet": {
+    "texture": "res://art/environments/scenes/LondonHighStreet.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonBrixton": {
+    "texture": "res://art/environments/scenes/LondonBrixton.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonSoho": {
+    "texture": "res://art/environments/scenes/LondonSoho.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonDocklands": {
+    "texture": "res://art/environments/scenes/LondonDocklands.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonCaff": {
+    "texture": "res://art/environments/scenes/LondonCaff.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonAirport": {
+    "texture": "res://art/environments/scenes/LondonAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonHotel": {
+    "texture": "res://art/environments/scenes/LondonHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonExchange": {
+    "texture": "res://art/environments/scenes/LondonExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonPolice": {
+    "texture": "res://art/environments/scenes/LondonPolice.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonHospital": {
+    "texture": "res://art/environments/scenes/LondonHospital.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LondonUnderground": {
+    "texture": "res://art/environments/scenes/LondonUnderground.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "motion_layers": [
+      {
+        "rect": [
+          631,
+          226,
+          328,
+          139
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "TokyoYanaka": {
+    "texture": "res://art/environments/scenes/TokyoYanaka.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoAsakusa": {
+    "texture": "res://art/environments/scenes/TokyoAsakusa.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoShinbashi": {
+    "texture": "res://art/environments/scenes/TokyoShinbashi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "motion_layers": [
+      {
+        "rect": [
+          0,
+          14,
+          1152,
+          78
+        ],
+        "texture": "res://art/environments/motion/TokyoShinbashi.png",
+        "occluders": [
+          [
+            12,
+            14,
+            43,
+            78
+          ],
+          [
+            448,
+            14,
+            34,
+            78
+          ],
+          [
+            914,
+            14,
+            45,
+            78
+          ],
+          [
+            318,
+            14,
+            27,
+            78
+          ],
+          [
+            880,
+            14,
+            22,
+            78
+          ]
+        ]
+      }
+    ],
+    "animation_patches": []
+  },
+  "TokyoUeno": {
+    "texture": "res://art/environments/scenes/TokyoUeno.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoJinbocho": {
+    "texture": "res://art/environments/scenes/TokyoJinbocho.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoAirport": {
+    "texture": "res://art/environments/scenes/TokyoAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoHotel": {
+    "texture": "res://art/environments/scenes/TokyoHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoExchange": {
+    "texture": "res://art/environments/scenes/TokyoExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TokyoTransit": {
+    "texture": "res://art/environments/scenes/TokyoTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "motion_layers": [
+      {
+        "rect": [
+          0,
+          198,
+          847,
+          208
+        ],
+        "texture": "res://art/environments/motion/TokyoTransit.png",
+        "occluders": [
+          [
+            98,
+            198,
+            40,
+            208
+          ],
+          [
+            723,
+            198,
+            39,
+            208
+          ]
+        ]
+      }
+    ],
+    "animation_patches": [],
+    "foreground": [
+      [
+        98,
+        496,
+        207,
+        104
+      ]
+    ],
+    "solids": [
+      [
+        98,
+        516,
+        207,
+        84
+      ]
+    ]
+  },
+  "SeoulEuljiro": {
+    "texture": "res://art/environments/scenes/SeoulEuljiro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulJongno": {
+    "texture": "res://art/environments/scenes/SeoulJongno.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulHongdae": {
+    "texture": "res://art/environments/scenes/SeoulHongdae.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulMangwon": {
+    "texture": "res://art/environments/scenes/SeoulMangwon.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulSeongsu": {
+    "texture": "res://art/environments/scenes/SeoulSeongsu.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulHotel": {
+    "texture": "res://art/environments/scenes/SeoulHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      940
+    ]
+  },
+  "SeoulAirport": {
+    "texture": "res://art/environments/scenes/SeoulAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulExchange": {
+    "texture": "res://art/environments/scenes/SeoulExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SeoulTransit": {
+    "texture": "res://art/environments/scenes/SeoulTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "motion_layers": [
+      {
+        "kind": "doors",
+        "rect": [
+          479,
+          237,
+          162,
+          162
+        ]
+      },
+      {
+        "kind": "doors",
+        "rect": [
+          780,
+          237,
+          158,
+          162
+        ]
+      }
+    ],
+    "animation_patches": [],
+    "foreground": [
+      [
+        151,
+        476,
+        168,
+        67
+      ]
+    ],
+    "solids": [
+      [
+        151,
+        489,
+        168,
+        54
+      ],
+      [
+        211,
+        400,
+        96,
+        62
+      ],
+      [
+        1048,
+        400,
+        93,
+        68
+      ]
+    ]
+  },
+  "ZurichNiederdorf": {
+    "texture": "res://art/environments/scenes/ZurichNiederdorf.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichLangstrasse": {
+    "texture": "res://art/environments/scenes/ZurichLangstrasse.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichWest": {
+    "texture": "res://art/environments/scenes/ZurichWest.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichSeefeld": {
+    "texture": "res://art/environments/scenes/ZurichSeefeld.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichOerlikon": {
+    "texture": "res://art/environments/scenes/ZurichOerlikon.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichAirport": {
+    "texture": "res://art/environments/scenes/ZurichAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichHotel": {
+    "texture": "res://art/environments/scenes/ZurichHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichExchange": {
+    "texture": "res://art/environments/scenes/ZurichExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ZurichTransit": {
+    "texture": "res://art/environments/scenes/ZurichTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoMerced": {
+    "texture": "res://art/environments/scenes/MexicoMerced.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoCoyoacan": {
+    "texture": "res://art/environments/scenes/MexicoCoyoacan.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoJuarez": {
+    "texture": "res://art/environments/scenes/MexicoJuarez.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoRoma": {
+    "texture": "res://art/environments/scenes/MexicoRoma.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoCondesa": {
+    "texture": "res://art/environments/scenes/MexicoCondesa.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoAirport": {
+    "texture": "res://art/environments/scenes/MexicoAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoExchange": {
+    "texture": "res://art/environments/scenes/MexicoExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoHotel": {
+    "texture": "res://art/environments/scenes/MexicoHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MexicoTransit": {
+    "texture": "res://art/environments/scenes/MexicoTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazElAlto": {
+    "texture": "res://art/environments/scenes/LaPazElAlto.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazSanPedro": {
+    "texture": "res://art/environments/scenes/LaPazSanPedro.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazRodriguez": {
+    "texture": "res://art/environments/scenes/LaPazRodriguez.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazSopocachi": {
+    "texture": "res://art/environments/scenes/LaPazSopocachi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazIrpavi": {
+    "texture": "res://art/environments/scenes/LaPazIrpavi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazAirport": {
+    "texture": "res://art/environments/scenes/LaPazAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazHotel": {
+    "texture": "res://art/environments/scenes/LaPazHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazTransit": {
+    "texture": "res://art/environments/scenes/LaPazTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "LaPazExchange": {
+    "texture": "res://art/environments/scenes/LaPazExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowKitayGorod": {
+    "texture": "res://art/environments/scenes/MoscowKitayGorod.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowBasmanny": {
+    "texture": "res://art/environments/scenes/MoscowBasmanny.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowIzmaylovo": {
+    "texture": "res://art/environments/scenes/MoscowIzmaylovo.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowZamoskvorechye": {
+    "texture": "res://art/environments/scenes/MoscowZamoskvorechye.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowAirport": {
+    "texture": "res://art/environments/scenes/MoscowAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowArbat": {
+    "texture": "res://art/environments/scenes/MoscowArbat.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowExchange": {
+    "texture": "res://art/environments/scenes/MoscowExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowHotel": {
+    "texture": "res://art/environments/scenes/MoscowHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MoscowTransit": {
+    "texture": "res://art/environments/scenes/MoscowTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiBhuleshwar": {
+    "texture": "res://art/environments/scenes/MumbaiBhuleshwar.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiByculla": {
+    "texture": "res://art/environments/scenes/MumbaiByculla.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiChorBazaar": {
+    "texture": "res://art/environments/scenes/MumbaiChorBazaar.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiBandra": {
+    "texture": "res://art/environments/scenes/MumbaiBandra.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiColaba": {
+    "texture": "res://art/environments/scenes/MumbaiColaba.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiAirport": {
+    "texture": "res://art/environments/scenes/MumbaiAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiHotel": {
+    "texture": "res://art/environments/scenes/MumbaiHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "animation_patches": [
+      {
+        "kind": "fan",
+        "rect": [
+          449.0,
+          52.0,
+          219.0,
+          52.0
+        ],
+        "clean": true
+      }
+    ]
+  },
+  "MumbaiExchange": {
+    "texture": "res://art/environments/scenes/MumbaiExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "MumbaiTransit": {
+    "texture": "res://art/environments/scenes/MumbaiTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisMarais": {
+    "texture": "res://art/environments/scenes/ParisMarais.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisBelleville": {
+    "texture": "res://art/environments/scenes/ParisBelleville.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisMontmartre": {
+    "texture": "res://art/environments/scenes/ParisMontmartre.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisChampDeMars": {
+    "texture": "res://art/environments/scenes/ParisChampDeMars.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisAirport": {
+    "texture": "res://art/environments/scenes/ParisAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisLaDefense": {
+    "texture": "res://art/environments/scenes/ParisLaDefense.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisHotel": {
+    "texture": "res://art/environments/scenes/ParisHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisExchange": {
+    "texture": "res://art/environments/scenes/ParisExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "ParisTransit": {
+    "texture": "res://art/environments/scenes/ParisTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloLiberdade": {
+    "texture": "res://art/environments/scenes/SaoPauloLiberdade.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloBixiga": {
+    "texture": "res://art/environments/scenes/SaoPauloBixiga.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloMercadao": {
+    "texture": "res://art/environments/scenes/SaoPauloMercadao.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloPaulista": {
+    "texture": "res://art/environments/scenes/SaoPauloPaulista.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloVilaMadalena": {
+    "texture": "res://art/environments/scenes/SaoPauloVilaMadalena.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloHotel": {
+    "texture": "res://art/environments/scenes/SaoPauloHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloAirport": {
+    "texture": "res://art/environments/scenes/SaoPauloAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloExchange": {
+    "texture": "res://art/environments/scenes/SaoPauloExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SaoPauloTransit": {
+    "texture": "res://art/environments/scenes/SaoPauloTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeTestaccio": {
+    "texture": "res://art/environments/scenes/RomeTestaccio.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeEsquilino": {
+    "texture": "res://art/environments/scenes/RomeEsquilino.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeTrastevere": {
+    "texture": "res://art/environments/scenes/RomeTrastevere.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeMonti": {
+    "texture": "res://art/environments/scenes/RomeMonti.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeAirport": {
+    "texture": "res://art/environments/scenes/RomeAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeGarbatella": {
+    "texture": "res://art/environments/scenes/RomeGarbatella.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeHotel": {
+    "texture": "res://art/environments/scenes/RomeHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeTransit": {
+    "texture": "res://art/environments/scenes/RomeTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "RomeExchange": {
+    "texture": "res://art/environments/scenes/RomeExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarMedina": {
+    "texture": "res://art/environments/scenes/DakarMedina.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarOuakam": {
+    "texture": "res://art/environments/scenes/DakarOuakam.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarSandaga": {
+    "texture": "res://art/environments/scenes/DakarSandaga.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarYoff": {
+    "texture": "res://art/environments/scenes/DakarYoff.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarPlateau": {
+    "texture": "res://art/environments/scenes/DakarPlateau.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarHotel": {
+    "texture": "res://art/environments/scenes/DakarHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "animation_patches": [
+      {
+        "kind": "fan",
+        "rect": [
+          392.0,
+          65.0,
+          184.0,
+          45.0
+        ],
+        "clean": true
+      }
+    ]
+  },
+  "DakarAirport": {
+    "texture": "res://art/environments/scenes/DakarAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarTransit": {
+    "texture": "res://art/environments/scenes/DakarTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "DakarExchange": {
+    "texture": "res://art/environments/scenes/DakarExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiSololaki": {
+    "texture": "res://art/environments/scenes/TbilisiSololaki.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiChugureti": {
+    "texture": "res://art/environments/scenes/TbilisiChugureti.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiDezerter": {
+    "texture": "res://art/environments/scenes/TbilisiDezerter.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiAvlabari": {
+    "texture": "res://art/environments/scenes/TbilisiAvlabari.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiSaburtalo": {
+    "texture": "res://art/environments/scenes/TbilisiSaburtalo.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiHotel": {
+    "texture": "res://art/environments/scenes/TbilisiHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiAirport": {
+    "texture": "res://art/environments/scenes/TbilisiAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiExchange": {
+    "texture": "res://art/environments/scenes/TbilisiExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TbilisiTransit": {
+    "texture": "res://art/environments/scenes/TbilisiTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkMidtown": {
+    "texture": "res://art/environments/scenes/NewYorkMidtown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkHarlem": {
+    "texture": "res://art/environments/scenes/NewYorkHarlem.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkLowerEast": {
+    "texture": "res://art/environments/scenes/NewYorkLowerEast.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkWilliamsburg": {
+    "texture": "res://art/environments/scenes/NewYorkWilliamsburg.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkAirport": {
+    "texture": "res://art/environments/scenes/NewYorkAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkJacksonHeights": {
+    "texture": "res://art/environments/scenes/NewYorkJacksonHeights.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkHotel": {
+    "texture": "res://art/environments/scenes/NewYorkHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkExchange": {
+    "texture": "res://art/environments/scenes/NewYorkExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "NewYorkTransit": {
+    "texture": "res://art/environments/scenes/NewYorkTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoDowntown": {
+    "texture": "res://art/environments/scenes/TorontoDowntown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoKensington": {
+    "texture": "res://art/environments/scenes/TorontoKensington.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoGerrard": {
+    "texture": "res://art/environments/scenes/TorontoGerrard.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoDistillery": {
+    "texture": "res://art/environments/scenes/TorontoDistillery.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoAirport": {
+    "texture": "res://art/environments/scenes/TorontoAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoScarborough": {
+    "texture": "res://art/environments/scenes/TorontoScarborough.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoHotel": {
+    "texture": "res://art/environments/scenes/TorontoHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoExchange": {
+    "texture": "res://art/environments/scenes/TorontoExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "TorontoTransit": {
+    "texture": "res://art/environments/scenes/TorontoTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyCircularQuay": {
+    "texture": "res://art/environments/scenes/SydneyCircularQuay.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyCBD": {
+    "texture": "res://art/environments/scenes/SydneyCBD.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyNewtown": {
+    "texture": "res://art/environments/scenes/SydneyNewtown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyBondi": {
+    "texture": "res://art/environments/scenes/SydneyBondi.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyAirport": {
+    "texture": "res://art/environments/scenes/SydneyAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyCabramatta": {
+    "texture": "res://art/environments/scenes/SydneyCabramatta.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyHotel": {
+    "texture": "res://art/environments/scenes/SydneyHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyTransit": {
+    "texture": "res://art/environments/scenes/SydneyTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "SydneyExchange": {
+    "texture": "res://art/environments/scenes/SydneyExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluWaikiki": {
+    "texture": "res://art/environments/scenes/HonoluluWaikiki.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluKakaako": {
+    "texture": "res://art/environments/scenes/HonoluluKakaako.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluChinatown": {
+    "texture": "res://art/environments/scenes/HonoluluChinatown.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluManoa": {
+    "texture": "res://art/environments/scenes/HonoluluManoa.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluAirport": {
+    "texture": "res://art/environments/scenes/HonoluluAirport.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluNorthShore": {
+    "texture": "res://art/environments/scenes/HonoluluNorthShore.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluHotel": {
+    "texture": "res://art/environments/scenes/HonoluluHotel.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "animation_patches": [
+      {
+        "kind": "fan",
+        "rect": [
+          461.0,
+          45.0,
+          219.0,
+          39.0
+        ],
+        "clean": true
+      }
+    ]
+  },
+  "HonoluluExchange": {
+    "texture": "res://art/environments/scenes/HonoluluExchange.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "HonoluluTransit": {
+    "texture": "res://art/environments/scenes/HonoluluTransit.png",
+    "source": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  }
+}

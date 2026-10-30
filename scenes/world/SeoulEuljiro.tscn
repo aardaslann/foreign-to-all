@@ -1,0 +1,77 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/CityStreet.gd"      id="1_root"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"      id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"     id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"       id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"     id="5_exit"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn"          id="6_ui"]
+[ext_resource type="PackedScene" path="res://scenes/npc/CityNPC.tscn"                   id="8_npc"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="7_sp"]
+[ext_resource type="Script"      path="res://scenes/world/Solids.gd"          id="9_solid"]
+
+[node name="SeoulEuljiro" type="Node2D"]
+script = ExtResource("1_root")
+region = "euljiro"
+spawn = Vector2(160, 430)
+arrival_thought = "I cannot finish a sentence here without deciding\nwhether I am above or below the person I am saying it to."
+
+[node name="Background" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "SeoulEuljiro"
+district = "euljiro"
+
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+wall_top = 300.0
+wall_bottom = 640.0
+
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(160, 430)
+
+[node name="HotelDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(212, 330)
+target_scene = "res://scenes/world/SeoulHotel.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - A bed"
+sign_text = "YEOGWAN"
+frontage = "lodging"
+
+[node name="ExchangeDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(560, 330)
+target_scene = "res://scenes/world/SeoulExchange.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - Change money"
+sign_text = "HWANJEON"
+frontage = "money"
+
+[node name="ExitEast" parent="." instance=ExtResource("5_exit")]
+position = Vector2(1124, 440)
+target_scene = "res://scenes/world/SeoulJongno.tscn"
+spawn_tag = "from_euljiro"
+prompt_text = "E - North, to the old arcade"
+
+[node name="TransitDoor" parent="." instance=ExtResource("5_exit")]
+position = Vector2(880, 336)
+target_scene = "res://scenes/world/SeoulTransit.tscn"
+spawn_tag = "from_street"
+prompt_text = "E - The station"
+sign_text = "SUBWAY"
+frontage = "transit"
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("9_solid")
+
+[node name="NpcBaek" parent="." instance=ExtResource("8_npc")]
+position = Vector2(450, 430)
+npc_id = "baek"
+city = "seoul"
+build = "elder"
+
+[node name="UILayer" parent="." instance=ExtResource("6_ui")]
+
+[node name="LocalSpot" parent="." instance=ExtResource("7_sp")]
+position = Vector2(360, 372)
+service = "local"
+prompt_text = "E - The workshop alley"

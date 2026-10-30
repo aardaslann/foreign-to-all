@@ -1,0 +1,63 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/dialogue/DialogueBox.tscn" id="1_dlg"]
+[ext_resource type="PackedScene" path="res://scenes/ui/EscapeMenu.tscn"       id="2_esc"]
+[ext_resource type="PackedScene" path="res://scenes/ui/Journal.tscn"          id="3_jrn"]
+[ext_resource type="PackedScene" path="res://scenes/ui/Inventory.tscn"        id="4_inv"]
+[ext_resource type="PackedScene" path="res://scenes/ui/QuestLog.tscn"         id="5_ql"]
+[ext_resource type="PackedScene" path="res://scenes/ui/MapView.tscn"          id="6_map"]
+[ext_resource type="PackedScene" path="res://scenes/ui/ThoughtBox.tscn"       id="7_tb"]
+[ext_resource type="PackedScene" path="res://scenes/ui/AngryBox.tscn"         id="8_ab"]
+[ext_resource type="PackedScene" path="res://scenes/ui/ChoicePanel.tscn"      id="9_cp"]
+[ext_resource type="PackedScene" path="res://scenes/ui/HudBar.tscn"           id="10_hud"]
+[ext_resource type="PackedScene" path="res://scenes/ui/RepToast.tscn"          id="11_rt"]
+[ext_resource type="PackedScene" path="res://scenes/ui/WorldMap.tscn"          id="12_wm"]
+[ext_resource type="PackedScene" path="res://scenes/ui/Cutscene.tscn"          id="13_cut"]
+[ext_resource type="Script"      path="res://scenes/ui/QuestArrow.gd"          id="14_qa"]
+[ext_resource type="Script"      path="res://scenes/ui/Pickup.gd"              id="15_pick"]
+[ext_resource type="Script"      path="res://scenes/ui/Naming.gd"              id="16_name"]
+[ext_resource type="Script"      path="res://scenes/ui/JobArrow.gd"            id="17_job"]
+[ext_resource type="Script"      path="res://scenes/ui/WordDiscovery.gd"      id="18_word"]
+
+[node name="UILayer" type="Node"]
+
+[node name="DialogueBox" parent="." instance=ExtResource("1_dlg")]
+
+[node name="EscapeMenu" parent="." instance=ExtResource("2_esc")]
+
+[node name="Journal" parent="." instance=ExtResource("3_jrn")]
+
+[node name="Inventory" parent="." instance=ExtResource("4_inv")]
+
+[node name="QuestLog" parent="." instance=ExtResource("5_ql")]
+
+[node name="MapView" parent="." instance=ExtResource("6_map")]
+
+[node name="ThoughtBox" parent="." instance=ExtResource("7_tb")]
+
+[node name="AngryBox" parent="." instance=ExtResource("8_ab")]
+
+[node name="ChoicePanel" parent="." instance=ExtResource("9_cp")]
+
+[node name="HudBar" parent="." instance=ExtResource("10_hud")]
+
+[node name="RepToast" parent="." instance=ExtResource("11_rt")]
+
+[node name="WorldMap" parent="." instance=ExtResource("12_wm")]
+
+[node name="Cutscene" parent="." instance=ExtResource("13_cut")]
+
+[node name="QuestArrow" type="CanvasLayer" parent="."]
+script = ExtResource("14_qa")
+
+[node name="Pickup" type="CanvasLayer" parent="."]
+script = ExtResource("15_pick")
+
+[node name="Naming" type="CanvasLayer" parent="."]
+script = ExtResource("16_name")
+
+[node name="JobArrow" type="CanvasLayer" parent="."]
+script = ExtResource("17_job")
+
+[node name="WordDiscovery" type="CanvasLayer" parent="."]
+script = ExtResource("18_word")

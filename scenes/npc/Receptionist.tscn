@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/npc/Receptionist.gd" id="1_rec"]
+
+[sub_resource type="RectangleShape2D" id="Shape_body"]
+size = Vector2(20, 20)
+
+[sub_resource type="CircleShape2D" id="Shape_interact"]
+radius = 100.0
+
+[node name="Receptionist" type="StaticBody2D"]
+script = ExtResource("1_rec")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("Shape_body")
+
+[node name="InteractionArea" type="Area2D" parent="."]
+
+[node name="InteractionShape" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("Shape_interact")
+
+[node name="Prompt" type="Label" parent="."]
+position = Vector2(-28, -60)
+text = "[E] Talk"
+visible = false
+theme_override_font_sizes/font_size = 12

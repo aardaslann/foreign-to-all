@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/world/SceneExit.gd" id="1_se"]
+
+[sub_resource type="RectangleShape2D" id="Shape_exit"]
+size = Vector2(100, 66)
+
+[node name="SceneExit" type="Area2D"]
+script = ExtResource("1_se")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("Shape_exit")
+
+[node name="Prompt" type="Label" parent="."]
+position = Vector2(-92, -130)
+text = "E — Leave"
+visible = false
+theme_override_font_sizes/font_size = 12

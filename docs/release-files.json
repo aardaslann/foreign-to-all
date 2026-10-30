@@ -1,0 +1,21 @@
+{
+  "prepared_on": "2026-10-30",
+  "release": "v0.2.1-beta.1",
+  "artifacts": [
+    {
+      "name": "foreign-to-all-gameplay-research.mp4",
+      "bytes": 74232241,
+      "sha256": "3bf81fa216838b6999cb2a033d71c1d311839c61b5dfc4c7aab59da4abdfaf54"
+    },
+    {
+      "name": "foreign-to-all-understanding-v7.mp4",
+      "bytes": 84964226,
+      "sha256": "f37a532dc199c32fb5c9c43c0b99d4e658f72dac0cacc29d6cc6f8c8c8f2e077"
+    },
+    {
+      "name": "foreign-to-all-a-place-to-belong-v2.mp4",
+      "bytes": 5950835,
+      "sha256": "0c72263635368a756f8e1d4e35ba60e0486d1f0bfc73bae6ada3e132edf4d2c3"
+    }
+  ]
+}

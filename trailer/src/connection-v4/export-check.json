@@ -1,0 +1,25 @@
+{
+  "duration_seconds": 121.557333,
+  "frames": 3645,
+  "black_frames_max_rgb": {
+    "12.5": 0,
+    "13": 0,
+    "14": 0,
+    "14.46": 0
+  },
+  "black_seconds": 2,
+  "music_onset_seconds": 14.511416666666667,
+  "silence_after_click": "12.95 to 14.5 seconds",
+  "typing_peak_dbfs": -28.321375457505106,
+  "transition_peak_dbfs": -10.01233918259339,
+  "transition_above_typing_db": 18.309036274911715,
+  "dialogue_lines": 8,
+  "narrator_lines": 0,
+  "journal_window_seconds": [
+    32.5,
+    37.5
+  ],
+  "picture": "1920x1080 / 30 fps",
+  "audio": "48 kHz stereo",
+  "full_decode": "passed"
+}

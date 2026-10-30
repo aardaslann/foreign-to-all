@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/npc/KeyNPC.gd" id="1_key"]
+
+[sub_resource type="RectangleShape2D" id="Shape_body"]
+size = Vector2(16, 20)
+
+[sub_resource type="CircleShape2D" id="Shape_interact"]
+radius = 54.0
+
+[node name="KeyNPC" type="StaticBody2D"]
+script = ExtResource("1_key")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 10)
+shape = SubResource("Shape_body")
+
+[node name="InteractionArea" type="Area2D" parent="."]
+
+[node name="InteractionShape" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("Shape_interact")
+
+[node name="Prompt" type="Label" parent="."]
+position = Vector2(-28, -70)
+text = "[E] Talk"
+visible = false
+theme_override_font_sizes/font_size = 12

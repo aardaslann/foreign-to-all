@@ -1,0 +1,30 @@
+# Local editor/import state and generated builds
+.godot/
+.build/
+build/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+
+# Film dependencies and generated media
+trailer/node_modules/
+trailer/.cache/
+trailer/out/
+trailer/public/v6/
+trailer/public/v7/
+trailer/public/welcome/
+trailer/public/steam/
+trailer/public/research/
+
+# Development-only captures
+art/environments/review/
+art/environments/city-art-batches/

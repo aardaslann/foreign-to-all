@@ -1,0 +1,57 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/MitteOst.gd"          id="1_ost"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"   id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"       id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"         id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"       id="5_exit"]
+[ext_resource type="Script"      path="res://scenes/npc/Pigeons.gd"             id="13_pg"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"    id="16_sp"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui_layer"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+
+
+
+[node name="MitteOst" type="Node2D"]
+script = ExtResource("1_ost")
+[node name="MitteBackground" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "MitteOst"
+district = "ost"
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(110, 440)
+[node name="Pigeons" type="Node2D" parent="."]
+position = Vector2(868, 370)
+script = ExtResource("13_pg")
+[node name="RestaurantEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(856, 330)
+target_scene = "res://scenes/world/Restaurant.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — The place with chairs outside"
+sign_text = "GASTSTÄTTE"
+frontage = "food"
+[node name="PoliceEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(600, 330)
+target_scene = "res://scenes/world/Police.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — Polizeiwache"
+sign_text = "POLIZEI"
+frontage = "civic"
+[node name="JobBoard" parent="." instance=ExtResource("16_sp")]
+position = Vector2(300, 372)
+service = "jobboard"
+prompt_text = "E — Notice board"
+[node name="ExitToMitte" parent="." instance=ExtResource("5_exit")]
+position = Vector2(28, 440)
+target_scene = "res://scenes/world/Mitte.tscn"
+spawn_tag = "from_mitte_ost"
+prompt_text = "E — Back along the street"
+
+[node name="UILayer" parent="." instance=ExtResource("ui_layer")]
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../MitteBackground")

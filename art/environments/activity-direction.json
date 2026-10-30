@@ -1,0 +1,398 @@
+{
+  "berlin:kiez": {
+    "object": "crate",
+    "title": "The stall on the field"
+  },
+  "berlin:kreuzberg": {
+    "object": "produce",
+    "title": "Maybachufer"
+  },
+  "berlin:mitte": {
+    "object": "bottles",
+    "title": "The Späti"
+  },
+  "berlin:prenzlberg": {
+    "object": "produce",
+    "title": "Kollwitzplatz market"
+  },
+  "dakar:medina": {
+    "object": "sewing",
+    "title": "The tailor on the step"
+  },
+  "dakar:ouakam": {
+    "object": "basket",
+    "title": "Mosquée de la Divinité"
+  },
+  "dakar:plateau": {
+    "object": "flowers",
+    "title": "Marché Kermel"
+  },
+  "dakar:sandaga": {
+    "object": "fabric",
+    "title": "Six yards or nothing"
+  },
+  "dakar:yoff": {
+    "object": "rope",
+    "title": "The landing beach"
+  },
+  "hanoi:badinh": {
+    "object": "queue",
+    "title": "Ba Đình"
+  },
+  "hanoi:dongda": {
+    "object": "tablet",
+    "title": "Văn Miếu"
+  },
+  "hanoi:longbien": {
+    "object": "produce",
+    "title": "Under the bridge at two"
+  },
+  "hanoi:phoco": {
+    "object": "keg",
+    "title": "Bia hoi corner"
+  },
+  "hanoi:tayho": {
+    "object": "griddle",
+    "title": "Hồ Tây"
+  },
+  "honolulu:chinatown": {
+    "object": "flowers",
+    "title": "The lei stand"
+  },
+  "honolulu:kakaako": {
+    "object": "ladder",
+    "title": "The wall"
+  },
+  "honolulu:manoa": {
+    "object": "shoes",
+    "title": "Up the valley"
+  },
+  "honolulu:northshore": {
+    "object": "surfboard",
+    "title": "Waimea in winter"
+  },
+  "honolulu:waikiki": {
+    "object": "surfboard",
+    "title": "The break at Kūhiō"
+  },
+  "istanbul:beyoglu": {
+    "object": "tram",
+    "title": "İstiklal Caddesi"
+  },
+  "istanbul:carsi": {
+    "object": "bread",
+    "title": "Askıda ekmek"
+  },
+  "istanbul:han": {
+    "object": "tea",
+    "title": "The çaycı"
+  },
+  "istanbul:kadikoy": {
+    "object": "ferry",
+    "title": "The Asian side"
+  },
+  "istanbul:karakoy": {
+    "object": "turnstile",
+    "title": "The turnstile"
+  },
+  "lapaz:elalto": {
+    "object": "salvage",
+    "title": "Feria 16 de Julio"
+  },
+  "lapaz:irpavi": {
+    "object": "cablecar",
+    "title": "Zona Sur"
+  },
+  "lapaz:rodriguez": {
+    "object": "produce",
+    "title": "Your casera"
+  },
+  "lapaz:sanpedro": {
+    "object": "gate",
+    "title": "Plaza San Pedro"
+  },
+  "lapaz:sopocachi": {
+    "object": "shoeshine",
+    "title": "Plaza Avaroa"
+  },
+  "london:brixton": {
+    "object": "produce",
+    "title": "Electric Avenue"
+  },
+  "london:docklands": {
+    "object": "train",
+    "title": "The front of the train"
+  },
+  "london:highstreet": {
+    "object": "clothes",
+    "title": "The charity shop"
+  },
+  "london:soho": {
+    "object": "bottles",
+    "title": "Outside the pub"
+  },
+  "london:terrace": {
+    "object": "bins",
+    "title": "Bin night"
+  },
+  "mexico:condesa": {
+    "object": "dogs",
+    "title": "Parque México"
+  },
+  "mexico:coyoacan": {
+    "object": "griddle",
+    "title": "Mercado de Coyoacán"
+  },
+  "mexico:juarez": {
+    "object": "organ",
+    "title": "The organillero"
+  },
+  "mexico:merced": {
+    "object": "handcart",
+    "title": "Golpe"
+  },
+  "mexico:roma": {
+    "object": "memorial",
+    "title": "Plaza Río de Janeiro"
+  },
+  "moscow:arbat": {
+    "object": "memorial",
+    "title": "Stena Tsoya"
+  },
+  "moscow:basmanny": {
+    "object": "workbench",
+    "title": "The remont booth"
+  },
+  "moscow:izmaylovo": {
+    "object": "badges",
+    "title": "Vernisazh"
+  },
+  "moscow:kitaygorod": {
+    "object": "trays",
+    "title": "Stolovaya"
+  },
+  "moscow:zamoskvorechye": {
+    "object": "scarves",
+    "title": "Across the river"
+  },
+  "mumbai:bandra": {
+    "object": "candles",
+    "title": "Mount Mary"
+  },
+  "mumbai:bhuleshwar": {
+    "object": "pigeons",
+    "title": "Kabutarkhana"
+  },
+  "mumbai:byculla": {
+    "object": "museum",
+    "title": "Bhau Daji Lad"
+  },
+  "mumbai:chorbazaar": {
+    "object": "salvage",
+    "title": "Chor Bazaar"
+  },
+  "mumbai:colaba": {
+    "object": "jewellery",
+    "title": "The Causeway"
+  },
+  "newyork:harlem": {
+    "object": "steps",
+    "title": "The stoop"
+  },
+  "newyork:jacksonheights": {
+    "object": "griddle",
+    "title": "Roosevelt Avenue"
+  },
+  "newyork:lowereast": {
+    "object": "griddle",
+    "title": "The bodega"
+  },
+  "newyork:midtown": {
+    "object": "map",
+    "title": "Asking"
+  },
+  "newyork:williamsburg": {
+    "object": "watertank",
+    "title": "The roof"
+  },
+  "paris:belleville": {
+    "object": "railing",
+    "title": "Parc de Belleville"
+  },
+  "paris:champdemars": {
+    "object": "souvenirs",
+    "title": "Champ-de-Mars"
+  },
+  "paris:ladefense": {
+    "object": "bench",
+    "title": "The Esplanade"
+  },
+  "paris:marais": {
+    "object": "queue",
+    "title": "Rue des Rosiers"
+  },
+  "paris:montmartre": {
+    "object": "easel",
+    "title": "Place du Tertre"
+  },
+  "rome:esquilino": {
+    "object": "produce",
+    "title": "Piazza Vittorio, inside"
+  },
+  "rome:garbatella": {
+    "object": "laundry",
+    "title": "Lotto 24"
+  },
+  "rome:monti": {
+    "object": "fountain",
+    "title": "Piazza della Madonna dei Monti"
+  },
+  "rome:testaccio": {
+    "object": "trays",
+    "title": "The fifth quarter"
+  },
+  "rome:trastevere": {
+    "object": "fountain",
+    "title": "Il nasone"
+  },
+  "saopaulo:bixiga": {
+    "object": "salvage",
+    "title": "The Sunday junk fair"
+  },
+  "saopaulo:liberdade": {
+    "object": "griddle",
+    "title": "Sunday under the lamps"
+  },
+  "saopaulo:mercadao": {
+    "object": "fruit",
+    "title": "Mercado Municipal"
+  },
+  "saopaulo:paulista": {
+    "object": "bench",
+    "title": "Avenida Paulista"
+  },
+  "saopaulo:vilamadalena": {
+    "object": "paint",
+    "title": "Beco do Batman"
+  },
+  "seoul:euljiro": {
+    "object": "lathe",
+    "title": "The lathe and the beer crate"
+  },
+  "seoul:hongdae": {
+    "object": "amp",
+    "title": "The playground street"
+  },
+  "seoul:jongno": {
+    "object": "mill",
+    "title": "Gwangjang, the griddle"
+  },
+  "seoul:mangwon": {
+    "object": "griddle",
+    "title": "Mangwon Market"
+  },
+  "seoul:seongsu": {
+    "object": "workbench",
+    "title": "The shoe streets"
+  },
+  "sydney:bondi": {
+    "object": "flags",
+    "title": "Between the flags"
+  },
+  "sydney:cabramatta": {
+    "object": "produce",
+    "title": "Freedom Plaza"
+  },
+  "sydney:cbd": {
+    "object": "memorial",
+    "title": "Martin Place"
+  },
+  "sydney:circularquay": {
+    "object": "ferry",
+    "title": "The Quay"
+  },
+  "sydney:newtown": {
+    "object": "amp",
+    "title": "King Street"
+  },
+  "tbilisi:avlabari": {
+    "object": "bath",
+    "title": "Abanotubani"
+  },
+  "tbilisi:chugureti": {
+    "object": "bicycle",
+    "title": "Fabrika"
+  },
+  "tbilisi:dezerter": {
+    "object": "cheese",
+    "title": "Deserters' Bazaar"
+  },
+  "tbilisi:saburtalo": {
+    "object": "chess",
+    "title": "The blocks"
+  },
+  "tbilisi:sololaki": {
+    "object": "gate",
+    "title": "The unlocked hall"
+  },
+  "tokyo:asakusa": {
+    "object": "incense",
+    "title": "Sensō-ji"
+  },
+  "tokyo:jinbocho": {
+    "object": "books",
+    "title": "The north side of the street"
+  },
+  "tokyo:shinbashi": {
+    "object": "curtain",
+    "title": "Under the tracks"
+  },
+  "tokyo:ueno": {
+    "object": "produce",
+    "title": "Ameya-Yokochō"
+  },
+  "tokyo:yanaka": {
+    "object": "griddle",
+    "title": "Yanaka Ginza"
+  },
+  "toronto:distillery": {
+    "object": "copperpot",
+    "title": "The cobbles"
+  },
+  "toronto:downtown": {
+    "object": "tram",
+    "title": "The streetcar"
+  },
+  "toronto:gerrard": {
+    "object": "fabric",
+    "title": "The India Bazaar"
+  },
+  "toronto:kensington": {
+    "object": "crate",
+    "title": "Kensington Market"
+  },
+  "toronto:scarborough": {
+    "object": "railing",
+    "title": "The Bluffs"
+  },
+  "zurich:langstrasse": {
+    "object": "kiosk",
+    "title": "The street that stays open"
+  },
+  "zurich:niederdorf": {
+    "object": "fountain",
+    "title": "The fountain"
+  },
+  "zurich:oerlikon": {
+    "object": "bench",
+    "title": "MFO-Park"
+  },
+  "zurich:seefeld": {
+    "object": "watersteps",
+    "title": "Utoquai"
+  },
+  "zurich:zurichwest": {
+    "object": "workbench",
+    "title": "Im Viadukt"
+  }
+}

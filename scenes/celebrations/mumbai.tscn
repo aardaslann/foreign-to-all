@@ -1,0 +1,9 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/celebrations/CelebrationSet.gd" id="1"]
+[ext_resource type="Texture2D" path="res://art/environments/celebrations/mumbai.png" id="2"]
+
+[node name="NeighbourhoodPandal" type="Node2D"]
+script = ExtResource("1")
+background = ExtResource("2")
+city = "mumbai"

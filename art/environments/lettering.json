@@ -1,0 +1,1186 @@
+{
+  "Mitte": {
+    "lettering": [
+      {
+        "text": "SPÄTI",
+        "rect": [
+          77.17,
+          298.87,
+          214.97,
+          33.05
+        ],
+        "background": "#343b43",
+        "ink": "#f3ecd9",
+        "size": 28,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "HOTEL",
+        "rect": [
+          363.79,
+          152.88,
+          88.88,
+          18.59
+        ],
+        "background": "#383937",
+        "ink": "#ead099",
+        "size": 17,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "CAFÉ",
+        "rect": [
+          560.84,
+          299.55,
+          76.48,
+          33.74
+        ],
+        "background": "#aa9474",
+        "ink": "#292d2d",
+        "size": 20,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "WECHSELSTUBE",
+        "rect": [
+          932.9,
+          307.13,
+          152.27,
+          24.1
+        ],
+        "background": "#292f34",
+        "ink": "#f3ecd9",
+        "size": 17,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "HOTEL\nEMPFANG\nZIMMER\n→",
+        "rect": [
+          309.36,
+          352.58,
+          23.43,
+          50.96
+        ],
+        "background": "#e5d4aa",
+        "ink": "#252d2c",
+        "size": 7,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "LIVE\nIM KIEZ\nFR · 20 UHR",
+        "rect": [
+          708.98,
+          375.3,
+          33.76,
+          37.19
+        ],
+        "background": "#1f6190",
+        "ink": "#f1e7cb",
+        "size": 9,
+        "object": "shelter",
+        "border": false
+      },
+      {
+        "text": "FAHRPLAN\nBUS 100\n10 · 30 · 50\nBUS 200\n05 · 25 · 45",
+        "rect": [
+          826.79,
+          363.6,
+          36.52,
+          64.73
+        ],
+        "background": "#ddd5a8",
+        "ink": "#284048",
+        "size": 8,
+        "object": "shelter",
+        "border": false
+      },
+      {
+        "text": "EUR  1,00\nUSD  1,09\nGBP  0,86\nCHF  0,94",
+        "rect": [
+          961.84,
+          356.02,
+          37.21,
+          55.09
+        ],
+        "background": "#172c36",
+        "ink": "#d5e2da",
+        "size": 8,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "CURRENCY\nEXCHANGE\nDÖVİZ\nCHANGE",
+        "rect": [
+          1056.23,
+          357.4,
+          31.69,
+          50.27
+        ],
+        "background": "#e9dfc3",
+        "ink": "#202d35",
+        "size": 7,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "MitteOst": {
+    "lettering": [
+      {
+        "text": "POLIZEI",
+        "rect": [
+          555.33,
+          249.28,
+          146.76,
+          31.68
+        ],
+        "background": "#f2e2bc",
+        "ink": "#10273e",
+        "size": 30,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "GASTSTÄTTE",
+        "rect": [
+          877.09,
+          257.55,
+          200.5,
+          42.01
+        ],
+        "background": "#efe5c5",
+        "ink": "#15423e",
+        "size": 25,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "SPEISEN\nSUPPE\nEINTOPF\nKAFFEE",
+        "rect": [
+          856.42,
+          356.71,
+          21.36,
+          50.27
+        ],
+        "background": "#172f37",
+        "ink": "#f3ecd9",
+        "size": 6,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "FAHRPLAN\nBUS 100\n10 · 30 · 50\nBUS 200\n05 · 25 · 45",
+        "rect": [
+          73.72,
+          364.97,
+          35.14,
+          65.42
+        ],
+        "background": "#ddd5ad",
+        "ink": "#263d45",
+        "size": 7,
+        "object": "shelter",
+        "border": false
+      },
+      {
+        "text": "NACHTBUS\nN2\n00 · 30\nN8\n15 · 45",
+        "rect": [
+          169.49,
+          364.28,
+          33.76,
+          65.42
+        ],
+        "background": "#ddd5ad",
+        "ink": "#263d45",
+        "size": 7,
+        "object": "shelter",
+        "border": false
+      }
+    ]
+  },
+  "BerlinPrenzlberg": {
+    "lettering": [
+      {
+        "text": "Tomaten\n2,50",
+        "rect": [
+          307.98,
+          406.98,
+          26.87,
+          17.9
+        ],
+        "background": "#e6d2a5",
+        "ink": "#292c27",
+        "size": 8,
+        "object": "market_0",
+        "border": false
+      },
+      {
+        "text": "Karotten\n1,80",
+        "rect": [
+          358.97,
+          406.98,
+          24.8,
+          17.9
+        ],
+        "background": "#e6d2a5",
+        "ink": "#292c27",
+        "size": 8,
+        "object": "market_0",
+        "border": false
+      },
+      {
+        "text": "Salat\n1,50",
+        "rect": [
+          414.78,
+          406.98,
+          21.36,
+          17.22
+        ],
+        "background": "#e6d2a5",
+        "ink": "#292c27",
+        "size": 8,
+        "object": "market_0",
+        "border": false
+      },
+      {
+        "text": "Zucchini\n1,90",
+        "rect": [
+          529.84,
+          406.98,
+          24.8,
+          18.59
+        ],
+        "background": "#e6d2a5",
+        "ink": "#292c27",
+        "size": 8,
+        "object": "market_1",
+        "border": false
+      },
+      {
+        "text": "Äpfel\n2,20",
+        "rect": [
+          587.71,
+          406.98,
+          19.98,
+          17.9
+        ],
+        "background": "#e6d2a5",
+        "ink": "#292c27",
+        "size": 8,
+        "object": "market_1",
+        "border": false
+      }
+    ]
+  },
+  "BerlinKreuzberg": {
+    "lettering": [
+      {
+        "text": "MANAV",
+        "rect": [
+          119.89,
+          277.52,
+          302.47,
+          50.27
+        ],
+        "background": "#153e28",
+        "ink": "#f3ecd9",
+        "size": 30,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "SPÄTI",
+        "rect": [
+          519.5,
+          277.52,
+          165.36,
+          53.02
+        ],
+        "background": "#a33029",
+        "ink": "#f3ecd9",
+        "size": 28,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "FAHRRÄDER",
+        "rect": [
+          833.68,
+          278.89,
+          169.49,
+          52.34
+        ],
+        "background": "#174564",
+        "ink": "#f3ecd9",
+        "size": 26,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Kiez": {
+    "lettering": [
+      {
+        "text": "KIEZ\nBLEIBT",
+        "rect": [
+          946.68,
+          414.55,
+          66.14,
+          51.65
+        ],
+        "background": "#e5e5e3",
+        "ink": "#25242a",
+        "size": 19,
+        "object": "garden_notice",
+        "border": false
+      }
+    ]
+  },
+  "UBahnStation": {
+    "lettering": [
+      {
+        "text": "Alexanderplatz",
+        "rect": [
+          471.96,
+          71.62,
+          307.98,
+          64.04
+        ],
+        "background": "#134881",
+        "ink": "#f3ecd9",
+        "size": 32,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "← Ausgang",
+        "rect": [
+          18.6,
+          126.02,
+          163.98,
+          37.87
+        ],
+        "background": "#30363a",
+        "ink": "#f3ecd9",
+        "size": 20,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "Ausgang\n→",
+        "rect": [
+          1050.72,
+          182.49,
+          79.23,
+          68.86
+        ],
+        "background": "#ece2ca",
+        "ink": "#17252b",
+        "size": 18,
+        "object": "column_east",
+        "border": false
+      },
+      {
+        "text": "Fahrkarten",
+        "rect": [
+          813.7,
+          281.65,
+          122.64,
+          31.68
+        ],
+        "background": "#174c7e",
+        "ink": "#f3ecd9",
+        "size": 19,
+        "object": "ticket_machine",
+        "border": false
+      }
+    ]
+  },
+  "HotelLobby": {
+    "lettering": [
+      {
+        "text": "PENSION",
+        "rect": [
+          393.42,
+          100.54,
+          139.18,
+          39.25
+        ],
+        "background": "#4c382c",
+        "ink": "#ead6aa",
+        "size": 23,
+        "object": "",
+        "border": true
+      },
+      {
+        "text": "BERLIN",
+        "rect": [
+          491.25,
+          203.15,
+          55.81,
+          16.53
+        ],
+        "background": "#d7d4be",
+        "ink": "#232b31",
+        "size": 13,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Restaurant": {
+    "lettering": [
+      {
+        "text": "TAGESMENÜ\n\nSUPPE\nEINTOPF\nKAFFEE",
+        "rect": [
+          338.99,
+          52.34,
+          101.97,
+          171.47
+        ],
+        "background": "#252b2f",
+        "ink": "#f3ecd9",
+        "size": 17,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "KAFFEE\n\nEspresso\nMilchkaffee\nCappuccino",
+        "rect": [
+          1081.72,
+          74.37,
+          61.32,
+          118.44
+        ],
+        "background": "#252b2f",
+        "ink": "#f3ecd9",
+        "size": 10,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Hospital": {
+    "lettering": [
+      {
+        "text": "Behandlung",
+        "rect": [
+          139.87,
+          237.58,
+          139.87,
+          29.61
+        ],
+        "background": "#b0d5cc",
+        "ink": "#193f3f",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "Ambulanz  →\nRöntgen   →\nLabor     →",
+        "rect": [
+          983.89,
+          189.37,
+          144.0,
+          95.72
+        ],
+        "background": "#bfd0a5",
+        "ink": "#26433f",
+        "size": 20,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "A042   3\nA041   1\nA040   4",
+        "rect": [
+          472.65,
+          140.48,
+          141.93,
+          75.06
+        ],
+        "background": "#19272c",
+        "ink": "#efe6c7",
+        "size": 18,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Police": {
+    "lettering": [
+      {
+        "text": "POLIZEI",
+        "rect": [
+          77.86,
+          168.71,
+          99.22,
+          43.38
+        ],
+        "background": "#a4bdd0",
+        "ink": "#142c45",
+        "size": 23,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "INFORMATION",
+        "rect": [
+          948.06,
+          115.69,
+          152.96,
+          33.74
+        ],
+        "background": "#ecdfc2",
+        "ink": "#142e43",
+        "size": 21,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "A  012\nB  007\nC  003",
+        "rect": [
+          805.44,
+          44.76,
+          88.88,
+          112.94
+        ],
+        "background": "#171e28",
+        "ink": "#efc7b5",
+        "size": 21,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Exchange": {
+    "lettering": [
+      {
+        "text": "CHANGE\nEXCHANGE\nWECHSEL",
+        "rect": [
+          447.85,
+          99.16,
+          172.94,
+          116.38
+        ],
+        "background": "#345365",
+        "ink": "#f3ecd9",
+        "size": 26,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "€      1,000\n$      0,920\n£      0,780",
+        "rect": [
+          699.33,
+          99.16,
+          206.7,
+          126.71
+        ],
+        "background": "#152b39",
+        "ink": "#ecd487",
+        "size": 25,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "Airport": {
+    "lettering": [
+      {
+        "text": "LH203   London     13:20   A7\nEW746   Paris      14:10   A8\nBA981   New York   15:40   A9\nFR312   Rome       16:05   A8",
+        "rect": [
+          588.4,
+          76.44,
+          477.47,
+          143.23
+        ],
+        "background": "#17232e",
+        "ink": "#e8d092",
+        "size": 21,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "Abflug  →",
+        "rect": [
+          917.05,
+          266.5,
+          195.67,
+          55.78
+        ],
+        "background": "#142f4e",
+        "ink": "#f3ecd9",
+        "size": 30,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "A7",
+        "rect": [
+          54.43,
+          230.0,
+          63.39,
+          42.01
+        ],
+        "background": "#1d2c37",
+        "ink": "#e7c667",
+        "size": 28,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulCarsi": {
+    "lettering": [
+      {
+        "text": "ACİL",
+        "rect": [
+          50.3,
+          276.83,
+          58.56,
+          27.55
+        ],
+        "background": "#edf0e8",
+        "ink": "#152633",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "OTEL",
+        "rect": [
+          181.21,
+          270.63,
+          77.17,
+          26.86
+        ],
+        "background": "#493019",
+        "ink": "#ecd397",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "LOKANTA",
+        "rect": [
+          296.96,
+          278.89,
+          133.67,
+          22.04
+        ],
+        "background": "#ecede5",
+        "ink": "#182b38",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "FIRIN",
+        "rect": [
+          475.41,
+          285.09,
+          77.86,
+          18.59
+        ],
+        "background": "#f2dfb5",
+        "ink": "#812821",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "HAN",
+        "rect": [
+          615.96,
+          243.77,
+          60.63,
+          21.35
+        ],
+        "background": "#d7c298",
+        "ink": "#312b25",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "DÖVİZ",
+        "rect": [
+          737.22,
+          278.89,
+          101.97,
+          24.1
+        ],
+        "background": "#16544a",
+        "ink": "#eee8cf",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "METRO",
+        "rect": [
+          902.58,
+          280.96,
+          65.45,
+          26.86
+        ],
+        "background": "#103b7a",
+        "ink": "#f0e9d3",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "KARAKOL",
+        "rect": [
+          1031.43,
+          279.58,
+          90.95,
+          28.92
+        ],
+        "background": "#113a72",
+        "ink": "#f0e9d3",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "POLİS",
+        "rect": [
+          1045.21,
+          381.5,
+          39.27,
+          17.22
+        ],
+        "background": "#98c5d0",
+        "ink": "#073966",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "$  32,50\n€  35,20\n£  41,10",
+        "rect": [
+          782.01,
+          328.48,
+          51.67,
+          59.91
+        ],
+        "background": "#172d39",
+        "ink": "#edc9a4",
+        "size": 14,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulBeyoglu": {
+    "lettering": [
+      {
+        "text": "KİTAP",
+        "rect": [
+          67.52,
+          226.56,
+          207.39,
+          39.25
+        ],
+        "background": "#ead6ad",
+        "ink": "#162b33",
+        "size": 25,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "MÜZİK",
+        "rect": [
+          350.7,
+          227.94,
+          201.19,
+          36.5
+        ],
+        "background": "#173e46",
+        "ink": "#eee6d2",
+        "size": 25,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "PASAJ",
+        "rect": [
+          985.95,
+          190.06,
+          151.58,
+          42.01
+        ],
+        "background": "#ecddbe",
+        "ink": "#162b33",
+        "size": 25,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "METRO",
+        "rect": [
+          642.14,
+          260.99,
+          75.1,
+          26.17
+        ],
+        "background": "#194b89",
+        "ink": "#f3ecd9",
+        "size": 20,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulKadikoy": {
+    "lettering": [
+      {
+        "text": "BALIKÇI",
+        "rect": [
+          230.12,
+          207.97,
+          206.7,
+          44.07
+        ],
+        "background": "#135dac",
+        "ink": "#f3ecd9",
+        "size": 26,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "KİTAP",
+        "rect": [
+          500.9,
+          203.83,
+          149.51,
+          37.19
+        ],
+        "background": "#144d46",
+        "ink": "#f3ecd9",
+        "size": 23,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "KAFE",
+        "rect": [
+          768.23,
+          196.95,
+          101.28,
+          37.87
+        ],
+        "background": "#a22a40",
+        "ink": "#f3ecd9",
+        "size": 23,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "İSKELE",
+        "rect": [
+          1022.47,
+          207.97,
+          93.7,
+          37.19
+        ],
+        "background": "#e4eceb",
+        "ink": "#174474",
+        "size": 23,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "Kahve\nTatlı\nSohbet",
+        "rect": [
+          985.26,
+          359.46,
+          42.03,
+          57.16
+        ],
+        "background": "#243741",
+        "ink": "#f3ecd9",
+        "size": 9,
+        "object": "menu",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulKarakoy": {
+    "lettering": [
+      {
+        "text": "DENİZ MALZEMELERİ",
+        "rect": [
+          466.45,
+          214.85,
+          193.61,
+          30.3
+        ],
+        "background": "#e5e3d5",
+        "ink": "#164168",
+        "size": 19,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "BİSİKLET",
+        "rect": [
+          724.13,
+          214.16,
+          126.09,
+          29.61
+        ],
+        "background": "#ede6d6",
+        "ink": "#222e39",
+        "size": 21,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulMetro": {
+    "lettering": [
+      {
+        "text": "METRO",
+        "rect": [
+          502.97,
+          111.56,
+          161.91,
+          43.38
+        ],
+        "background": "#0b5087",
+        "ink": "#f3ecd9",
+        "size": 30,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "← ÇIKIŞ",
+        "rect": [
+          136.42,
+          173.53,
+          87.5,
+          30.99
+        ],
+        "background": "#166a63",
+        "ink": "#f3ecd9",
+        "size": 18,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "İSTANBUL\nDAİMA\nİLERİDE",
+        "rect": [
+          1019.71,
+          213.48,
+          88.19,
+          80.57
+        ],
+        "background": "#e9e4d3",
+        "ink": "#1d4c77",
+        "size": 18,
+        "object": "column",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulOtel": {
+    "lettering": [
+      {
+        "text": "OTEL",
+        "rect": [
+          512.61,
+          62.67,
+          106.11,
+          37.87
+        ],
+        "background": "#68452d",
+        "ink": "#e8d6a6",
+        "size": 28,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulLokanta": {
+    "lettering": [
+      {
+        "text": "LOKANTA",
+        "rect": [
+          498.14,
+          39.25,
+          210.83,
+          48.89
+        ],
+        "background": "#694329",
+        "ink": "#efe2bf",
+        "size": 34,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "GÜNLÜK YEMEKLER\n\nMercimek\nKuru fasulye\nPilav\nKöfte",
+        "rect": [
+          167.43,
+          79.88,
+          126.78,
+          179.04
+        ],
+        "background": "#24333d",
+        "ink": "#f3ecd9",
+        "size": 16,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulDoviz": {
+    "lettering": [
+      {
+        "text": "DÖVİZ",
+        "rect": [
+          538.11,
+          35.12,
+          135.73,
+          44.76
+        ],
+        "background": "#674329",
+        "ink": "#ead9b3",
+        "size": 32,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "USD   32,00\nEUR   34,50\nGBP   39,10\nCHF   36,70",
+        "rect": [
+          358.28,
+          126.71,
+          148.13,
+          136.35
+        ],
+        "background": "#21303e",
+        "ink": "#b8d6b6",
+        "size": 20,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulHastane": {
+    "lettering": [
+      {
+        "text": "ACİL",
+        "rect": [
+          540.86,
+          81.26,
+          98.53,
+          42.7
+        ],
+        "background": "#eee6cb",
+        "ink": "#a51b29",
+        "size": 28,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "MUAYENE",
+        "rect": [
+          782.7,
+          163.89,
+          86.12,
+          28.92
+        ],
+        "background": "#99bfbd",
+        "ink": "#183437",
+        "size": 17,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "B-40",
+        "rect": [
+          999.73,
+          88.83,
+          64.77,
+          36.5
+        ],
+        "background": "#182c36",
+        "ink": "#76d5b6",
+        "size": 19,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulKarakol": {
+    "lettering": [
+      {
+        "text": "KARAKOL",
+        "rect": [
+          538.79,
+          65.42,
+          212.21,
+          53.71
+        ],
+        "background": "#e1d7b7",
+        "ink": "#142d50",
+        "size": 34,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "VATANDAŞ İÇİN\nGÜVENLİ YARINLAR",
+        "rect": [
+          912.92,
+          89.52,
+          170.87,
+          55.78
+        ],
+        "background": "#e9ddbd",
+        "ink": "#163250",
+        "size": 18,
+        "object": "",
+        "border": false
+      }
+    ]
+  },
+  "IstanbulHavalimani": {
+    "lettering": [
+      {
+        "text": "GİDİŞ   Departures  →",
+        "rect": [
+          439.58,
+          66.11,
+          318.32,
+          51.65
+        ],
+        "background": "#202e40",
+        "ink": "#f3ecd9",
+        "size": 26,
+        "object": "",
+        "border": false
+      },
+      {
+        "text": "Check-in  →\n\nBagaj  →\n\nTüm Kapılar  →\nAll Gates",
+        "rect": [
+          963.9,
+          77.13,
+          183.27,
+          163.21
+        ],
+        "background": "#202e40",
+        "ink": "#f3ecd9",
+        "size": 20,
+        "object": "",
+        "border": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+[gd_scene format=3]
+
+[ext_resource type="Script"      path="res://scenes/world/Mitte.gd"            id="1_mitte"]
+[ext_resource type="Script"      path="res://scenes/world/EnvironmentStreet.gd"  id="2_bg"]
+[ext_resource type="Script"      path="res://scenes/world/WorldBorder.gd"      id="3_border"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn"        id="4_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/SceneExit.tscn"      id="5_exit"]
+[ext_resource type="Script"      path="res://scenes/npc/WalkingFriends.gd"     id="13_wf"]
+[ext_resource type="PackedScene" path="res://scenes/npc/BusStopNPC.tscn"       id="14_bus"]
+[ext_resource type="PackedScene" path="res://scenes/world/ServicePoint.tscn"           id="sp_70"]
+[ext_resource type="PackedScene" path="res://scenes/ui/UILayer.tscn" id="ui_layer"]
+[ext_resource type="Script" path="res://scenes/world/Solids.gd" id="design_solids"]
+[ext_resource type="Script" path="res://scenes/story/berlin/BerlinStage.gd" id="berlin_stage"]
+
+
+[sub_resource type="RectangleShape2D" id="Shape_hoteldoor"]
+size = Vector2(96, 62)
+
+
+[node name="Mitte" type="Node2D"]
+script = ExtResource("1_mitte")
+[node name="MitteBackground" type="Node2D" parent="."]
+z_index = -2
+script = ExtResource("2_bg")
+scene_id = "Mitte"
+district = "mitte"
+[node name="WorldBorder" type="StaticBody2D" parent="."]
+script = ExtResource("3_border")
+[node name="Player" parent="." instance=ExtResource("4_player")]
+position = Vector2(110, 440)
+[node name="WalkingFriends" type="Node2D" parent="."]
+position = Vector2(320, 346)
+script = ExtResource("13_wf")
+[node name="BusStopNPC" parent="." instance=ExtResource("14_bus")]
+position = Vector2(712, 322)
+[node name="ExitToKiez" parent="." instance=ExtResource("5_exit")]
+position = Vector2(28, 440)
+target_scene = "res://scenes/world/Kiez.tscn"
+spawn_tag = "from_mitte"
+prompt_text = "E — Back to the field"
+[node name="ExitToOst" parent="." instance=ExtResource("5_exit")]
+position = Vector2(1124, 440)
+target_scene = "res://scenes/world/MitteOst.tscn"
+spawn_tag = "from_mitte"
+prompt_text = "E — Deeper into the city"
+[node name="HotelEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(134, 330)
+target_scene = "res://scenes/world/HotelLobby.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — Enter the bed-sign building"
+[node name="ExchangeEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(1004, 330)
+target_scene = "res://scenes/world/Exchange.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — Wechselstube (money)"
+[node name="UBahnEntrance" parent="." instance=ExtResource("5_exit")]
+position = Vector2(496, 336)
+target_scene = "res://scenes/world/UBahnStation.tscn"
+spawn_tag = "from_street"
+prompt_text = "E — Down into the U-Bahn"
+[node name="CollisionShape2D" parent="HotelEntrance" index="0"]
+shape = SubResource("Shape_hoteldoor")
+[node name="Prompt" parent="HotelEntrance" index="1"]
+position = Vector2(-76, -70)
+[node name="LocalSpot" parent="." instance=ExtResource("sp_70")]
+position = Vector2(640, 336)
+service = "local"
+prompt_text = "E - The Spati on the corner"
+
+[node name="UILayer" parent="." instance=ExtResource("ui_layer")]
+
+[node name="Solids" type="StaticBody2D" parent="."]
+script = ExtResource("design_solids")
+background_path = NodePath("../MitteBackground")
+
+[node name="BerlinStage" type="Node2D" parent="."]
+script = ExtResource("berlin_stage")
+district = "mitte"

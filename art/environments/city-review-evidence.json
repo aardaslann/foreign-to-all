@@ -1,0 +1,299 @@
+{
+  "london": {
+    "playability": "work\\redesign\\city18-review\\london-playability-08.json",
+    "scenes": 12,
+    "targets": 42,
+    "arrivals": 18,
+    "failures": []
+  },
+  "paris": {
+    "playability": "work\\redesign\\city18-review\\paris-playability-02.json",
+    "scenes": 9,
+    "targets": 28,
+    "arrivals": 13,
+    "failures": []
+  },
+  "shared_motion": "deep-contact-audit/city18-details-03.log: 0 failures",
+  "activity_continuity": "deep-contact-audit/city18-continuity-01.log: 0 failures; background motion 0 changed pixels",
+  "paris_services": "deep-contact-audit/city18-paris-services-02.log: 0 failures",
+  "scope": "130/165 worlds and 71/90 activities installed; code preparation covers all remaining scenes. Exhaustive walking QA deferred.",
+  "rome": {
+    "scenes": 9,
+    "activities": 5,
+    "basic_import": "city18-review/rome-import-02.log: no parse/script errors",
+    "activity_render": "deep-contact-audit/city18-rome-activities-02.log",
+    "exhaustive_movement": "deferred per user; not performed",
+    "review_status": "installed; final visual and interaction review pending"
+  },
+  "zurich": {
+    "scenes": 9,
+    "activities": 5,
+    "basic_import": "city18-review/zurich-import-03.log: no parse/script errors",
+    "review_status": "installed; final review pending after Sep20 refinements"
+  },
+  "tbilisi": {
+    "scenes": 9,
+    "activities": 5,
+    "basic_import": "city18-review/tbilisi-import-02.log clean",
+    "activity_render": "deep-contact-audit/city18-tbilisi-activities-02.log: 66 shots; no errors",
+    "exhaustive_movement": "deferred per user; not performed"
+  },
+  "moscow": {
+    "scenes": 9,
+    "replacement_art": "installed",
+    "activities": 5,
+    "geometry": "aligned to inspected replacement pixel artwork",
+    "basic_import": "city18-review/moscow-retro-import-03.log: clean",
+    "static_render": "city18-review/moscow-retro-02/",
+    "activity_render": "deep-contact-audit/city18-moscow-activities-02/: 60 shots, no errors",
+    "exhaustive_movement": "deferred per user; not performed"
+  },
+  "seoul": {
+    "scenes": 9,
+    "replacement_art": "installed",
+    "activities": 5,
+    "geometry": "aligned to inspected replacement pixel artwork",
+    "static_render": "city18-review/seoul-retro-04/: nine scenes, no errors",
+    "activity_render": "deep-contact-audit/city18-seoul-activities-02/: 57 shots, no errors",
+    "exhaustive_movement": "deferred per user; not performed"
+  },
+  "tokyo": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "9 worlds + 9 activity sets and separate moving train art installed",
+    "geometry": "tools/city_geometry/tokyo_finish.py",
+    "staging": "tools/city_geometry/tokyo_activities.py",
+    "static_render": "city18-review/tokyo-retro-02/: nine scenes at moving phase, no errors",
+    "activity_render": "deep-contact-audit/city18-tokyo-activities-02/ and city18-tokyo-activities-late/: 83 shots each, no errors",
+    "details": "Measured complete plants and open furniture silhouettes; actual service entrances; native Japanese lettering; localized trains, incense and fryer steam; fixed cameras; small game-drawn food, books, fortunes and TV equipment",
+    "exhaustive_QA": "deferred per user; not performed"
+  },
+  "hanoi": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "9 world scenes and 8 activity sets installed",
+    "geometry": "tools/city_geometry/hanoi_finish.py",
+    "staging": "tools/city_geometry/hanoi_activities.py",
+    "static_render": "city18-review/hanoi-retro-01/ and hanoi-final-details/; no errors",
+    "activity_render": "deep-contact-audit/city18-hanoi-activities-01/ and city18-hanoi-activities-late/: 60 shots each; no errors",
+    "details": "Complete plants, individually open rails and bicycle frames, measured station contacts, actual machines and service anchors, native Vietnamese text, localized water/steam/incense/doors/belt motion, stable cameras and seated actors",
+    "exhaustive_QA": "deferred per user; not performed"
+  },
+  "mumbai": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "Nine worlds and seven dedicated activity images installed",
+    "geometry": "tools/city_geometry/mumbai_finish.py",
+    "staging": "tools/city_geometry/mumbai_activities.py",
+    "import_log": "city18-review/mumbai-retro-import-03.log: clean",
+    "activity_render": "68 unique shots at 1.25s and 5s, no script errors",
+    "spot_checks": "city18-review/mumbai-spot-01/output.log: 0 failures; representative depth/contact renders inspected",
+    "exhaustive_QA": "Deferred per user; not performed",
+    "notes": "art/environments/review/mumbai-implementation.md"
+  },
+  "dakar": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "9 world and 7 activity images installed",
+    "geometry": "tools/city_geometry/dakar_finish.py",
+    "staging": "tools/city_geometry/dakar_activities.py",
+    "import_log": "city18-review/dakar-import-03.log: clean",
+    "activity_render": "67 unique shots at 1.25s and 5s, no errors",
+    "spot_checks": "city18-review/dakar-spot-02/output.log: 0 failures",
+    "exhaustive_QA": "Deferred per user; not performed",
+    "notes": "art/environments/review/dakar-implementation.md"
+  },
+  "retro_style_spot_check": {
+    "date": "2026-09-20",
+    "scope": "Quick representative artwork and rendering check requested by user",
+    "source_scenes": [
+      "LondonTerrace",
+      "ParisMarais",
+      "ZurichNiederdorf",
+      "RomeTrastevere",
+      "TbilisiSololaki"
+    ],
+    "result": "Stepped pixel silhouettes visible on buildings, foliage, masonry and furniture in these representative finished plates.",
+    "rendering": "111 replacement worlds and 60 activities enable pixel_art. Honolulu representative silhouettes retain stepped edges.",
+    "limitation": "Geometry-only cities still use older, smoother source artwork. They are not marked retro-art complete. This was not a full visual audit of every scene."
+  },
+  "honolulu": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "9 world and 8 activity images installed",
+    "geometry": "tools/city_geometry/honolulu_finish.py",
+    "staging": "tools/city_geometry/honolulu_activities.py",
+    "import_log": "city18-review/honolulu-import-03.log: clean",
+    "activity_render": "49 unique shots at 1.25s and 5s; final Kakaako choice-action revision: 8 shots, no errors",
+    "spot_checks": "city18-review/honolulu-spot-01/output.log: 0 failures",
+    "exhaustive_QA": "Deferred per user; not performed",
+    "notes": "art/environments/review/honolulu-implementation.md"
+  },
+  "lapaz": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "Nine worlds and eight activity images installed",
+    "geometry": "tools/city_geometry/lapaz_finish.py",
+    "staging": "tools/city_geometry/lapaz_activities.py",
+    "import_log": "city18-review/lapaz-import-03.log: clean",
+    "activity_render": "57 unique shots at 1.25s and 5s; Sopocachi and San Pedro final revisions rendered at 5s; no script errors",
+    "spot_checks": "city18-review/lapaz-spot-02/output.log: 0 failures",
+    "exhaustive_QA": "Deferred per user; not performed",
+    "notes": "art/environments/review/lapaz-implementation.md"
+  },
+  "mexico": {
+    "worlds": 9,
+    "activities": 5,
+    "art": "9 world and 7 activity images installed",
+    "geometry": "tools/city_geometry/mexico.py",
+    "staging": "tools/city_geometry/mexico_activities.py",
+    "import_log": "city18-review/mexico-import-03.log: clean",
+    "activity_render": "58 distinct shots at 1.25s and 5s; final revisions at 5s, no errors",
+    "spot_checks": "city18-review/mexico-spot-03/output.log: 0 failures",
+    "exhaustive_QA": "Deferred per user; not performed",
+    "notes": "art/environments/review/mexico-implementation.md"
+  },
+  "newyork": {
+    "status": "installed_focused_review_complete",
+    "worlds_installed": 9,
+    "worlds_total": 9,
+    "activities_installed": 5,
+    "activities_total": 5,
+    "installed_worlds": [
+      "NewYorkLowerEast",
+      "NewYorkHarlem",
+      "NewYorkWilliamsburg",
+      "NewYorkJacksonHeights",
+      "NewYorkHotel",
+      "NewYorkExchange",
+      "NewYorkTransit",
+      "NewYorkAirport",
+      "NewYorkMidtown"
+    ],
+    "installed_activities": [
+      "newyork:midtown",
+      "newyork:lowereast",
+      "newyork:harlem",
+      "newyork:williamsburg",
+      "newyork:jacksonheights"
+    ],
+    "notes": "art/environments/review/newyork-implementation.md",
+    "geometry": "tools/city_geometry/newyork_finish.py + newyork.py",
+    "staging": "tools/city_geometry/remaining_activities.py + newyork_activities.py",
+    "import_log": "work/redesign/ny-sept28-activities/import.log: clean",
+    "activity_render": "work/redesign/ny-sept28-activities: 48 unique shots; revised Lower East Side at 5s in ny-sept28-bodega-final, no errors",
+    "spot_checks": "work/redesign/ny-sept28-spot/output.log: 0 failures, actual Player routes and depth screenshots inspected",
+    "exhaustive_QA": "Deferred per user; not performed"
+  },
+  "remaining_preparation": {
+    "worlds": 35,
+    "objects": 337,
+    "activities": 19,
+    "beats": 86,
+    "native_signs": 93,
+    "activity_sets": 27,
+    "image_requests": 62,
+    "notes": "art/environments/review/remaining-cities-preparation.md",
+    "status": "All 62 final assets installed and aligned; preparation complete",
+    "validation": "35 worlds / 100 anchors / 19 activities / 86 beats / 0 failures; 19 activity renders clean"
+  },
+  "saopaulo": {
+    "status": "installed_focused_review_complete",
+    "worlds_installed": 9,
+    "worlds_total": 9,
+    "activities_installed": 5,
+    "activities_total": 5,
+    "installed_worlds": [
+      "SaoPauloLiberdade",
+      "SaoPauloBixiga",
+      "SaoPauloMercadao",
+      "SaoPauloPaulista",
+      "SaoPauloVilaMadalena",
+      "SaoPauloHotel",
+      "SaoPauloExchange",
+      "SaoPauloTransit",
+      "SaoPauloAirport"
+    ],
+    "installed_activities": [
+      "saopaulo:liberdade",
+      "saopaulo:bixiga",
+      "saopaulo:mercadao",
+      "saopaulo:paulista",
+      "saopaulo:vilamadalena"
+    ],
+    "notes": "art/environments/review/saopaulo-implementation.md",
+    "activity_render": "sp-activities and sp-activities-final: 65 unique shots at 1.25s and 5s, no errors",
+    "spot_checks": "sp-spot-final/output.log: 0 failures; sampled routes, contacts and depth screenshots inspected",
+    "exhaustive_QA": "Deferred per user; not performed"
+  },
+  "sydney": {
+    "status": "installed_focused_review_complete",
+    "worlds_installed": 9,
+    "worlds_total": 9,
+    "activities_installed": 5,
+    "activities_total": 5,
+    "installed_worlds": [
+      "SydneyAirport",
+      "SydneyBondi",
+      "SydneyCBD",
+      "SydneyCabramatta",
+      "SydneyCircularQuay",
+      "SydneyExchange",
+      "SydneyHotel",
+      "SydneyNewtown",
+      "SydneyTransit"
+    ],
+    "installed_activities": [
+      "sydney:circularquay",
+      "sydney:cbd",
+      "sydney:newtown",
+      "sydney:bondi",
+      "sydney:cabramatta"
+    ],
+    "notes": "art/environments/review/sydney-implementation.md",
+    "geometry": "tools/city_geometry/sydney_finish.py",
+    "staging": "tools/city_geometry/remaining_activities.py + sydney_activities_finish.py",
+    "activity_render": "73 distinct shots at 1.25s and 5s, no script errors",
+    "spot_checks": "sydney-spot/output.log: 0 failures; final clerks in sydney-clerks-final",
+    "exhaustive_QA": "Deferred per user; not performed"
+  },
+  "toronto": {
+    "status": "installed_focused_review_complete",
+    "worlds_installed": 9,
+    "worlds_total": 9,
+    "activities_installed": 5,
+    "activities_total": 5,
+    "installed_worlds": [
+      "TorontoAirport",
+      "TorontoDistillery",
+      "TorontoDowntown",
+      "TorontoExchange",
+      "TorontoGerrard",
+      "TorontoHotel",
+      "TorontoKensington",
+      "TorontoScarborough",
+      "TorontoTransit"
+    ],
+    "installed_activities": [
+      "toronto:downtown",
+      "toronto:kensington",
+      "toronto:gerrard",
+      "toronto:distillery",
+      "toronto:scarborough"
+    ],
+    "notes": "art/environments/review/toronto-implementation.md",
+    "geometry": "tools/city_geometry/toronto_finish.py",
+    "staging": "tools/city_geometry/remaining_activities.py + toronto_activities_finish.py",
+    "activity_render": "51 distinct shots at 1.25s and 5s, no script errors",
+    "spot_checks": "toronto-spot/output.log: all other sampled routes pass; corrected downtown probe in toronto-spot-recheck/output.log: 0 failures",
+    "exhaustive_QA": "Deferred per user; not performed"
+  },
+  "installation_completion": {
+    "date": "2026-09-28",
+    "cities": 18,
+    "worlds": 165,
+    "activities": 90,
+    "scope": "Remaining cities excluding accepted Berlin and Istanbul",
+    "verification_scope": "Installation complete; exhaustive movement, full quests and historical review items remain separately tracked"
+  }
+}

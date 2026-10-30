@@ -1,0 +1,1991 @@
+{
+  "lines": {
+    "kerstin|Na? Kannste ma mit anfassen?": "res://audio/voice/el_71f93f0fb4a110cf97e69b9e.mp3",
+    "kerstin|Mensch, die Kisten.": "res://audio/voice/el_4748b7c48931510a7a63aa70.mp3",
+    "kerstin|Nee, nich weg! Anfassen!": "res://audio/voice/el_eabdbb76c22798fe22e6e922.mp3",
+    "kerstin|Hier. Anfassen. Und hoch.": "res://audio/voice/el_2659356265d5b28e89dc231d.mp3",
+    "kerstin|Mensch! Hoch, hab ick jesacht!": "res://audio/voice/el_4d32680573010fa20d7ecb70.mp3",
+    "kerstin|Wat? Nee, ick will keen Jeld!": "res://audio/voice/el_4d4495fa5f88a030bb2249ba.mp3",
+    "kerstin|Anfassen. Du und icke.": "res://audio/voice/el_384a16271c40128f85781057.mp3",
+    "kerstin|Jut. Rin damit.": "res://audio/voice/el_484ae98bfe2cfe32c016b782.mp3",
+    "kerstin|Danke.": "res://audio/voice/el_6a32b922a7669661f325bf0f.mp3",
+    "kerstin|Kannste dit lesen?": "res://audio/voice/el_cb9de54e9a5465e7dc02ce0a.mp3",
+    "kerstin|Ja? Wat steht da denn?": "res://audio/voice/el_07872d415eaa936c2a4ca0a2.mp3",
+    "kerstin|Na?": "res://audio/voice/el_768e7d22a04f1a17f535422c.mp3",
+    "kerstin|Dacht ick ma.": "res://audio/voice/el_bba655e34b24aec9818e31c8.mp3",
+    "kerstin|Pfand. Leere Flasche, Jeld zurück.": "res://audio/voice/el_6a9eb3d8ef03809fe4491be8.mp3",
+    "kerstin|Na, wenigstens ehrlich.": "res://audio/voice/el_01fa80b0da07baa9082a3561.mp3",
+    "kerstin|Pfand. Ach, dit weeßte schon?": "res://audio/voice/el_d79c6990ac970277d8cc64e2.mp3",
+    "kerstin|Icke bin Kerstin. Und du?": "res://audio/voice/el_10ef4a825af682ecbbdc32eb.mp3",
+    "kerstin|Keen Name? Ooch jut.": "res://audio/voice/el_b522b70e6c74874f076662f4.mp3",
+    "kerstin|Denn biste eben der Neue.": "res://audio/voice/el_c2784fdf410bd0db2645a93b.mp3",
+    "kerstin|Setz dir, Neuer.": "res://audio/voice/el_dcad5987280033bf23f1d927.mp3",
+    "kerstin|Ooch jut. Der Stuhl looft nich weg.": "res://audio/voice/el_8a495898efcc43fd32785c71.mp3",
+    "kerstin|Feierabend bald.": "res://audio/voice/el_632d681488f34242e1389e1b.mp3",
+    "kerstin|Komm morgen wieder. Morgen, wa?": "res://audio/voice/el_00feee78e747c7c9dd37807e.mp3",
+    "kerstin|Tschüss, Neuer.": "res://audio/voice/el_0123721a8b20a4be3414cbc6.mp3",
+    "kerstin|Nee! Morgen. Nich jetzt. Erst schlafen, denn wiederkommen.": "res://audio/voice/el_db98e52c35a6ba149b7e69ac.mp3",
+    "kerstin|Kaffee?": "res://audio/voice/el_7b806996fae992daaa7437ba.mp3",
+    "kerstin|Na, Neuer! Ausjeschlafen?": "res://audio/voice/el_a1a715cde4a57b820f4e664b.mp3",
+    "kerstin|Nee? Denn nich.": "res://audio/voice/el_6ce75c8cb47b1ecabf3a9c47.mp3",
+    "kerstin|Alles klar.": "res://audio/voice/el_57bb2b33123c7b4e0548ffe2.mp3",
+    "kerstin|Schwarz. Wat anderet jibt's nich.": "res://audio/voice/el_f81c2e92af351f102f077ae5.mp3",
+    "rika|Morgen, Tante Kerstin!": "res://audio/voice/el_57c0b742103a8c3db30d3777.mp3",
+    "kerstin|Morgen, Rika.": "res://audio/voice/el_280c7decd3650a6f3857e3d4.mp3",
+    "rika|Oh - you're the new guy? She told me about you. Want me to translate?": "res://audio/voice/el_58e72d572b8274252f3e48ff.mp3",
+    "rika|Okay. She says she's been standing here since ninety-eight, and that you look like you need breakfast.": "res://audio/voice/el_d5fb28ba3611c322e58d707b.mp3",
+    "kerstin|Die Jugend. Allet uff Englisch.": "res://audio/voice/el_b11dc156a9aee4b74192fdb7.mp3",
+    "rika|Gotta run, lecture. Good luck with her!": "res://audio/voice/el_bc82faabd3c44bbfd5789377.mp3",
+    "rika|Mutig. Viel Glück!": "res://audio/voice/el_fd3578bbbfa5d5018e8124f4.mp3",
+    "kerstin|Icke steh hier seit achtundneunzig, wa.": "res://audio/voice/el_4a94c212f46d87aebfc4a212.mp3",
+    "kerstin|Vorher? Ne Kaufhalle.": "res://audio/voice/el_e2d8b5a38c71d6d4aa130c2e.mp3",
+    "kerstin|Englisch? Nee. Russisch hatt ick inner Schule.": "res://audio/voice/el_367f00e0a3797321e13ed79f.mp3",
+    "kerstin|Und da drüben war die Mauer. Weeßte?": "res://audio/voice/el_3c3d8561f72b639599bca308.mp3",
+    "kerstin|Ooch jut. Is lange her.": "res://audio/voice/el_1bb950cda9a5ad3f435adf81.mp3",
+    "kerstin|Und du? Wo kommste her?": "res://audio/voice/el_5499b160b71f630936acb0ae.mp3",
+    "kerstin|Da oben. Na klar.": "res://audio/voice/el_fde99a22dd0b3a40d66f7079.mp3",
+    "kerstin|Jeder kommt von irgendwo.": "res://audio/voice/el_93a3dce9ae3f91fe419d371c.mp3",
+    "kerstin|Vom Hotel. Jaja.": "res://audio/voice/el_72bf4c77e415b0a4340a9617.mp3",
+    "kerstin|Muss ick nich wissen.": "res://audio/voice/el_2462915fa7789e0f06c8200f.mp3",
+    "kerstin|Sie? Wir sind hier nich beim Amt.": "res://audio/voice/el_45bcaf0e84bb23715b43d155.mp3",
+    "kerstin|Sag du. Icke bin Kerstin.": "res://audio/voice/el_861510a11a9c65d39b906941.mp3",
+    "kerstin|Na, wie de willst.": "res://audio/voice/el_aa4c46dbaee3b2db39ca04d3.mp3",
+    "kerstin|Emil kommt nich mehr. Seit ner Woche.": "res://audio/voice/el_7bf4567efe24b1578abb13a4.mp3",
+    "kerstin|Bring ma die Tüte zu Emil. Kollwitzplatz. Kollwitzplatz. Der sitzt da imma.": "res://audio/voice/el_50d94debac6cbd8f8084306a.mp3",
+    "kerstin|Ey! Die sind für Emil!": "res://audio/voice/el_7178c10bc2f9dfb371285b6b.mp3",
+    "kerstin|Na jut. Eene kannste haben.": "res://audio/voice/el_9e4d4618367d87d374688feb.mp3",
+    "kerstin|Hier. U2, Senefelderplatz. Denn links.": "res://audio/voice/el_5a5e2b2dc4efa84a66e68184.mp3",
+    "kerstin|Und grüß ihn von mir.": "res://audio/voice/el_c5c139252a0632239dc68042.mp3",
+    "emil|Wat soll dit? Ick kenn Se nich.": "res://audio/voice/el_86a81dd94fd707ec713e3885.mp3",
+    "emil|Ick brauch keen Almosen, junger Mann.": "res://audio/voice/el_f794da3eae5732afd91b987a.mp3",
+    "emil|Von wem is dit?": "res://audio/voice/el_22e1e49260f130a045dda298.mp3",
+    "emil|Die Zeitung. Dit is Kerstin.": "res://audio/voice/el_53a2eb331cf77ed7fe8effc9.mp3",
+    "emil|Hallo! Junger Mann! Wat is dit?": "res://audio/voice/el_a3606a4d7f6c146681f4fc12.mp3",
+    "emil|Kerstin. Die Olle.": "res://audio/voice/el_b8ed1f14f2eb35bae6d38769.mp3",
+    "emil|Dit Knie. Die Treppen am Senefelderplatz. Deswegen komm ick nich.": "res://audio/voice/el_cfecafd824e2dc496cf8329b.mp3",
+    "emil|Sagen Se Kerstin: Samstag komm ick. Knie hin oder her.": "res://audio/voice/el_87c3107e8b6f9fd44478d03e.mp3",
+    "emil|Na, wie Se wollen.": "res://audio/voice/el_5d63eeb9a33179dd7157ed2d.mp3",
+    "emil|Ick bin Emil. Wir können uns ruhig duzen.": "res://audio/voice/el_5eec1035eeb22fb2f75d791a.mp3",
+    "emil|Grüß Kerstin.": "res://audio/voice/el_0496fe145bfeb26ceab58d9e.mp3",
+    "kerstin|Und? Wat sagt er?": "res://audio/voice/el_8d9e9b89274f89316b34566b.mp3",
+    "kerstin|Samstag? Echt?": "res://audio/voice/el_ede4872ffd65aa717befa971.mp3",
+    "kerstin|Na, denn.": "res://audio/voice/el_b839507dd2f585c776492aec.mp3",
+    "kerstin|Dit Knie. Ick weeß.": "res://audio/voice/el_d6daeea933916fda9b1be058.mp3",
+    "kerstin|Denn hol ick ihn ab. Samstag.": "res://audio/voice/el_5074dbbbe7f2a3ef53a0a9d5.mp3",
+    "kerstin|Hat er se jenommen? Die Tüte?": "res://audio/voice/el_f3fdb71935b140937295ca57.mp3",
+    "kerstin|Na, immerhin.": "res://audio/voice/el_12bdf6458963a364e04e1db1.mp3",
+    "kerstin|Guck nich so. Dit is'n Dirndl. Von meener Schwester aus München.": "res://audio/voice/el_6c2302e9d46db08f706cad86.mp3",
+    "kerstin|Samstag is Wiesn. Erst schlafen, wa.": "res://audio/voice/el_7b9a5fb51632178dd8ac1632.mp3",
+    "kerstin|Hör uff. Ick seh aus wie ne Kuckucksuhr.": "res://audio/voice/el_b134ac7aa815ede7e8fe7e5b.mp3",
+    "kerstin|Jenau. Ick seh aus wie ne Kuckucksuhr.": "res://audio/voice/el_2de16be7ee1f2857b2106b62.mp3",
+    "kerstin|Wat? Sag wat!": "res://audio/voice/el_2042314e31fb589adda18823.mp3",
+    "kerstin|Ick seh aus wie ne Kuckucksuhr, ick weeß.": "res://audio/voice/el_905d6f951328cff51461ff33.mp3",
+    "kerstin|Heute is Samstag. Wiesn. Kommste mit?": "res://audio/voice/el_efadf0e9a18ee274709ac214.mp3",
+    "kerstin|Oktoberfest. Bier, Blasmusik, Lederhosen.": "res://audio/voice/el_0b2bc74bb675edb0bfc09121.mp3",
+    "kerstin|Dit is nich unsa. Dit is Bayern. Aber jut.": "res://audio/voice/el_0b8f5ced98d21e94ba8d8ec8.mp3",
+    "emil|Morjen, Kerstin. Morjen, Neuer.": "res://audio/voice/el_e0d5b8a67180311b53f3f077.mp3",
+    "kerstin|Na endlich!": "res://audio/voice/el_13ea17ef32efa88ae3970164.mp3",
+    "emil|Morjen, Neuer.": "res://audio/voice/el_dfa00b25e97cab0b82670038.mp3",
+    "kerstin|Hab ihn abjeholt.": "res://audio/voice/el_79ca1f02771d2284d749eef9.mp3",
+    "kerstin|Emil braucht nen Stuhl. Nimmste den mit?": "res://audio/voice/el_e8cb5ff39d99524fa60aaa65.mp3",
+    "emil|Dit Knie is nich so schlimm.": "res://audio/voice/el_4a5d0e36ebe2554b1ab2fbe4.mp3",
+    "kerstin|Beides. Arm und Stuhl.": "res://audio/voice/el_17694eed8a790ef3495f3dda.mp3",
+    "kerstin|Morgen, Neuer. Erst schlafen.": "res://audio/voice/el_331a9eb7a6cdfcd3162d0672.mp3",
+    "kerstin|Kollwitzplatz. Emil. Die Tüte.": "res://audio/voice/el_955354711cb817a7a03624c5.mp3",
+    "kerstin|Samstag, wa. Erst schlafen.": "res://audio/voice/el_28baa3f7559da1512ba4dca5.mp3",
+    "emil|Grüß Kerstin. Samstag.": "res://audio/voice/el_ef9eb2fa55ecd1eaa1cf1815.mp3",
+    "emil|Setz dir, Neuer. Is dein Stuhl.": "res://audio/voice/el_5b68f40d71ef82674c4fe0ab.mp3",
+    "counter_berlin|Ein Zimmer?": "res://audio/voice/el_6d628a7dfd005a1f57ea5882.mp3",
+    "counter_berlin|Eine Nacht?": "res://audio/voice/el_27080b8bc319fd6f39baa364.mp3",
+    "counter_berlin|Eine Fahrkarte?": "res://audio/voice/el_8c424a488a4c931dc45b80f8.mp3",
+    "counter_london|A room?": "res://audio/voice/el_952a34fecba846adcb5118a7.mp3",
+    "counter_london|Just the one night?": "res://audio/voice/el_4b12c94920740c805c764764.mp3",
+    "counter_london|A single?": "res://audio/voice/el_aca1725c372d5627c53b5571.mp3",
+    "counter_paris|Une chambre ?": "res://audio/voice/el_3aeb4a366d868e4ab9369add.mp3",
+    "counter_paris|Une nuit ?": "res://audio/voice/el_8504e6014349ad74d77fd1e8.mp3",
+    "counter_paris|Un ticket ?": "res://audio/voice/el_c556dedc7c8318e55a054074.mp3",
+    "counter_moscow|Номер?": "res://audio/voice/el_e5720248f11ce6ede3aae12b.mp3",
+    "selin|Benimki açık. Şekersiz.": "res://audio/voice/el_af48592179ec0ca684ec5986.mp3",
+    "hasan|Arda, benimki demli olsun.": "res://audio/voice/el_ff2a3fa35719e5c66110f116.mp3",
+    "arda|Buyurun. Çay?": "res://audio/voice/el_c06072c3beb7ba263b61b145.mp3",
+    "arda|Yok, ikram. Otur.": "res://audio/voice/el_ae173a0676aca3eb7305aa4a.mp3",
+    "arda|Tabii. Su ister misin?": "res://audio/voice/el_7537b6da2aca29489ab93313.mp3",
+    "arda|Su?": "res://audio/voice/el_6c4f75b427bf13124baa760f.mp3",
+    "selin|Açık. Ben böyle seviyorum.": "res://audio/voice/el_ebe1a49a49b317690b236167.mp3",
+    "hasan|Bu benim mi?": "res://audio/voice/el_7cf1b0f8ea3825e5e79cac45.mp3",
+    "hasan|Bu açık. Ben demli istemiştim.": "res://audio/voice/el_d947ed334ca67557e11615c0.mp3",
+    "selin|O benim. Değiştirelim.": "res://audio/voice/el_e5710160792726abd5a98707.mp3",
+    "hasan|Demli, lütfen.": "res://audio/voice/el_321e94ea92cb70c9a8362c10.mp3",
+    "arda|Abi, şunu buraya koyar mısın?": "res://audio/voice/el_e994fefdd9184afa56367198.mp3",
+    "arda|Çarşıdaki fırın. Askıda ekmek.": "res://audio/voice/el_b949ba0eeccc2600b1ace95c.mp3",
+    "arda|Fırını gördün mü?": "res://audio/voice/el_0ca733cf9b9a534d13caf6c1.mp3",
+    "arda|Yok, öyle değil. Gidince görürsün.": "res://audio/voice/el_cf6553a5198adc5b9208850c.mp3",
+    "arda|Evet. Askıda ekmek.": "res://audio/voice/el_7d4554b9923327ae9ec28913.mp3",
+    "hasan|Bir fotoğraf çekelim. Yardım çoğalsın.": "res://audio/voice/el_9e0195710b1abf9a5009e55e.mp3",
+    "selin|İzin var mı?": "res://audio/voice/el_eb71f8d5a7006a638841c59f.mp3",
+    "selin|Önce soralım.": "res://audio/voice/el_badf370192ee622b26587643.mp3",
+    "hasan|Ben istemiyorum.": "res://audio/voice/el_8c03501727c56309444d3213.mp3",
+    "selin|Tamam. Sadece paketler.": "res://audio/voice/el_b9d4e7fd7c086ebae713aa77.mp3",
+    "hasan|Arda, çay?": "res://audio/voice/el_b0549b02176a14d2d2cbd194.mp3",
+    "arda|Bir dakika.": "res://audio/voice/el_b879f6766dbdcc71f6c95b24.mp3",
+    "arda|Bir dakika, abi.": "res://audio/voice/el_33bd281272b9c3d82ffb653a.mp3",
+    "arda|Çay değil. Bir dakika dinleneyim.": "res://audio/voice/el_8765fbf4b1660d2a63e587f6.mp3",
+    "arda|Sonra anlatırım. Sen biraz gez.": "res://audio/voice/el_70a5151598753ebf66e8f01c.mp3",
+    "arda|Sonra bakarsın.": "res://audio/voice/el_aa0712bfdb7623aee74aeddc.mp3",
+    "arda|Çay bekleyebilir mi?": "res://audio/voice/el_0c2b08a69b092e55bb218971.mp3",
+    "arda|Bir dakika demiştim.": "res://audio/voice/el_b0b7997f950748ee7a2eae7b.mp3",
+    "hasan|Tabii. Bekler.": "res://audio/voice/el_62579e33a739e2ebb2bb75e7.mp3",
+    "selin|Ben kendim alırım.": "res://audio/voice/el_6edbbe819f1bd76ffc44d1cf.mp3",
+    "hasan|Kusura bakma, Arda. Aklım telefondaydı.": "res://audio/voice/el_6df466192e182ecebc74e0d1.mp3",
+    "arda|Adın ne?": "res://audio/voice/el_aa90c5dc1dfa1183981f4eca.mp3",
+    "hasan|Ben de.": "res://audio/voice/el_3fe6e3198ed8446904caeb69.mp3",
+    "arda|Tepsi! Bunu hatırlarım.": "res://audio/voice/el_84ce5ad8770ca2452a6f47a6.mp3",
+    "selin|Boş kalsın. Sorun değil.": "res://audio/voice/el_f191414f1d3731cfbe588a1f.mp3",
+    "arda|Bayramda yine gel. Beraber otururuz.": "res://audio/voice/el_2511f16646c4d934591b7dc7.mp3",
+    "selin|Misafirimiz ol.": "res://audio/voice/el_676fc6908eefa838704ea2bd.mp3",
+    "selin|Çalışmaya değil. Oturmaya.": "res://audio/voice/el_4bc2b26ba691d70f7ddcb5df.mp3",
+    "arda|Hoş geldin! Bayramın kutlu olsun.": "res://audio/voice/el_e6fcfe225cec548d4830c014.mp3",
+    "hasan|Bayramınız kutlu olsun.": "res://audio/voice/el_dbef16bce2c5be2ea1db9fa2.mp3",
+    "arda|Açık mı, demli mi? Yoksa su mu?": "res://audio/voice/el_3fd72fec1985c7bbb88a2d8e.mp3",
+    "arda|Tamam. Buyurun.": "res://audio/voice/el_f227c22ddb13ed4a4ab5fd31.mp3",
+    "selin|Teşekkür ederim.": "res://audio/voice/el_79c66f44f25ad30d8652af41.mp3",
+    "selin|Yardım eder misin? İstersen.": "res://audio/voice/el_09023406d898f114a221f0ab.mp3",
+    "hasan|Ben götürürüm.": "res://audio/voice/el_811a5145a24a81b31f0a29f3.mp3",
+    "counter_moscow|На одну ночь?": "res://audio/voice/el_454ca5c78353f729b6c9e9ce.mp3",
+    "counter_moscow|Билет?": "res://audio/voice/el_2763bde2892b51b9c1c67d3c.mp3",
+    "counter_istanbul|Bir oda?": "res://audio/voice/el_4798ae729daf9cec4218d53d.mp3",
+    "counter_istanbul|Bir gece?": "res://audio/voice/el_1a48b713f47b509b476d5cfd.mp3",
+    "counter_istanbul|Bir bilet?": "res://audio/voice/el_453e1583bc9dafe611709d76.mp3",
+    "counter_mumbai|एक कमरा?": "res://audio/voice/el_b8a8af3f3028234153503f73.mp3",
+    "counter_mumbai|एक रात?": "res://audio/voice/el_fe94861a3ffb64d957382257.mp3",
+    "counter_mumbai|एक टिकट?": "res://audio/voice/el_36e95c0fd229a0018830875c.mp3",
+    "counter_tokyo|お部屋ですか？": "res://audio/voice/el_31b8546c824ef76cfebb7341.mp3",
+    "counter_tokyo|切符ですか？": "res://audio/voice/el_5889f544567f3a98a2d2d587.mp3",
+    "counter_tokyo|一泊ですか？": "res://audio/voice/el_ee98cfd2e7b1b4d455854570.mp3",
+    "counter_mexico|¿Una habitación?": "res://audio/voice/el_73123c1e473b44405ed1963a.mp3",
+    "counter_mexico|¿Una noche?": "res://audio/voice/el_3923b0c89410d6baf3981f3f.mp3",
+    "counter_mexico|¿Un boleto?": "res://audio/voice/el_77c1006b7120a98139da3207.mp3",
+    "val|You couldn't give me a hand with those, could you?": "res://audio/voice/el_677380867c3cbe6190ad7ba4.mp3",
+    "val|Could you put them beside me?": "res://audio/voice/el_4d1a3fc8712cb3e76e596a7a.mp3",
+    "val|Cheers, love. That's a help.": "res://audio/voice/el_565b8c062e8a5cb99a135f6b.mp3",
+    "val|Lovely. The notices, please. This box is eating my fingers.": "res://audio/voice/el_9281c45aaebea29004137b8d.mp3",
+    "val|No worries. Ahmed, could you take the other end?": "res://audio/voice/el_7cc0b2f70798c10115220b1d.mp3",
+    "ahmed|Not for me. For my niece.": "res://audio/voice/el_0a319a0bf479e36d8ecb677f.mp3",
+    "val|Tea? The usual, Ahmed?": "res://audio/voice/el_d9949cc2015bf100c3980336.mp3",
+    "nadia|Shall we ask her?": "res://audio/voice/el_c2dbaf24ff4f0b5794dd8495.mp3",
+    "ahmed|We share a surname. Not a tea order.": "res://audio/voice/el_e1f0a878871ffee88f75a302.mp3",
+    "ahmed|She's replied. No milk. One sugar.": "res://audio/voice/el_22ba1b68cc63255ccbf89162.mp3",
+    "val|Fair point. I'll wait.": "res://audio/voice/el_5455134f87ac8d595ba89382.mp3",
+    "nadia|Mine's milk, no sugar. If you're passing the caff later.": "res://audio/voice/el_f42e290d262ef395b101d7f7.mp3",
+    "nadia|You made it back. How was it?": "res://audio/voice/el_a133ef508257c6b170ca0d18.mp3",
+    "nadia|No. Just if you're there. Tell me what happens, even if you forget the tea.": "res://audio/voice/el_aa4c1164b01eabc32c5eacc5.mp3",
+    "nadia|Did Val call you love? She calls the card machine love when it works.": "res://audio/voice/el_1951e1720bf1eb8571f69c04.mp3",
+    "nadia|Oh, I like that. Hang on. Let me draw it before I forget.": "res://audio/voice/el_3d33f21a0e570d97c44ebcd7.mp3",
+    "nadia|I'm fine. It's fine.": "res://audio/voice/el_0122d97012da6cb79fea1b90.mp3",
+    "nadia|Wait. Sorry. I'm not fine. I don't know why I said that.": "res://audio/voice/el_c8e91600323d60bfd0115f65.mp3",
+    "nadia|Please don't answer for me. I just want a minute to work out what I want.": "res://audio/voice/el_e89b16b5460a07e02fc3f6e6.mp3",
+    "nadia|Listen first. My portfolio's due, and apparently I'm on cups all evening.": "res://audio/voice/el_70be029984b5caf28aaebd4b.mp3",
+    "val|I meant the signs. I thought you'd like designing them.": "res://audio/voice/el_01858e351ef0d1a185964b46.mp3",
+    "nadia|Three signs I can finish. A whole evening I can't.": "res://audio/voice/el_b8c368607481017eb5aead11.mp3",
+    "nadia|Then yes. And my name on the bottom.": "res://audio/voice/el_9c68e8a62e60ec9999e3dfbf.mp3",
+    "nadia|Not tonight, Val. I need to finish my own work.": "res://audio/voice/el_030d0a1537fa82c85af09b69.mp3",
+    "val|Three signs. I'll pay you for those. The cups are my problem.": "res://audio/voice/el_55a28505adc2a7bd2d3f428d.mp3",
+    "nadia|Go and see somewhere I haven't been this week. Bring me one small detail.": "res://audio/voice/el_ae257ab077cd8e0099112b4b.mp3",
+    "val|All right. The old signs will do. Show me the portfolio when it's finished?": "res://audio/voice/el_5b65385b8372edb8939074d9.mp3",
+    "val|Three signs, delivered and paid for. Look, she even signed them.": "res://audio/voice/el_de69dc0d7acb13f3cb636333.mp3",
+    "ahmed|A bit further back, perhaps?": "res://audio/voice/el_1317a873171d75605c8f0257.mp3",
+    "val|Found last year's signs in the cupboard. Nadia's finished her own drawing.": "res://audio/voice/el_11c195459a0a59695cbdf126.mp3",
+    "ahmed|Further than that. Let's ask her rather than guess.": "res://audio/voice/el_0d8216f51114cab53e00dbc6.mp3",
+    "ahmed|She does want to come. She just doesn't want to stand there.": "res://audio/voice/el_5378c07f813aa2c391d66bc9.mp3",
+    "ahmed|She's chosen the path at the back. We can leave whenever she wants.": "res://audio/voice/el_eb580d0118cacffa9503c3c0.mp3",
+    "nadia|What shall I put beside you?": "res://audio/voice/el_6da80decf9b8b787d8a731ac.mp3",
+    "nadia|Questions are useful. You notice things. That's a thing.": "res://audio/voice/el_c1dcb5c018c525f7e582eee9.mp3",
+    "nadia|I'll leave room. People are allowed to be unfinished.": "res://audio/voice/el_f929ceb60f46bc278400fc9f.mp3",
+    "val|Will you come for the lights? If you want.": "res://audio/voice/el_aedbffe303f5994f5b00294f.mp3",
+    "ahmed|Meet us by the path, then. We'll have a clear way out.": "res://audio/voice/el_18350fe4cea0b719bbb691b0.mp3",
+    "nadia|This way. Would you mind?": "res://audio/voice/el_f269965b22dc0d2d0c9963e1.mp3",
+    "val|Come here when you're ready. No shift attached.": "res://audio/voice/el_84f1af762ccd48a81c39b5c9.mp3",
+    "nadia|Brilliant. It's that one.": "res://audio/voice/el_8946bfbf8c4d1203baa7059b.mp3",
+    "nadia|That's it. People can see it before they have to choose.": "res://audio/voice/el_71dedd3705cc5e2043f80eff.mp3",
+    "ahmed|I'll take it. You find yourself a good spot.": "res://audio/voice/el_42d474d83889d6ffe35749c0.mp3",
+    "val|A warm drink? Or water?": "res://audio/voice/el_88a41dc64db8608e04aaa31e.mp3",
+    "val|Here you are.": "res://audio/voice/el_bd7de35c7828203fb0daa715.mp3",
+    "val|Tea. Nothing added yet. Milk and sugar are separate.": "res://audio/voice/el_c0ee70add47dbf98fc95ea9b.mp3",
+    "ahmed|We're heading to the back, as planned. Ready?": "res://audio/voice/el_d39a2b9a7a7db57aca6b473a.mp3",
+    "val|All right. They'll be here if you change your mind.": "res://audio/voice/el_7772a651c5f259da95eabdf9.mp3",
+    "nadia|One more thing. This copy's yours.": "res://audio/voice/el_e89d51ceeaa65c1f2b6ba201.mp3",
+    "val|We'll walk over together. You can move back whenever you like.": "res://audio/voice/el_f954a97da87116a6ad42aa51.mp3",
+    "kerstin|Na, Neuer!": "res://audio/voice/el_15d7d545cd170e23d663109e.mp3",
+    "kerstin|Kaffee? Schwarz, wa.": "res://audio/voice/el_176770859403fecfb8736046.mp3",
+    "kerstin|Allet jut?": "res://audio/voice/el_9fec23d0146b6927b9b34d1d.mp3",
+    "kerstin|Morgen, Neuer.": "res://audio/voice/el_ab235a33c94b8e7c8968f393.mp3",
+    "kerstin|Emil war heute schon da.": "res://audio/voice/el_a77464081d84e26bfeeee6c8.mp3",
+    "odile|Bonjour.": "res://audio/voice/el_0b95b5629a1ff90563f8c589.mp3",
+    "odile|Bonjour, d'abord.": "res://audio/voice/el_f3c3999250322b562c4722c2.mp3",
+    "odile|Voilà. Vous cherchez quoi ?": "res://audio/voice/el_4746c6f1bad02253f8c22449.mp3",
+    "marcel|À quelle heure ?": "res://audio/voice/el_9375ce411e06e0a6de549c70.mp3",
+    "ines|Le quatorze juillet, on mange ensemble. Tu viens ?": "res://audio/voice/el_55e8807b21823b715261af0c.mp3",
+    "marcel|À vingt et une heures, je dors !": "res://audio/voice/el_9b3fd139e355107c9c932e32.mp3",
+    "odile|On mange à dix-neuf heures. La musique après.": "res://audio/voice/el_21a4c9638b325088b8703798.mp3",
+    "ines|D'accord. Je vous rejoins après mon travail.": "res://audio/voice/el_b09e8ec169a464ad104b2f66.mp3",
+    "odile|Cette chaise, là, s'il vous plaît ?": "res://audio/voice/el_ec9b966f1e8f07b30536dfcc.mp3",
+    "odile|Merci. Gardons le passage libre.": "res://audio/voice/el_2025c93fa689689d4a3a5457.mp3",
+    "marcel|Du pain. À Belleville, vous en trouverez aussi.": "res://audio/voice/el_4091de9381ed2d2c5e83d0aa.mp3",
+    "odile|Alors, Belleville ?": "res://audio/voice/el_d9d223db8380549d69525940.mp3",
+    "odile|Racontez-moi.": "res://audio/voice/el_7b12f881f24bcadf1aa41d34.mp3",
+    "odile|Inès, ça va ?": "res://audio/voice/el_45d5e715c65cc3d710fbbefa.mp3",
+    "ines|Ça va. Enfin… j'attends un appel.": "res://audio/voice/el_6164583df92faba90f67c6d3.mp3",
+    "ines|Pas maintenant, s'il te plaît.": "res://audio/voice/el_ee61915e88775a9dcd3611ce.mp3",
+    "odile|Prenez votre temps.": "res://audio/voice/el_de4259a9018339114cfbc624.mp3",
+    "ines|Mon frère est à l'hôpital. J'attends de ses nouvelles.": "res://audio/voice/el_183549b8eb643cbe30d1641f.mp3",
+    "marcel|Du pain pour combien de personnes ?": "res://audio/voice/el_a8f534792c73e1ca8b8e0492.mp3",
+    "marcel|Pas le prix. Combien de personnes ?": "res://audio/voice/el_aea6104a68bf0fbc6cc10312.mp3",
+    "marcel|Douze pour le moment. Je garde du pain en réserve.": "res://audio/voice/el_82c58cf78ea27292777eace2.mp3",
+    "ines|Merci d'avoir attendu.": "res://audio/voice/el_afb97657fd3382abe1d3fda8.mp3",
+    "ines|Mon frère ? Peut-être. On ne sait pas encore.": "res://audio/voice/el_3c4cda81d6645aa8f137cb9c.mp3",
+    "ines|Je n'ai pas promis. Ça dépend de lui.": "res://audio/voice/el_ad19772b57864c198a161097.mp3",
+    "ines|Attends. Il aimerait venir.": "res://audio/voice/el_d9b9132a7b8e7c56cc83186d.mp3",
+    "ines|On garde une place ?": "res://audio/voice/el_2cddc71f0a997f3e75d04539.mp3",
+    "marcel|Je peux préparer une boîte.": "res://audio/voice/el_320305c42a9bd7b553c33582.mp3",
+    "odile|Une place, pas une obligation.": "res://audio/voice/el_bbc11567be9513b08e26c455.mp3",
+    "ines|Tu restes avec nous ?": "res://audio/voice/el_e6937983b0e7f18ccd1dcc80.mp3",
+    "ines|Au fait, tu peux me tutoyer.": "res://audio/voice/el_80f599de5a14af8c5af6723b.mp3",
+    "odile|Et votre nom ?": "res://audio/voice/el_adf7818cbbd28beb901690b8.mp3",
+    "ines|Avec moi ? Tu peux dire : avec toi.": "res://audio/voice/el_151db55d9fc8b59e1e922e54.mp3",
+    "odile|Revenez pour le repas. Vous connaissez le chemin.": "res://audio/voice/el_46333f195e806578302cd095.mp3",
+    "ines|Il reste chez lui ce soir. Peut-être demain.": "res://audio/voice/el_67ee5ac03670c943d4365dd9.mp3",
+    "ines|Peut-être, ce n'est pas une promesse.": "res://audio/voice/el_8b82ed52011dced762ac856a.mp3",
+    "ines|La boîte est prête. Il sera content.": "res://audio/voice/el_f83971bd94e64f9daf0d8663.mp3",
+    "marcel|Vous passez le pain ?": "res://audio/voice/el_52a5086899671ddf4e6291dc.mp3",
+    "marcel|Je lui prépare une boîte maintenant.": "res://audio/voice/el_fd27f642b00923aedf32424b.mp3",
+    "ines|Merci !": "res://audio/voice/el_c71748e186f9cca5ec573ded.mp3",
+    "odile|Encore une fois ?": "res://audio/voice/el_a9c43d69229a5d712a35c323.mp3",
+    "odile|Vous reviendrez. On gardera une place.": "res://audio/voice/el_32980909eb4362f4fcc02c32.mp3",
+    "odile|Non, votre histoire. Encore une fois.": "res://audio/voice/el_09ccf317d30cfcd090ef24ac.mp3",
+    "odile|Et ça s'est passé comment ?": "res://audio/voice/el_e9f2f9e4542b23a9da6bb441.mp3",
+    "odile|Bonjour ! On vous attendait.": "res://audio/voice/el_e3f84814c238991adc65ae48.mp3",
+    "pavel|Новая лучше?": "res://audio/voice/el_1fdcf3c44c08bf427d07f4ec.mp3",
+    "viktor|Застёжка не держит.": "res://audio/voice/el_248baeec9339994adcd665c2.mp3",
+    "alina|Нет. Вот эту. Починить.": "res://audio/voice/el_e5383f596b404e07f8408af0.mp3",
+    "alina|Да. Спасибо.": "res://audio/voice/el_22da698949ffc29f5b3b16db.mp3",
+    "alina|Не заменить. Починить вот эту.": "res://audio/voice/el_bcedfe67d02be28f36e09886.mp3",
+    "viktor|Что сохранить?": "res://audio/voice/el_94c6f03c4eab2160e54b080a.mp3",
+    "alina|Лицевую сторону. И царапины тоже.": "res://audio/voice/el_35ecea0eda48bf89e6c33e17.mp3",
+    "viktor|В Измайлово посмотрите. Покупать не обязательно.": "res://audio/voice/el_ddeeee07ca2b1dfa487605cd.mp3",
+    "viktor|Просто посмотрите. Или нарисуйте.": "res://audio/voice/el_51dfb980a8e012fb71f5a347.mp3",
+    "viktor|Что заметили?": "res://audio/voice/el_0b11697489442d0eb21a29e3.mp3",
+    "viktor|Покажите.": "res://audio/voice/el_458e0dbdeb30d049ec080470.mp3",
+    "viktor|Да. Пружинка здесь.": "res://audio/voice/el_1a9251ee998567d9616e7acb.mp3",
+    "pavel|Это брошь её бабушки…": "res://audio/voice/el_15fb26fb01594c103f285e4c.mp3",
+    "alina|Павел. Это личное.": "res://audio/voice/el_d1b0d3b917a634366118c8a5.mp3",
+    "alina|Я не хочу об этом говорить.": "res://audio/voice/el_55383e66cc299be0c1ee91ce.mp3",
+    "alina|Что брошь можно починить. Этого достаточно.": "res://audio/voice/el_659d4abe42c1d6a2981195bd.mp3",
+    "pavel|Извини. Не надо было рассказывать за тебя.": "res://audio/voice/el_d0165adfca81143f38ff0941.mp3",
+    "pavel|А матч вчера смотрел?": "res://audio/voice/el_536ef6efdf8b69013c17f493.mp3",
+    "viktor|Понимаете?": "res://audio/voice/el_265884b666d93a5e026eeb3a.mp3",
+    "viktor|Такой пас! Ворота пустые, а он мимо!": "res://audio/voice/el_718a5515f66f427396da0264.mp3",
+    "viktor|Ну и как бы вы сыграли?": "res://audio/voice/el_39f7bbc0cd3f4fd9c0498199.mp3",
+    "viktor|Медленнее. Вот мяч. Вот ворота.": "res://audio/voice/el_d093d8272d56805c2f4a546a.mp3",
+    "viktor|Как удобнее?": "res://audio/voice/el_4f903db5abe1a87a50c45fc3.mp3",
+    "alina|Мне трудно открывать эту застёжку.": "res://audio/voice/el_fb7f7e2fad62184a05cb6dfe.mp3",
+    "alina|Новая удобнее. А старую сохраним в коробке.": "res://audio/voice/el_19139d06e47e1f4be738e219.mp3",
+    "alina|С петлёй попробуем. Так я справляюсь.": "res://audio/voice/el_5bab6f712cb733b566e33163.mp3",
+    "alina|Показать?": "res://audio/voice/el_9e9dd1248fd6e999ef90b18d.mp3",
+    "alina|Да, можно.": "res://audio/voice/el_132b7b4f8aa4659aa070cdec.mp3",
+    "alina|Брошь можно посмотреть. Фотографию не надо.": "res://audio/voice/el_76f6c37225e9f62ab71e3bd9.mp3",
+    "viktor|Сложная работа. Начинать надо с маленького.": "res://audio/voice/el_2e3c22935ecb3a09b337fcc6.mp3",
+    "pavel|На Масленицу приходите на блины. Вместе посидим.": "res://audio/voice/el_9dd4419200a97e45f7934228.mp3",
+    "viktor|Просто приходите.": "res://audio/voice/el_63b0eae0fb87be4ccb137a00.mp3",
+    "viktor|Работа подождёт.": "res://audio/voice/el_14919b22fe92c66676bbb2df.mp3",
+    "alina|Что внутри? Спрашивайте.": "res://audio/voice/el_577596047679963ba8f63c41.mp3",
+    "pavel|С Масленицей! Блины со сметаной или с вареньем?": "res://audio/voice/el_8e56bab506e7d6b1b0d86f2f.mp3",
+    "alina|Варенье. Вишнёвое.": "res://audio/voice/el_68d0a783e044ac13a7e87ba7.mp3",
+    "pavel|Без начинки. Сметану отдельно.": "res://audio/voice/el_25422eeae6beff46d6f5a077.mp3",
+    "alina|С вареньем. Мне тоже так нравится.": "res://audio/voice/el_4df6c4ee40e1439b6790b92b.mp3",
+    "pavel|Конечно. Садитесь с нами.": "res://audio/voice/el_340cdd2566c044e4f16e2131.mp3",
+    "alina|Новая застёжка работает. Старая дома, в коробке.": "res://audio/voice/el_671d4040214d150716ce3316.mp3",
+    "alina|Петля держится. Вот здесь вы помогли.": "res://audio/voice/el_740cd45973ac3c721c10a242.mp3",
+    "alina|Хотите, я расскажу одну историю?": "res://audio/voice/el_acc69c8c4ec8a95229cee17b.mp3",
+    "alina|Бабушка эту брошь всегда прикалывала криво.": "res://audio/voice/el_f6444384fc38144e914ac756.mp3",
+    "viktor|Карандаш себе оставьте.": "res://audio/voice/el_8ad7144f5f20b9b2ab4f5c54.mp3",
+    "omkar|एक-एक करके?": "res://audio/voice/el_f0326bc8a995f448be40fe12.mp3",
+    "asha|कुर्सी, फूल, और यह तार…": "res://audio/voice/el_8aa4f8e3756ff39a8414f1a4.mp3",
+    "asha|तो पहले क्या करें?": "res://audio/voice/el_e2a2086a09008d4467acbd08.mp3",
+    "yusuf|रास्ता खुला रखिए।": "res://audio/voice/el_6cd56815cfc03e6d484c8041.mp3",
+    "omkar|ठीक है। धीरे बोलता हूँ।": "res://audio/voice/el_2c48fad0533e34a5aa780d2d.mp3",
+    "asha|यहाँ?": "res://audio/voice/el_1e4a5ac39f74286b9835b34d.mp3",
+    "asha|सब नहीं। बस यह बोर्ड।": "res://audio/voice/el_b25fe2536187cd0e63faa07b.mp3",
+    "asha|बोर्ड दिखना चाहिए। दीवार के पास?": "res://audio/voice/el_466a6cf2568cf88b74b785ee.mp3",
+    "yusuf|इतनी जगह चाहिए।": "res://audio/voice/el_c5f590ce36e44d7bbc0a128f.mp3",
+    "omkar|चोर बाज़ार में देखिए। खरीदना ज़रूरी नहीं।": "res://audio/voice/el_7dad37488f4f19776c0a4b12.mp3",
+    "omkar|क्या देखा?": "res://audio/voice/el_ec8b5bfaa7d25b1ce62bc088.mp3",
+    "asha|एक और फ़ोन आया है।": "res://audio/voice/el_c8410ae592d0f94eb2d3ee40.mp3",
+    "omkar|बाद में। अभी यह देखिए।": "res://audio/voice/el_9ef53605a639d713920019a8.mp3",
+    "omkar|यह रोशनी यहाँ आएगी।": "res://audio/voice/el_9962bba2511ca23727ca4cb6.mp3",
+    "yusuf|समझ में आया?": "res://audio/voice/el_281972c334a93b1ca28c9d7d.mp3",
+    "omkar|फ़ोन कल। आज मेरा डिज़ाइन।": "res://audio/voice/el_cd726d7c27bb245af4f55887.mp3",
+    "asha|आप किस भाषा में पढ़ते हैं?": "res://audio/voice/el_4f1fde4523ebbd9849f5f340.mp3",
+    "yusuf|नाम से कैसे पता चलेगा? पूछ लेते हैं।": "res://audio/voice/el_57fd89a5dc94bf4c064bcaa9.mp3",
+    "asha|गणेश चतुर्थी की तैयारी है।": "res://audio/voice/el_372377e10a46c528fdc89c25.mp3",
+    "yusuf|मैं कुर्सियाँ लगा दूँगा। पूजा में नहीं बैठूँगा।": "res://audio/voice/el_0a133df013b9904739d19ba2.mp3",
+    "omkar|तस्वीर भी। शब्द भी।": "res://audio/voice/el_e89560b7997cd977ada0f36b.mp3",
+    "yusuf|मैं यहीं हूँ। बस पूजा में नहीं।": "res://audio/voice/el_b1ac845749fd8dc78de446e6.mp3",
+    "asha|ठीक है। जैसा आप चाहें।": "res://audio/voice/el_dc92867038e40091ff31a6ba.mp3",
+    "omkar|कुर्सी यहाँ रख दें?": "res://audio/voice/el_0aa8ba51e01fcc7d60d859d0.mp3",
+    "yusuf|मैं रख देता हूँ।": "res://audio/voice/el_bb8e6c3b8b1d3bbd58d60fcf.mp3",
+    "asha|यहाँ से सुनाई देता है। धन्यवाद।": "res://audio/voice/el_0844955bed0210c0b1ab232c.mp3",
+    "omkar|आज का काम ख़त्म। अब मेरा स्केच।": "res://audio/voice/el_129a9276c6b542303349573d.mp3",
+    "omkar|आप क्या करना चाहेंगे?": "res://audio/voice/el_c7641a0c1de93d8ff5e9fb74.mp3",
+    "omkar|यहाँ बैठिए। कुछ पूछना हो तो पूछिए।": "res://audio/voice/el_26d8d844571df2a2fa9268f4.mp3",
+    "yusuf|रास्ता इधर है।": "res://audio/voice/el_7503f2876a562f0a8a214e12.mp3",
+    "asha|थोड़ा?": "res://audio/voice/el_7835a541a9a76088570bdede.mp3",
+    "asha|चावल, नारियल और गुड़।": "res://audio/voice/el_4e6b503822dc075ae496430d.mp3",
+    "asha|ठीक है। यहीं बैठिए।": "res://audio/voice/el_ae6f226ff501dc04e221f7d7.mp3",
+    "omkar|मेरे डिज़ाइन से अलग है। अच्छा है।": "res://audio/voice/el_be90f7d823415737e2194aae.mp3",
+    "haru|こっちの形が好き。": "res://audio/voice/el_2564a0902e2a607861a23667.mp3",
+    "mori|持ちやすいのはどっちですか？": "res://audio/voice/el_0b74a90090d4b9a2389cd213.mp3",
+    "mori|きれいですね。でも、私にはこっち。": "res://audio/voice/el_3c659c7b8aa78a6a75cb5606.mp3",
+    "setsuko|どうぞ。持ってみてください。": "res://audio/voice/el_7a6b3091684152c6dac19e3c.mp3",
+    "mori|はい。これは持ちやすいです。": "res://audio/voice/el_ca3f0c4bcef56c753864daa8.mp3",
+    "haru|包みますか？": "res://audio/voice/el_55139aa924d784b18cbe5049.mp3",
+    "mori|大丈夫です。": "res://audio/voice/el_03c9ca072fb545d3c1b0f389.mp3",
+    "mori|ああ、紙はいらないです。袋があります。": "res://audio/voice/el_00cef08509348f8ba0110003.mp3",
+    "mori|いいえ。この袋に入れます。": "res://audio/voice/el_44d234a6b50daef862d10a78.mp3",
+    "haru|みんなに読んでほしいな。": "res://audio/voice/el_cbf1955692516c2b97219d6d.mp3",
+    "setsuko|七夕の短冊です。まだ書かなくてもいいですよ。": "res://audio/voice/el_08241a23c822315d9af5d4a6.mp3",
+    "mori|私のは、このままで。": "res://audio/voice/el_fccba3a2903c8f21fdf2a273.mp3",
+    "mori|それは読まないでください。": "res://audio/voice/el_1a4982d0ffa3c12bbd788770.mp3",
+    "mori|自分だけの願いです。": "res://audio/voice/el_e79af71d8a321f542e99661a.mp3",
+    "haru|分かりました。折ったままにします。": "res://audio/voice/el_0193bc72f144353520bd79ff.mp3",
+    "setsuko|約束の時間は過ぎています。いつ届きますか？": "res://audio/voice/el_4b0338b8e9906f1acd34d903.mp3",
+    "haru|びっくりしましたか？": "res://audio/voice/el_24a0ff23acbe1db9ccf665ea.mp3",
+    "setsuko|私だって怒りますよ。": "res://audio/voice/el_41a0414530c739fb25655b99.mp3",
+    "haru|ここに結んでもいいですか？": "res://audio/voice/el_82fd473f0142c3823a77400c.mp3",
+    "setsuko|待つのは構わない。でも、連絡は欲しいですね。": "res://audio/voice/el_6c41aba42af72a3583242271.mp3",
+    "mori|そこは手が届きません。": "res://audio/voice/el_04d7137ba53a0b2f4788827e.mp3",
+    "mori|大丈夫……でも、もう少し低いところはありますか？": "res://audio/voice/el_1cab32b5b566cdf3c7f1df2c.mp3",
+    "mori|はい。ここなら自分でできます。": "res://audio/voice/el_384ceec625260e5216ea9611.mp3",
+    "haru|この高さでどうですか？": "res://audio/voice/el_38269b4dec011a1585d1d12b.mp3",
+    "setsuko|何か書きますか？絵でもいいですよ。": "res://audio/voice/el_9b6d76327bfceeaa010d388a.mp3",
+    "setsuko|まだ決まらなくても大丈夫。": "res://audio/voice/el_119e869b7ac6016664c0ff89.mp3",
+    "haru|後で選びましょう。": "res://audio/voice/el_925493ec57dd0bf05dcbc1e0.mp3",
+    "haru|結んでもいいですか？": "res://audio/voice/el_58dfa9f912b3b238af9198ae.mp3",
+    "haru|ここですね。": "res://audio/voice/el_7da45f60b98cb194de8c71a0.mp3",
+    "haru|分かりました。手帳にしまっておきましょう。": "res://audio/voice/el_c718c3c28d10b4425553b8d2.mp3",
+    "mori|読んでもいいですか？": "res://audio/voice/el_e9752287a81212c469966df3.mp3",
+    "haru|私のはどうぞ。": "res://audio/voice/el_524439dc1f605cca620acd8d.mp3",
+    "setsuko|どれを読みましょうか？": "res://audio/voice/el_ace663463b437b8362929234.mp3",
+    "mori|私のは、まだ秘密です。": "res://audio/voice/el_46c916ebfaa922aef35ab32f.mp3",
+    "haru|自分の店を開きたいです。": "res://audio/voice/el_cf63a5702ada59a3ab66c006.mp3",
+    "setsuko|また来てくださいね。": "res://audio/voice/el_2957dc1d7653d829f5fc96c6.mp3",
+    "rocio|Estamos preparando la ofrenda de la familia.": "res://audio/voice/el_6a6d69a988831d128c9f3512.mp3",
+    "lucia|¿Más flores? Así queda parejo.": "res://audio/voice/el_350b132f5b888f48db112b8a.mp3",
+    "tomas|Quiero dejar espacio para esa taza.": "res://audio/voice/el_5ce70e9c65007b1d04524bf5.mp3",
+    "tomas|Esta. La usaba todos los días.": "res://audio/voice/el_bf8a7a94ec66082dd2291ae9.mp3",
+    "tomas|Las flores sí, pero sin tapar la taza.": "res://audio/voice/el_c60a79cced52136a1f8a1790.mp3",
+    "rocio|Esa taza. No otra igual.": "res://audio/voice/el_66382cd71c7a39274e28df5b.mp3",
+    "lucia|¿Dónde la ponemos?": "res://audio/voice/el_77156e612478cd40008485b0.mp3",
+    "tomas|Ahí se esconde. Junto a la foto, mejor.": "res://audio/voice/el_941c4dc08d64f28c05229873.mp3",
+    "tomas|Sí, junto a la foto. Gracias.": "res://audio/voice/el_8c97c48d156360fac6907b01.mp3",
+    "rocio|Cempasúchil. En La Merced hay manojos de varios tamaños.": "res://audio/voice/el_72ddfd1ef13f2194a390eee5.mp3",
+    "rocio|¿Qué viste por allá?": "res://audio/voice/el_5513d0c72ab0d0158cb1eee0.mp3",
+    "lucia|¿Te grabo contando lo de la foto?": "res://audio/voice/el_d09fd5feba893beec57a170c.mp3",
+    "tomas|Mejor no. Hoy no quiero.": "res://audio/voice/el_e7116bed2b686286a3888584.mp3",
+    "tomas|Ni corto ni largo. Sin grabar, por favor.": "res://audio/voice/el_ef2f069c8072b3bbd76c6750.mp3",
+    "lucia|Entonces dibujo la mesa. ¿Está bien?": "res://audio/voice/el_f4a45d1ab01b2377497e357a.mp3",
+    "tomas|Sí. La taza salió chueca, como debe ser.": "res://audio/voice/el_8d066e299c6b463a68881e31.mp3",
+    "tomas|Las flores, si quieres. La historia de la foto, no.": "res://audio/voice/el_6712807fb386922fba48fc61.mp3",
+    "tomas|Una vez quemó la cena. Dijo que el humo era parte de la receta.": "res://audio/voice/el_2034c7c48cb7e4ac3d6343f9.mp3",
+    "rocio|¡Todavía decía que olía rico!": "res://audio/voice/el_5e2c8ce719bdfe3782090240.mp3",
+    "tomas|Me da risa. Y la extraño.": "res://audio/voice/el_cad83ab29e224454b62a5cf3.mp3",
+    "tomas|Así la recuerdo. También me hace reír.": "res://audio/voice/el_219bb738e4cb8265a687e414.mp3",
+    "lucia|¿Una foto de quienes ayudaron?": "res://audio/voice/el_c7967c56c204caf59e44a876.mp3",
+    "lucia|Claro. Me ayudas a encuadrar.": "res://audio/voice/el_774086b54b2bb7a839201bc9.mp3",
+    "rocio|Aquí, si quieres. Tomás se queda fuera de la foto.": "res://audio/voice/el_48439a5e50207994a02c2f96.mp3",
+    "lucia|La mesa, entonces. Sin retratos.": "res://audio/voice/el_5468c556da2da3d6c3ee60b0.mp3",
+    "lucia|¿Cómo escribo tu nombre?": "res://audio/voice/el_28dd64157f995751df396278.mp3",
+    "lucia|Ah. No es que lo olvidaste.": "res://audio/voice/el_12731253c28bf70c7a56c557.mp3",
+    "lucia|Sí te reconozco. El cuaderno ayuda.": "res://audio/voice/el_38498af95442f000c90e9f20.mp3",
+    "tomas|¿Te quedas un rato?": "res://audio/voice/el_345316a6f08f410e788b4152.mp3",
+    "rocio|¿Me ayudas con estas flores? Aquí, sin tapar la taza.": "res://audio/voice/el_40056a1768d87ac88b15a99b.mp3",
+    "rocio|Claro. Yo las llevo.": "res://audio/voice/el_031ab11b06093aabec602b96.mp3",
+    "tomas|Ahí está. Todavía se ve la taza.": "res://audio/voice/el_b9264933114e99a7075a9e28.mp3",
+    "lucia|¿La dejo derecha en el dibujo?": "res://audio/voice/el_7d77afa4edf5e49e52f5b478.mp3",
+    "tomas|Se ve bonita. Pero ya no parece su taza.": "res://audio/voice/el_60202720b48fd00e18c2ba08.mp3",
+    "lucia|Así. Ahora sí es esa taza.": "res://audio/voice/el_01a696e9a52bfa21b05bd1f4.mp3",
+    "tomas|¿Les conté cómo intentó pegarle el asa?": "res://audio/voice/el_a1bde79e6878a2b9498fca6a.mp3",
+    "lucia|Esta copia es para ti. Para que te acuerdes.": "res://audio/voice/el_d63574852c974c26078e0abe.mp3",
+    "kerstin|Du bist imma hier. Samstag. Wiesn.": "res://audio/voice/el_dd7cef6207a4cf6ed495821e.mp3",
+    "kerstin|Na? Kannste dit lesen? Nee.": "res://audio/voice/el_7569f042fd770529aa9b1826.mp3",
+    "arda|Buyur abi. Cay? Otur.": "res://audio/voice/el_ebcaa9f4e09a3644ebd81d66.mp3",
+    "arda|Valla abi, para yok. Aynen.": "res://audio/voice/el_2ee2e771848a0adad90628c5.mp3",
+    "arda|Bayram geliyor. Bize gel kanka.": "res://audio/voice/el_5b6c4c911bce99cb4c034043.mp3",
+    "odile|Bonjour. Bonjour, monsieur. Hein?": "res://audio/voice/el_7b67143d693914aaa0ed9adf.mp3",
+    "odile|Voila. Ce n est pas l accent.": "res://audio/voice/el_093a38930f22f6ff801e5a34.mp3",
+    "odile|Le treize, chez les pompiers.": "res://audio/voice/el_169d7154b2a781a21f68583f.mp3",
+    "viktor|Nu? Davay. Normalno.": "res://audio/voice/el_036c734ab6a60cd19bbadfad.mp3",
+    "viktor|Ty opyat zdes. Ladno.": "res://audio/voice/el_3b05f3893a740a6ee4120d9d.mp3",
+    "viktor|Maslenitsa. Bliny. Prihodi.": "res://audio/voice/el_fa978eb2e2c23c30c270ec66.mp3",
+    "nadia|You alright? Yeah? Safe.": "res://audio/voice/el_16d9d9ab6f00951c1beba2d2.mp3",
+    "nadia|You chat bare weird, innit.": "res://audio/voice/el_2a78c21b9634602c633f3776.mp3",
+    "nadia|Fifth of November. Come road.": "res://audio/voice/el_c1b99476eae19ed239edfea9.mp3",
+    "omkar|Arre boss, kya scene hai?": "res://audio/voice/el_1004ea60cc123d6f15f1cb76.mp3",
+    "omkar|Bappa aa rahe hain. Aana, bhai.": "res://audio/voice/el_c5872cbc92d48b94019e02cb.mp3",
+    "omkar|Chalta hai yaar. Ekdum bindaas.": "res://audio/voice/el_46f91b2d549d4d60a5a488d1.mp3",
+    "setsuko|Ara. Anta, kore hoshii no?": "res://audio/voice/el_bffc3166cb47dc7aeff50927.mp3",
+    "setsuko|Tanabata da yo. Issho ni.": "res://audio/voice/el_e2c28c462545e5f4511b0556.mp3",
+    "setsuko|Sore wa chotto ne...": "res://audio/voice/el_46c53b42d0ee20fd8202c4d5.mp3",
+    "kerstin|Komm, Neuer.": "res://audio/voice/el_1008c14b8f35b0546ebea2fc.mp3",
+    "kerstin|Dit is nich unsa. Dit is Bayern.": "res://audio/voice/el_27d7cc6e9e40f2d9bb9b6e3b.mp3",
+    "rocio|Mande? Ay, joven. Que le damos?": "res://audio/voice/el_92129ca50308c5e409d85e2d.mp3",
+    "rocio|Ahorita se las traigo, joven.": "res://audio/voice/el_78d73683e201aa145f94904e.mp3",
+    "rocio|Van a venir los muertos.": "res://audio/voice/el_0188fd3e3a3159cb5615300f.mp3",
+    "neusa|Voce ta fugindo de mim? Chega mais.": "res://audio/voice/el_80dbb8f3684fde5ebe546399.mp3",
+    "neusa|Senta aqui. Deixa eu ver. Relaxa.": "res://audio/voice/el_0feaadf1de6bb0aef44157db.mp3",
+    "neusa|Junho, fogueira, milho, danca. Voce vem.": "res://audio/voice/el_e09339969b3b1abe29464001.mp3",
+    "beat|Das isch Hochdütsch. So schriibt me, so redt me nöd.": "res://audio/voice/el_51ddaf177279133a9ba085ba.mp3",
+    "beat|Sali. Wottsch öppis? Entschuldigung. Möchten Sie etwas kaufen?": "res://audio/voice/el_719cf98fcc9340dedf623bbb.mp3",
+    "beat|Sächsilüüte. Ross, Zünft, Füür, alli. Chumm au, gell?": "res://audio/voice/el_4f75e52e5439e56890010b00.mp3",
+    "berlin_hartmut|Flasche, jeden Tag. Das ist Arbeit.": "res://audio/voice/el_1592ede9ab51b5776fe7d6d4.mp3",
+    "berlin_hartmut|Nee! Pfand. Das ist Geld, Mensch.": "res://audio/voice/el_3380bfe946eeb3737e41e7eb.mp3",
+    "berlin_ilka|Entschuldigung. Ist hier frei?": "res://audio/voice/el_9e77eb496c17b3f7627e6235.mp3",
+    "berlin_ilka|Neun Jahre hier. Und immer noch nicht von hier.": "res://audio/voice/el_085c07f336457898120ca549.mp3",
+    "berlin_sibel|Buyurun abla. Ja, gleich. Bitte?": "res://audio/voice/el_9d6b65468a5153c6eac67184.mp3",
+    "berlin_sibel|Du kannst Türkisch? Woher?": "res://audio/voice/el_e5dccf63f50713e4cd4cce00.mp3",
+    "berlin_ercan|Vierzig Jahre hier. Die Bahn? Nicht mehr.": "res://audio/voice/el_a10db194ec55ca9f236946d6.mp3",
+    "berlin_ercan|Kaputt? Hier. Gleich.": "res://audio/voice/el_90549214cc6d701d6313bf86.mp3",
+    "lukas|Guten Morgen! Wie geht es Ihnen?": "res://audio/voice/el_085cb6308ca3c45e7407fed6.mp3",
+    "lukas|Guten Morgen! Kann ich Ihnen helfen?": "res://audio/voice/el_23f067ada88b96daefd00013.mp3",
+    "lukas|Ich habe auch heute frisches Brot.": "res://audio/voice/el_67b41479c728e3105c9d4aeb.mp3",
+    "lukas|Ich habe frisches und gutes Brot.": "res://audio/voice/el_964d555e5741aa90eb19a76d.mp3",
+    "lukas|Sie kommen jeden Morgen! Ich bin Lukas.": "res://audio/voice/el_f1a32e0aee30454c6edfbc90.mp3",
+    "lukas|Schöner Morgen! Kalt in der Nacht, oder?": "res://audio/voice/el_61d1a9deb8f724bd8c81feba.mp3",
+    "lukas|Ich kann Ihnen das gute Brot empfehlen.": "res://audio/voice/el_df2b06a6593d3afb70579455.mp3",
+    "lukas|Das Brot ist sehr frisch heute. Möchten Sie?": "res://audio/voice/el_9d394e846e8415084eef5c7f.mp3",
+    "renate|Hier. Eine Karte.": "res://audio/voice/el_71c0b2120d8cda1ca0f50997.mp3",
+    "renate|Der Bus kommt nicht.": "res://audio/voice/el_035024686663be6c47c09cf8.mp3",
+    "renate|Sie sind nicht von hier, oder?": "res://audio/voice/el_da148441b505290570a8596e.mp3",
+    "renate|Zehn Minuten! Zehn!": "res://audio/voice/el_a23f7df58a1dce556a1e72d8.mp3",
+    "weber|Ein Zimmer?": "res://audio/voice/el_e3b452aa2f4a7d7c5a710dc8.mp3",
+    "weber|Guten Morgen! Willkommen!": "res://audio/voice/el_85b18ea0eed701c4b24c8c74.mp3",
+    "weber|Zimmer drei null vier. Dritter Stock!": "res://audio/voice/el_1eac3adbe13ed9aefc85de49.mp3",
+    "neumann|Was machen Sie hier? Das ist mein Zimmer!": "res://audio/voice/el_cf3a6c9f72aaea43a1262f41.mp3",
+    "neumann|Ach so. Entschuldigung. Letzte Woche war das meins.": "res://audio/voice/el_79839ab7947c3d5a9624c78a.mp3",
+    "ayse|Guten Morgen! Wie geht's?": "res://audio/voice/el_70c6746e33d03346f1791d50.mp3",
+    "jonas|Der Bus kommt heute nicht!": "res://audio/voice/el_0c4f24b4e6e718345935ee2d.mp3",
+    "istanbul_altan|Burası Avrupa gibi değil mi?": "res://audio/voice/el_d3a9349fc32c3505cef6e902.mp3",
+    "istanbul_altan|Ben çevirmendim. Otuz yıl.": "res://audio/voice/el_a0da072660f2ec5b728cefe2.mp3",
+    "istanbul_bulent|Misafir borç değil. Gel, yarın.": "res://audio/voice/el_4e50432f62efbcb0354861a6.mp3",
+    "istanbul_bulent|Otur. İç. Para yok. Olsun.": "res://audio/voice/el_3a7eaf346c0f5a63509112e6.mp3",
+    "cay_man|Abi! Buyur, buyur. Bir çay iç.": "res://audio/voice/el_ab49cf3254bafa87fd4ce3d9.mp3",
+    "istanbul_meryem|Aç mısın? Otur, otur.": "res://audio/voice/el_34139f89f121f5059f2ca5e1.mp3",
+    "istanbul_meryem|Çayını iç. Soğuyor.": "res://audio/voice/el_d6c3c41d8e219dc35484a1a3.mp3",
+    "istanbul_nurhan|Buyurun oğlum, ne istersin?": "res://audio/voice/el_43b4a659fb321dd8e005ea97.mp3",
+    "istanbul_sevim|Karşıdan mı geldin?": "res://audio/voice/el_41fbca21cd8d724e9a6a0a62.mp3",
+    "istanbul_sevim|Otur, çay içer misin?": "res://audio/voice/el_2406dc82ce736328a71acf57.mp3",
+    "istanbul_yasemin|Buyurun. Bir kart? Otuz lira.": "res://audio/voice/el_cedfd8a232dba45375d6526c.mp3",
+    "istanbul_yasemin|Ben buralıyım. Sokak değişti. Ben değil.": "res://audio/voice/el_70bef5aa398936fe330706b5.mp3",
+    "london_aggarwal|Good afternoon. Was there something particular?": "res://audio/voice/el_50919143a56ae548888cb95e.mp3",
+    "bins_woman|Sorry, you alright? It's just the recycling goes Tuesday.": "res://audio/voice/el_c6a3d5fcaa6b0004980da474.mp3",
+    "london_dot|Cold enough for you?": "res://audio/voice/el_4fd722b45e6fad2a8fcac9a6.mp3",
+    "london_dot|Not seen you before, have I?": "res://audio/voice/el_8f3818a8e78688840231c23d.mp3",
+    "london_dot|You alright, love? Sit anywhere.": "res://audio/voice/el_6394ff0eb6956d9a9b0ca7ba.mp3",
+    "london_esme|You learn quick round here.": "res://audio/voice/el_545fc33ac0652d5f5df05a4c.mp3",
+    "london_esme|Yeah, no, you can wait there.": "res://audio/voice/el_a704c527c2eb6018008c0812.mp3",
+    "london_femi|Nobody in this building knows my name.": "res://audio/voice/el_eb95a0b207e09ef4c9c25211.mp3",
+    "london_femi|Sorry, you alright? I'm afraid I can't let you through without a pass.": "res://audio/voice/el_d3fb5efb5165b67c52f4084d.mp3",
+    "london_kai|You safe? Bus ain't come innit.": "res://audio/voice/el_ad7287bdedfd2f604bc99a0e.mp3",
+    "london_marcus|You looking for something or just looking?": "res://audio/voice/el_5737c684e9221109f3b9976e.mp3",
+    "london_marcus|This whole street used to be us.": "res://audio/voice/el_3a6d16151ae45b0c78600da6.mp3",
+    "london_trish|You lost, love? Nineteen years I've done this floor.": "res://audio/voice/el_7b7d734071099703680ed64f.mp3",
+    "london_trish|They don't see me. Not rude. Just don't.": "res://audio/voice/el_d3cd9e3125d72592a5bc8fea.mp3",
+    "bonjour_man|Monsieur. On dit bonjour.": "res://audio/voice/el_820438e1aee1a991e8eeac1d.mp3",
+    "paris_elodie|Bonjour. Je vous écoute.": "res://audio/voice/el_40194bba5748b29ecca51651.mp3",
+    "paris_elodie|Voilà. Ce n'est pas compliqué.": "res://audio/voice/el_d684701696317458e077dde0.mp3",
+    "paris_karim|Tu peux regarder, vas-y.": "res://audio/voice/el_da8fdcbfde31a6e54285add7.mp3",
+    "paris_karim|Vous cherchez quelque chose monsieur?": "res://audio/voice/el_7ea71b47fae1194765a0456f.mp3",
+    "moscow_artyom|Vy zabludilis?": "res://audio/voice/el_0530b13caa6741a64c9eeea2.mp3",
+    "moscow_artyom|Idyom. Ya pokazhu.": "res://audio/voice/el_baf60db7cb1b1b8db9e926b4.mp3",
+    "moscow_galina|Chto vam nuzhno?": "res://audio/voice/el_ab37ee1a1a1379fee078992c.mp3",
+    "moscow_galina|Pochemu vy vsyo vremya ulybaetes?": "res://audio/voice/el_af7ab84df544427ad1cacf4a.mp3",
+    "hold_man|Slushayte. Derzhite eto. Sekundu.": "res://audio/voice/el_814e98b6fba7f364e0e8be3c.mp3",
+    "mumbai_farid|Arre boss, kya chahiye, tell me.": "res://audio/voice/el_94e41bba4ec5f111a6a7d24f.mp3",
+    "mumbai_farid|Aise hi bolte hain yahan.": "res://audio/voice/el_be9ba5b937e279a216e9ee61.mp3",
+    "mumbai_sunita|Tum seekh rahe ho, good.": "res://audio/voice/el_44c9fc4042545d0edb66cf7a.mp3",
+    "mumbai_sunita|Kitna chahiye, half kilo?": "res://audio/voice/el_b50fa2d2d7a065b6b42d274e.mp3",
+    "tokyo_iwata|Muzukashii desu ne.": "res://audio/voice/el_16dc05bef4da9e5360f603c5.mp3",
+    "tokyo_iwata|Chotto ne...": "res://audio/voice/el_c8aafd7c4a7ac710456defe3.mp3",
+    "tokyo_sora|Sumimasen, daijoubu desu ka?": "res://audio/voice/el_e6a57cc406b8657d85287ff1.mp3",
+    "tokyo_sora|Watashi mo shizuka ga nigate.": "res://audio/voice/el_a5e499203d1822044669c5c5.mp3",
+    "eating_woman|Ara, chotto ne. Tabearuki wa chotto...": "res://audio/voice/el_d45c7718b304f1cfc0755434.mp3",
+    "mexico_chuy|Ahorita se lo hago.": "res://audio/voice/el_024a277cf2379baa7506569c.mp3",
+    "mexico_chuy|Oiga, usted no es de aqui.": "res://audio/voice/el_4404ac86f7e0cca52ded4cb1.mp3",
+    "mexico_pilar|Que le damos, joven?": "res://audio/voice/el_3c0c068f23d320bb769c4de0.mp3",
+    "mexico_pilar|Ay, no sea asi, mijo.": "res://audio/voice/el_70a573e64d0c84cd58c8e8e2.mp3",
+    "flower_woman|Joven, ayudeme tantito. Ahorita vengo.": "res://audio/voice/el_625dfa189e8a240c01def0ca.mp3",
+    "dakar_ousmane|Ana waa ker ga?": "res://audio/voice/el_cc8b5ecd57b91d09f782da95.mp3",
+    "dakar_ousmane|Salaam aleekum. Naka nga def?": "res://audio/voice/el_e79366681584cb104894dae6.mp3",
+    "dakar_awa|Lu tax nga gaaw?": "res://audio/voice/el_d30b8da80fe1d97cf86873d4.mp3",
+    "dakar_awa|Nanga def? Mbaa sant wi?": "res://audio/voice/el_49f2fd0f77dff88aca457d7b.mp3",
+    "hanoi_duc|Di dau?": "res://audio/voice/el_78349b6eaa4d7248ea2b7be0.mp3",
+    "hanoi_duc|Ban noi gan dung.": "res://audio/voice/el_c669ad18ac015e3cdaf981d4.mp3",
+    "hanoi_hien|Ban muon gi?": "res://audio/voice/el_dba7b829ca9e294ab9ac09cf.mp3",
+    "hanoi_hien|Cao hon. Nghe day.": "res://audio/voice/el_a4576bd02f4fc4e2ef61a2e6.mp3",
+    "hanoi_lan|Tra da khong?": "res://audio/voice/el_83cc8dd618172826bd6e62cd.mp3",
+    "hanoi_lan|Gan roi. Lam lai.": "res://audio/voice/el_91940fcd7a23462e28cb8e95.mp3",
+    "honolulu_kimo|What school you went?": "res://audio/voice/el_43b293a3ef2616838de6936d.mp3",
+    "honolulu_kimo|Howzit. You like go?": "res://audio/voice/el_65ae2f39837787e1eab5ffc4.mp3",
+    "honolulu_lani|I'll hold it for you.": "res://audio/voice/el_1fd9b58b978d93bdd806549d.mp3",
+    "honolulu_lani|Who's it for?": "res://audio/voice/el_0e71551ed7bad7940f2431e8.mp3",
+    "lapaz_mauricio|De donde eres, pues?": "res://audio/voice/el_31eb51faf7a71aa2993a40a0.mp3",
+    "lapaz_mauricio|Aqui hay que decir como lo sabes.": "res://audio/voice/el_cfbac5b425e8d209f0e69980.mp3",
+    "lapaz_remedios|Dicen que vino del cielo.": "res://audio/voice/el_ae5ae0566d3083df319e8494.mp3",
+    "lapaz_remedios|Y vos, como sabes?": "res://audio/voice/el_592967ce996f4df477adb975.mp3",
+    "newyork_dov|What you want?": "res://audio/voice/el_e1cd28bd5a31950eca6a1a03.mp3",
+    "newyork_dov|Salt, pepper, ketchup?": "res://audio/voice/el_c979f1d3abadc08f1aee32cc.mp3",
+    "newyork_marisol|You buying or asking?": "res://audio/voice/el_0ad3164fbfb2dae7e3456155.mp3",
+    "newyork_marisol|Yeah, two blocks, left.": "res://audio/voice/el_5e18cdf5f836d42638e84eed.mp3",
+    "rome_nando|Ecco, cosi si fa.": "res://audio/voice/el_ff988931b1d8f996d49daaa4.mp3",
+    "rome_nando|Allora, dimmi, dimmi, che vuoi -": "res://audio/voice/el_f60668ae7c4ead28f610bc67.mp3",
+    "rome_lucia|Chi e il prossimo?": "res://audio/voice/el_96dac5d2d9534b4e821973da.mp3",
+    "rome_lucia|Bravo. Stavolta hai parlato.": "res://audio/voice/el_90aec0e3214e83b5d36f4b8f.mp3",
+    "saopaulo_jandira|Oi, tudo bem?": "res://audio/voice/el_eee85a66e2266f6d070a08b5.mp3",
+    "saopaulo_jandira|Voce fica longe demais.": "res://audio/voice/el_2c06abcfb2a73e14a285ba41.mp3",
+    "beijo_woman|Oi! Tudo bem? Chega aqui, relaxa.": "res://audio/voice/el_ef026a317b8775d633eb2958.mp3",
+    "saopaulo_wellington|Fala, mano. Perdido?": "res://audio/voice/el_7ae03b51a25ed4b08f3ca1d4.mp3",
+    "saopaulo_wellington|Relaxa, aqui e assim.": "res://audio/voice/el_3ca242db49577ad94a6da83f.mp3",
+    "seoul_baek|Geureom malmun-i an yeollyeo.": "res://audio/voice/el_782761abc69c1eb90e19e518.mp3",
+    "seoul_baek|Nai-ga eotteoke doeseyo?": "res://audio/voice/el_4d999c2bfa72b81f3c654dd9.mp3",
+    "seoul_jiwon|Mal noha-do dwae?": "res://audio/voice/el_58cdc3fe816fc04154fd794d.mp3",
+    "seoul_jiwon|Igeon gangdeung-i anya. Chodae-ya.": "res://audio/voice/el_20b2a20fbfe0fc29518da3b3.mp3",
+    "sydney_jen|Yeah nah you're right, no worries.": "res://audio/voice/el_0204f371972ac34d41791eab.mp3",
+    "sydney_jen|How ya going, mate?": "res://audio/voice/el_e7d0a366a0e99e81b10a9350.mp3",
+    "sydney_thuy|You right there?": "res://audio/voice/el_9ef1be0358b80a81b6011594.mp3",
+    "sydney_thuy|Born here. Cabra. Forty minutes that way.": "res://audio/voice/el_3837b4717f52de8bc3fae9ff.mp3",
+    "tbilisi_zurab|Akhla shen khar.": "res://audio/voice/el_d482f7f0e5cdce1bf78a6acc.mp3",
+    "tbilisi_zurab|Rasac ginda, magram grdzlad.": "res://audio/voice/el_60e0dd8c058f9768fe77962c.mp3",
+    "tbilisi_nino|Ar ginervulo. Aris tsesi.": "res://audio/voice/el_012883b9c3d474e98e0b8cfc.mp3",
+    "tbilisi_nino|Jer mshvidoba, mere mshoblebi.": "res://audio/voice/el_afc05a3e7c6aafffb73b0d9c.mp3",
+    "toronto_priya|You getting off here?": "res://audio/voice/el_88ed81000d778a55bbd1f26e.mp3",
+    "toronto_priya|Sorry, is this yours?": "res://audio/voice/el_46eada16daf790656c5d2808.mp3",
+    "toronto_wes|Where you from?": "res://audio/voice/el_e998c6527482fdaf2a600a98.mp3",
+    "toronto_wes|Take what you want.": "res://audio/voice/el_c4f5444095516c78fb8789d5.mp3",
+    "zurich_ruedi|Du verstahsch nüt, oder?": "res://audio/voice/el_3f5121d2bf5e27d5f5e630d8.mp3",
+    "zurich_ruedi|Grüezi, chumm ine, mir fahred grad.": "res://audio/voice/el_b09a77ce1e1120dc61e6b613.mp3",
+    "zurich_ruedi|Da, ich schriibs der uf.": "res://audio/voice/el_e2d89d457eda46b82fc496c1.mp3",
+    "sunntig_frau|Sunntig, gell. So macht me das nöd.": "res://audio/voice/el_ec8f79e7ca513637ad06c0b6.mp3",
+    "zurich_frau_amsler|Ah, Sie schriibed lieber.": "res://audio/voice/el_56847dabd4c88d6d13b83cd5.mp3",
+    "zurich_frau_amsler|Was wottsch?": "res://audio/voice/el_da3dd5a3e7e83ffd43d9c489.mp3",
+    "zurich_frau_amsler|Alli schriibed Hochdütsch, keine redt so.": "res://audio/voice/el_cd7f54451d84d5af2e7c3c48.mp3",
+    "kerstin|Fremd": "res://audio/voice/el_0e8587e44b3a26c0ee1f61a5.mp3",
+    "nadia|Foreign": "res://audio/voice/el_d74ede02b7511f6fb8b6e520.mp3",
+    "odile|Etranger": "res://audio/voice/el_d854f8e13be12c4ca2bec30a.mp3",
+    "viktor|Chuzhoy": "res://audio/voice/el_e140f401c38487aaf2e78a9a.mp3",
+    "arda|Yabanci": "res://audio/voice/el_ba827c8eecfb0631ea4aac6c.mp3",
+    "omkar|Pardesi": "res://audio/voice/el_be995b77a584b901fdf4a8d2.mp3",
+    "rocio|Extranjero": "res://audio/voice/el_2efaf0bfca834dcfefc61155.mp3",
+    "setsuko|Gaijin": "res://audio/voice/el_1eef5d9df6e3b498d14624c5.mp3"
+  },
+  "chatter": {
+    "german|Na?": [
+      "res://audio/voice/el_f319c89be5764eee170c31d9.mp3",
+      "res://audio/voice/el_f615f91d6de4e6b736e59347.mp3"
+    ],
+    "german|Noch wach?": [
+      "res://audio/voice/el_2a55d8c8d656315258e17eff.mp3",
+      "res://audio/voice/el_a333a68b87c644ec87d305a8.mp3"
+    ],
+    "german|Nacht.": [
+      "res://audio/voice/el_95547f14e098c88ead9b8216.mp3",
+      "res://audio/voice/el_c42cf30353de6fe49ab003ab.mp3"
+    ],
+    "german|Wie geht's?": [
+      "res://audio/voice/el_a631880c921ff92ae011267e.mp3",
+      "res://audio/voice/el_92909af9f14baa3809c3df0f.mp3"
+    ],
+    "german|Kalt heute.": [
+      "res://audio/voice/el_b1008c7ea007a2a9d6df048a.mp3",
+      "res://audio/voice/el_0dcdad24f558b54aab407317.mp3"
+    ],
+    "german|Der Bus kommt nicht.": [
+      "res://audio/voice/el_9d673773c8a9cf9c8396473d.mp3",
+      "res://audio/voice/el_e2353dd8212c64639cfb19c9.mp3"
+    ],
+    "german|Was kostet das?": [
+      "res://audio/voice/el_e39c9db98b508ed869b83efb.mp3",
+      "res://audio/voice/el_738fe21e5189549269b771a7.mp3"
+    ],
+    "german|Zwei Euro, bitte.": [
+      "res://audio/voice/el_61a11dcf8c33a83b56496557.mp3",
+      "res://audio/voice/el_643dcb1f20a4e8832225be7a.mp3"
+    ],
+    "german|Ist das frisch?": [
+      "res://audio/voice/el_93f7253615d049f45f155e1f.mp3",
+      "res://audio/voice/el_e42cc73749457dbbeb31d7e5.mp3"
+    ],
+    "german|Ich habe keine Zeit.": [
+      "res://audio/voice/el_6fdaf8a23dbf488c78e4ad14.mp3",
+      "res://audio/voice/el_75adfcf63c8c083011166c3f.mp3"
+    ],
+    "german|Danke schön.": [
+      "res://audio/voice/el_3ecdb9eefd80180b2948e2fd.mp3",
+      "res://audio/voice/el_77446c4d820b7ef500bc5256.mp3"
+    ],
+    "german|Wo ist der Markt?": [
+      "res://audio/voice/el_0a277d91e6cd701f4e117f46.mp3",
+      "res://audio/voice/el_4567b2ebc67323805c911f49.mp3"
+    ],
+    "german|Später, ja?": [
+      "res://audio/voice/el_7cf6775ee7c3e3236e7104f8.mp3",
+      "res://audio/voice/el_8458caa4f2a95901fa8b8198.mp3"
+    ],
+    "german|Das ist zu teuer.": [
+      "res://audio/voice/el_9f6d79e5d01a4e0ab2397196.mp3",
+      "res://audio/voice/el_072e6e2c3eb7801448c93f1d.mp3"
+    ],
+    "german|Bis morgen.": [
+      "res://audio/voice/el_4ca157c6a8efab1d752aa810.mp3",
+      "res://audio/voice/el_397a08ce5ff4a9f4de3e6df5.mp3"
+    ],
+    "german|Guten Morgen!": [
+      "res://audio/voice/el_60ffaff78fcc85cf6423ebc7.mp3",
+      "res://audio/voice/el_e6f805247054c10c8829ae75.mp3"
+    ],
+    "german|Morgen.": [
+      "res://audio/voice/el_ca996b500a7640cfc002aceb.mp3",
+      "res://audio/voice/el_aa749e8901858131e29da659.mp3"
+    ],
+    "german|Na, alles gut?": [
+      "res://audio/voice/el_821fc73fc3d0491c7ce95e0e.mp3",
+      "res://audio/voice/el_11756e0ce834efb6b1506932.mp3"
+    ],
+    "german|Guten Tag.": [
+      "res://audio/voice/el_b22f90bccb8c7b709a8ae900.mp3",
+      "res://audio/voice/el_45fa91c96a9b6f87363e9c12.mp3"
+    ],
+    "german|Tach.": [
+      "res://audio/voice/el_fa94ae001e73bcbf7b683e4c.mp3",
+      "res://audio/voice/el_6fa4dda03707818cea0c029c.mp3"
+    ],
+    "german|Alles klar?": [
+      "res://audio/voice/el_0be12f9a6b97d4b80fd51b8f.mp3",
+      "res://audio/voice/el_a0d4b0ff3b18e72139483335.mp3"
+    ],
+    "german|Guten Abend.": [
+      "res://audio/voice/el_1529e2f4398471c22abe769f.mp3",
+      "res://audio/voice/el_26f3cfa58ddf88e49108cef2.mp3"
+    ],
+    "german|Schönen Abend noch.": [
+      "res://audio/voice/el_b0230b7bbad3e0ea8794114e.mp3",
+      "res://audio/voice/el_1052ff5536e4cc490b2aeae3.mp3"
+    ],
+    "german|Feierabend!": [
+      "res://audio/voice/el_eec65b2a40c61bcca34a881d.mp3",
+      "res://audio/voice/el_64c028376ed560d24d96ae5d.mp3"
+    ],
+    "turkish|İyi geceler.": [
+      "res://audio/voice/el_1cda8829a04bad7c11754467.mp3",
+      "res://audio/voice/el_e02f8dabb8cd4ccc64002cf0.mp3"
+    ],
+    "turkish|Hayırlı geceler.": [
+      "res://audio/voice/el_68e6740bb2628ba9cc7f0590.mp3",
+      "res://audio/voice/el_b1d83af8e3637eb4d2130a92.mp3"
+    ],
+    "turkish|Nasılsın abi?": [
+      "res://audio/voice/el_63d767ea04eeb34b23f0d1a7.mp3",
+      "res://audio/voice/el_8df388a64d4c95f687b65aeb.mp3"
+    ],
+    "turkish|Kaç lira?": [
+      "res://audio/voice/el_a7fb073205984c5856158d94.mp3",
+      "res://audio/voice/el_258a1907198f7d8bee4084c5.mp3"
+    ],
+    "turkish|Hadi gel.": [
+      "res://audio/voice/el_7b5792b37d62fa38019f3523.mp3",
+      "res://audio/voice/el_4064eb7a02f143f9f62d85c3.mp3"
+    ],
+    "turkish|Bir çay lütfen.": [
+      "res://audio/voice/el_807c512ee98d5ebe2fcdd5f5.mp3",
+      "res://audio/voice/el_3ce89cee327aea81f3623c9b.mp3"
+    ],
+    "turkish|Çok pahalı abi.": [
+      "res://audio/voice/el_d11fecf8f1ae0fd96add625f.mp3",
+      "res://audio/voice/el_c0bb2bc4de7b5a15b971a120.mp3"
+    ],
+    "turkish|Buyur abla.": [
+      "res://audio/voice/el_a8a94763a876e20800207e48.mp3",
+      "res://audio/voice/el_0d2713dbee5ce9439e62ccbe.mp3"
+    ],
+    "turkish|Vapur geliyor.": [
+      "res://audio/voice/el_0c46b0bd2cbdedb6e1b0b19d.mp3",
+      "res://audio/voice/el_5c19862c8fa087bbd39a3ef8.mp3"
+    ],
+    "turkish|Ekmek var mı?": [
+      "res://audio/voice/el_0c4dae662fe8ff54fae659b8.mp3",
+      "res://audio/voice/el_81f05f533611d82431c2a045.mp3"
+    ],
+    "turkish|Yok abi, yok.": [
+      "res://audio/voice/el_313c5aa6d39d9715d391596c.mp3",
+      "res://audio/voice/el_abff710b6fc8d7ea8537cc85.mp3"
+    ],
+    "turkish|Bak şuna!": [
+      "res://audio/voice/el_ed55ce0f96c0f584ee440967.mp3",
+      "res://audio/voice/el_4bad7c0d84d4008fbcf3cdfe.mp3"
+    ],
+    "turkish|Soğuk bugün.": [
+      "res://audio/voice/el_70c05684211bcf724ede85bb.mp3",
+      "res://audio/voice/el_a8218147e895e04104a84dc4.mp3"
+    ],
+    "turkish|Teşekkür ederim.": [
+      "res://audio/voice/el_072f0c7b05008271ad2e75b2.mp3",
+      "res://audio/voice/el_cbf57be49c7e1282fe6c5c7f.mp3"
+    ],
+    "turkish|İnşallah yarın.": [
+      "res://audio/voice/el_1d413f3572c47fb99395c082.mp3",
+      "res://audio/voice/el_7646e2033d1970d32168178c.mp3"
+    ],
+    "turkish|Trafik çok kötü.": [
+      "res://audio/voice/el_ca5e231103efe21ee9b8edf4.mp3",
+      "res://audio/voice/el_553e37d1854bb8ae8f57fd1b.mp3"
+    ],
+    "turkish|Kedi aç.": [
+      "res://audio/voice/el_db5a2a21170a128aa765f00e.mp3",
+      "res://audio/voice/el_18840874b9865907950c3c4b.mp3"
+    ],
+    "turkish|Günaydın abi.": [
+      "res://audio/voice/el_fc089bd64ddd480b47c25e98.mp3",
+      "res://audio/voice/el_eb6140086172fe71abe39391.mp3"
+    ],
+    "turkish|Günaydın.": [
+      "res://audio/voice/el_1bbf5c64747bd92235136d4d.mp3",
+      "res://audio/voice/el_b057526196016a120a0be803.mp3"
+    ],
+    "turkish|Nasılsın?": [
+      "res://audio/voice/el_9881a29daa014c6e1a6e83ca.mp3",
+      "res://audio/voice/el_6a2af44fd7ebc2329a8c683a.mp3"
+    ],
+    "turkish|İyi günler.": [
+      "res://audio/voice/el_06aca2f71db88fc757d18d56.mp3",
+      "res://audio/voice/el_0307f92bf4215a432d5d212c.mp3"
+    ],
+    "turkish|Merhaba abla.": [
+      "res://audio/voice/el_2e8039015f64e2296e2526e0.mp3",
+      "res://audio/voice/el_f5f3582753d7062b66b3eb75.mp3"
+    ],
+    "turkish|Ne haber?": [
+      "res://audio/voice/el_f2b509e2ea20c631dac27198.mp3",
+      "res://audio/voice/el_36f6284c45dd0775ee9a7283.mp3"
+    ],
+    "turkish|İyi akşamlar.": [
+      "res://audio/voice/el_9171ebc467ad9bff160aa539.mp3",
+      "res://audio/voice/el_59b9103bb99af362fd08527a.mp3"
+    ],
+    "turkish|Kolay gelsin.": [
+      "res://audio/voice/el_5d9dedb4670c568ebedaf3c8.mp3",
+      "res://audio/voice/el_1ec28d1353080817ec47f649.mp3"
+    ],
+    "turkish|Görüşürüz.": [
+      "res://audio/voice/el_de8475295e212eaf97fe11c4.mp3",
+      "res://audio/voice/el_fa95e5f183bdd253890a89ef.mp3"
+    ],
+    "english|You alright?": [
+      "res://audio/voice/el_f949bddad33d1ff399014af6.mp3",
+      "res://audio/voice/el_6a8a31de568267d5b67cde27.mp3"
+    ],
+    "english|Night, mate.": [
+      "res://audio/voice/el_a78305c57a45b26be47dddd6.mp3",
+      "res://audio/voice/el_713425f67b1c88ee7220a532.mp3"
+    ],
+    "english|Freezing innit.": [
+      "res://audio/voice/el_d8a2ada24f0765686af1b9e5.mp3",
+      "res://audio/voice/el_63ca47e09ed924599c739283.mp3"
+    ],
+    "english|Cheers, mate.": [
+      "res://audio/voice/el_aa40607893853ec2f6509fd9.mp3",
+      "res://audio/voice/el_06dedd9798b36aec3053ffbb.mp3"
+    ],
+    "english|How much is that?": [
+      "res://audio/voice/el_77d709fda383c96bdd93dc37.mp3",
+      "res://audio/voice/el_5bdc4d41cd5366fe7219bef3.mp3"
+    ],
+    "english|Sorry, sorry.": [
+      "res://audio/voice/el_ccd75496f8b3e4022ee0fba4.mp3",
+      "res://audio/voice/el_a75b711ff6592bc1136404aa.mp3"
+    ],
+    "english|It's a bit cold.": [
+      "res://audio/voice/el_d648769868e106950475b4ba.mp3",
+      "res://audio/voice/el_074535d0efb39fe5dfcd378b.mp3"
+    ],
+    "english|Bus is late again.": [
+      "res://audio/voice/el_857d4f1d1e63afc9a31db992.mp3",
+      "res://audio/voice/el_7a89460af1bc291d6d2c0f18.mp3"
+    ],
+    "english|That's bare long.": [
+      "res://audio/voice/el_217c92e78dbc84837ed179f1.mp3",
+      "res://audio/voice/el_68597363da17fa47a0be7f48.mp3"
+    ],
+    "english|Allow it.": [
+      "res://audio/voice/el_48102cc657bb50eb32864b38.mp3",
+      "res://audio/voice/el_efca9b18fb1768e6adb1994d.mp3"
+    ],
+    "english|You dun know.": [
+      "res://audio/voice/el_b5fa40e693383b5370bf41fb.mp3",
+      "res://audio/voice/el_c77c723a7ecc4104ea505000.mp3"
+    ],
+    "english|Two quid, yeah?": [
+      "res://audio/voice/el_55f3af98b3689d4c47381347.mp3",
+      "res://audio/voice/el_088237756c3a0de03c117fde.mp3"
+    ],
+    "english|Lovely, that.": [
+      "res://audio/voice/el_d1e23a78db6fa26a566cc392.mp3",
+      "res://audio/voice/el_d70de8cd974e4d2de82bb0f4.mp3"
+    ],
+    "english|No worries, mate.": [
+      "res://audio/voice/el_6c79f3aee9fa1e0f5969d445.mp3",
+      "res://audio/voice/el_3dcdf07b9fa4abc4d9ab14fd.mp3"
+    ],
+    "english|Where you going?": [
+      "res://audio/voice/el_169fe4193e40bbbb46c35fee.mp3",
+      "res://audio/voice/el_603bc321f02ccd39afa6e56a.mp3"
+    ],
+    "english|Morning.": [
+      "res://audio/voice/el_6ea11d7927984f3ea193c548.mp3",
+      "res://audio/voice/el_555af34c61112803f0e9b55e.mp3"
+    ],
+    "english|Alright, love?": [
+      "res://audio/voice/el_8c939b178d61755c8df91c84.mp3",
+      "res://audio/voice/el_d20c94b56471fdcd11328822.mp3"
+    ],
+    "english|Alright, mate?": [
+      "res://audio/voice/el_b45bccf873f48784b8656888.mp3",
+      "res://audio/voice/el_e44ce1657527a3089762a680.mp3"
+    ],
+    "english|Y'alright?": [
+      "res://audio/voice/el_610e0fbb5c6b59d6811b1d69.mp3",
+      "res://audio/voice/el_821604a8c96dbf59fffe4400.mp3"
+    ],
+    "english|Evening.": [
+      "res://audio/voice/el_912dcdea568c7da5f3895aed.mp3",
+      "res://audio/voice/el_a815a1402669befd321028dd.mp3"
+    ],
+    "english|Night, yeah?": [
+      "res://audio/voice/el_37f5218a65392148d3562fc2.mp3",
+      "res://audio/voice/el_ff80b9406a38258996716f52.mp3"
+    ],
+    "english|Safe, yeah.": [
+      "res://audio/voice/el_8a282b42e309725efa2caf0b.mp3",
+      "res://audio/voice/el_d76f98d1fc99ed8593f742b1.mp3"
+    ],
+    "french|Bonsoir, monsieur.": [
+      "res://audio/voice/el_75e7623f59f2e3099c7c86a9.mp3",
+      "res://audio/voice/el_1e1dc638dd8e69bd55819f7c.mp3"
+    ],
+    "french|Bonne nuit.": [
+      "res://audio/voice/el_1485aafe02308b1e50be5316.mp3",
+      "res://audio/voice/el_c3b9859008435716179830a3.mp3"
+    ],
+    "french|Il pleut.": [
+      "res://audio/voice/el_6edf7c5bc8781657b54351ef.mp3",
+      "res://audio/voice/el_86add344e0fe7985d56272c2.mp3"
+    ],
+    "french|Merci, au revoir.": [
+      "res://audio/voice/el_9dd0f85642fd2d38369ceeda.mp3",
+      "res://audio/voice/el_38835bb127fdc7a4c66bc667.mp3"
+    ],
+    "french|C'est combien?": [
+      "res://audio/voice/el_169580dbafffeb0a4b75343c.mp3",
+      "res://audio/voice/el_aa9ba75c802e879bd14fe6df.mp3"
+    ],
+    "french|Excusez-moi, monsieur.": [
+      "res://audio/voice/el_1782308bd924bfb118759abd.mp3",
+      "res://audio/voice/el_fb969f23266864f736e65f07.mp3"
+    ],
+    "french|C'est complique.": [
+      "res://audio/voice/el_cdd58d561f902a3383ff5bf0.mp3",
+      "res://audio/voice/el_92e1417a3f3190eae25998da.mp3"
+    ],
+    "french|Je ne sais pas.": [
+      "res://audio/voice/el_b28eb527a671adbc731c536e.mp3",
+      "res://audio/voice/el_d299f524ffd81750b7e526ca.mp3"
+    ],
+    "french|Voila.": [
+      "res://audio/voice/el_e8335d203c44e1f700720271.mp3",
+      "res://audio/voice/el_b7bb3513c28cdb1db31b1d06.mp3"
+    ],
+    "french|Ecoute, hein.": [
+      "res://audio/voice/el_baeb6ed83a5546f852736e1c.mp3",
+      "res://audio/voice/el_58441e07b4e633fc34889e78.mp3"
+    ],
+    "french|C'est trop cher.": [
+      "res://audio/voice/el_af3b3f986248cdc543b83d34.mp3",
+      "res://audio/voice/el_87179c5c74b039553d15e771.mp3"
+    ],
+    "french|A demain.": [
+      "res://audio/voice/el_ba204c57205c05e312e8bec5.mp3",
+      "res://audio/voice/el_c00b297e9e975ab1bf92dede.mp3"
+    ],
+    "french|Bonjour, madame.": [
+      "res://audio/voice/el_725fed841f7afd6df5f1034a.mp3",
+      "res://audio/voice/el_f6bd328bca3211ef85a2acc2.mp3"
+    ],
+    "french|Bonjour.": [
+      "res://audio/voice/el_982f4c8b125260a92f268aca.mp3",
+      "res://audio/voice/el_9c472b718b60f8c6de08f938.mp3"
+    ],
+    "french|Bonjour, monsieur.": [
+      "res://audio/voice/el_013bc4f3a4e06c14ca1c3939.mp3",
+      "res://audio/voice/el_55f9ed9677274cc55b121c8c.mp3"
+    ],
+    "french|Bonsoir.": [
+      "res://audio/voice/el_10f0334ac4e1cfb10b611231.mp3",
+      "res://audio/voice/el_c11cc762e5608f35de7301f2.mp3"
+    ],
+    "french|Bonne soiree.": [
+      "res://audio/voice/el_ef805ca2da3d07170adbe156.mp3",
+      "res://audio/voice/el_82686f866e87702428922bc5.mp3"
+    ],
+    "spanish_mx|Buenas noches.": [
+      "res://audio/voice/el_224cb63ca11f7059f4ffc75c.mp3",
+      "res://audio/voice/el_74b861ae780db42eaf538b8e.mp3"
+    ],
+    "spanish_mx|Que descanse.": [
+      "res://audio/voice/el_29009588cafcabcf27772eb7.mp3",
+      "res://audio/voice/el_8c62eeba0f090517611eaba1.mp3"
+    ],
+    "spanish_mx|Cuanto es?": [
+      "res://audio/voice/el_df5d67f58f8c4fb372e314ba.mp3",
+      "res://audio/voice/el_4f4d7010c830aa502eb22647.mp3"
+    ],
+    "spanish_mx|Ahorita voy.": [
+      "res://audio/voice/el_8ecdc6126f56d6081104fad4.mp3",
+      "res://audio/voice/el_7a91794f8ea22e791824dc02.mp3"
+    ],
+    "spanish_mx|Mande?": [
+      "res://audio/voice/el_a85305c078ba59b7b6c92906.mp3",
+      "res://audio/voice/el_17983581f898a9360655148c.mp3"
+    ],
+    "spanish_mx|Esta muy caro.": [
+      "res://audio/voice/el_e6e7b23865182c8b884fb83a.mp3",
+      "res://audio/voice/el_a717c4bf15587ae6466ecc09.mp3"
+    ],
+    "spanish_mx|Aguas!": [
+      "res://audio/voice/el_c65d660ef59e0dba5a47643c.mp3",
+      "res://audio/voice/el_97c5f76474c7f70ed48f3558.mp3"
+    ],
+    "spanish_mx|Orale.": [
+      "res://audio/voice/el_461fe4f36ccfda5b098c4857.mp3",
+      "res://audio/voice/el_ae3be1e1cd623c4e96234f02.mp3"
+    ],
+    "spanish_mx|No manches.": [
+      "res://audio/voice/el_d275f79126390723c61687cc.mp3",
+      "res://audio/voice/el_198a1f1da2045b976d95c24a.mp3"
+    ],
+    "spanish_mx|Un poquito mas.": [
+      "res://audio/voice/el_482d082099c79103e5f9e119.mp3",
+      "res://audio/voice/el_18258a94f5a9c5a77ed457e8.mp3"
+    ],
+    "spanish_mx|Gracias, joven.": [
+      "res://audio/voice/el_b2bfaa43e7cda4c79d7e8c73.mp3",
+      "res://audio/voice/el_9792054bd8ce75f3bd8e74b5.mp3"
+    ],
+    "spanish_mx|Ahi se ve.": [
+      "res://audio/voice/el_2efadff876f179edfcb422a2.mp3",
+      "res://audio/voice/el_414fe4e394d1e7816632ba67.mp3"
+    ],
+    "spanish_mx|Buenos dias.": [
+      "res://audio/voice/el_1e5a4dac7b30ade947a62e65.mp3",
+      "res://audio/voice/el_644376fd845ab25523670648.mp3"
+    ],
+    "spanish_mx|Buenos dias, joven.": [
+      "res://audio/voice/el_31a9bcf130871874b7673ab1.mp3",
+      "res://audio/voice/el_42a544b4ebe6fd6d5ef56dba.mp3"
+    ],
+    "spanish_mx|Buenas tardes.": [
+      "res://audio/voice/el_6c14d5f2f4f58861f4006271.mp3",
+      "res://audio/voice/el_6206bfe01f6755db06333a38.mp3"
+    ],
+    "spanish_mx|Que onda?": [
+      "res://audio/voice/el_b5e730732deda696aa1533b6.mp3",
+      "res://audio/voice/el_1366a6fa7c2688ba824677ae.mp3"
+    ],
+    "spanish_mx|Ahi nos vemos.": [
+      "res://audio/voice/el_3944112e229afb26ee695cdf.mp3",
+      "res://audio/voice/el_a00c8f8de641aa2e811f3c1a.mp3"
+    ],
+    "russian|Dobroy nochi.": [
+      "res://audio/voice/el_2aeb0a30ba755afe32d73f92.mp3",
+      "res://audio/voice/el_267abc218b7a8c0953946d4b.mp3"
+    ],
+    "russian|Pozdno uzhe.": [
+      "res://audio/voice/el_a98a977a0d62bb07c91d4973.mp3",
+      "res://audio/voice/el_0e5543ae964300fbc165ff6c.mp3"
+    ],
+    "russian|Skolko stoit?": [
+      "res://audio/voice/el_400f2bd3dff60c4d7ee1f100.mp3",
+      "res://audio/voice/el_98ced71a46d0cf675c2ac018.mp3"
+    ],
+    "russian|Normalno.": [
+      "res://audio/voice/el_ebe8867f319ee87ecf9a7160.mp3",
+      "res://audio/voice/el_ad679233c7716390e7b806b4.mp3"
+    ],
+    "russian|Kholodno segodnya.": [
+      "res://audio/voice/el_d802efe26c40da8277c783b3.mp3",
+      "res://audio/voice/el_f18aef449c6a441e8d5e6010.mp3"
+    ],
+    "russian|Eto dorogo.": [
+      "res://audio/voice/el_4eec19995064c14d688935b4.mp3",
+      "res://audio/voice/el_5120836333410f40324a9512.mp3"
+    ],
+    "russian|Nu chto ty.": [
+      "res://audio/voice/el_44e422947ebe450a1bc9dc06.mp3",
+      "res://audio/voice/el_57745fb2c5a3f1704bac638c.mp3"
+    ],
+    "russian|Spasibo bolshoe.": [
+      "res://audio/voice/el_495c5cd12bfeefb0b02fccc9.mp3",
+      "res://audio/voice/el_e332f10f2f00d484f3951926.mp3"
+    ],
+    "russian|Do svidaniya.": [
+      "res://audio/voice/el_4effc21d5de9628f6b26e384.mp3",
+      "res://audio/voice/el_93c059bf8f7a069803ec1c21.mp3"
+    ],
+    "russian|Ya ne znayu.": [
+      "res://audio/voice/el_c523124a504ca35800002434.mp3",
+      "res://audio/voice/el_a8ec223d49e751ab6d03b81c.mp3"
+    ],
+    "russian|Opyat ochered.": [
+      "res://audio/voice/el_71a196927fd9a5e1a1a3e544.mp3",
+      "res://audio/voice/el_74a173b77ef2a15460aa8c6d.mp3"
+    ],
+    "russian|Dobroe utro.": [
+      "res://audio/voice/el_cc6305cc4e1fd21e633fb7f1.mp3",
+      "res://audio/voice/el_66c21415e236689cfa4222ad.mp3"
+    ],
+    "russian|Zdravstvuyte.": [
+      "res://audio/voice/el_e79a43ada6a657054055ab9a.mp3",
+      "res://audio/voice/el_6fc51bb7f5bb6140901290c1.mp3"
+    ],
+    "russian|Dobryy den.": [
+      "res://audio/voice/el_daf234e515dcbdda09d21bf3.mp3",
+      "res://audio/voice/el_3ce4b6d4b7a0635dc6d8a6ef.mp3"
+    ],
+    "russian|Davay, idyom.": [
+      "res://audio/voice/el_2c23729c8ade62cdae8bc68b.mp3",
+      "res://audio/voice/el_12bccd15f8fafbf78e4900cb.mp3"
+    ],
+    "russian|Dobryy vecher.": [
+      "res://audio/voice/el_5ef287a6ecdd03f65f918865.mp3",
+      "res://audio/voice/el_9ad429a96a8a6f3e39af6620.mp3"
+    ],
+    "hindi|Shubh ratri.": [
+      "res://audio/voice/el_0963b5b9a90a3a95f237431b.mp3",
+      "res://audio/voice/el_9b45f981b3ed2f3b6cd5591d.mp3"
+    ],
+    "hindi|Namaste.": [
+      "res://audio/voice/el_797ad5e761e96f623d071100.mp3",
+      "res://audio/voice/el_2c9f424358f33653daef8247.mp3"
+    ],
+    "hindi|Kitne ka?": [
+      "res://audio/voice/el_d28d8e25c765717b03ae82ac.mp3",
+      "res://audio/voice/el_26e6588b3af1f42f068698bc.mp3"
+    ],
+    "hindi|Arre yaar.": [
+      "res://audio/voice/el_7da7ef3f890ac0c3d7605cb5.mp3",
+      "res://audio/voice/el_2c9d3282dae4892e7d3ed716.mp3"
+    ],
+    "hindi|Chalo, chalo.": [
+      "res://audio/voice/el_1ab7d8514020f2444ca9ed7c.mp3",
+      "res://audio/voice/el_dced2a7c821d4fdd930e0b09.mp3"
+    ],
+    "hindi|Kya scene hai?": [
+      "res://audio/voice/el_740192c61324b4060b4b38a7.mp3",
+      "res://audio/voice/el_50cfae37c34fdd6240f0b4b1.mp3"
+    ],
+    "hindi|Bahut mehenga hai.": [
+      "res://audio/voice/el_1759588de588a9a2eb3b0b9d.mp3",
+      "res://audio/voice/el_0318774fa2487b51e7b49d67.mp3"
+    ],
+    "hindi|Bindaas hai.": [
+      "res://audio/voice/el_fcbecd149679f22cd9aa5f72.mp3",
+      "res://audio/voice/el_af6a411cd2330cb5d04a3677.mp3"
+    ],
+    "hindi|Paani chahiye.": [
+      "res://audio/voice/el_ec3de12649958c0a24c630ba.mp3",
+      "res://audio/voice/el_bdb9fbce1afc145e51273124.mp3"
+    ],
+    "hindi|Chalta hai.": [
+      "res://audio/voice/el_7cc958d92fe98f3f72874028.mp3",
+      "res://audio/voice/el_1cc5c98bd63045ea609ae8e4.mp3"
+    ],
+    "hindi|Theek hai na?": [
+      "res://audio/voice/el_4645fee35557463369bbf7f6.mp3",
+      "res://audio/voice/el_97c07e259d64f0665c482703.mp3"
+    ],
+    "hindi|Namaste, bhai.": [
+      "res://audio/voice/el_653ba943e1ebc50b0b7702a1.mp3",
+      "res://audio/voice/el_7e62fa1243d5dc2cc7949c9b.mp3"
+    ],
+    "hindi|Kya haal hai?": [
+      "res://audio/voice/el_c891506be6a46eb77cf014eb.mp3",
+      "res://audio/voice/el_0d2ecab5e5b2b36415a67f76.mp3"
+    ],
+    "hindi|Arre yaar!": [
+      "res://audio/voice/el_f106a167e57fcf7631d5aec7.mp3",
+      "res://audio/voice/el_f4e3010cccae6efab225589a.mp3"
+    ],
+    "hindi|Ek minute bhai.": [
+      "res://audio/voice/el_225d4ef3834f7d80ec6a07c4.mp3",
+      "res://audio/voice/el_8342b424f3655b38707c838a.mp3"
+    ],
+    "japanese|Konbanwa.": [
+      "res://audio/voice/el_f1b7b92a319643e67730ab1a.mp3",
+      "res://audio/voice/el_99faf35976995f6a044b7c43.mp3"
+    ],
+    "japanese|Sumimasen.": [
+      "res://audio/voice/el_31e61cfa4d252beb09b11e68.mp3",
+      "res://audio/voice/el_4c70fb0f9d442f7065759156.mp3"
+    ],
+    "japanese|Osaki ni.": [
+      "res://audio/voice/el_f1f02294a01e43ffa0c346f1.mp3",
+      "res://audio/voice/el_fa4ace69f34e97d9c9cc3d02.mp3"
+    ],
+    "japanese|Atsui ne.": [
+      "res://audio/voice/el_e2ef86ff62ac72b468d79ab1.mp3",
+      "res://audio/voice/el_9c6260b22edadcc70dd02848.mp3"
+    ],
+    "japanese|Ikura desu ka?": [
+      "res://audio/voice/el_42d0f00673c5bcbcbbe8fbc7.mp3",
+      "res://audio/voice/el_c4e818c50073d7e5208df3f4.mp3"
+    ],
+    "japanese|Yasui yo.": [
+      "res://audio/voice/el_08cec88d5b74fd5d3912dc30.mp3",
+      "res://audio/voice/el_e7f83fb49858ef91289c92e4.mp3"
+    ],
+    "japanese|Chotto muzukashii ne.": [
+      "res://audio/voice/el_292c7abfa0c2085b8cc858e1.mp3",
+      "res://audio/voice/el_03bccd10e4ec2b0174f1f67d.mp3"
+    ],
+    "japanese|Kore kudasai.": [
+      "res://audio/voice/el_7c027601c1aaa223ffbc08f3.mp3",
+      "res://audio/voice/el_b8ee6c26d9ce9f8d75647caf.mp3"
+    ],
+    "japanese|Daijoubu desu.": [
+      "res://audio/voice/el_05484051899028dec8a5f895.mp3",
+      "res://audio/voice/el_ae823cfcdfbcd3dcf6487ddb.mp3"
+    ],
+    "japanese|Isogashii ne.": [
+      "res://audio/voice/el_eff6710ecf414ee724857c5d.mp3",
+      "res://audio/voice/el_cd6daf817ae98feb50f16ea4.mp3"
+    ],
+    "japanese|Ohayou gozaimasu.": [
+      "res://audio/voice/el_3cc53fb76b333978e8854648.mp3",
+      "res://audio/voice/el_76ed5d356d958f841d654efb.mp3"
+    ],
+    "japanese|Mata ashita.": [
+      "res://audio/voice/el_e22b84cbf3d343b6c23f39db.mp3",
+      "res://audio/voice/el_4e66ba0ebb6aeb098edcff9c.mp3"
+    ],
+    "japanese|Arigatou gozaimasu.": [
+      "res://audio/voice/el_e2420a00f73ca5cc2377ae86.mp3",
+      "res://audio/voice/el_6bd29c3fd07d46f986b561ca.mp3"
+    ],
+    "japanese|Ohayou.": [
+      "res://audio/voice/el_f71cfd1928cb4da7a40d9898.mp3",
+      "res://audio/voice/el_a6ae9d4112f292713a9781e4.mp3"
+    ],
+    "japanese|Konnichiwa.": [
+      "res://audio/voice/el_33696a1e237f29b2ca82665b.mp3",
+      "res://audio/voice/el_c07253788009bc6ae7e085e7.mp3"
+    ],
+    "japanese|Doumo.": [
+      "res://audio/voice/el_bf20f1f9b2787a5944a28f71.mp3",
+      "res://audio/voice/el_a7f912a2af5d7dc99bdb607c.mp3"
+    ],
+    "japanese|Otsukaresama desu.": [
+      "res://audio/voice/el_6cc4219d1902f2238556be62.mp3",
+      "res://audio/voice/el_a82f40e3fc8f26ac255d0fa5.mp3"
+    ],
+    "wolof|Naata la?": [
+      "res://audio/voice/el_7eba9423f2b44ae409476dc8.mp3",
+      "res://audio/voice/el_e74fc3ba16df2e5984a94cae.mp3"
+    ],
+    "wolof|Jerejef.": [
+      "res://audio/voice/el_2f3c481fdb77bf167fcba266.mp3",
+      "res://audio/voice/el_e6f3fd5915c762c679d3e977.mp3"
+    ],
+    "wolof|Dafa tang.": [
+      "res://audio/voice/el_363cb24e82dd48c97f259228.mp3",
+      "res://audio/voice/el_d0ebaa68097affb0ed43f4f0.mp3"
+    ],
+    "wolof|Salaam aleekum.": [
+      "res://audio/voice/el_d80ac9637162ec49517e2068.mp3",
+      "res://audio/voice/el_156a93edb5a1567338a51937.mp3"
+    ],
+    "wolof|Fanaanal jamm.": [
+      "res://audio/voice/el_ef851d8563d7a120a164cb16.mp3",
+      "res://audio/voice/el_38eb695bc02684cd86264105.mp3"
+    ],
+    "wolof|Ndank ndank.": [
+      "res://audio/voice/el_baa31302605387a637b5f60d.mp3",
+      "res://audio/voice/el_c922fd35f547fb9bd8831095.mp3"
+    ],
+    "wolof|Sant wi?": [
+      "res://audio/voice/el_a754a9dbeff0e403b0ba1c8f.mp3",
+      "res://audio/voice/el_3fbb14a78164a93b6c23df99.mp3"
+    ],
+    "wolof|Waaw, waaw.": [
+      "res://audio/voice/el_bc2e4362473988138b7affe6.mp3",
+      "res://audio/voice/el_6681cf4ed1798700fabbec47.mp3"
+    ],
+    "wolof|Ba beneen.": [
+      "res://audio/voice/el_0601e56892baf85ff177a07c.mp3",
+      "res://audio/voice/el_0bd1c2b20088b28b74758d62.mp3"
+    ],
+    "wolof|Naka suba?": [
+      "res://audio/voice/el_a29ed8bd77c5d59a3e7253c9.mp3",
+      "res://audio/voice/el_9ea4d10783cbf2f85752ea40.mp3"
+    ],
+    "wolof|Nanga def?": [
+      "res://audio/voice/el_2b214cb7a2bda6fde91c6ae4.mp3",
+      "res://audio/voice/el_08b51ee4a5a8d38cfefaeebd.mp3"
+    ],
+    "wolof|Mangi fi.": [
+      "res://audio/voice/el_ed7581f3ddab4a930250bdf8.mp3",
+      "res://audio/voice/el_df5ffb4af3be358b89a886c1.mp3"
+    ],
+    "wolof|Naka ngoon?": [
+      "res://audio/voice/el_80c400dd3e3ec130795844d6.mp3",
+      "res://audio/voice/el_34b8ae202ddb62c5ef5164d7.mp3"
+    ],
+    "wolof|Dafa seer.": [
+      "res://audio/voice/el_7ae2328909216e158b381003.mp3",
+      "res://audio/voice/el_5f025a6e1712d6369da8861c.mp3"
+    ],
+    "vietnamese|Bao nhieu?": [
+      "res://audio/voice/el_b5765756da04b35503d1c724.mp3",
+      "res://audio/voice/el_53f6544b47ac9cf41a1d51cc.mp3"
+    ],
+    "vietnamese|Ngu ngon.": [
+      "res://audio/voice/el_9fc8faf546e83d848b4aa3c1.mp3",
+      "res://audio/voice/el_952a191beb4c39b4d6b15eb8.mp3"
+    ],
+    "vietnamese|Cho toi mot.": [
+      "res://audio/voice/el_6f2ccb915e2a197937815231.mp3",
+      "res://audio/voice/el_2e7d5216a3d472559655b7ff.mp3"
+    ],
+    "vietnamese|Nong qua.": [
+      "res://audio/voice/el_defd318557c13d188c289428.mp3",
+      "res://audio/voice/el_f768f4a7bf828d37b4098e9c.mp3"
+    ],
+    "vietnamese|Chao anh.": [
+      "res://audio/voice/el_8f1094ef233f542bee004039.mp3",
+      "res://audio/voice/el_b412c12e554aa6a994c3603a.mp3"
+    ],
+    "vietnamese|Dat qua!": [
+      "res://audio/voice/el_741ee973b803d5a14ddf7ae9.mp3",
+      "res://audio/voice/el_c287f5b5aeec34c8d7f2e4f0.mp3"
+    ],
+    "vietnamese|Khong sao.": [
+      "res://audio/voice/el_df4659850c4a40a0689c9a7d.mp3",
+      "res://audio/voice/el_1c2b1a6cb10a83c72a86cd46.mp3"
+    ],
+    "vietnamese|Cam on.": [
+      "res://audio/voice/el_bb135b9cc7ea9d77c6389bc8.mp3",
+      "res://audio/voice/el_24568884109a25db93701c5c.mp3"
+    ],
+    "vietnamese|Ngon lam.": [
+      "res://audio/voice/el_0841379425a1b17617b1baed.mp3",
+      "res://audio/voice/el_1fad8739143b373bccf7cbc3.mp3"
+    ],
+    "vietnamese|Cho mot chut.": [
+      "res://audio/voice/el_f41c7d6222b92c6a6b6b6bc0.mp3",
+      "res://audio/voice/el_483082eee90b27824ad54afd.mp3"
+    ],
+    "vietnamese|Xin chao.": [
+      "res://audio/voice/el_e5dc9341ef10ed4cc1dd251e.mp3",
+      "res://audio/voice/el_c9e03b9b2131d703cf4ce8ed.mp3"
+    ],
+    "vietnamese|Chao chi.": [
+      "res://audio/voice/el_3b3550de1e8e20a024f00056.mp3",
+      "res://audio/voice/el_de1a7433d6358b7b87a917b3.mp3"
+    ],
+    "vietnamese|Tam biet.": [
+      "res://audio/voice/el_896f72e8f6c0c0f1cfd25e8b.mp3",
+      "res://audio/voice/el_236a04a30a476413442bace2.mp3"
+    ],
+    "vietnamese|Di dau day?": [
+      "res://audio/voice/el_dfac9a97a757e3cfbf17e733.mp3",
+      "res://audio/voice/el_5181659e3ef805d9c83cb183.mp3"
+    ],
+    "spanish_bo|Buenas noches.": [
+      "res://audio/voice/el_b99576efa0183eed06cdc086.mp3",
+      "res://audio/voice/el_61d39c6c0f974d137298968a.mp3"
+    ],
+    "spanish_bo|Cuanto cuesta?": [
+      "res://audio/voice/el_134a4760766f073da012c7d9.mp3",
+      "res://audio/voice/el_bf600443dd194be6ff111abc.mp3"
+    ],
+    "spanish_bo|Hasta manana.": [
+      "res://audio/voice/el_ad704055b56529b1f20cbe9d.mp3",
+      "res://audio/voice/el_c77c1bf135a85c005e1de586.mp3"
+    ],
+    "spanish_bo|Ya pues.": [
+      "res://audio/voice/el_24c4043ad6e7d0f1df520eb9.mp3",
+      "res://audio/voice/el_666a2c2faf8d6b19e6c256ee.mp3"
+    ],
+    "spanish_bo|Una libra nomas.": [
+      "res://audio/voice/el_d44fc45d9da4f59177fa6a6c.mp3",
+      "res://audio/voice/el_2076b195a5a3a8e3d6b63e6b.mp3"
+    ],
+    "spanish_bo|Esta caro, pues.": [
+      "res://audio/voice/el_6f88ce61e958389732803da5.mp3",
+      "res://audio/voice/el_5be09e68ed0053397ba0bbb7.mp3"
+    ],
+    "spanish_bo|Casera, la yapa.": [
+      "res://audio/voice/el_86c20c1c027416be346f4ec2.mp3",
+      "res://audio/voice/el_c5ee25c147b97e20d54ef1be.mp3"
+    ],
+    "spanish_bo|Gracias, casera.": [
+      "res://audio/voice/el_a76dec008988856045659eb4.mp3",
+      "res://audio/voice/el_fd5aa9272a91ef536a98b92b.mp3"
+    ],
+    "spanish_bo|De donde eres?": [
+      "res://audio/voice/el_3995f29df70cd210aaa01f3c.mp3",
+      "res://audio/voice/el_ad6fd62c72532fa14f7a3238.mp3"
+    ],
+    "spanish_bo|Buenos dias.": [
+      "res://audio/voice/el_b45a827718ed4adbee91fa61.mp3",
+      "res://audio/voice/el_d9ac6a6f48ecf243f44f7c84.mp3"
+    ],
+    "spanish_bo|Hace frio.": [
+      "res://audio/voice/el_777e0cac04632698da3d8508.mp3",
+      "res://audio/voice/el_87e13b8afe00eca615742656.mp3"
+    ],
+    "spanish_bo|Buenos dias, casera.": [
+      "res://audio/voice/el_59219395863ac6bae58dbd22.mp3",
+      "res://audio/voice/el_80c6979e887cb61474257f0f.mp3"
+    ],
+    "spanish_bo|Buenas tardes.": [
+      "res://audio/voice/el_8966ee125aea29c4d7a94d91.mp3",
+      "res://audio/voice/el_7f2ba8f3551544c9b1849359.mp3"
+    ],
+    "spanish_bo|Como esta?": [
+      "res://audio/voice/el_02eff81ed2180be5ee36af5a.mp3",
+      "res://audio/voice/el_1ee33e0d7556e9d236578ace.mp3"
+    ],
+    "italian|Buonanotte.": [
+      "res://audio/voice/el_126faa8b9c45b9fd1d24718d.mp3",
+      "res://audio/voice/el_6ecd610046d7f53ca7e7cbb5.mp3"
+    ],
+    "italian|Notte.": [
+      "res://audio/voice/el_a967bc108d39c6248b50f69a.mp3",
+      "res://audio/voice/el_85173e6a78bb4af245f68b53.mp3"
+    ],
+    "italian|Allora, dimmi.": [
+      "res://audio/voice/el_b1d2f0c51b814ad7cd343499.mp3",
+      "res://audio/voice/el_34796d8d561e7687595a244c.mp3"
+    ],
+    "italian|Quanto costa?": [
+      "res://audio/voice/el_1aa3acdb5022a25cbc519e2f.mp3",
+      "res://audio/voice/el_02af8d69d5ab07de5a216587.mp3"
+    ],
+    "italian|Che caldo!": [
+      "res://audio/voice/el_3ff021259331c22176a3b862.mp3",
+      "res://audio/voice/el_95101a07fef20e7599022a33.mp3"
+    ],
+    "italian|Un caffe, grazie.": [
+      "res://audio/voice/el_7b4558429d720b205615b422.mp3",
+      "res://audio/voice/el_48a5d59f62c99b03269aa060.mp3"
+    ],
+    "italian|Ecco fatto.": [
+      "res://audio/voice/el_ddfb571409bccc4569d58b3f.mp3",
+      "res://audio/voice/el_fdf24773b91168e948ffb38d.mp3"
+    ],
+    "italian|Non e possibile.": [
+      "res://audio/voice/el_a7b85cf37531f332906bebbc.mp3",
+      "res://audio/voice/el_bb018012574746c98ba66af6.mp3"
+    ],
+    "italian|Ci vediamo.": [
+      "res://audio/voice/el_b2e35f9b961e807ee166f876.mp3",
+      "res://audio/voice/el_62d5b5930b58dc1d10eb8d3e.mp3"
+    ],
+    "italian|Sei bravo.": [
+      "res://audio/voice/el_0bb64cc89f4a2b48d3c9d2e5.mp3",
+      "res://audio/voice/el_73358e3796ce9e89065cd88c.mp3"
+    ],
+    "italian|E troppo caro.": [
+      "res://audio/voice/el_0bae8bda4160193c63268e1b.mp3",
+      "res://audio/voice/el_9a53c6665cd127fcdbd082d8.mp3"
+    ],
+    "italian|Buongiorno!": [
+      "res://audio/voice/el_724b14d675bc468d84faa381.mp3",
+      "res://audio/voice/el_fa7dca0bce1f9f9bcdf32ed9.mp3"
+    ],
+    "italian|Buongiorno.": [
+      "res://audio/voice/el_fe02d84141d11d225ee80f33.mp3",
+      "res://audio/voice/el_d79421466b594fe5f8e19083.mp3"
+    ],
+    "italian|Salve.": [
+      "res://audio/voice/el_aea2a5c0abea1a2734e15e7d.mp3",
+      "res://audio/voice/el_e11e64dec2484a75cec95fc1.mp3"
+    ],
+    "italian|Ciao, bella.": [
+      "res://audio/voice/el_28ff8d31290aa2cc27ec03d4.mp3",
+      "res://audio/voice/el_158b1b2a174f2f838818d4a3.mp3"
+    ],
+    "italian|Buonasera.": [
+      "res://audio/voice/el_516f1da29aa63f1e1eb896ed.mp3",
+      "res://audio/voice/el_b5c2c9fc62e4e3ac44aa3691.mp3"
+    ],
+    "italian|Sera.": [
+      "res://audio/voice/el_1d86bf7e913d0137b5376877.mp3",
+      "res://audio/voice/el_e9578ae20d5dbcc239029a7e.mp3"
+    ],
+    "portuguese|Ate amanha.": [
+      "res://audio/voice/el_830ecd0339959b10d7c0ed28.mp3",
+      "res://audio/voice/el_f271b542a3de11fd13474b46.mp3"
+    ],
+    "portuguese|Boa noite.": [
+      "res://audio/voice/el_92e7fa62b10c6fa095b67059.mp3",
+      "res://audio/voice/el_227d94e69551aad70c0b33f3.mp3"
+    ],
+    "portuguese|Quanto e?": [
+      "res://audio/voice/el_233382b37218332d643086de.mp3",
+      "res://audio/voice/el_17f73b3c344345d1d0133a2a.mp3"
+    ],
+    "portuguese|Ta bom.": [
+      "res://audio/voice/el_6cad7bd61813137c67ab168d.mp3",
+      "res://audio/voice/el_4ed4cfcea771d42066c11c95.mp3"
+    ],
+    "portuguese|Relaxa.": [
+      "res://audio/voice/el_5cbad6d7f2df49db51344172.mp3",
+      "res://audio/voice/el_126b99da9c4e830d8a8f864e.mp3"
+    ],
+    "portuguese|Obrigado.": [
+      "res://audio/voice/el_18665f09d602b0ec0ae78035.mp3",
+      "res://audio/voice/el_bd8c802f8d538f9ba1b0fb7a.mp3"
+    ],
+    "portuguese|Muito caro, mano.": [
+      "res://audio/voice/el_2fd66783cd1df7be5355c8a7.mp3",
+      "res://audio/voice/el_c196adc7959a3206051cbb4a.mp3"
+    ],
+    "portuguese|Ta quente hoje.": [
+      "res://audio/voice/el_07413a25532be254b1172d4d.mp3",
+      "res://audio/voice/el_63989e4b96c32c63ea52a1e4.mp3"
+    ],
+    "portuguese|Nossa, demais!": [
+      "res://audio/voice/el_783942c7225c57deecdfd64a.mp3",
+      "res://audio/voice/el_6db46657493e5483dd2e9b09.mp3"
+    ],
+    "portuguese|Fica longe?": [
+      "res://audio/voice/el_42129710644f9becd1192aa3.mp3",
+      "res://audio/voice/el_8a119f4523fb24c68eebdcb0.mp3"
+    ],
+    "portuguese|Vamos la.": [
+      "res://audio/voice/el_7b57b43ebcf96aa92c119bfc.mp3",
+      "res://audio/voice/el_a73f782c58e594ef55b5a9f5.mp3"
+    ],
+    "portuguese|Bom dia.": [
+      "res://audio/voice/el_fe7d286a7734ca7f3df464fd.mp3",
+      "res://audio/voice/el_574a12924bd89c2c3eddf9f5.mp3"
+    ],
+    "portuguese|Boa tarde.": [
+      "res://audio/voice/el_5f58a28e04c68e7abd78e6d3.mp3",
+      "res://audio/voice/el_c354bdf9895dfdbc85b1e56c.mp3"
+    ],
+    "portuguese|Oi, tudo bem?": [
+      "res://audio/voice/el_674f5bb4dd77b6090b630a24.mp3",
+      "res://audio/voice/el_d0d439087fa2ea3cb41212da.mp3"
+    ],
+    "portuguese|Tudo bem?": [
+      "res://audio/voice/el_480636ea4df287c83fdcba93.mp3",
+      "res://audio/voice/el_6e1ce376a916512d94bbd4b4.mp3"
+    ],
+    "portuguese|Falou.": [
+      "res://audio/voice/el_2c217e1683db368cc8d2d840.mp3",
+      "res://audio/voice/el_a3d647e7e1725a3a9464241b.mp3"
+    ],
+    "korean|Eolmayeyo?": [
+      "res://audio/voice/el_f76f8eeeac818c34d3e5d874.mp3",
+      "res://audio/voice/el_cc2a6500b38fc11dd5ef7a1f.mp3"
+    ],
+    "korean|Deureogaseyo.": [
+      "res://audio/voice/el_4b7968cbaed3c6ffee246e30.mp3",
+      "res://audio/voice/el_9be439bb32cefd180e892bf4.mp3"
+    ],
+    "korean|Annyeong hi jumuseyo.": [
+      "res://audio/voice/el_f498f93c31c7cd9a9b0f42e4.mp3",
+      "res://audio/voice/el_b7fbbb26c3b9678054306d03.mp3"
+    ],
+    "korean|Mashisseoyo.": [
+      "res://audio/voice/el_e26f55f932841a5f0c2c4967.mp3",
+      "res://audio/voice/el_567fcd4a5ce2937fd6e3bddc.mp3"
+    ],
+    "korean|Chuwoyo.": [
+      "res://audio/voice/el_59f14eb36619da49c1714057.mp3",
+      "res://audio/voice/el_794b40d42b57f249fb445b0e.mp3"
+    ],
+    "korean|Bappayo.": [
+      "res://audio/voice/el_f6cea0a2833bee2c7e24f1f9.mp3",
+      "res://audio/voice/el_6fe093a4e549e5f8ceed9c73.mp3"
+    ],
+    "korean|Gamsahamnida.": [
+      "res://audio/voice/el_2090f604422112443c12b464.mp3",
+      "res://audio/voice/el_086ac5ae0d230a607d14cf08.mp3"
+    ],
+    "korean|Igeon mwoyeyo?": [
+      "res://audio/voice/el_cbcb16c7959d7c99f0af0038.mp3",
+      "res://audio/voice/el_c8f38c4933ce3970329a8586.mp3"
+    ],
+    "korean|Jamkkanman yo.": [
+      "res://audio/voice/el_76c236c26754dbd2c8562002.mp3",
+      "res://audio/voice/el_1c7fc9af6413f59930ab12d3.mp3"
+    ],
+    "korean|Bissayo.": [
+      "res://audio/voice/el_f15c48a06998b124e44b7545.mp3",
+      "res://audio/voice/el_cd3e845bd81ab949a396b0d2.mp3"
+    ],
+    "korean|Annyeong haseyo.": [
+      "res://audio/voice/el_0527224b109ba9cd9cde8ad3.mp3",
+      "res://audio/voice/el_fdb8f6cfb6caad7e6e078c77.mp3"
+    ],
+    "korean|Ppalli ppalli.": [
+      "res://audio/voice/el_b281ecbead2856a15bc154c5.mp3",
+      "res://audio/voice/el_e4787ab05ab08fdeb84a2813.mp3"
+    ],
+    "korean|Joeun achim.": [
+      "res://audio/voice/el_51b8751651c9a8be5dd7a9b7.mp3",
+      "res://audio/voice/el_16fb9b33a5053a9db99d37ba.mp3"
+    ],
+    "korean|Sugo haseyo.": [
+      "res://audio/voice/el_c88b036be4efacad6e20c6ca.mp3",
+      "res://audio/voice/el_99512c5098238bba6e0819e6.mp3"
+    ],
+    "korean|Siksa haesseoyo?": [
+      "res://audio/voice/el_5ecca02d92c7ccd7ef2de9b7.mp3",
+      "res://audio/voice/el_cd6250bed82152ee3b9aba88.mp3"
+    ],
+    "georgian|Kargad.": [
+      "res://audio/voice/el_f419d955023dcfa4e435f799.mp3",
+      "res://audio/voice/el_362b6be41dbc0fa29a865946.mp3"
+    ],
+    "georgian|Ghame mshvidobisa.": [
+      "res://audio/voice/el_64c049a640282fed3d5a8979.mp3",
+      "res://audio/voice/el_1a2cb8ca592c302573e1ccc1.mp3"
+    ],
+    "georgian|Dzalian dzviria.": [
+      "res://audio/voice/el_dd1089012a129f304ce0ad06.mp3",
+      "res://audio/voice/el_89aae9f044d60c200591ba9b.mp3"
+    ],
+    "georgian|Ra aris es?": [
+      "res://audio/voice/el_fbcfcec14e24bf3a9c63e2a4.mp3",
+      "res://audio/voice/el_2cb066866945a96a3655a3e5.mp3"
+    ],
+    "georgian|Ramdeni girs?": [
+      "res://audio/voice/el_86a6ab01a64cc22909eaa8db.mp3",
+      "res://audio/voice/el_1c01c2ea1aec9e486116a73b.mp3"
+    ],
+    "georgian|Madloba.": [
+      "res://audio/voice/el_1d54191c17681c4fdee709e5.mp3",
+      "res://audio/voice/el_ade702e50a371b8a034f234c.mp3"
+    ],
+    "georgian|Ar vici.": [
+      "res://audio/voice/el_9118e654789075b41b03f6f8.mp3",
+      "res://audio/voice/el_d4d46e73887cecbc32c3b68a.mp3"
+    ],
+    "georgian|Kargia.": [
+      "res://audio/voice/el_0cf419bc771c7c1df8062067.mp3",
+      "res://audio/voice/el_989aba94e6480912b5ddd1ac.mp3"
+    ],
+    "georgian|Gamarjoba.": [
+      "res://audio/voice/el_60cd8b6312d00ed1e160bd87.mp3",
+      "res://audio/voice/el_9693cb8478dfb589a789271c.mp3"
+    ],
+    "georgian|Ki, ki.": [
+      "res://audio/voice/el_c0f3411fbca4e6356154c3d7.mp3",
+      "res://audio/voice/el_0e7c49bcc4bfe145991ac91a.mp3"
+    ],
+    "georgian|Rogor khar?": [
+      "res://audio/voice/el_d8ef86f522342b4f1cf9d7de.mp3",
+      "res://audio/voice/el_e7b854c69c04faa61b1ffc7c.mp3"
+    ],
+    "georgian|Dila mshvidobisa.": [
+      "res://audio/voice/el_4836509a8ee7e6371cae0e9e.mp3",
+      "res://audio/voice/el_c6df71ea22c1736a38d3a3b5.mp3"
+    ],
+    "georgian|Modi aq.": [
+      "res://audio/voice/el_474c51cd611ff92f9166d1e9.mp3",
+      "res://audio/voice/el_960b90d1d1b2bf23ab8b222b.mp3"
+    ],
+    "georgian|Nakhvamdis.": [
+      "res://audio/voice/el_3156e1ffa693f599be04e281.mp3",
+      "res://audio/voice/el_748ad8d3ec34d028c82b8a81.mp3"
+    ],
+    "georgian|Sagamo mshvidobisa.": [
+      "res://audio/voice/el_f11fb6d691f077536ff61b2a.mp3",
+      "res://audio/voice/el_c4ede438c96eb214099e27bf.mp3"
+    ],
+    "swissgerman|No wach?": [
+      "res://audio/voice/el_82dbadbc11d0fae6621247f6.mp3",
+      "res://audio/voice/el_32d9c2cd12d6e17e39753e9e.mp3"
+    ],
+    "swissgerman|Guet Nacht.": [
+      "res://audio/voice/el_01a4e5d4b644071d09249013.mp3",
+      "res://audio/voice/el_b28dd9218d69b2b6fc21997a.mp3"
+    ],
+    "swissgerman|Merci vielmal.": [
+      "res://audio/voice/el_5225bb40a6119145041d5417.mp3",
+      "res://audio/voice/el_02e080c60936bd4102c9b3a8.mp3"
+    ],
+    "swissgerman|Chumm jetzt.": [
+      "res://audio/voice/el_ea30a24d215e5cbc4d4d43c6.mp3",
+      "res://audio/voice/el_966f997d5311e8cc8cfc7b44.mp3"
+    ],
+    "swissgerman|Was choschtet das?": [
+      "res://audio/voice/el_4d3dadb34537f7ac7060bb5d.mp3",
+      "res://audio/voice/el_6bf785b2ed67741f16d77e67.mp3"
+    ],
+    "swissgerman|Gaht das?": [
+      "res://audio/voice/el_8f61c52e09d8fb75aff6d000.mp3",
+      "res://audio/voice/el_beb4b423cc723b53774e9563.mp3"
+    ],
+    "swissgerman|Es isch chalt.": [
+      "res://audio/voice/el_5bb4ccf99b2ab7039903fccf.mp3",
+      "res://audio/voice/el_b4a8d3b180e2a76dba662904.mp3"
+    ],
+    "swissgerman|Gruezi.": [
+      "res://audio/voice/el_663c2441ed1a8dbe30efe763.mp3",
+      "res://audio/voice/el_18a32d88ee8b15457c5ca5c3.mp3"
+    ],
+    "swissgerman|Bis spöter.": [
+      "res://audio/voice/el_687bc031a5f746f57c5fd268.mp3",
+      "res://audio/voice/el_e90945ca80e35389a023df52.mp3"
+    ],
+    "swissgerman|Guete Morge.": [
+      "res://audio/voice/el_8df3cdf5cb2bbd3d8454a42f.mp3",
+      "res://audio/voice/el_8649875a5678ee02f312b923.mp3"
+    ],
+    "swissgerman|Sali.": [
+      "res://audio/voice/el_ac967670d41ba2278a5b2ecd.mp3",
+      "res://audio/voice/el_99cf0a972cb6351e049b8672.mp3"
+    ],
+    "swissgerman|Gruezi mitenand.": [
+      "res://audio/voice/el_99671f8d7907dbc5fac283b4.mp3",
+      "res://audio/voice/el_1f1e47763dfe73eafae63b6b.mp3"
+    ],
+    "swissgerman|Guete Abig.": [
+      "res://audio/voice/el_e216684837e169a9189cbdad.mp3",
+      "res://audio/voice/el_3e076977828d212c5adaab93.mp3"
+    ],
+    "swissgerman|Schöne Abig.": [
+      "res://audio/voice/el_73636abd47536b7607ea1135.mp3",
+      "res://audio/voice/el_6ba27b1f9a12a10d5d2a7cc0.mp3"
+    ],
+    "swissgerman|Wottsch au?": [
+      "res://audio/voice/el_c710888e0bc17b623b5f7989.mp3",
+      "res://audio/voice/el_24a109c6028434ead5cb08b1.mp3"
+    ],
+    "swissgerman|Ich ha kei Zyt.": [
+      "res://audio/voice/el_b7bab55233497c0ed564de92.mp3",
+      "res://audio/voice/el_c1a07cf89d637359fc362754.mp3"
+    ]
+  },
+  "provenance": {
+    "source": "edge-tts synthetic speech",
+    "review": "pending native-speaker review"
+  },
+  "words": {
+    "german|anfassen": "res://audio/voice/el_3cb010ed838f4df7a9161d2d.mp3",
+    "german|hoch": "res://audio/voice/el_864c3333c1cd84740d737cd0.mp3",
+    "german|icke": "res://audio/voice/el_43d9b8bb7dd6d8c1d9db93e2.mp3",
+    "german|lesen": "res://audio/voice/el_c472d78a1b8fdf5cbb535056.mp3",
+    "german|pfand": "res://audio/voice/el_4976f519fb121464968b8889.mp3",
+    "german|kerstin": "res://audio/voice/el_dfc843bfe2631c43a24b6113.mp3",
+    "german|neue": "res://audio/voice/el_8971590cd003fdb85234e3e2.mp3",
+    "german|setz": "res://audio/voice/el_06832cf85247d3c420ca5f91.mp3",
+    "german|morgen": "res://audio/voice/el_81fa5ae0ba9b2ec1431970eb.mp3",
+    "german|wieder": "res://audio/voice/el_47cd4aeb17ba5fa3d21c118c.mp3",
+    "german|seit": "res://audio/voice/el_2ba87fba6c7d3694993d98d4.mp3",
+    "german|kaffee": "res://audio/voice/el_1d7f694a49872c12c8a4d9b0.mp3",
+    "german|mauer": "res://audio/voice/el_a6818d32864baae8903e6ba0.mp3",
+    "german|russisch": "res://audio/voice/el_229a93e49c58f7695bf893e6.mp3",
+    "german|du": "res://audio/voice/el_372042164e1e86fd12f521ae.mp3",
+    "german|woche": "res://audio/voice/el_1efc6e462a045c98314d06bc.mp3",
+    "german|bring": "res://audio/voice/el_dedb2655e94fbb9075ddd8c0.mp3",
+    "german|tüte": "res://audio/voice/el_5544082335e76c1f1e5189e1.mp3",
+    "german|kollwitzplatz": "res://audio/voice/el_9d4e2cd036cbf4832ec22c4d.mp3",
+    "german|von": "res://audio/voice/el_bae4d7fa07722d9c204df987.mp3",
+    "german|soll": "res://audio/voice/el_b00dd1654bd4d7dc5adb4d38.mp3",
+    "german|knie": "res://audio/voice/el_2beda38b0b618d956e852abc.mp3",
+    "german|wem": "res://audio/voice/el_3da95b38f6de249c9804ae90.mp3",
+    "german|treppen": "res://audio/voice/el_b01a7c6151e3916db895ffb7.mp3",
+    "german|samstag": "res://audio/voice/el_63bb139d9dd7ed4accfdca60.mp3",
+    "german|emil": "res://audio/voice/el_e368af5b8671182394bb2e6c.mp3",
+    "german|duzen": "res://audio/voice/el_9d1030e900aea22064311e6c.mp3",
+    "german|kommste": "res://audio/voice/el_8b3b41d3283949f39b2ac848.mp3",
+    "german|mit": "res://audio/voice/el_908722cf2ed9b165562812d9.mp3",
+    "german|stuhl": "res://audio/voice/el_00fa4ef73f329c8a72449cc3.mp3",
+    "german|wiesn": "res://audio/voice/el_9004cd937ff164fe74c5ff5f.mp3",
+    "turkish|su": "res://audio/voice/el_51bc675891e71ffbc5941a02.mp3",
+    "turkish|buyurun": "res://audio/voice/el_cf65899f5246180eefd94910.mp3",
+    "turkish|açık": "res://audio/voice/el_8707888cc05331c96ac1aedd.mp3",
+    "turkish|çay": "res://audio/voice/el_7f8f4b8439ea8cf2f667815c.mp3",
+    "turkish|demli": "res://audio/voice/el_15e78e38497bf6f6cef69431.mp3",
+    "turkish|buraya": "res://audio/voice/el_fd133a027c59da7716fd917c.mp3",
+    "turkish|askıda": "res://audio/voice/el_8c379a80af458303c22455e5.mp3",
+    "turkish|izin": "res://audio/voice/el_3befccaf5b14c034d6e691b7.mp3",
+    "turkish|dakika": "res://audio/voice/el_8f869a2a4869dfe17a2817d2.mp3",
+    "turkish|bekleyebilir": "res://audio/voice/el_d12d62d6ec58accff193c08c.mp3",
+    "turkish|tepsi": "res://audio/voice/el_2df08175cabaceb61ba23a9b.mp3",
+    "turkish|misafir": "res://audio/voice/el_d4ba5f26f832c332800f0920.mp3",
+    "turkish|bayram": "res://audio/voice/el_8be981d7757aedb7ff157d3c.mp3",
+    "turkish|kutlu": "res://audio/voice/el_b61ded2b613d7aaf82084534.mp3",
+    "turkish|yardım": "res://audio/voice/el_3727bb029ebce6efced902a7.mp3",
+    "english|give me a hand": "res://audio/voice/el_5d9d11e0731d51bb4aa75d5c.mp3",
+    "english|the usual": "res://audio/voice/el_7e3b9c8be4fdb0a4c8892682.mp3",
+    "english|fine": "res://audio/voice/el_a8eadfd2320c4424859c46ff.mp3",
+    "english|a bit": "res://audio/voice/el_a4d10bab32bb4e0a4654ad3e.mp3",
+    "english|not tonight": "res://audio/voice/el_b6b2391daa6bb46797b7defa.mp3",
+    "english|a bit further back": "res://audio/voice/el_77795b1998cb85f9db197f7a.mp3",
+    "english|if you want": "res://audio/voice/el_410b4ba2489e261f5fc5685c.mp3",
+    "spanish_mx|esa": "res://audio/voice/el_aaa6c72d22873d1b59c80377.mp3",
+    "english|would you mind": "res://audio/voice/el_e41932d41b6fb40bf48acf8d.mp3",
+    "spanish_mx|taza": "res://audio/voice/el_5c1487279f617343171c1f27.mp3",
+    "spanish_mx|dónde": "res://audio/voice/el_d5cfb483044f30110a028806.mp3",
+    "spanish_mx|cempasúchil": "res://audio/voice/el_32f779ce102c9e55e1cac1eb.mp3",
+    "spanish_mx|mejor": "res://audio/voice/el_cd0e53fed0b06442e8743108.mp3",
+    "spanish_mx|recuerdo": "res://audio/voice/el_6c7905d1895bb715ecd9854a.mp3",
+    "spanish_mx|fuera": "res://audio/voice/el_a28214d9df0141bb877fde11.mp3",
+    "spanish_mx|nombre": "res://audio/voice/el_9b4c25757ccc9db53062e441.mp3",
+    "spanish_mx|quedas": "res://audio/voice/el_757773879ec75c1945879207.mp3",
+    "spanish_mx|tapar": "res://audio/voice/el_2349d00633baa4381e45772b.mp3",
+    "spanish_mx|acuerdes": "res://audio/voice/el_058f43fcba3f5d8df12c22ac.mp3",
+    "french|heure": "res://audio/voice/el_848a50622ea3b67667dc49c4.mp3",
+    "french|bonjour": "res://audio/voice/el_373fdb26249de65d9fdfedc0.mp3",
+    "french|chaise": "res://audio/voice/el_67e903a94d3c1cab3ed00a79.mp3",
+    "french|après": "res://audio/voice/el_42af456a9d88a645f6bacc48.mp3",
+    "french|merci": "res://audio/voice/el_bcf24dabdf58c3120e6670c9.mp3",
+    "french|pain": "res://audio/voice/el_381d20be3f67267bd2eb19c5.mp3",
+    "french|ça va": "res://audio/voice/el_670d0a6bc1f7d691e42d8991.mp3",
+    "french|appel": "res://audio/voice/el_3fba00acccf53baade3489e2.mp3",
+    "french|temps": "res://audio/voice/el_3dfcafd5d2449d2a1196cb9c.mp3",
+    "french|combien": "res://audio/voice/el_9e826049af1a6408daa26eac.mp3",
+    "french|peut-être": "res://audio/voice/el_c3dabea1e60bd5ab6a98bfc1.mp3",
+    "french|place": "res://audio/voice/el_268b23a84018235ec7302c5a.mp3",
+    "french|avec": "res://audio/voice/el_11787987050f648c6433953e.mp3",
+    "french|nom": "res://audio/voice/el_a411a487c6c2237910489a93.mp3",
+    "french|encore": "res://audio/voice/el_65195710de5af115bdba0084.mp3",
+    "french|fois": "res://audio/voice/el_68b5c248bf8c51f8d13e6d6c.mp3",
+    "turkish|tramvay": "res://audio/voice/el_7a9c31c87bd1f3438b6464ea.mp3",
+    "turkish|yol": "res://audio/voice/el_1f7e4bef9c4a7aa9a28eb434.mp3",
+    "turkish|cay": "res://audio/voice/el_a7d5b83a8b969b2c973ec5a8.mp3",
+    "turkish|ince": "res://audio/voice/el_12c43ef42a1fcabed8819e1f.mp3",
+    "turkish|ekmek": "res://audio/voice/el_d9d38026098cb6641437703a.mp3",
+    "turkish|bir": "res://audio/voice/el_4dd02b65bab6a9d4702341d9.mp3",
+    "turkish|iki": "res://audio/voice/el_7953376d046c1f4aac793c61.mp3",
+    "turkish|han": "res://audio/voice/el_9115efb8224a7cbae2ff858b.mp3",
+    "turkish|buyrun": "res://audio/voice/el_7381596ac33c6a478f1c7d36.mp3",
+    "turkish|teşekkür": "res://audio/voice/el_fa3c3f3d9aab00abd4570522.mp3",
+    "turkish|kart": "res://audio/voice/el_203bb5c4b4ae60e9be084bbc.mp3",
+    "turkish|vapur": "res://audio/voice/el_4139a9e98170f0db310f2fa1.mp3",
+    "turkish|geçiş": "res://audio/voice/el_6634aa25b70b79f578846013.mp3",
+    "french|pelouse": "res://audio/voice/el_9202b1481119df6d5333aec0.mp3",
+    "french|soir": "res://audio/voice/el_c2994f7d06d43770ee8bb191.mp3",
+    "french|voila": "res://audio/voice/el_5cb097e3a2a62c2cc509340b.mp3",
+    "french|permis": "res://audio/voice/el_466597f2435182962eaf1a84.mp3",
+    "french|vue": "res://audio/voice/el_d35ce6a5f2d8c493790852ad.mp3",
+    "french|colline": "res://audio/voice/el_d4c4c014d26c87dfa21f1485.mp3",
+    "french|arche": "res://audio/voice/el_de42af1ef2b8a2b99c79ea16.mp3",
+    "french|axe": "res://audio/voice/el_5065937dc62e8cb4da367a58.mp3",
+    "german|späti": "res://audio/voice/el_02dabff819d2752bf68417ba.mp3",
+    "german|feierabend": "res://audio/voice/el_f86c841a1ec7e4d5473fd0f9.mp3",
+    "german|flasche": "res://audio/voice/el_8297bec8a5fe5a6af11c653f.mp3",
+    "german|verschenken": "res://audio/voice/el_2b88fcfde95612505b7dd3ed.mp3",
+    "german|kilo": "res://audio/voice/el_0134df62767580f8f198b4d5.mp3",
+    "german|markt": "res://audio/voice/el_cfb42e6c353ef5645765c59a.mp3",
+    "turkish|kumaş": "res://audio/voice/el_a69d134b0402d12be61664f7.mp3",
+    "german|stoff": "res://audio/voice/el_f0c98bfe424877904a213526.mp3",
+    "turkish|pazar": "res://audio/voice/el_083d55205f30cadb568ce6df.mp3",
+    "english|round": "res://audio/voice/el_0e5a738aff07df63f87af76e.mp3",
+    "english|yours": "res://audio/voice/el_2f60b7bb056b504a42fd322f.mp3",
+    "english|safe": "res://audio/voice/el_1ee1b76b76f11117771a87e2.mp3",
+    "english|endz": "res://audio/voice/el_0e650b914de1b738dee7a19b.mp3",
+    "english|recycling": "res://audio/voice/el_ff8360f68a25f16e85f6c73a.mp3",
+    "english|collection": "res://audio/voice/el_fd95652a144fcf13a7b6443f.mp3",
+    "english|charity": "res://audio/voice/el_4c44f359fee448385d61bb29.mp3",
+    "english|donation": "res://audio/voice/el_900e5d884da1810d6e44384e.mp3",
+    "english|automatic": "res://audio/voice/el_f8ddce6713e868536085f658.mp3",
+    "english|carriage": "res://audio/voice/el_a017aa9ac10925da703a860f.mp3",
+    "english|platform": "res://audio/voice/el_5b387e0d82674d4965dea64b.mp3",
+    "english|doors": "res://audio/voice/el_a4d2e3015a57ffd6db85099d.mp3",
+    "spanish_mx|golpe": "res://audio/voice/el_1bdfba5e8d7dec433f759834.mp3",
+    "spanish_mx|aguas": "res://audio/voice/el_105f9de993fe279c5a56716e.mp3",
+    "spanish_mx|organillero": "res://audio/voice/el_9d21c9e53836284272c70d28.mp3",
+    "spanish_mx|propina": "res://audio/voice/el_62d0a80a1c8bc6468c5186ad.mp3",
+    "turkish|bilet": "res://audio/voice/el_7a089fc612c0526813079669.mp3",
+    "english|ticket": "res://audio/voice/el_8f082639c8e44f40cef67ce6.mp3",
+    "german|fahrkarte": "res://audio/voice/el_6ff57edfa71158e0de2fcb5e.mp3",
+    "french|ticket": "res://audio/voice/el_d686bf845400686a7b7e8a3b.mp3",
+    "russian|bilet": "res://audio/voice/el_dd84716696a97d233c430cdc.mp3",
+    "spanish_mx|boleto": "res://audio/voice/el_8ecb940d739ad69574f6ec6c.mp3",
+    "japanese|kippu": "res://audio/voice/el_31639fa900fd5b960a592f9f.mp3",
+    "german|geld": "res://audio/voice/el_ba11f98a4b6e4e5d64ccc7a9.mp3",
+    "english|money": "res://audio/voice/el_e6ce50e4d21c56d0681217f4.mp3",
+    "turkish|para": "res://audio/voice/el_b2d6d6bc2e15e720b44fc1fb.mp3",
+    "french|argent": "res://audio/voice/el_e02c521f57f44c4e385db98b.mp3",
+    "hindi|tikat": "res://audio/voice/el_a383a50196d89af0a6c82b8f.mp3",
+    "russian|dengi": "res://audio/voice/el_fde2a17ae1eaa188371100af.mp3",
+    "spanish_mx|dinero": "res://audio/voice/el_a46a5171f8e7eebb69742615.mp3",
+    "hindi|paisa": "res://audio/voice/el_22d5220d32667b8988a51180.mp3",
+    "japanese|okane": "res://audio/voice/el_972694160ec9996d409c1af1.mp3",
+    "english|parcel": "res://audio/voice/el_af737850625ad287126615db.mp3",
+    "german|paket": "res://audio/voice/el_f5fe01a94d90ec56bc88a59d.mp3",
+    "turkish|paket": "res://audio/voice/el_8e9d9f0e0873a21901ec2522.mp3",
+    "french|colis": "res://audio/voice/el_24af7c67daf2dffa74ed3616.mp3",
+    "russian|posylka": "res://audio/voice/el_902c40f7fb7c85024a0f028a.mp3",
+    "spanish_mx|paquete": "res://audio/voice/el_7094055496f000e50e3c53aa.mp3",
+    "japanese|kozutsumi": "res://audio/voice/el_d629c67f6a944fc0933dc3a9.mp3",
+    "english|bag": "res://audio/voice/el_354661855c2216f9202ff575.mp3",
+    "turkish|torba": "res://audio/voice/el_242d400d58f1d033d6705f07.mp3",
+    "hindi|parcel": "res://audio/voice/el_495973747ea81181b62fc2a8.mp3",
+    "french|sachet": "res://audio/voice/el_bdff4bb8efc6ba181c5ee445.mp3",
+    "russian|paket": "res://audio/voice/el_f961b51cd4eac5b5b6292ea7.mp3",
+    "spanish_mx|bolsa": "res://audio/voice/el_3c927b275afa2b6d39bf1ddb.mp3",
+    "japanese|fukuro": "res://audio/voice/el_010f942936e215651fec7b97.mp3",
+    "hindi|thaila": "res://audio/voice/el_2ca6b368198727e28449ad5b.mp3",
+    "german|beutel": "res://audio/voice/el_5f71e9805da5cb9611aa6990.mp3",
+    "english|dish": "res://audio/voice/el_a3977f26f0bb52ac6deaa6e8.mp3",
+    "german|schale": "res://audio/voice/el_8e4ebb3f32818cf357267714.mp3",
+    "french|cuvette": "res://audio/voice/el_03895ac377af81be965d8794.mp3",
+    "spanish_mx|riñonera": "res://audio/voice/el_ef7cafd7f495dbafa112d126.mp3",
+    "turkish|kase": "res://audio/voice/el_468250cd3a6298ead0f70e64.mp3",
+    "russian|lotok": "res://audio/voice/el_e436e6bd62e7602248ae4423.mp3",
+    "hindi|tashtari": "res://audio/voice/el_0ea32cc4f0d4ff9d33a44e8e.mp3",
+    "german|nazar": "res://audio/voice/el_13f50c4d949337f6af2a170b.mp3",
+    "english|eye charm": "res://audio/voice/el_b1a6a27af3d2c685b6348878.mp3",
+    "turkish|nazar boncugu": "res://audio/voice/el_6c35bf78bdea3dc9d68819b0.mp3",
+    "japanese|toray": "res://audio/voice/el_4bb89f308eb25b650277ea56.mp3",
+    "russian|amulet": "res://audio/voice/el_960b092094388cf568e5c725.mp3",
+    "spanish_mx|ojo": "res://audio/voice/el_f1dada0436d23159442667e2.mp3",
+    "french|oeil": "res://audio/voice/el_23ae0d6cf20acfd6ba197cf5.mp3",
+    "japanese|omamori": "res://audio/voice/el_1895255efc7277be1c5b07b1.mp3",
+    "german|brot": "res://audio/voice/el_57ff2eb97562c2c0257c25eb.mp3",
+    "english|bread": "res://audio/voice/el_34d3863444e3893eec4ddcb4.mp3",
+    "hindi|nazar": "res://audio/voice/el_a3ff5432a1d4ea89aa5475da.mp3",
+    "russian|khleb": "res://audio/voice/el_881daa1b86187eb63cfe7031.mp3",
+    "spanish_mx|pan": "res://audio/voice/el_5adc556d338d87f8ef2595ef.mp3",
+    "japanese|pan": "res://audio/voice/el_717e437ba41a5c5c53ac4c53.mp3",
+    "german|kase": "res://audio/voice/el_de0b6196edbd3289b326a597.mp3",
+    "hindi|pav": "res://audio/voice/el_a615c3dcd6d666a4ab6bfab6.mp3",
+    "english|cheese": "res://audio/voice/el_055f9e45555b177159d61949.mp3",
+    "turkish|peynir": "res://audio/voice/el_ec3ba6870bdb387f79b4890b.mp3",
+    "russian|syr": "res://audio/voice/el_fd24d40ebce80342750f861c.mp3",
+    "french|fromage": "res://audio/voice/el_7cf740e8e6fea6044a287c9a.mp3",
+    "spanish_mx|queso": "res://audio/voice/el_f81cff6dccc393c18cc656e5.mp3",
+    "japanese|chiizu": "res://audio/voice/el_c0c1d7495c954a17c147d7ce.mp3",
+    "hindi|paneer": "res://audio/voice/el_fe8c54522e8641a7451ef1bd.mp3",
+    "german|karte": "res://audio/voice/el_485dfff87b12a4f3c5ead4b5.mp3",
+    "english|map": "res://audio/voice/el_c18e0661de1428ef6bdffd99.mp3",
+    "turkish|harita": "res://audio/voice/el_3d659f97e8276da81afd7795.mp3",
+    "russian|karta": "res://audio/voice/el_5e269fe1e2ca18725d1fbe8f.mp3",
+    "french|plan": "res://audio/voice/el_175687151d7ce5288e10abf1.mp3",
+    "japanese|chizu": "res://audio/voice/el_6cb5c6f18961c2964465d6be.mp3",
+    "hindi|naksha": "res://audio/voice/el_f0f48d274b66a55ad6855f0b.mp3",
+    "german|zimmerkarte": "res://audio/voice/el_2aa02a569441e7c9917aa92b.mp3",
+    "turkish|oda karti": "res://audio/voice/el_15a5e07ac86fb3433d94c92c.mp3",
+    "english|room key": "res://audio/voice/el_a019d2c0928b31a1655cdf70.mp3",
+    "spanish_mx|mapa": "res://audio/voice/el_1c2357f96a2dc40ac7190fd1.mp3",
+    "russian|klyuch": "res://audio/voice/el_6dd54b2c22fe8259b00c42e0.mp3",
+    "french|cle": "res://audio/voice/el_7035585afee6ccb8190e6711.mp3",
+    "spanish_mx|llave": "res://audio/voice/el_64367d4d6aa1be60ff8c6afb.mp3",
+    "hindi|chaabi": "res://audio/voice/el_9cd987cc479db7885ee3447d.mp3",
+    "german|apfel": "res://audio/voice/el_9f4b5672e1af2feda8d7575b.mp3",
+    "japanese|kagi": "res://audio/voice/el_9335a3e5145d5527b2156232.mp3",
+    "english|arepa": "res://audio/voice/el_5ab7b0adac47655b6feae74e.mp3",
+    "japanese|hako": "res://audio/voice/el_bc560237da2f0b776f933656.mp3",
+    "english|bacon egg and cheese": "res://audio/voice/el_0024c7d5d1d5ab89477cf98d.mp3",
+    "hindi|peetal": "res://audio/voice/el_e03715168028c8905434e849.mp3",
+    "hindi|saaman": "res://audio/voice/el_1e648fd4415a3f0c17af1b38.mp3",
+    "english|cloth": "res://audio/voice/el_fbb0be0cf5590d517c4ecd82.mp3",
+    "english|coat": "res://audio/voice/el_d7b9ff9def6f9e0278c772a5.mp3",
+    "french|falafel": "res://audio/voice/el_1ab51770147e07e23dc74c55.mp3",
+    "english|cider": "res://audio/voice/el_60ba9e2ab1ca00849b1fd762.mp3",
+    "english|lei": "res://audio/voice/el_b85e2c43874bd213037eb09f.mp3",
+    "japanese|menchi katsu": "res://audio/voice/el_ee98aca7b6fe540b22318268.mp3",
+    "french|portrait": "res://audio/voice/el_84a71c91b04705bb7be58c5a.mp3",
+    "japanese|omikuji": "res://audio/voice/el_691c50a9b657f552bd7d3ec5.mp3",
+    "english|shave ice": "res://audio/voice/el_9b63ab13eb08658826a4cdb8.mp3",
+    "turkish|simit": "res://audio/voice/el_1a865628366da2613f48df94.mp3",
+    "japanese|hon": "res://audio/voice/el_d77bab5cd829bc094b839170.mp3",
+    "russian|znachok": "res://audio/voice/el_9918381f6e9fd507d8fb39a1.mp3",
+    "english|spray can": "res://audio/voice/el_59900525570e0f9238863466.mp3",
+    "german|tomaten": "res://audio/voice/el_abb221507d4a539c430e9ffd.mp3",
+    "spanish_mx|tostada": "res://audio/voice/el_f630256a3c03095a60c955df.mp3",
+    "french|porte-cle": "res://audio/voice/el_11728c0366968cc26b063b7b.mp3",
+    "turkish|istanbulkart": "res://audio/voice/el_013e6e76bb34bd8a3122df84.mp3",
+    "german|danke": "res://audio/voice/el_a8f26bbf26a2bb12a2f7c1d5.mp3",
+    "russian|pochinit": "res://audio/voice/el_118b6c6258691ba9437a92b6.mp3",
+    "russian|zastezhka": "res://audio/voice/el_de0d6723a162b70fb839113e.mp3",
+    "russian|sokhranit": "res://audio/voice/el_d9158689e6d63b3657ac96a5.mp3",
+    "hindi|batti": "res://audio/voice/el_f40679a500f66195c307249c.mp3",
+    "russian|lichnoye": "res://audio/voice/el_401e95cd312dd3ec9de6e597.mp3",
+    "russian|izvini": "res://audio/voice/el_629f5bff329daa685f93691c.mp3",
+    "russian|medlenneye": "res://audio/voice/el_74ac65fbea4ccee547458ab0.mp3",
+    "russian|udobneye": "res://audio/voice/el_eccefd637fd45db6e22c4b1e.mp3",
+    "russian|mozhno": "res://audio/voice/el_49419d72824d641d979724ac.mp3",
+    "russian|vmeste": "res://audio/voice/el_2c33cf1fa2a015fe632f40a9.mp3",
+    "russian|vnutri": "res://audio/voice/el_54a3cc03ffa9e978aa9af9ea.mp3",
+    "russian|varenye": "res://audio/voice/el_d572a2b63a2269ae549b6406.mp3",
+    "russian|bez": "res://audio/voice/el_1ca11e5da8a87220e1c23ea8.mp3",
+    "russian|spasibo": "res://audio/voice/el_23a35354eeee29654782711a.mp3",
+    "hindi|dheere": "res://audio/voice/el_76b53e823756e87410cebf65.mp3",
+    "hindi|raasta": "res://audio/voice/el_95d4030f0e0aa0d799de3c35.mp3",
+    "hindi|yahaan": "res://audio/voice/el_fdcb3172c0f05cac3ec133b2.mp3",
+    "hindi|baad": "res://audio/voice/el_78e32b060983884cdb6c8709.mp3",
+    "hindi|abhi": "res://audio/voice/el_cef332064ef970bdc16ee36f.mp3",
+    "hindi|poochh": "res://audio/voice/el_1ad79eb7aaaf8ae78755de4d.mp3",
+    "hindi|theek": "res://audio/voice/el_c1be7326510575b9bce5b601.mp3",
+    "hindi|dhanyavaad": "res://audio/voice/el_7465d06a0afdb7daf8b49948.mp3",
+    "hindi|kursi": "res://audio/voice/el_382f569d557d90ac0564ef1c.mp3",
+    "hindi|poochhna": "res://audio/voice/el_e12177569190c6b2f1fa1d39.mp3",
+    "japanese|mochiyasui": "res://audio/voice/el_5b8506df20812bffc959b2f3.mp3",
+    "hindi|thoda": "res://audio/voice/el_e57b6e87803b80b9836fe218.mp3",
+    "japanese|daijoubu": "res://audio/voice/el_706deb4e3c1f431193cc2639.mp3",
+    "japanese|irimasu": "res://audio/voice/el_50c4c369940be7f8ceb42f1d.mp3",
+    "japanese|misete": "res://audio/voice/el_d28e3cedef95b9d3b3560616.mp3",
+    "japanese|jikan": "res://audio/voice/el_0a3618c20d77de5d2e94f5d1.mp3",
+    "japanese|mama": "res://audio/voice/el_e1107dacfd976ca8c93fdb89.mp3",
+    "japanese|negai": "res://audio/voice/el_99c8dee85641eb52bf50dd8a.mp3",
+    "japanese|hikui": "res://audio/voice/el_41b24aac1fcae791bb91aeda.mp3",
+    "japanese|yonde": "res://audio/voice/el_44cd8f59a39ac7db2476ca00.mp3",
+    "japanese|musunde": "res://audio/voice/el_315221f84af70eff16a311ae.mp3",
+    "japanese|jibun": "res://audio/voice/el_6da74633fa0c78c24160dbc5.mp3",
+    "japanese|omairi": "res://audio/voice/el_4f0542d2086dee14d9b5ee23.mp3",
+    "japanese|mata": "res://audio/voice/el_4f8daf1c39e0055f30847ce1.mp3",
+    "japanese|kaminarimon": "res://audio/voice/el_df6b7d2ad7973d954b5188fe.mp3",
+    "japanese|musubu": "res://audio/voice/el_914ee87db0f849acf55f3af5.mp3",
+    "japanese|yasui": "res://audio/voice/el_ed98b5533bbed2415cf944c8.mp3",
+    "japanese|kyo": "res://audio/voice/el_4b0660b7a0131def5439e92d.mp3",
+    "japanese|noren": "res://audio/voice/el_d53c6e596208be5940fc9ed2.mp3",
+    "japanese|aitemasu": "res://audio/voice/el_243842f370b98b79668c82a2.mp3",
+    "hindi|kitna": "res://audio/voice/el_2a02546b7aedbd0b428361b5.mp3",
+    "japanese|sen": "res://audio/voice/el_085205ad591318b894836794.mp3",
+    "hindi|nahi": "res://audio/voice/el_5a43aa065fe64154bb43ba4d.mp3",
+    "hindi|diya": "res://audio/voice/el_690604adb040139d4a959014.mp3",
+    "hindi|mannat": "res://audio/voice/el_525760ceccda1c9d6a598036.mp3",
+    "russian|skolko": "res://audio/voice/el_a58fc75b15db2e5fe51ec2a0.mp3",
+    "hindi|sheher": "res://audio/voice/el_0472702f49a2ff3a0da45baa.mp3",
+    "hindi|kaam": "res://audio/voice/el_b1e6f1cb9b0d48cbc515298b.mp3",
+    "russian|zhiv": "res://audio/voice/el_389dcb1dc9cc15ad3cb1ebf4.mp3",
+    "russian|pesnya": "res://audio/voice/el_0d7148607b9d41ffe1ac361f.mp3",
+    "russian|platok": "res://audio/voice/el_698d5d14cd0d07695b8fe8cd.mp3",
+    "russian|khram": "res://audio/voice/el_bfa9bc6d2aedc2796b9bdaae.mp3",
+    "hindi|dana": "res://audio/voice/el_758335094afb885c3b0cc953.mp3",
+    "hindi|kabutar": "res://audio/voice/el_16f1aab0a67ab1bee0c3bc32.mp3",
+    "japanese|atsui": "res://audio/voice/el_2a35f7c3d3450ad9277d0376.mp3",
+    "russian|dorogo": "res://audio/voice/el_4de163e66d09a6e584491d42.mp3",
+    "japanese|tabearuki": "res://audio/voice/el_7d5c2f90b3d7e5243c61e9a0.mp3",
+    "russian|eto": "res://audio/voice/el_45803f50f0f74f20f07c678a.mp3",
+    "russian|stolovaya": "res://audio/voice/el_33d7949f39822d733cfa33b7.mp3",
+    "russian|remont": "res://audio/voice/el_e632bbf8da06da51f7e2736b.mp3",
+    "japanese|kita": "res://audio/voice/el_f6c1d8056cd31bd127fd33f4.mp3"
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+    "game":  "Foreign to All",
+    "version":  "0.2.1-beta.1",
+    "build_id":  "20261004.4",
+    "save_schema":  1,
+    "platform":  "Windows x86_64",
+    "engine":  "4.7.2.stable.official.ed1daf0bf",
+    "created_utc":  "2026-10-04T12:19:00.0937282Z",
+    "source_base_commit":  "4bf01d9ef1e56bfe4b18abaeb3ee5ebc451714b9",
+    "source_includes_uncommitted_work":  false,
+    "source_uncommitted_files":  0,
+    "music_tracks":  30,
+    "voice_clips":  1429,
+    "executable_sha256":  "F1710201A52D0EF25E8E35509391885581CF716C33161A4C8E1F7E667A4C1402",
+    "bytes":  1110852352
+}

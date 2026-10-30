@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://11swo77ck4v7"
+
+[deps]
+
+files=["res://docs/beta-language-review/review.chapter.translation", "res://docs/beta-language-review/review.voice.translation", "res://docs/beta-language-review/review.language.translation", "res://docs/beta-language-review/review.text.translation", "res://docs/beta-language-review/review.context.translation", "res://docs/beta-language-review/review.clip.translation", "res://docs/beta-language-review/review.review.translation"]
+
+source_file="res://docs/beta-language-review/review.csv"
+dest_files=["res://docs/beta-language-review/review.chapter.translation", "res://docs/beta-language-review/review.voice.translation", "res://docs/beta-language-review/review.language.translation", "res://docs/beta-language-review/review.text.translation", "res://docs/beta-language-review/review.context.translation", "res://docs/beta-language-review/review.clip.translation", "res://docs/beta-language-review/review.review.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
