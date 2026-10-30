@@ -3,6 +3,16 @@
   "release": "v0.2.1-beta.1",
   "artifacts": [
     {
+      "name": "ForeignToAll-0.2.1-beta.1-20261030.1-windows.zip",
+      "bytes": 1019530317,
+      "sha256": "3bbb91ae58c5bcd94c88667b1795e323f290f43da874a5b4ec05172abf6f038c"
+    },
+    {
+      "name": "ForeignToAll-0.2.1-beta.1-20261030.1-linux.tar.gz",
+      "bytes": 1009748967,
+      "sha256": "550295bf1e1f0f2e5f466135c864ed07c8ff1b8c77d8dece828272194d6e5365"
+    },
+    {
       "name": "foreign-to-all-gameplay-research.mp4",
       "bytes": 74232241,
       "sha256": "3bf81fa216838b6999cb2a033d71c1d311839c61b5dfc4c7aab59da4abdfaf54"
